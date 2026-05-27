@@ -1,0 +1,897 @@
+2026-05-22 00:13:07 - app_logger - INFO - load_agr_agrs_endpoint:240 - Received request to load AGR_AGRS data for system: 'SYS_2', release: 'SYS_2_creation'
+2026-05-22 00:13:07 - app_logger - INFO - ensure_client_system_info:80 - system info already exists: SYS_2, SYS_2_creation
+2026-05-22 00:13:07 - app_logger - INFO - load_agragrs_from_csv_upload:269 - Starting AGR_AGRS CSV data load for system: SYS_2
+2026-05-22 00:13:07 - app_logger - INFO - get_agr_agrs_tablename:44 - Generated Composite roles data table name for system 'SYS_2'
+2026-05-22 00:13:07 - app_logger - INFO - create_AGRAGRS_model:309 - Model for table 'Z_FUE_SYS_2_COMPOSITE_ROLE_DATA' not in cache. Creating a new dynamic model.
+2026-05-22 00:13:07 - app_logger - INFO - create_AGRAGRS_model:316 - Successfully created dynamic model for table 'Z_FUE_SYS_2_COMPOSITE_ROLE_DATA'
+2026-05-22 00:13:07 - app_logger - INFO - load_agragrs_from_csv_upload:279 - Truncated (deleted) 0 rows from Z_FUE_SYS_2_COMPOSITE_ROLE_DATA.
+2026-05-22 00:13:07 - app_logger - INFO - load_agragrs_from_csv_upload:324 - Successfully loaded 3672 records into Z_FUE_SYS_2_COMPOSITE_ROLE_DATA
+2026-05-22 00:13:07 - app_logger - INFO - load_agr_agrs_endpoint:260 - AGR_AGRS data load completed: {'message': 'Successfully loaded 3672 records into Z_FUE_SYS_2_COMPOSITE_ROLE_DATA', 'table_name': 'Z_FUE_SYS_2_COMPOSITE_ROLE_DATA', 'records_loaded': 3672}
+2026-05-22 00:15:28 - app_logger - INFO - load_usr02_endpoint:286 - Received request to load USR02 data for system: 'SYS_2', release: 'SYS_2_creation'
+2026-05-22 00:15:28 - app_logger - INFO - ensure_client_system_info:80 - system info already exists: SYS_2, SYS_2_creation
+2026-05-22 00:15:28 - app_logger - INFO - load_usr02_from_csv_upload:342 - Starting USR02 CSV data load for system: SYS_2
+2026-05-22 00:15:28 - app_logger - INFO - get_usr02_tablename:49 - Generated USER_DATA table name for system 'SYS_2'
+2026-05-22 00:15:28 - app_logger - INFO - create_USR02_model:326 - Model for table 'Z_FUE_SYS_2_USER_DATA' not in cache. Creating a new dynamic model.
+2026-05-22 00:15:28 - app_logger - INFO - create_USR02_model:333 - Successfully created dynamic model for table 'Z_FUE_SYS_2_USER_DATA'
+2026-05-22 00:15:28 - app_logger - INFO - load_usr02_from_csv_upload:352 - Truncated (deleted) 0 rows from Z_FUE_SYS_2_USER_DATA.
+2026-05-22 00:15:28 - app_logger - INFO - load_usr02_from_csv_upload:399 - Successfully loaded 4125 records into Z_FUE_SYS_2_USER_DATA
+2026-05-22 00:15:28 - app_logger - INFO - load_usr02_endpoint:306 - USR02 data load completed: {'message': 'Successfully loaded 4125 records into Z_FUE_SYS_2_USER_DATA', 'table_name': 'Z_FUE_SYS_2_USER_DATA', 'records_loaded': 4125}
+2026-05-22 00:26:03 - app_logger - INFO - load_transaction_usage_endpoint:333 - Received request to load TRANSACTION_USAGE data for system: 'SYS_2', release: 'SYS_2_creation'
+2026-05-22 00:26:03 - app_logger - INFO - ensure_client_system_info:80 - system info already exists: SYS_2, SYS_2_creation
+2026-05-22 00:26:03 - app_logger - INFO - load_transactionusage_from_csv_upload:417 - Starting TRANSACTION_USAGE CSV data load for system: SYS_2
+2026-05-22 00:26:03 - app_logger - INFO - get_transaction_usage_data_tablename:54 - Generated transaction_usage_data table name for system 'SYS_2'
+2026-05-22 00:26:03 - app_logger - INFO - create_TRANSACTIONUSAGE_model:343 - Model for table 'Z_FUE_SYS_2_TRANSACTION_USAGE' not in cache. Creating a new dynamic model.
+2026-05-22 00:26:03 - app_logger - INFO - create_TRANSACTIONUSAGE_model:350 - Successfully created dynamic model for table 'Z_FUE_SYS_2_TRANSACTION_USAGE'
+2026-05-22 00:26:03 - app_logger - INFO - load_transactionusage_from_csv_upload:427 - Truncated (deleted) 0 rows from Z_FUE_SYS_2_TRANSACTION_USAGE.
+2026-05-22 00:26:03 - app_logger - INFO - load_transactionusage_from_csv_upload:472 - Successfully loaded 2439 records into Z_FUE_SYS_2_TRANSACTION_USAGE
+2026-05-22 00:26:03 - app_logger - INFO - load_transaction_usage_endpoint:354 - TRANSACTION_USAGE data load completed: {'message': 'Successfully loaded 2439 records into Z_FUE_SYS_2_TRANSACTION_USAGE', 'table_name': 'Z_FUE_SYS_2_TRANSACTION_USAGE', 'records_loaded': 2439}
+2026-05-22 00:35:18 - app_logger - INFO - compute_rolelic:609 - [Stage 2] Computing RoleLic for SYS_2
+2026-05-22 00:35:18 - app_logger - INFO - get_agr_1251_tablename:29 - Generated role auth table agr_1251_name for system 'SYS_2'
+2026-05-22 00:35:18 - app_logger - INFO - create_AGR1251_model:257 - Model for table 'Z_FUE_SYS_2_ROLE_AUTH_INFO' not in cache. Creating a new dynamic model.
+2026-05-22 00:35:18 - app_logger - INFO - create_AGR1251_model:264 - Successfully created dynamic model for table 'Z_FUE_SYS_2_ROLE_AUTH_INFO'
+2026-05-22 00:35:18 - app_logger - INFO - get_role_lice_data_tablename:70 - Generated role object license info table name for system 'SYS_2'
+2026-05-22 00:35:18 - app_logger - INFO - create_role_lic_model:399 - Model for table 'Z_FUE_SYS_2_ROLE_OBJ_LICENSE_INFO' not in cache. Creating a new dynamic model.
+2026-05-22 00:35:18 - app_logger - INFO - create_role_lic_model:408 - Successfully created dynamic model for table 'Z_FUE_SYS_2_ROLE_OBJ_LICENSE_INFO'
+2026-05-22 00:41:11 - app_logger - INFO - create_or_replace_ruleset:163 - Purging old records from Z_FUE_RULESET table...
+2026-05-22 00:41:11 - app_logger - INFO - create_or_replace_ruleset:192 - Successfully replaced ruleset data. Imported 2386 records.
+2026-05-22 00:41:22 - app_logger - INFO - compute_rolelic:609 - [Stage 2] Computing RoleLic for SYS_2
+2026-05-22 00:41:22 - app_logger - INFO - get_agr_1251_tablename:29 - Generated role auth table agr_1251_name for system 'SYS_2'
+2026-05-22 00:41:22 - app_logger - INFO - create_AGR1251_model:257 - Model for table 'Z_FUE_SYS_2_ROLE_AUTH_INFO' not in cache. Creating a new dynamic model.
+2026-05-22 00:41:22 - app_logger - INFO - create_AGR1251_model:264 - Successfully created dynamic model for table 'Z_FUE_SYS_2_ROLE_AUTH_INFO'
+2026-05-22 00:41:22 - app_logger - INFO - get_role_lice_data_tablename:70 - Generated role object license info table name for system 'SYS_2'
+2026-05-22 00:41:22 - app_logger - INFO - create_role_lic_model:399 - Model for table 'Z_FUE_SYS_2_ROLE_OBJ_LICENSE_INFO' not in cache. Creating a new dynamic model.
+2026-05-22 00:41:22 - app_logger - INFO - create_role_lic_model:408 - Successfully created dynamic model for table 'Z_FUE_SYS_2_ROLE_OBJ_LICENSE_INFO'
+2026-05-22 00:44:25 - app_logger - INFO - compute_rolelic:609 - [Stage 2] Computing RoleLic for SYS_2
+2026-05-22 00:44:25 - app_logger - INFO - get_agr_1251_tablename:29 - Generated role auth table agr_1251_name for system 'SYS_2'
+2026-05-22 00:44:25 - app_logger - INFO - create_AGR1251_model:257 - Model for table 'Z_FUE_SYS_2_ROLE_AUTH_INFO' not in cache. Creating a new dynamic model.
+2026-05-22 00:44:25 - app_logger - INFO - create_AGR1251_model:264 - Successfully created dynamic model for table 'Z_FUE_SYS_2_ROLE_AUTH_INFO'
+2026-05-22 00:44:25 - app_logger - INFO - get_role_lice_data_tablename:70 - Generated role object license info table name for system 'SYS_2'
+2026-05-22 00:44:25 - app_logger - INFO - create_role_lic_model:399 - Model for table 'Z_FUE_SYS_2_ROLE_OBJ_LICENSE_INFO' not in cache. Creating a new dynamic model.
+2026-05-22 00:44:25 - app_logger - INFO - create_role_lic_model:408 - Successfully created dynamic model for table 'Z_FUE_SYS_2_ROLE_OBJ_LICENSE_INFO'
+2026-05-22 00:49:51 - app_logger - INFO - compute_rolelic:609 - [Stage 2] Computing RoleLic for SYS_2
+2026-05-22 00:49:51 - app_logger - INFO - get_agr_1251_tablename:29 - Generated role auth table agr_1251_name for system 'SYS_2'
+2026-05-22 00:49:51 - app_logger - INFO - create_AGR1251_model:257 - Model for table 'Z_FUE_SYS_2_ROLE_AUTH_INFO' not in cache. Creating a new dynamic model.
+2026-05-22 00:49:51 - app_logger - INFO - create_AGR1251_model:264 - Successfully created dynamic model for table 'Z_FUE_SYS_2_ROLE_AUTH_INFO'
+2026-05-22 00:49:51 - app_logger - INFO - get_role_lice_data_tablename:70 - Generated role object license info table name for system 'SYS_2'
+2026-05-22 00:49:51 - app_logger - INFO - create_role_lic_model:399 - Model for table 'Z_FUE_SYS_2_ROLE_OBJ_LICENSE_INFO' not in cache. Creating a new dynamic model.
+2026-05-22 00:49:51 - app_logger - INFO - create_role_lic_model:408 - Successfully created dynamic model for table 'Z_FUE_SYS_2_ROLE_OBJ_LICENSE_INFO'
+2026-05-22 00:50:27 - app_logger - INFO - compute_rolelic:677 - [Stage 2] Done — 493396 rows written to RoleLic
+2026-05-22 00:50:55 - app_logger - INFO - compute_rolelicsummary:698 - [Stage 3] Computing RoleLicSummary for SYS_2
+2026-05-22 00:50:55 - app_logger - INFO - get_role_lice_data_tablename:70 - Generated role object license info table name for system 'SYS_2'
+2026-05-22 00:50:55 - app_logger - INFO - create_role_lic_model:397 - Model for table 'Z_FUE_SYS_2_ROLE_OBJ_LICENSE_INFO' found in cache. Returning cached model.
+2026-05-22 00:50:55 - app_logger - INFO - get_agr_define_tablename:39 - Generated parent child role mapping table name for system 'SYS_2'
+2026-05-22 00:50:55 - app_logger - INFO - create_AGRDEFINE_model:292 - Model for table 'Z_FUE_SYS_2_PARENT_CHILD_ROLE_MAPPING' not in cache. Creating a new dynamic model.
+2026-05-22 00:50:55 - app_logger - INFO - create_AGRDEFINE_model:299 - Successfully created dynamic model for table 'Z_FUE_SYS_2_PARENT_CHILD_ROLE_MAPPING'
+2026-05-22 00:50:55 - app_logger - INFO - get_role_lice_data_summary_tablename:75 - Generated role license summary info table name for system 'SYS_2'
+2026-05-22 00:50:55 - app_logger - INFO - create_role_lic_summary_model:420 - Model for table 'Z_FUE_SYS_2_ROLE_LICENSE_SUMMARY' not in cache. Creating a new dynamic model.
+2026-05-22 00:50:55 - app_logger - INFO - create_role_lic_summary_model:429 - Successfully created dynamic model for table 'Z_FUE_SYS_2_ROLE_LICENSE_SUMMARY'
+2026-05-22 00:52:30 - app_logger - INFO - compute_rolelicsummary:698 - [Stage 3] Computing RoleLicSummary for SYS_2
+2026-05-22 00:52:30 - app_logger - INFO - get_role_lice_data_tablename:70 - Generated role object license info table name for system 'SYS_2'
+2026-05-22 00:52:30 - app_logger - INFO - create_role_lic_model:399 - Model for table 'Z_FUE_SYS_2_ROLE_OBJ_LICENSE_INFO' not in cache. Creating a new dynamic model.
+2026-05-22 00:52:30 - app_logger - INFO - create_role_lic_model:408 - Successfully created dynamic model for table 'Z_FUE_SYS_2_ROLE_OBJ_LICENSE_INFO'
+2026-05-22 00:52:30 - app_logger - INFO - get_agr_define_tablename:39 - Generated parent child role mapping table name for system 'SYS_2'
+2026-05-22 00:52:30 - app_logger - INFO - create_AGRDEFINE_model:292 - Model for table 'Z_FUE_SYS_2_PARENT_CHILD_ROLE_MAPPING' not in cache. Creating a new dynamic model.
+2026-05-22 00:52:30 - app_logger - INFO - create_AGRDEFINE_model:299 - Successfully created dynamic model for table 'Z_FUE_SYS_2_PARENT_CHILD_ROLE_MAPPING'
+2026-05-22 00:52:30 - app_logger - INFO - get_role_lice_data_summary_tablename:75 - Generated role license summary info table name for system 'SYS_2'
+2026-05-22 00:52:30 - app_logger - INFO - create_role_lic_summary_model:420 - Model for table 'Z_FUE_SYS_2_ROLE_LICENSE_SUMMARY' not in cache. Creating a new dynamic model.
+2026-05-22 00:52:30 - app_logger - INFO - create_role_lic_summary_model:429 - Successfully created dynamic model for table 'Z_FUE_SYS_2_ROLE_LICENSE_SUMMARY'
+2026-05-22 00:52:37 - app_logger - INFO - compute_rolelicsummary:757 - [Stage 3] Done — 2897 rows written to RoleLicSummary
+2026-05-22 00:54:49 - app_logger - INFO - compute_userrolellic:778 - [Stage 4] Computing UserRoleLic for SYS_2
+2026-05-22 00:54:49 - app_logger - INFO - get_agr_users_tablename:34 - Generated user role mapping agr_users table name for system 'SYS_2'
+2026-05-22 00:54:49 - app_logger - INFO - create_AGRUSERS_model:274 - Model for table 'Z_FUE_SYS_2_USER_ROLE_MAPPING' not in cache. Creating a new dynamic model.
+2026-05-22 00:54:49 - app_logger - INFO - create_AGRUSERS_model:281 - Successfully created dynamic model for table 'Z_FUE_SYS_2_USER_ROLE_MAPPING'
+2026-05-22 00:54:49 - app_logger - INFO - get_role_lice_data_summary_tablename:75 - Generated role license summary info table name for system 'SYS_2'
+2026-05-22 00:54:49 - app_logger - INFO - create_role_lic_summary_model:420 - Model for table 'Z_FUE_SYS_2_ROLE_LICENSE_SUMMARY' not in cache. Creating a new dynamic model.
+2026-05-22 00:54:49 - app_logger - INFO - create_role_lic_summary_model:429 - Successfully created dynamic model for table 'Z_FUE_SYS_2_ROLE_LICENSE_SUMMARY'
+2026-05-22 00:54:49 - app_logger - INFO - get_user_role_data_tablename:80 - Generated user-role license info table name for system 'SYS_2'
+2026-05-22 00:54:49 - app_logger - INFO - create_user_lic_model:442 - Model for table 'Z_FUE_SYS_2_USER_ROLE_LICENSE_INFO' not in cache. Creating a new dynamic model.
+2026-05-22 00:54:49 - app_logger - INFO - create_user_lic_model:451 - Successfully created dynamic model for table 'Z_FUE_SYS_2_USER_ROLE_LICENSE_INFO'
+2026-05-22 00:54:54 - app_logger - INFO - compute_userrolellic:818 - [Stage 4] Done — 68752 rows written to UserRoleLic
+2026-05-22 00:55:08 - app_logger - INFO - compute_userlicsummary:851 - [Stage 5] Computing UserLicSummary for SYS_2
+2026-05-22 00:55:08 - app_logger - INFO - get_user_role_data_tablename:80 - Generated user-role license info table name for system 'SYS_2'
+2026-05-22 00:55:08 - app_logger - INFO - create_user_lic_model:440 - Model for table 'Z_FUE_SYS_2_USER_ROLE_LICENSE_INFO' found in cache. Returning cached model.
+2026-05-22 00:55:08 - app_logger - INFO - get_usr02_tablename:49 - Generated USER_DATA table name for system 'SYS_2'
+2026-05-22 00:55:08 - app_logger - INFO - create_USR02_model:326 - Model for table 'Z_FUE_SYS_2_USER_DATA' not in cache. Creating a new dynamic model.
+2026-05-22 00:55:08 - app_logger - INFO - create_USR02_model:333 - Successfully created dynamic model for table 'Z_FUE_SYS_2_USER_DATA'
+2026-05-22 00:55:08 - app_logger - INFO - get_transaction_usage_data_tablename:54 - Generated transaction_usage_data table name for system 'SYS_2'
+2026-05-22 00:55:08 - app_logger - INFO - create_TRANSACTIONUSAGE_model:343 - Model for table 'Z_FUE_SYS_2_TRANSACTION_USAGE' not in cache. Creating a new dynamic model.
+2026-05-22 00:55:08 - app_logger - INFO - create_TRANSACTIONUSAGE_model:350 - Successfully created dynamic model for table 'Z_FUE_SYS_2_TRANSACTION_USAGE'
+2026-05-22 00:55:08 - app_logger - INFO - get_user_role_summary_tablename:85 - Generated user-role summary license table name for system 'SYS_2'
+2026-05-22 00:55:08 - app_logger - INFO - create_user_lic_summary_model:464 - Model for table 'Z_FUE_SYS_2_USER_LICENSE_SUMMARY' not in cache. Creating a new dynamic model.
+2026-05-22 00:55:08 - app_logger - INFO - create_user_lic_summary_model:473 - Successfully created dynamic model for table 'Z_FUE_SYS_2_USER_LICENSE_SUMMARY'
+2026-05-22 01:00:31 - app_logger - INFO - load_usr02_endpoint:286 - Received request to load USR02 data for system: 'SYS_2', release: 'SYS_2_creation'
+2026-05-22 01:00:31 - app_logger - INFO - ensure_client_system_info:80 - system info already exists: SYS_2, SYS_2_creation
+2026-05-22 01:00:31 - app_logger - INFO - load_usr02_from_csv_upload:342 - Starting USR02 CSV data load for system: SYS_2
+2026-05-22 01:00:31 - app_logger - INFO - get_usr02_tablename:49 - Generated USER_DATA table name for system 'SYS_2'
+2026-05-22 01:00:31 - app_logger - INFO - create_USR02_model:329 - Model for table 'Z_FUE_SYS_2_USER_DATA' not in cache. Creating a new dynamic model.
+2026-05-22 01:00:31 - app_logger - INFO - create_USR02_model:336 - Successfully created dynamic model for table 'Z_FUE_SYS_2_USER_DATA'
+2026-05-22 01:00:31 - app_logger - INFO - load_usr02_from_csv_upload:352 - Truncated (deleted) 4125 rows from Z_FUE_SYS_2_USER_DATA.
+2026-05-22 01:00:59 - app_logger - INFO - load_usr02_endpoint:286 - Received request to load USR02 data for system: 'SYS_2', release: 'SYS_2_creation'
+2026-05-22 01:00:59 - app_logger - INFO - ensure_client_system_info:80 - system info already exists: SYS_2, SYS_2_creation
+2026-05-22 01:00:59 - app_logger - INFO - load_usr02_from_csv_upload:342 - Starting USR02 CSV data load for system: SYS_2
+2026-05-22 01:00:59 - app_logger - INFO - get_usr02_tablename:49 - Generated USER_DATA table name for system 'SYS_2'
+2026-05-22 01:00:59 - app_logger - INFO - create_USR02_model:327 - Model for table 'Z_FUE_SYS_2_USER_DATA' found in cache. Returning cached model.
+2026-05-22 01:00:59 - app_logger - INFO - load_usr02_from_csv_upload:352 - Truncated (deleted) 0 rows from Z_FUE_SYS_2_USER_DATA.
+2026-05-22 01:01:00 - app_logger - INFO - load_usr02_from_csv_upload:402 - Successfully loaded 4125 records into Z_FUE_SYS_2_USER_DATA
+2026-05-22 01:01:00 - app_logger - INFO - load_usr02_endpoint:306 - USR02 data load completed: {'message': 'Successfully loaded 4125 records into Z_FUE_SYS_2_USER_DATA', 'table_name': 'Z_FUE_SYS_2_USER_DATA', 'records_loaded': 4125}
+2026-05-22 01:01:07 - app_logger - INFO - compute_userlicsummary:851 - [Stage 5] Computing UserLicSummary for SYS_2
+2026-05-22 01:01:07 - app_logger - INFO - get_user_role_data_tablename:80 - Generated user-role license info table name for system 'SYS_2'
+2026-05-22 01:01:07 - app_logger - INFO - create_user_lic_model:445 - Model for table 'Z_FUE_SYS_2_USER_ROLE_LICENSE_INFO' not in cache. Creating a new dynamic model.
+2026-05-22 01:01:07 - app_logger - INFO - create_user_lic_model:454 - Successfully created dynamic model for table 'Z_FUE_SYS_2_USER_ROLE_LICENSE_INFO'
+2026-05-22 01:01:07 - app_logger - INFO - get_usr02_tablename:49 - Generated USER_DATA table name for system 'SYS_2'
+2026-05-22 01:01:07 - app_logger - INFO - create_USR02_model:327 - Model for table 'Z_FUE_SYS_2_USER_DATA' found in cache. Returning cached model.
+2026-05-22 01:01:07 - app_logger - INFO - get_transaction_usage_data_tablename:54 - Generated transaction_usage_data table name for system 'SYS_2'
+2026-05-22 01:01:07 - app_logger - INFO - create_TRANSACTIONUSAGE_model:346 - Model for table 'Z_FUE_SYS_2_TRANSACTION_USAGE' not in cache. Creating a new dynamic model.
+2026-05-22 01:01:07 - app_logger - INFO - create_TRANSACTIONUSAGE_model:353 - Successfully created dynamic model for table 'Z_FUE_SYS_2_TRANSACTION_USAGE'
+2026-05-22 01:01:07 - app_logger - INFO - get_user_role_summary_tablename:85 - Generated user-role summary license table name for system 'SYS_2'
+2026-05-22 01:01:07 - app_logger - INFO - create_user_lic_summary_model:467 - Model for table 'Z_FUE_SYS_2_USER_LICENSE_SUMMARY' not in cache. Creating a new dynamic model.
+2026-05-22 01:01:07 - app_logger - INFO - create_user_lic_summary_model:476 - Successfully created dynamic model for table 'Z_FUE_SYS_2_USER_LICENSE_SUMMARY'
+2026-05-22 01:02:58 - app_logger - INFO - compute_userlicsummary:851 - [Stage 5] Computing UserLicSummary for SYS_2
+2026-05-22 01:02:58 - app_logger - INFO - get_user_role_data_tablename:80 - Generated user-role license info table name for system 'SYS_2'
+2026-05-22 01:02:58 - app_logger - INFO - create_user_lic_model:445 - Model for table 'Z_FUE_SYS_2_USER_ROLE_LICENSE_INFO' not in cache. Creating a new dynamic model.
+2026-05-22 01:02:58 - app_logger - INFO - create_user_lic_model:454 - Successfully created dynamic model for table 'Z_FUE_SYS_2_USER_ROLE_LICENSE_INFO'
+2026-05-22 01:02:58 - app_logger - INFO - get_usr02_tablename:49 - Generated USER_DATA table name for system 'SYS_2'
+2026-05-22 01:02:58 - app_logger - INFO - create_USR02_model:329 - Model for table 'Z_FUE_SYS_2_USER_DATA' not in cache. Creating a new dynamic model.
+2026-05-22 01:02:58 - app_logger - INFO - create_USR02_model:336 - Successfully created dynamic model for table 'Z_FUE_SYS_2_USER_DATA'
+2026-05-22 01:02:58 - app_logger - INFO - get_transaction_usage_data_tablename:54 - Generated transaction_usage_data table name for system 'SYS_2'
+2026-05-22 01:02:58 - app_logger - INFO - create_TRANSACTIONUSAGE_model:346 - Model for table 'Z_FUE_SYS_2_TRANSACTION_USAGE' not in cache. Creating a new dynamic model.
+2026-05-22 01:02:58 - app_logger - INFO - create_TRANSACTIONUSAGE_model:353 - Successfully created dynamic model for table 'Z_FUE_SYS_2_TRANSACTION_USAGE'
+2026-05-22 01:02:58 - app_logger - INFO - get_user_role_summary_tablename:85 - Generated user-role summary license table name for system 'SYS_2'
+2026-05-22 01:02:58 - app_logger - INFO - create_user_lic_summary_model:467 - Model for table 'Z_FUE_SYS_2_USER_LICENSE_SUMMARY' not in cache. Creating a new dynamic model.
+2026-05-22 01:02:58 - app_logger - INFO - create_user_lic_summary_model:476 - Successfully created dynamic model for table 'Z_FUE_SYS_2_USER_LICENSE_SUMMARY'
+2026-05-22 01:04:38 - app_logger - INFO - compute_userlicsummary:851 - [Stage 5] Computing UserLicSummary for SYS_2
+2026-05-22 01:04:38 - app_logger - INFO - get_user_role_data_tablename:80 - Generated user-role license info table name for system 'SYS_2'
+2026-05-22 01:04:38 - app_logger - INFO - create_user_lic_model:445 - Model for table 'Z_FUE_SYS_2_USER_ROLE_LICENSE_INFO' not in cache. Creating a new dynamic model.
+2026-05-22 01:04:38 - app_logger - INFO - create_user_lic_model:454 - Successfully created dynamic model for table 'Z_FUE_SYS_2_USER_ROLE_LICENSE_INFO'
+2026-05-22 01:04:38 - app_logger - INFO - get_usr02_tablename:49 - Generated USER_DATA table name for system 'SYS_2'
+2026-05-22 01:04:38 - app_logger - INFO - create_USR02_model:329 - Model for table 'Z_FUE_SYS_2_USER_DATA' not in cache. Creating a new dynamic model.
+2026-05-22 01:04:38 - app_logger - INFO - create_USR02_model:336 - Successfully created dynamic model for table 'Z_FUE_SYS_2_USER_DATA'
+2026-05-22 01:04:38 - app_logger - INFO - get_transaction_usage_data_tablename:54 - Generated transaction_usage_data table name for system 'SYS_2'
+2026-05-22 01:04:38 - app_logger - INFO - create_TRANSACTIONUSAGE_model:346 - Model for table 'Z_FUE_SYS_2_TRANSACTION_USAGE' not in cache. Creating a new dynamic model.
+2026-05-22 01:04:38 - app_logger - INFO - create_TRANSACTIONUSAGE_model:353 - Successfully created dynamic model for table 'Z_FUE_SYS_2_TRANSACTION_USAGE'
+2026-05-22 01:04:38 - app_logger - INFO - get_user_role_summary_tablename:85 - Generated user-role summary license table name for system 'SYS_2'
+2026-05-22 01:04:38 - app_logger - INFO - create_user_lic_summary_model:467 - Model for table 'Z_FUE_SYS_2_USER_LICENSE_SUMMARY' not in cache. Creating a new dynamic model.
+2026-05-22 01:04:38 - app_logger - INFO - create_user_lic_summary_model:476 - Successfully created dynamic model for table 'Z_FUE_SYS_2_USER_LICENSE_SUMMARY'
+2026-05-22 01:04:41 - app_logger - INFO - compute_userlicsummary:955 - [Stage 5] Done — 3519 rows written to UserLicSummary
+2026-05-22 01:06:19 - app_logger - INFO - compute_rolelic:609 - [Stage 2] Computing RoleLic for SYS_2
+2026-05-22 01:06:19 - app_logger - INFO - get_agr_1251_tablename:29 - Generated role auth table agr_1251_name for system 'SYS_2'
+2026-05-22 01:06:19 - app_logger - INFO - create_AGR1251_model:260 - Model for table 'Z_FUE_SYS_2_ROLE_AUTH_INFO' not in cache. Creating a new dynamic model.
+2026-05-22 01:06:19 - app_logger - INFO - create_AGR1251_model:267 - Successfully created dynamic model for table 'Z_FUE_SYS_2_ROLE_AUTH_INFO'
+2026-05-22 01:06:19 - app_logger - INFO - get_role_lice_data_tablename:70 - Generated role object license info table name for system 'SYS_2'
+2026-05-22 01:06:19 - app_logger - INFO - create_role_lic_model:402 - Model for table 'Z_FUE_SYS_2_ROLE_OBJ_LICENSE_INFO' not in cache. Creating a new dynamic model.
+2026-05-22 01:06:19 - app_logger - INFO - create_role_lic_model:411 - Successfully created dynamic model for table 'Z_FUE_SYS_2_ROLE_OBJ_LICENSE_INFO'
+2026-05-22 01:07:05 - app_logger - INFO - compute_rolelic:677 - [Stage 2] Done — 493396 rows written to RoleLic
+2026-05-22 01:07:05 - app_logger - INFO - compute_rolelicsummary:698 - [Stage 3] Computing RoleLicSummary for SYS_2
+2026-05-22 01:07:05 - app_logger - INFO - get_role_lice_data_tablename:70 - Generated role object license info table name for system 'SYS_2'
+2026-05-22 01:07:05 - app_logger - INFO - create_role_lic_model:400 - Model for table 'Z_FUE_SYS_2_ROLE_OBJ_LICENSE_INFO' found in cache. Returning cached model.
+2026-05-22 01:07:05 - app_logger - INFO - get_agr_define_tablename:39 - Generated parent child role mapping table name for system 'SYS_2'
+2026-05-22 01:07:05 - app_logger - INFO - create_AGRDEFINE_model:295 - Model for table 'Z_FUE_SYS_2_PARENT_CHILD_ROLE_MAPPING' not in cache. Creating a new dynamic model.
+2026-05-22 01:07:05 - app_logger - INFO - create_AGRDEFINE_model:302 - Successfully created dynamic model for table 'Z_FUE_SYS_2_PARENT_CHILD_ROLE_MAPPING'
+2026-05-22 01:07:05 - app_logger - INFO - get_role_lice_data_summary_tablename:75 - Generated role license summary info table name for system 'SYS_2'
+2026-05-22 01:07:05 - app_logger - INFO - create_role_lic_summary_model:423 - Model for table 'Z_FUE_SYS_2_ROLE_LICENSE_SUMMARY' not in cache. Creating a new dynamic model.
+2026-05-22 01:07:05 - app_logger - INFO - create_role_lic_summary_model:432 - Successfully created dynamic model for table 'Z_FUE_SYS_2_ROLE_LICENSE_SUMMARY'
+2026-05-22 01:07:11 - app_logger - INFO - compute_rolelicsummary:757 - [Stage 3] Done — 2897 rows written to RoleLicSummary
+2026-05-22 01:07:11 - app_logger - INFO - compute_userrolellic:778 - [Stage 4] Computing UserRoleLic for SYS_2
+2026-05-22 01:07:11 - app_logger - INFO - get_agr_users_tablename:34 - Generated user role mapping agr_users table name for system 'SYS_2'
+2026-05-22 01:07:11 - app_logger - INFO - create_AGRUSERS_model:277 - Model for table 'Z_FUE_SYS_2_USER_ROLE_MAPPING' not in cache. Creating a new dynamic model.
+2026-05-22 01:07:11 - app_logger - INFO - create_AGRUSERS_model:284 - Successfully created dynamic model for table 'Z_FUE_SYS_2_USER_ROLE_MAPPING'
+2026-05-22 01:07:11 - app_logger - INFO - get_role_lice_data_summary_tablename:75 - Generated role license summary info table name for system 'SYS_2'
+2026-05-22 01:07:11 - app_logger - INFO - create_role_lic_summary_model:421 - Model for table 'Z_FUE_SYS_2_ROLE_LICENSE_SUMMARY' found in cache. Returning cached model.
+2026-05-22 01:07:11 - app_logger - INFO - get_user_role_data_tablename:80 - Generated user-role license info table name for system 'SYS_2'
+2026-05-22 01:07:11 - app_logger - INFO - create_user_lic_model:445 - Model for table 'Z_FUE_SYS_2_USER_ROLE_LICENSE_INFO' not in cache. Creating a new dynamic model.
+2026-05-22 01:07:11 - app_logger - INFO - create_user_lic_model:454 - Successfully created dynamic model for table 'Z_FUE_SYS_2_USER_ROLE_LICENSE_INFO'
+2026-05-22 01:07:15 - app_logger - INFO - compute_userrolellic:818 - [Stage 4] Done — 68752 rows written to UserRoleLic
+2026-05-22 01:07:15 - app_logger - INFO - compute_userlicsummary:851 - [Stage 5] Computing UserLicSummary for SYS_2
+2026-05-22 01:07:15 - app_logger - INFO - get_user_role_data_tablename:80 - Generated user-role license info table name for system 'SYS_2'
+2026-05-22 01:07:15 - app_logger - INFO - create_user_lic_model:443 - Model for table 'Z_FUE_SYS_2_USER_ROLE_LICENSE_INFO' found in cache. Returning cached model.
+2026-05-22 01:07:15 - app_logger - INFO - get_usr02_tablename:49 - Generated USER_DATA table name for system 'SYS_2'
+2026-05-22 01:07:15 - app_logger - INFO - create_USR02_model:329 - Model for table 'Z_FUE_SYS_2_USER_DATA' not in cache. Creating a new dynamic model.
+2026-05-22 01:07:15 - app_logger - INFO - create_USR02_model:336 - Successfully created dynamic model for table 'Z_FUE_SYS_2_USER_DATA'
+2026-05-22 01:07:15 - app_logger - INFO - get_transaction_usage_data_tablename:54 - Generated transaction_usage_data table name for system 'SYS_2'
+2026-05-22 01:07:15 - app_logger - INFO - create_TRANSACTIONUSAGE_model:346 - Model for table 'Z_FUE_SYS_2_TRANSACTION_USAGE' not in cache. Creating a new dynamic model.
+2026-05-22 01:07:15 - app_logger - INFO - create_TRANSACTIONUSAGE_model:353 - Successfully created dynamic model for table 'Z_FUE_SYS_2_TRANSACTION_USAGE'
+2026-05-22 01:07:15 - app_logger - INFO - get_user_role_summary_tablename:85 - Generated user-role summary license table name for system 'SYS_2'
+2026-05-22 01:07:15 - app_logger - INFO - create_user_lic_summary_model:467 - Model for table 'Z_FUE_SYS_2_USER_LICENSE_SUMMARY' not in cache. Creating a new dynamic model.
+2026-05-22 01:07:15 - app_logger - INFO - create_user_lic_summary_model:476 - Successfully created dynamic model for table 'Z_FUE_SYS_2_USER_LICENSE_SUMMARY'
+2026-05-22 01:07:18 - app_logger - INFO - compute_userlicsummary:955 - [Stage 5] Done — 3519 rows written to UserLicSummary
+2026-05-22 01:08:34 - app_logger - INFO - get_fue_dashboard:1009 - [Stage 6] Fetching FUE Dashboard for SYS_2
+2026-05-22 01:08:34 - app_logger - INFO - get_user_role_summary_tablename:85 - Generated user-role summary license table name for system 'SYS_2'
+2026-05-22 01:08:34 - app_logger - INFO - create_user_lic_summary_model:465 - Model for table 'Z_FUE_SYS_2_USER_LICENSE_SUMMARY' found in cache. Returning cached model.
+2026-05-22 12:27:33 - app_logger - INFO - initialize_simulation_table:70 - Initializing simulation table for system 'SYS_2'
+2026-05-22 12:27:33 - app_logger - INFO - get_role_lice_data_tablename:70 - Generated role object license info table name for system 'SYS_2'
+2026-05-22 12:27:33 - app_logger - INFO - create_role_lic_model:469 - Model for table 'Z_FUE_SYS_2_ROLE_OBJ_LICENSE_INFO' not in cache. Creating a new dynamic model.
+2026-05-22 12:27:33 - app_logger - INFO - create_role_lic_model:478 - Successfully created dynamic model for table 'Z_FUE_SYS_2_ROLE_OBJ_LICENSE_INFO'
+2026-05-22 12:27:33 - app_logger - INFO - get_role_lic_sim_tablename:91 - Generated role_lic_sim table name for system 'SYS_2'
+2026-05-22 12:27:33 - app_logger - INFO - create_role_lic_sim_model:554 - Creating new dynamic RoleLicSim model for table 'Z_FUE_SYS_2_ROLE_LIC_SIM'
+2026-05-22 12:27:33 - app_logger - INFO - create_role_lic_sim_model:563 - Successfully created dynamic RoleLicSim model for table 'Z_FUE_SYS_2_ROLE_LIC_SIM'
+2026-05-22 12:27:33 - app_logger - INFO - initialize_simulation_table:83 - Cleared 0 existing simulation records
+2026-05-22 12:28:29 - app_logger - INFO - initialize_simulation_table:115 - Initialized simulation table with 493396 records
+2026-05-22 12:29:59 - app_logger - INFO - get_simulation_roles:141 - Fetching simulation role list for system 'SYS_2'
+2026-05-22 12:29:59 - app_logger - INFO - get_role_lic_sim_tablename:91 - Generated role_lic_sim table name for system 'SYS_2'
+2026-05-22 12:29:59 - app_logger - INFO - create_role_lic_sim_model:551 - Model for table 'Z_FUE_SYS_2_ROLE_LIC_SIM' found in cache.
+2026-05-22 12:29:59 - app_logger - INFO - get_role_lice_data_summary_tablename:75 - Generated role license summary info table name for system 'SYS_2'
+2026-05-22 12:29:59 - app_logger - INFO - create_role_lic_summary_model:490 - Model for table 'Z_FUE_SYS_2_ROLE_LICENSE_SUMMARY' not in cache. Creating a new dynamic model.
+2026-05-22 12:29:59 - app_logger - INFO - create_role_lic_summary_model:499 - Successfully created dynamic model for table 'Z_FUE_SYS_2_ROLE_LICENSE_SUMMARY'
+2026-05-22 12:31:01 - app_logger - INFO - get_simulation_roles:141 - Fetching simulation role list for system 'SYS_2'
+2026-05-22 12:31:01 - app_logger - INFO - get_role_lic_sim_tablename:91 - Generated role_lic_sim table name for system 'SYS_2'
+2026-05-22 12:31:01 - app_logger - INFO - create_role_lic_sim_model:551 - Model for table 'Z_FUE_SYS_2_ROLE_LIC_SIM' found in cache.
+2026-05-22 12:31:01 - app_logger - INFO - get_role_lice_data_summary_tablename:75 - Generated role license summary info table name for system 'SYS_2'
+2026-05-22 12:31:01 - app_logger - INFO - create_role_lic_summary_model:488 - Model for table 'Z_FUE_SYS_2_ROLE_LICENSE_SUMMARY' found in cache. Returning cached model.
+2026-05-22 12:31:48 - app_logger - INFO - get_role_simulation_details:192 - Fetching simulation details for role 'ZD_ETO_D_1400' in system 'SYS_2'
+2026-05-22 12:31:48 - app_logger - INFO - get_role_lic_sim_tablename:91 - Generated role_lic_sim table name for system 'SYS_2'
+2026-05-22 12:31:48 - app_logger - INFO - create_role_lic_sim_model:551 - Model for table 'Z_FUE_SYS_2_ROLE_LIC_SIM' found in cache.
+2026-05-22 12:32:34 - app_logger - INFO - get_current_simulation_fue:716 - Fetching current simulation FUE for system 'SYS_2'
+2026-05-22 12:32:34 - app_logger - INFO - calculate_simulation_fue:558 - Calculating simulation FUE for system 'SYS_2'
+2026-05-22 12:32:34 - app_logger - INFO - get_role_lic_sim_tablename:91 - Generated role_lic_sim table name for system 'SYS_2'
+2026-05-22 12:32:34 - app_logger - INFO - create_role_lic_sim_model:551 - Model for table 'Z_FUE_SYS_2_ROLE_LIC_SIM' found in cache.
+2026-05-22 12:32:34 - app_logger - INFO - get_user_role_summary_tablename:85 - Generated user-role summary license table name for system 'SYS_2'
+2026-05-22 12:32:34 - app_logger - INFO - create_user_lic_summary_model:534 - Model for table 'Z_FUE_SYS_2_USER_LICENSE_SUMMARY' not in cache. Creating a new dynamic model.
+2026-05-22 12:32:34 - app_logger - INFO - create_user_lic_summary_model:543 - Successfully created dynamic model for table 'Z_FUE_SYS_2_USER_LICENSE_SUMMARY'
+2026-05-22 12:32:34 - app_logger - INFO - get_user_role_data_tablename:80 - Generated user-role license info table name for system 'SYS_2'
+2026-05-22 12:32:34 - app_logger - INFO - create_user_lic_model:512 - Model for table 'Z_FUE_SYS_2_USER_ROLE_LICENSE_INFO' not in cache. Creating a new dynamic model.
+2026-05-22 12:32:34 - app_logger - INFO - create_user_lic_model:521 - Successfully created dynamic model for table 'Z_FUE_SYS_2_USER_ROLE_LICENSE_INFO'
+2026-05-22 12:33:08 - app_logger - INFO - get_current_simulation_fue:716 - Fetching current simulation FUE for system 'SYS_2'
+2026-05-22 12:33:08 - app_logger - INFO - calculate_simulation_fue:558 - Calculating simulation FUE for system 'SYS_2'
+2026-05-22 12:33:08 - app_logger - INFO - get_role_lic_sim_tablename:91 - Generated role_lic_sim table name for system 'SYS_2'
+2026-05-22 12:33:08 - app_logger - INFO - create_role_lic_sim_model:551 - Model for table 'Z_FUE_SYS_2_ROLE_LIC_SIM' found in cache.
+2026-05-22 12:33:08 - app_logger - INFO - get_user_role_summary_tablename:85 - Generated user-role summary license table name for system 'SYS_2'
+2026-05-22 12:33:08 - app_logger - INFO - create_user_lic_summary_model:532 - Model for table 'Z_FUE_SYS_2_USER_LICENSE_SUMMARY' found in cache. Returning cached model.
+2026-05-22 12:33:08 - app_logger - INFO - get_user_role_data_tablename:80 - Generated user-role license info table name for system 'SYS_2'
+2026-05-22 12:33:08 - app_logger - INFO - create_user_lic_model:510 - Model for table 'Z_FUE_SYS_2_USER_ROLE_LICENSE_INFO' found in cache. Returning cached model.
+2026-05-22 12:50:47 - app_logger - INFO - apply_simulation_changes:274 - Applying 10 simulation changes for system 'SYS_2'
+2026-05-22 12:50:47 - app_logger - INFO - get_simulation_result_tablename:97 - Generated simulation_result table name for system 'SYS_2'
+2026-05-22 12:50:47 - app_logger - INFO - create_simulation_result_model:575 - Creating new dynamic SimulationResult model for table 'Z_FUE_SYS_2_SIMULATION_RESULT'
+2026-05-22 12:50:47 - app_logger - INFO - create_simulation_result_model:584 - Successfully created dynamic SimulationResult model for table 'Z_FUE_SYS_2_SIMULATION_RESULT'
+2026-05-22 12:50:47 - app_logger - INFO - apply_simulation_changes:304 - Created 10 initial result records for simulation 'SIM000186A0'
+2026-05-22 12:50:47 - app_logger - INFO - process_simulation_sync:337 - Starting background simulation processing for 'SIM000186A0'
+2026-05-22 12:50:47 - app_logger - INFO - process_simulation_background:365 - Processing simulation 'SIM000186A0' for system 'SYS_2'
+2026-05-22 12:50:47 - app_logger - INFO - get_role_lic_sim_tablename:91 - Generated role_lic_sim table name for system 'SYS_2'
+2026-05-22 12:50:47 - app_logger - INFO - create_role_lic_sim_model:554 - Creating new dynamic RoleLicSim model for table 'Z_FUE_SYS_2_ROLE_LIC_SIM'
+2026-05-22 12:50:47 - app_logger - INFO - create_role_lic_sim_model:563 - Successfully created dynamic RoleLicSim model for table 'Z_FUE_SYS_2_ROLE_LIC_SIM'
+2026-05-22 12:50:47 - app_logger - INFO - get_simulation_result_tablename:97 - Generated simulation_result table name for system 'SYS_2'
+2026-05-22 12:50:47 - app_logger - INFO - create_simulation_result_model:572 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-05-22 12:50:47 - app_logger - INFO - process_simulation_background:449 - Applied all changes to simulation table for 'SIM000186A0'
+2026-05-22 12:50:47 - app_logger - INFO - calculate_simulation_fue:567 - Calculating simulation FUE for system 'SYS_2'
+2026-05-22 12:50:47 - app_logger - INFO - get_role_lic_sim_tablename:91 - Generated role_lic_sim table name for system 'SYS_2'
+2026-05-22 12:50:47 - app_logger - INFO - create_role_lic_sim_model:551 - Model for table 'Z_FUE_SYS_2_ROLE_LIC_SIM' found in cache.
+2026-05-22 12:50:47 - app_logger - INFO - get_user_role_data_tablename:80 - Generated user-role license info table name for system 'SYS_2'
+2026-05-22 12:50:47 - app_logger - INFO - create_user_lic_model:512 - Model for table 'Z_FUE_SYS_2_USER_ROLE_LICENSE_INFO' not in cache. Creating a new dynamic model.
+2026-05-22 12:50:47 - app_logger - INFO - create_user_lic_model:521 - Successfully created dynamic model for table 'Z_FUE_SYS_2_USER_ROLE_LICENSE_INFO'
+2026-05-22 12:50:48 - app_logger - INFO - process_simulation_background:489 - Simulation 'SIM000186A0' completed successfully
+2026-05-22 12:58:29 - app_logger - INFO - get_simulation_results:642 - Fetching simulation results for system 'SYS_2'
+2026-05-22 12:58:29 - app_logger - INFO - get_simulation_result_tablename:97 - Generated simulation_result table name for system 'SYS_2'
+2026-05-22 12:58:29 - app_logger - INFO - create_simulation_result_model:572 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-05-22 12:59:28 - app_logger - INFO - get_current_simulation_fue:717 - Fetching current simulation FUE for system 'SYS_2'
+2026-05-22 12:59:28 - app_logger - INFO - calculate_simulation_fue:567 - Calculating simulation FUE for system 'SYS_2'
+2026-05-22 12:59:28 - app_logger - INFO - get_role_lic_sim_tablename:91 - Generated role_lic_sim table name for system 'SYS_2'
+2026-05-22 12:59:28 - app_logger - INFO - create_role_lic_sim_model:551 - Model for table 'Z_FUE_SYS_2_ROLE_LIC_SIM' found in cache.
+2026-05-22 12:59:28 - app_logger - INFO - get_user_role_data_tablename:80 - Generated user-role license info table name for system 'SYS_2'
+2026-05-22 12:59:28 - app_logger - INFO - create_user_lic_model:510 - Model for table 'Z_FUE_SYS_2_USER_ROLE_LICENSE_INFO' found in cache. Returning cached model.
+2026-05-22 13:23:12 - app_logger - INFO - get_current_simulation_fue:859 - Fetching current simulation FUE for system 'SYS_2'
+2026-05-22 13:23:12 - app_logger - INFO - calculate_simulation_fue:636 - Calculating simulation FUE for system 'SYS_2'
+2026-05-22 13:23:12 - app_logger - INFO - get_role_lic_sim_tablename:91 - Generated role_lic_sim table name for system 'SYS_2'
+2026-05-22 13:23:12 - app_logger - INFO - create_role_lic_sim_model:554 - Creating new dynamic RoleLicSim model for table 'Z_FUE_SYS_2_ROLE_LIC_SIM'
+2026-05-22 13:23:12 - app_logger - INFO - create_role_lic_sim_model:563 - Successfully created dynamic RoleLicSim model for table 'Z_FUE_SYS_2_ROLE_LIC_SIM'
+2026-05-22 13:23:40 - app_logger - INFO - get_current_simulation_fue:859 - Fetching current simulation FUE for system 'SYS_2'
+2026-05-22 13:23:40 - app_logger - INFO - calculate_simulation_fue:636 - Calculating simulation FUE for system 'SYS_2'
+2026-05-22 13:23:40 - app_logger - INFO - get_role_lic_sim_tablename:91 - Generated role_lic_sim table name for system 'SYS_2'
+2026-05-22 13:23:40 - app_logger - INFO - create_role_lic_sim_model:551 - Model for table 'Z_FUE_SYS_2_ROLE_LIC_SIM' found in cache.
+2026-05-22 13:25:01 - app_logger - INFO - reset_simulation:939 - Resetting simulation table for system 'SYS_2'
+2026-05-22 13:25:01 - app_logger - INFO - initialize_simulation_table:76 - Initializing simulation table for system 'SYS_2'
+2026-05-22 13:25:01 - app_logger - INFO - get_role_lice_data_tablename:70 - Generated role object license info table name for system 'SYS_2'
+2026-05-22 13:25:01 - app_logger - INFO - create_role_lic_model:469 - Model for table 'Z_FUE_SYS_2_ROLE_OBJ_LICENSE_INFO' not in cache. Creating a new dynamic model.
+2026-05-22 13:25:01 - app_logger - INFO - create_role_lic_model:478 - Successfully created dynamic model for table 'Z_FUE_SYS_2_ROLE_OBJ_LICENSE_INFO'
+2026-05-22 13:25:01 - app_logger - INFO - get_role_lic_sim_tablename:91 - Generated role_lic_sim table name for system 'SYS_2'
+2026-05-22 13:25:01 - app_logger - INFO - create_role_lic_sim_model:554 - Creating new dynamic RoleLicSim model for table 'Z_FUE_SYS_2_ROLE_LIC_SIM'
+2026-05-22 13:25:01 - app_logger - INFO - create_role_lic_sim_model:563 - Successfully created dynamic RoleLicSim model for table 'Z_FUE_SYS_2_ROLE_LIC_SIM'
+2026-05-22 13:25:03 - app_logger - INFO - initialize_simulation_table:89 - Cleared 493396 existing simulation records
+2026-05-22 13:26:14 - app_logger - INFO - initialize_simulation_table:121 - Initialized simulation table with 493396 records
+2026-05-22 13:26:42 - app_logger - INFO - apply_simulation_changes:275 - Applying 10 simulation changes for system 'SYS_2'
+2026-05-22 13:26:42 - app_logger - INFO - get_simulation_result_tablename:97 - Generated simulation_result table name for system 'SYS_2'
+2026-05-22 13:26:42 - app_logger - INFO - create_simulation_result_model:575 - Creating new dynamic SimulationResult model for table 'Z_FUE_SYS_2_SIMULATION_RESULT'
+2026-05-22 13:26:42 - app_logger - INFO - create_simulation_result_model:584 - Successfully created dynamic SimulationResult model for table 'Z_FUE_SYS_2_SIMULATION_RESULT'
+2026-05-22 13:26:42 - app_logger - INFO - apply_simulation_changes:305 - Created 10 initial result records for simulation 'SIM000186A1'
+2026-05-22 13:26:42 - app_logger - INFO - process_simulation_sync:338 - Starting background simulation processing for 'SIM000186A1'
+2026-05-22 13:26:42 - app_logger - INFO - process_simulation_background:366 - Processing simulation 'SIM000186A1' for system 'SYS_2'
+2026-05-22 13:26:42 - app_logger - INFO - get_role_lic_sim_tablename:91 - Generated role_lic_sim table name for system 'SYS_2'
+2026-05-22 13:26:42 - app_logger - INFO - create_role_lic_sim_model:551 - Model for table 'Z_FUE_SYS_2_ROLE_LIC_SIM' found in cache.
+2026-05-22 13:26:42 - app_logger - INFO - get_simulation_result_tablename:97 - Generated simulation_result table name for system 'SYS_2'
+2026-05-22 13:26:42 - app_logger - INFO - create_simulation_result_model:572 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-05-22 13:26:42 - app_logger - INFO - process_simulation_background:450 - Applied all changes to simulation table for 'SIM000186A1'
+2026-05-22 13:26:42 - app_logger - INFO - calculate_simulation_fue:637 - Calculating simulation FUE for system 'SYS_2'
+2026-05-22 13:26:42 - app_logger - INFO - get_role_lic_sim_tablename:91 - Generated role_lic_sim table name for system 'SYS_2'
+2026-05-22 13:26:42 - app_logger - INFO - create_role_lic_sim_model:551 - Model for table 'Z_FUE_SYS_2_ROLE_LIC_SIM' found in cache.
+2026-05-22 13:26:42 - app_logger - INFO - process_simulation_background:490 - Simulation 'SIM000186A1' completed successfully
+2026-05-22 13:27:02 - app_logger - INFO - get_current_simulation_fue:902 - Fetching current simulation FUE for system 'SYS_2'
+2026-05-22 13:27:02 - app_logger - INFO - calculate_simulation_fue:637 - Calculating simulation FUE for system 'SYS_2'
+2026-05-22 13:27:02 - app_logger - INFO - get_role_lic_sim_tablename:91 - Generated role_lic_sim table name for system 'SYS_2'
+2026-05-22 13:27:02 - app_logger - INFO - create_role_lic_sim_model:551 - Model for table 'Z_FUE_SYS_2_ROLE_LIC_SIM' found in cache.
+2026-05-22 13:32:24 - app_logger - INFO - reset_simulation:941 - Resetting simulation table for system 'SYS_2'
+2026-05-22 13:32:25 - app_logger - INFO - initialize_simulation_table:76 - Initializing simulation table for system 'SYS_2'
+2026-05-22 13:32:25 - app_logger - INFO - get_role_lice_data_tablename:70 - Generated role object license info table name for system 'SYS_2'
+2026-05-22 13:32:25 - app_logger - INFO - create_role_lic_model:469 - Model for table 'Z_FUE_SYS_2_ROLE_OBJ_LICENSE_INFO' not in cache. Creating a new dynamic model.
+2026-05-22 13:32:25 - app_logger - INFO - create_role_lic_model:478 - Successfully created dynamic model for table 'Z_FUE_SYS_2_ROLE_OBJ_LICENSE_INFO'
+2026-05-22 13:32:25 - app_logger - INFO - get_role_lic_sim_tablename:91 - Generated role_lic_sim table name for system 'SYS_2'
+2026-05-22 13:32:25 - app_logger - INFO - create_role_lic_sim_model:554 - Creating new dynamic RoleLicSim model for table 'Z_FUE_SYS_2_ROLE_LIC_SIM'
+2026-05-22 13:32:25 - app_logger - INFO - create_role_lic_sim_model:563 - Successfully created dynamic RoleLicSim model for table 'Z_FUE_SYS_2_ROLE_LIC_SIM'
+2026-05-22 13:32:28 - app_logger - INFO - initialize_simulation_table:89 - Cleared 493396 existing simulation records
+2026-05-22 13:33:45 - app_logger - INFO - initialize_simulation_table:121 - Initialized simulation table with 493396 records
+2026-05-22 13:51:42 - app_logger - INFO - apply_simulation_changes:275 - Applying 10 simulation changes for system 'SYS_2'
+2026-05-22 13:51:42 - app_logger - INFO - get_simulation_result_tablename:97 - Generated simulation_result table name for system 'SYS_2'
+2026-05-22 13:51:42 - app_logger - INFO - create_simulation_result_model:575 - Creating new dynamic SimulationResult model for table 'Z_FUE_SYS_2_SIMULATION_RESULT'
+2026-05-22 13:51:42 - app_logger - INFO - create_simulation_result_model:584 - Successfully created dynamic SimulationResult model for table 'Z_FUE_SYS_2_SIMULATION_RESULT'
+2026-05-22 13:51:42 - app_logger - INFO - apply_simulation_changes:305 - Created 10 initial result records for simulation 'SIM000186A2'
+2026-05-22 13:51:42 - app_logger - INFO - process_simulation_sync:338 - Starting background simulation processing for 'SIM000186A2'
+2026-05-22 13:51:42 - app_logger - INFO - process_simulation_background:366 - Processing simulation 'SIM000186A2' for system 'SYS_2'
+2026-05-22 13:51:42 - app_logger - INFO - get_role_lic_sim_tablename:91 - Generated role_lic_sim table name for system 'SYS_2'
+2026-05-22 13:51:42 - app_logger - INFO - create_role_lic_sim_model:551 - Model for table 'Z_FUE_SYS_2_ROLE_LIC_SIM' found in cache.
+2026-05-22 13:51:42 - app_logger - INFO - get_simulation_result_tablename:97 - Generated simulation_result table name for system 'SYS_2'
+2026-05-22 13:51:42 - app_logger - INFO - create_simulation_result_model:572 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-05-22 13:51:42 - app_logger - INFO - process_simulation_background:450 - Applied all changes to simulation table for 'SIM000186A2'
+2026-05-22 13:51:42 - app_logger - INFO - calculate_simulation_fue:637 - Calculating simulation FUE for system 'SYS_2'
+2026-05-22 13:51:42 - app_logger - INFO - get_role_lic_sim_tablename:91 - Generated role_lic_sim table name for system 'SYS_2'
+2026-05-22 13:51:42 - app_logger - INFO - create_role_lic_sim_model:551 - Model for table 'Z_FUE_SYS_2_ROLE_LIC_SIM' found in cache.
+2026-05-22 13:51:43 - app_logger - INFO - process_simulation_background:490 - Simulation 'SIM000186A2' completed successfully
+2026-05-22 13:53:27 - app_logger - INFO - get_current_simulation_fue:904 - Fetching current simulation FUE for system 'SYS_2'
+2026-05-22 13:53:27 - app_logger - INFO - calculate_simulation_fue:637 - Calculating simulation FUE for system 'SYS_2'
+2026-05-22 13:53:27 - app_logger - INFO - get_role_lic_sim_tablename:91 - Generated role_lic_sim table name for system 'SYS_2'
+2026-05-22 13:53:27 - app_logger - INFO - create_role_lic_sim_model:551 - Model for table 'Z_FUE_SYS_2_ROLE_LIC_SIM' found in cache.
+2026-05-22 14:01:39 - app_logger - INFO - apply_simulation_changes:275 - Applying 10 simulation changes for system 'SYS_2'
+2026-05-22 14:01:39 - app_logger - INFO - get_simulation_result_tablename:97 - Generated simulation_result table name for system 'SYS_2'
+2026-05-22 14:01:39 - app_logger - INFO - create_simulation_result_model:575 - Creating new dynamic SimulationResult model for table 'Z_FUE_SYS_2_SIMULATION_RESULT'
+2026-05-22 14:01:39 - app_logger - INFO - create_simulation_result_model:584 - Successfully created dynamic SimulationResult model for table 'Z_FUE_SYS_2_SIMULATION_RESULT'
+2026-05-22 14:01:39 - app_logger - INFO - apply_simulation_changes:305 - Created 10 initial result records for simulation 'SIM000186A3'
+2026-05-22 14:01:39 - app_logger - INFO - process_simulation_sync:338 - Starting background simulation processing for 'SIM000186A3'
+2026-05-22 14:01:39 - app_logger - INFO - process_simulation_background:366 - Processing simulation 'SIM000186A3' for system 'SYS_2'
+2026-05-22 14:01:39 - app_logger - INFO - get_role_lic_sim_tablename:91 - Generated role_lic_sim table name for system 'SYS_2'
+2026-05-22 14:01:39 - app_logger - INFO - create_role_lic_sim_model:554 - Creating new dynamic RoleLicSim model for table 'Z_FUE_SYS_2_ROLE_LIC_SIM'
+2026-05-22 14:01:39 - app_logger - INFO - create_role_lic_sim_model:563 - Successfully created dynamic RoleLicSim model for table 'Z_FUE_SYS_2_ROLE_LIC_SIM'
+2026-05-22 14:01:39 - app_logger - INFO - get_simulation_result_tablename:97 - Generated simulation_result table name for system 'SYS_2'
+2026-05-22 14:01:39 - app_logger - INFO - create_simulation_result_model:572 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-05-22 14:01:39 - app_logger - INFO - process_simulation_background:450 - Applied all changes to simulation table for 'SIM000186A3'
+2026-05-22 14:01:39 - app_logger - INFO - calculate_simulation_fue:637 - === STARTING FUE CALCULATION for SYS_2 ===
+2026-05-22 14:01:39 - app_logger - INFO - get_role_lic_sim_tablename:91 - Generated role_lic_sim table name for system 'SYS_2'
+2026-05-22 14:01:39 - app_logger - INFO - create_role_lic_sim_model:551 - Model for table 'Z_FUE_SYS_2_ROLE_LIC_SIM' found in cache.
+2026-05-22 14:01:39 - app_logger - INFO - calculate_simulation_fue:641 - Using simulation table: Z_FUE_SYS_2_ROLE_LIC_SIM
+2026-05-22 14:01:39 - app_logger - INFO - calculate_simulation_fue:645 - Total records in simulation table: 493396
+2026-05-22 14:01:39 - app_logger - INFO - calculate_simulation_fue:651 - Active records (OPERATION != 'Remove'): 0
+2026-05-22 14:01:39 - app_logger - INFO - process_simulation_background:490 - Simulation 'SIM000186A3' completed successfully
+2026-05-22 14:02:24 - app_logger - INFO - get_current_simulation_fue:922 - Fetching current simulation FUE for system 'SYS_2'
+2026-05-22 14:02:24 - app_logger - INFO - calculate_simulation_fue:637 - === STARTING FUE CALCULATION for SYS_2 ===
+2026-05-22 14:02:24 - app_logger - INFO - get_role_lic_sim_tablename:91 - Generated role_lic_sim table name for system 'SYS_2'
+2026-05-22 14:02:24 - app_logger - INFO - create_role_lic_sim_model:551 - Model for table 'Z_FUE_SYS_2_ROLE_LIC_SIM' found in cache.
+2026-05-22 14:02:24 - app_logger - INFO - calculate_simulation_fue:641 - Using simulation table: Z_FUE_SYS_2_ROLE_LIC_SIM
+2026-05-22 14:02:24 - app_logger - INFO - calculate_simulation_fue:645 - Total records in simulation table: 493396
+2026-05-22 14:02:24 - app_logger - INFO - calculate_simulation_fue:651 - Active records (OPERATION != 'Remove'): 0
+2026-05-22 14:04:21 - app_logger - INFO - apply_simulation_changes:275 - Applying 10 simulation changes for system 'SYS_2'
+2026-05-22 14:04:21 - app_logger - INFO - get_simulation_result_tablename:97 - Generated simulation_result table name for system 'SYS_2'
+2026-05-22 14:04:21 - app_logger - INFO - create_simulation_result_model:575 - Creating new dynamic SimulationResult model for table 'Z_FUE_SYS_2_SIMULATION_RESULT'
+2026-05-22 14:04:21 - app_logger - INFO - create_simulation_result_model:584 - Successfully created dynamic SimulationResult model for table 'Z_FUE_SYS_2_SIMULATION_RESULT'
+2026-05-22 14:04:21 - app_logger - INFO - apply_simulation_changes:305 - Created 10 initial result records for simulation 'SIM000186A4'
+2026-05-22 14:04:21 - app_logger - INFO - process_simulation_sync:338 - Starting background simulation processing for 'SIM000186A4'
+2026-05-22 14:04:21 - app_logger - INFO - process_simulation_background:366 - Processing simulation 'SIM000186A4' for system 'SYS_2'
+2026-05-22 14:04:21 - app_logger - INFO - get_role_lic_sim_tablename:91 - Generated role_lic_sim table name for system 'SYS_2'
+2026-05-22 14:04:21 - app_logger - INFO - create_role_lic_sim_model:554 - Creating new dynamic RoleLicSim model for table 'Z_FUE_SYS_2_ROLE_LIC_SIM'
+2026-05-22 14:04:21 - app_logger - INFO - create_role_lic_sim_model:563 - Successfully created dynamic RoleLicSim model for table 'Z_FUE_SYS_2_ROLE_LIC_SIM'
+2026-05-22 14:04:21 - app_logger - INFO - get_simulation_result_tablename:97 - Generated simulation_result table name for system 'SYS_2'
+2026-05-22 14:04:21 - app_logger - INFO - create_simulation_result_model:572 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-05-22 14:04:21 - app_logger - INFO - process_simulation_background:450 - Applied all changes to simulation table for 'SIM000186A4'
+2026-05-22 14:04:21 - app_logger - INFO - calculate_simulation_fue:637 - === STARTING FUE CALCULATION for SYS_2 ===
+2026-05-22 14:04:21 - app_logger - INFO - get_role_lic_sim_tablename:91 - Generated role_lic_sim table name for system 'SYS_2'
+2026-05-22 14:04:21 - app_logger - INFO - create_role_lic_sim_model:551 - Model for table 'Z_FUE_SYS_2_ROLE_LIC_SIM' found in cache.
+2026-05-22 14:04:21 - app_logger - INFO - calculate_simulation_fue:643 - Using simulation table: Z_FUE_SYS_2_ROLE_LIC_SIM
+2026-05-22 14:04:21 - app_logger - INFO - calculate_simulation_fue:648 - Total records in simulation table: 493396
+2026-05-22 14:04:28 - app_logger - INFO - calculate_simulation_fue:658 - Active records (OPERATION is NULL or != 'Remove'): 493386
+2026-05-22 14:04:28 - app_logger - INFO - calculate_simulation_fue:669 - Sample SIM_CLASSIFY_LIC values: ['GB Advanced Use', 'GB Advanced Use', 'GD Self-Service Use', 'GB Advanced Use', 'Not Classified', 'GB Advanced Use', 'GB Advanced Use', 'GD Self-Service Use', 'GB Advanced Use', 'GB Advanced Use']
+2026-05-22 14:04:28 - app_logger - INFO - calculate_simulation_fue:677 - Found 2897 unique roles in simulation
+2026-05-22 14:04:28 - app_logger - INFO - calculate_simulation_fue:692 - Role license distribution: {'GB Advanced Use': 814, 'GD Self-Service Use': 1153, 'Not Classified': 216, 'GC Core Use': 714}
+2026-05-22 14:04:28 - app_logger - INFO - get_agr_users_tablename:34 - Generated user role mapping agr_users table name for system 'SYS_2'
+2026-05-22 14:04:28 - app_logger - INFO - create_AGRUSERS_model:344 - Model for table 'Z_FUE_SYS_2_USER_ROLE_MAPPING' not in cache. Creating a new dynamic model.
+2026-05-22 14:04:28 - app_logger - INFO - create_AGRUSERS_model:351 - Successfully created dynamic model for table 'Z_FUE_SYS_2_USER_ROLE_MAPPING'
+2026-05-22 14:04:28 - app_logger - INFO - calculate_simulation_fue:698 - Using user-role mapping table: Z_FUE_SYS_2_USER_ROLE_MAPPING
+2026-05-22 14:04:29 - app_logger - INFO - calculate_simulation_fue:701 - Total user-role mappings: 68752
+2026-05-22 14:04:29 - app_logger - INFO - calculate_simulation_fue:751 - Roles matched: 36245, not found: 32507
+2026-05-22 14:04:29 - app_logger - INFO - calculate_simulation_fue:752 - Total users with licenses: 3519
+2026-05-22 14:04:29 - app_logger - INFO - calculate_simulation_fue:761 - User license counts: {'Not Classified': 49, 'GD Self-Service Use': 1323, 'GC Core Use': 1520, 'GB Advanced Use': 627}
+2026-05-22 14:04:29 - app_logger - INFO - calculate_simulation_fue:769 - Final counts: GB=627, GC=1520, GD=1323, NC=49
+2026-05-22 14:04:29 - app_logger - INFO - calculate_simulation_fue:777 - === FINAL FUE ===
+2026-05-22 14:04:29 - app_logger - INFO - calculate_simulation_fue:778 - GB: 627 users × 1.0 = 627 FUE
+2026-05-22 14:04:29 - app_logger - INFO - calculate_simulation_fue:779 - GC: 1520 users × 0.2 = 304 FUE
+2026-05-22 14:04:30 - app_logger - INFO - calculate_simulation_fue:780 - GD: 1323 users × 0.0333 = 45 FUE
+2026-05-22 14:04:30 - app_logger - INFO - calculate_simulation_fue:781 - TOTAL: 976 FUE
+2026-05-22 14:04:30 - app_logger - INFO - get_current_simulation_fue:925 - Fetching current simulation FUE for system 'SYS_2'
+2026-05-22 14:04:30 - app_logger - INFO - calculate_simulation_fue:637 - === STARTING FUE CALCULATION for SYS_2 ===
+2026-05-22 14:04:30 - app_logger - INFO - get_role_lic_sim_tablename:91 - Generated role_lic_sim table name for system 'SYS_2'
+2026-05-22 14:04:30 - app_logger - INFO - create_role_lic_sim_model:551 - Model for table 'Z_FUE_SYS_2_ROLE_LIC_SIM' found in cache.
+2026-05-22 14:04:30 - app_logger - INFO - calculate_simulation_fue:643 - Using simulation table: Z_FUE_SYS_2_ROLE_LIC_SIM
+2026-05-22 14:04:30 - app_logger - INFO - process_simulation_background:490 - Simulation 'SIM000186A4' completed successfully
+2026-05-22 14:04:30 - app_logger - INFO - calculate_simulation_fue:648 - Total records in simulation table: 493396
+2026-05-22 14:04:36 - app_logger - INFO - calculate_simulation_fue:658 - Active records (OPERATION is NULL or != 'Remove'): 493386
+2026-05-22 14:04:36 - app_logger - INFO - calculate_simulation_fue:669 - Sample SIM_CLASSIFY_LIC values: ['GB Advanced Use', 'GB Advanced Use', 'GD Self-Service Use', 'GB Advanced Use', 'Not Classified', 'GB Advanced Use', 'GB Advanced Use', 'GD Self-Service Use', 'GB Advanced Use', 'GB Advanced Use']
+2026-05-22 14:04:36 - app_logger - INFO - calculate_simulation_fue:677 - Found 2897 unique roles in simulation
+2026-05-22 14:04:36 - app_logger - INFO - calculate_simulation_fue:692 - Role license distribution: {'GB Advanced Use': 814, 'GD Self-Service Use': 1153, 'Not Classified': 216, 'GC Core Use': 714}
+2026-05-22 14:04:36 - app_logger - INFO - get_agr_users_tablename:34 - Generated user role mapping agr_users table name for system 'SYS_2'
+2026-05-22 14:04:36 - app_logger - INFO - create_AGRUSERS_model:342 - Model for table 'Z_FUE_SYS_2_USER_ROLE_MAPPING' found in cache. Returning cached model.
+2026-05-22 14:04:36 - app_logger - INFO - calculate_simulation_fue:698 - Using user-role mapping table: Z_FUE_SYS_2_USER_ROLE_MAPPING
+2026-05-22 14:04:37 - app_logger - INFO - calculate_simulation_fue:701 - Total user-role mappings: 68752
+2026-05-22 14:04:38 - app_logger - INFO - calculate_simulation_fue:751 - Roles matched: 36245, not found: 32507
+2026-05-22 14:04:38 - app_logger - INFO - calculate_simulation_fue:752 - Total users with licenses: 3519
+2026-05-22 14:04:38 - app_logger - INFO - calculate_simulation_fue:761 - User license counts: {'Not Classified': 49, 'GD Self-Service Use': 1323, 'GC Core Use': 1520, 'GB Advanced Use': 627}
+2026-05-22 14:04:38 - app_logger - INFO - calculate_simulation_fue:769 - Final counts: GB=627, GC=1520, GD=1323, NC=49
+2026-05-22 14:04:38 - app_logger - INFO - calculate_simulation_fue:777 - === FINAL FUE ===
+2026-05-22 14:04:38 - app_logger - INFO - calculate_simulation_fue:778 - GB: 627 users × 1.0 = 627 FUE
+2026-05-22 14:04:38 - app_logger - INFO - calculate_simulation_fue:779 - GC: 1520 users × 0.2 = 304 FUE
+2026-05-22 14:04:38 - app_logger - INFO - calculate_simulation_fue:780 - GD: 1323 users × 0.0333 = 45 FUE
+2026-05-22 14:04:38 - app_logger - INFO - calculate_simulation_fue:781 - TOTAL: 976 FUE
+2026-05-22 14:07:51 - app_logger - INFO - reset_simulation:962 - Resetting simulation table for system 'SYS_2'
+2026-05-22 14:07:51 - app_logger - INFO - initialize_simulation_table:76 - Initializing simulation table for system 'SYS_2'
+2026-05-22 14:07:51 - app_logger - INFO - get_role_lice_data_tablename:70 - Generated role object license info table name for system 'SYS_2'
+2026-05-22 14:07:51 - app_logger - INFO - create_role_lic_model:469 - Model for table 'Z_FUE_SYS_2_ROLE_OBJ_LICENSE_INFO' not in cache. Creating a new dynamic model.
+2026-05-22 14:07:51 - app_logger - INFO - create_role_lic_model:478 - Successfully created dynamic model for table 'Z_FUE_SYS_2_ROLE_OBJ_LICENSE_INFO'
+2026-05-22 14:07:51 - app_logger - INFO - get_role_lic_sim_tablename:91 - Generated role_lic_sim table name for system 'SYS_2'
+2026-05-22 14:07:51 - app_logger - INFO - create_role_lic_sim_model:554 - Creating new dynamic RoleLicSim model for table 'Z_FUE_SYS_2_ROLE_LIC_SIM'
+2026-05-22 14:07:51 - app_logger - INFO - create_role_lic_sim_model:563 - Successfully created dynamic RoleLicSim model for table 'Z_FUE_SYS_2_ROLE_LIC_SIM'
+2026-05-22 14:07:54 - app_logger - INFO - initialize_simulation_table:89 - Cleared 493396 existing simulation records
+2026-05-22 14:09:24 - app_logger - INFO - initialize_simulation_table:121 - Initialized simulation table with 493396 records
+2026-05-22 14:11:09 - app_logger - INFO - apply_simulation_changes:275 - Applying 10 simulation changes for system 'SYS_2'
+2026-05-22 14:11:09 - app_logger - INFO - get_simulation_result_tablename:97 - Generated simulation_result table name for system 'SYS_2'
+2026-05-22 14:11:09 - app_logger - INFO - create_simulation_result_model:575 - Creating new dynamic SimulationResult model for table 'Z_FUE_SYS_2_SIMULATION_RESULT'
+2026-05-22 14:11:09 - app_logger - INFO - create_simulation_result_model:584 - Successfully created dynamic SimulationResult model for table 'Z_FUE_SYS_2_SIMULATION_RESULT'
+2026-05-22 14:11:09 - app_logger - INFO - apply_simulation_changes:305 - Created 10 initial result records for simulation 'SIM000186A5'
+2026-05-22 14:11:09 - app_logger - INFO - process_simulation_sync:338 - Starting background simulation processing for 'SIM000186A5'
+2026-05-22 14:11:09 - app_logger - INFO - process_simulation_background:366 - Processing simulation 'SIM000186A5' for system 'SYS_2'
+2026-05-22 14:11:09 - app_logger - INFO - get_role_lic_sim_tablename:91 - Generated role_lic_sim table name for system 'SYS_2'
+2026-05-22 14:11:09 - app_logger - INFO - create_role_lic_sim_model:551 - Model for table 'Z_FUE_SYS_2_ROLE_LIC_SIM' found in cache.
+2026-05-22 14:11:09 - app_logger - INFO - get_simulation_result_tablename:97 - Generated simulation_result table name for system 'SYS_2'
+2026-05-22 14:11:09 - app_logger - INFO - create_simulation_result_model:572 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-05-22 14:11:09 - app_logger - INFO - process_simulation_background:450 - Applied all changes to simulation table for 'SIM000186A5'
+2026-05-22 14:11:09 - app_logger - INFO - calculate_simulation_fue:637 - === STARTING FUE CALCULATION for SYS_2 ===
+2026-05-22 14:11:09 - app_logger - INFO - get_role_lic_sim_tablename:91 - Generated role_lic_sim table name for system 'SYS_2'
+2026-05-22 14:11:09 - app_logger - INFO - create_role_lic_sim_model:551 - Model for table 'Z_FUE_SYS_2_ROLE_LIC_SIM' found in cache.
+2026-05-22 14:11:09 - app_logger - INFO - calculate_simulation_fue:643 - Using simulation table: Z_FUE_SYS_2_ROLE_LIC_SIM
+2026-05-22 14:11:09 - app_logger - INFO - calculate_simulation_fue:648 - Total records in simulation table: 493396
+2026-05-22 14:11:22 - app_logger - INFO - get_current_simulation_fue:925 - Fetching current simulation FUE for system 'SYS_2'
+2026-05-22 14:11:22 - app_logger - INFO - calculate_simulation_fue:637 - === STARTING FUE CALCULATION for SYS_2 ===
+2026-05-22 14:11:22 - app_logger - INFO - get_role_lic_sim_tablename:91 - Generated role_lic_sim table name for system 'SYS_2'
+2026-05-22 14:11:22 - app_logger - INFO - create_role_lic_sim_model:551 - Model for table 'Z_FUE_SYS_2_ROLE_LIC_SIM' found in cache.
+2026-05-22 14:11:22 - app_logger - INFO - calculate_simulation_fue:643 - Using simulation table: Z_FUE_SYS_2_ROLE_LIC_SIM
+2026-05-22 14:11:22 - app_logger - INFO - calculate_simulation_fue:658 - Active records (OPERATION is NULL or != 'Remove'): 493386
+2026-05-22 14:11:22 - app_logger - INFO - calculate_simulation_fue:669 - Sample SIM_CLASSIFY_LIC values: ['GB Advanced Use', 'GB Advanced Use', 'GD Self-Service Use', 'GB Advanced Use', 'Not Classified', 'GB Advanced Use', 'GB Advanced Use', 'GD Self-Service Use', 'GB Advanced Use', 'GB Advanced Use']
+2026-05-22 14:11:22 - app_logger - INFO - calculate_simulation_fue:648 - Total records in simulation table: 493396
+2026-05-22 14:11:23 - app_logger - INFO - calculate_simulation_fue:677 - Found 2897 unique roles in simulation
+2026-05-22 14:11:23 - app_logger - INFO - calculate_simulation_fue:692 - Role license distribution: {'GB Advanced Use': 814, 'GD Self-Service Use': 1153, 'Not Classified': 216, 'GC Core Use': 714}
+2026-05-22 14:11:23 - app_logger - INFO - get_agr_users_tablename:34 - Generated user role mapping agr_users table name for system 'SYS_2'
+2026-05-22 14:11:23 - app_logger - INFO - create_AGRUSERS_model:344 - Model for table 'Z_FUE_SYS_2_USER_ROLE_MAPPING' not in cache. Creating a new dynamic model.
+2026-05-22 14:11:23 - app_logger - INFO - create_AGRUSERS_model:351 - Successfully created dynamic model for table 'Z_FUE_SYS_2_USER_ROLE_MAPPING'
+2026-05-22 14:11:23 - app_logger - INFO - calculate_simulation_fue:698 - Using user-role mapping table: Z_FUE_SYS_2_USER_ROLE_MAPPING
+2026-05-22 14:11:27 - app_logger - INFO - calculate_simulation_fue:701 - Total user-role mappings: 68752
+2026-05-22 14:11:28 - app_logger - INFO - calculate_simulation_fue:751 - Roles matched: 36245, not found: 32507
+2026-05-22 14:11:28 - app_logger - INFO - calculate_simulation_fue:752 - Total users with licenses: 3519
+2026-05-22 14:11:28 - app_logger - INFO - calculate_simulation_fue:761 - User license counts: {'Not Classified': 49, 'GD Self-Service Use': 1323, 'GC Core Use': 1520, 'GB Advanced Use': 627}
+2026-05-22 14:11:28 - app_logger - INFO - calculate_simulation_fue:769 - Final counts: GB=627, GC=1520, GD=1323, NC=49
+2026-05-22 14:11:28 - app_logger - INFO - calculate_simulation_fue:777 - === FINAL FUE ===
+2026-05-22 14:11:28 - app_logger - INFO - calculate_simulation_fue:778 - GB: 627 users × 1.0 = 627 FUE
+2026-05-22 14:11:29 - app_logger - INFO - calculate_simulation_fue:779 - GC: 1520 users × 0.2 = 304 FUE
+2026-05-22 14:11:29 - app_logger - INFO - calculate_simulation_fue:780 - GD: 1323 users × 0.0333 = 45 FUE
+2026-05-22 14:11:29 - app_logger - INFO - calculate_simulation_fue:781 - TOTAL: 976 FUE
+2026-05-22 14:11:33 - app_logger - INFO - process_simulation_background:490 - Simulation 'SIM000186A5' completed successfully
+2026-05-22 14:11:38 - app_logger - INFO - calculate_simulation_fue:658 - Active records (OPERATION is NULL or != 'Remove'): 493386
+2026-05-22 14:11:38 - app_logger - INFO - calculate_simulation_fue:669 - Sample SIM_CLASSIFY_LIC values: ['GB Advanced Use', 'GB Advanced Use', 'GD Self-Service Use', 'GB Advanced Use', 'Not Classified', 'GB Advanced Use', 'GB Advanced Use', 'GD Self-Service Use', 'GB Advanced Use', 'GB Advanced Use']
+2026-05-22 14:11:39 - app_logger - INFO - calculate_simulation_fue:677 - Found 2897 unique roles in simulation
+2026-05-22 14:11:39 - app_logger - INFO - calculate_simulation_fue:692 - Role license distribution: {'GB Advanced Use': 814, 'GD Self-Service Use': 1153, 'Not Classified': 216, 'GC Core Use': 714}
+2026-05-22 14:11:39 - app_logger - INFO - get_agr_users_tablename:34 - Generated user role mapping agr_users table name for system 'SYS_2'
+2026-05-22 14:11:39 - app_logger - INFO - create_AGRUSERS_model:342 - Model for table 'Z_FUE_SYS_2_USER_ROLE_MAPPING' found in cache. Returning cached model.
+2026-05-22 14:11:39 - app_logger - INFO - calculate_simulation_fue:698 - Using user-role mapping table: Z_FUE_SYS_2_USER_ROLE_MAPPING
+2026-05-22 14:11:40 - app_logger - INFO - calculate_simulation_fue:701 - Total user-role mappings: 68752
+2026-05-22 14:11:40 - app_logger - INFO - calculate_simulation_fue:751 - Roles matched: 36245, not found: 32507
+2026-05-22 14:11:40 - app_logger - INFO - calculate_simulation_fue:752 - Total users with licenses: 3519
+2026-05-22 14:11:40 - app_logger - INFO - calculate_simulation_fue:761 - User license counts: {'Not Classified': 49, 'GD Self-Service Use': 1323, 'GC Core Use': 1520, 'GB Advanced Use': 627}
+2026-05-22 14:11:40 - app_logger - INFO - calculate_simulation_fue:769 - Final counts: GB=627, GC=1520, GD=1323, NC=49
+2026-05-22 14:11:40 - app_logger - INFO - calculate_simulation_fue:777 - === FINAL FUE ===
+2026-05-22 14:11:40 - app_logger - INFO - calculate_simulation_fue:778 - GB: 627 users × 1.0 = 627 FUE
+2026-05-22 14:11:40 - app_logger - INFO - calculate_simulation_fue:779 - GC: 1520 users × 0.2 = 304 FUE
+2026-05-22 14:11:40 - app_logger - INFO - calculate_simulation_fue:780 - GD: 1323 users × 0.0333 = 45 FUE
+2026-05-22 14:11:40 - app_logger - INFO - calculate_simulation_fue:781 - TOTAL: 976 FUE
+2026-05-22 14:29:08 - app_logger - INFO - reset_simulation:958 - Resetting simulation table for system 'SYS_2'
+2026-05-22 14:29:08 - app_logger - INFO - initialize_simulation_table:76 - Initializing simulation table for system 'SYS_2'
+2026-05-22 14:29:08 - app_logger - INFO - get_role_lice_data_tablename:70 - Generated role object license info table name for system 'SYS_2'
+2026-05-22 14:29:08 - app_logger - INFO - create_role_lic_model:469 - Model for table 'Z_FUE_SYS_2_ROLE_OBJ_LICENSE_INFO' not in cache. Creating a new dynamic model.
+2026-05-22 14:29:08 - app_logger - INFO - create_role_lic_model:478 - Successfully created dynamic model for table 'Z_FUE_SYS_2_ROLE_OBJ_LICENSE_INFO'
+2026-05-22 14:29:08 - app_logger - INFO - get_role_lic_sim_tablename:91 - Generated role_lic_sim table name for system 'SYS_2'
+2026-05-22 14:29:08 - app_logger - INFO - create_role_lic_sim_model:554 - Creating new dynamic RoleLicSim model for table 'Z_FUE_SYS_2_ROLE_LIC_SIM'
+2026-05-22 14:29:08 - app_logger - INFO - create_role_lic_sim_model:563 - Successfully created dynamic RoleLicSim model for table 'Z_FUE_SYS_2_ROLE_LIC_SIM'
+2026-05-22 14:29:10 - app_logger - INFO - initialize_simulation_table:89 - Cleared 493396 existing simulation records
+2026-05-22 14:29:55 - app_logger - INFO - initialize_simulation_table:121 - Initialized simulation table with 493396 records
+2026-05-22 14:30:21 - app_logger - INFO - apply_simulation_changes:275 - Applying 10 simulation changes for system 'SYS_2'
+2026-05-22 14:30:21 - app_logger - INFO - get_simulation_result_tablename:97 - Generated simulation_result table name for system 'SYS_2'
+2026-05-22 14:30:21 - app_logger - INFO - create_simulation_result_model:575 - Creating new dynamic SimulationResult model for table 'Z_FUE_SYS_2_SIMULATION_RESULT'
+2026-05-22 14:30:21 - app_logger - INFO - create_simulation_result_model:584 - Successfully created dynamic SimulationResult model for table 'Z_FUE_SYS_2_SIMULATION_RESULT'
+2026-05-22 14:30:21 - app_logger - INFO - apply_simulation_changes:305 - Created 10 initial result records for simulation 'SIM000186A6'
+2026-05-22 14:30:21 - app_logger - INFO - process_simulation_sync:338 - Starting background simulation processing for 'SIM000186A6'
+2026-05-22 14:30:21 - app_logger - INFO - process_simulation_background:366 - Processing simulation 'SIM000186A6' for system 'SYS_2'
+2026-05-22 14:30:21 - app_logger - INFO - get_role_lic_sim_tablename:91 - Generated role_lic_sim table name for system 'SYS_2'
+2026-05-22 14:30:21 - app_logger - INFO - create_role_lic_sim_model:551 - Model for table 'Z_FUE_SYS_2_ROLE_LIC_SIM' found in cache.
+2026-05-22 14:30:21 - app_logger - INFO - get_simulation_result_tablename:97 - Generated simulation_result table name for system 'SYS_2'
+2026-05-22 14:30:21 - app_logger - INFO - create_simulation_result_model:572 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-05-22 14:30:21 - app_logger - INFO - process_simulation_background:450 - Applied all changes to simulation table for 'SIM000186A6'
+2026-05-22 14:30:21 - app_logger - INFO - calculate_simulation_fue:637 - === STARTING FUE CALCULATION for SYS_2 ===
+2026-05-22 14:30:21 - app_logger - INFO - get_role_lic_sim_tablename:91 - Generated role_lic_sim table name for system 'SYS_2'
+2026-05-22 14:30:21 - app_logger - INFO - create_role_lic_sim_model:551 - Model for table 'Z_FUE_SYS_2_ROLE_LIC_SIM' found in cache.
+2026-05-22 14:30:21 - app_logger - INFO - get_agr_users_tablename:34 - Generated user role mapping agr_users table name for system 'SYS_2'
+2026-05-22 14:30:21 - app_logger - INFO - create_AGRUSERS_model:344 - Model for table 'Z_FUE_SYS_2_USER_ROLE_MAPPING' not in cache. Creating a new dynamic model.
+2026-05-22 14:30:21 - app_logger - INFO - create_AGRUSERS_model:351 - Successfully created dynamic model for table 'Z_FUE_SYS_2_USER_ROLE_MAPPING'
+2026-05-22 14:30:21 - app_logger - INFO - calculate_simulation_fue:645 - Using simulation table: Z_FUE_SYS_2_ROLE_LIC_SIM
+2026-05-22 14:30:22 - app_logger - INFO - calculate_simulation_fue:649 - Total records in simulation table: 493396
+2026-05-22 14:30:30 - app_logger - INFO - calculate_simulation_fue:659 - Active records (OPERATION is NULL or != 'Remove'): 493386
+2026-05-22 14:30:30 - app_logger - INFO - calculate_simulation_fue:678 - Found 2897 unique roles in simulation
+2026-05-22 14:30:30 - app_logger - INFO - calculate_simulation_fue:682 - Sample SIM_CLASSIFY_LIC values: ['Not Classified', 'Not Classified', 'GB Advanced Use', 'Not Classified', 'Not Classified', 'Not Classified', 'Not Classified', 'Not Classified', 'GD Self-Service Use', 'Not Classified']
+2026-05-22 14:30:30 - app_logger - INFO - calculate_simulation_fue:697 - Role license distribution: {'GB Advanced Use': 814, 'GD Self-Service Use': 1153, 'Not Classified': 216, 'GC Core Use': 714}
+2026-05-22 14:30:31 - app_logger - INFO - calculate_simulation_fue:701 - Total user-role mappings: 68752
+2026-05-22 14:30:31 - app_logger - INFO - calculate_simulation_fue:747 - Roles matched: 36245, not found: 32507
+2026-05-22 14:30:31 - app_logger - INFO - calculate_simulation_fue:748 - Total users with licenses: 3519
+2026-05-22 14:30:31 - app_logger - INFO - calculate_simulation_fue:757 - User license counts: {'Not Classified': 49, 'GD Self-Service Use': 1323, 'GC Core Use': 1520, 'GB Advanced Use': 627}
+2026-05-22 14:30:31 - app_logger - INFO - calculate_simulation_fue:765 - Final counts: GB=627, GC=1520, GD=1323, NC=49
+2026-05-22 14:30:31 - app_logger - INFO - calculate_simulation_fue:773 - === FINAL FUE ===
+2026-05-22 14:30:31 - app_logger - INFO - calculate_simulation_fue:774 - GB: 627 users × 1.0 = 627 FUE
+2026-05-22 14:30:31 - app_logger - INFO - calculate_simulation_fue:775 - GC: 1520 users × 0.2 = 304 FUE
+2026-05-22 14:30:32 - app_logger - INFO - calculate_simulation_fue:776 - GD: 1323 users × 0.0333 = 45 FUE
+2026-05-22 14:30:32 - app_logger - INFO - calculate_simulation_fue:777 - TOTAL: 976 FUE
+2026-05-22 14:30:33 - app_logger - INFO - process_simulation_background:490 - Simulation 'SIM000186A6' completed successfully
+2026-05-22 14:30:35 - app_logger - INFO - get_current_simulation_fue:921 - Fetching current simulation FUE for system 'SYS_2'
+2026-05-22 14:30:35 - app_logger - INFO - calculate_simulation_fue:637 - === STARTING FUE CALCULATION for SYS_2 ===
+2026-05-22 14:30:35 - app_logger - INFO - get_role_lic_sim_tablename:91 - Generated role_lic_sim table name for system 'SYS_2'
+2026-05-22 14:30:35 - app_logger - INFO - create_role_lic_sim_model:551 - Model for table 'Z_FUE_SYS_2_ROLE_LIC_SIM' found in cache.
+2026-05-22 14:30:35 - app_logger - INFO - get_agr_users_tablename:34 - Generated user role mapping agr_users table name for system 'SYS_2'
+2026-05-22 14:30:35 - app_logger - INFO - create_AGRUSERS_model:342 - Model for table 'Z_FUE_SYS_2_USER_ROLE_MAPPING' found in cache. Returning cached model.
+2026-05-22 14:30:35 - app_logger - INFO - calculate_simulation_fue:645 - Using simulation table: Z_FUE_SYS_2_ROLE_LIC_SIM
+2026-05-22 14:30:35 - app_logger - INFO - calculate_simulation_fue:649 - Total records in simulation table: 493396
+2026-05-22 14:30:42 - app_logger - INFO - calculate_simulation_fue:659 - Active records (OPERATION is NULL or != 'Remove'): 493386
+2026-05-22 14:30:42 - app_logger - INFO - calculate_simulation_fue:678 - Found 2897 unique roles in simulation
+2026-05-22 14:30:42 - app_logger - INFO - calculate_simulation_fue:682 - Sample SIM_CLASSIFY_LIC values: ['Not Classified', 'Not Classified', 'GB Advanced Use', 'Not Classified', 'Not Classified', 'Not Classified', 'Not Classified', 'Not Classified', 'GD Self-Service Use', 'Not Classified']
+2026-05-22 14:30:43 - app_logger - INFO - calculate_simulation_fue:697 - Role license distribution: {'GB Advanced Use': 814, 'GD Self-Service Use': 1153, 'Not Classified': 216, 'GC Core Use': 714}
+2026-05-22 14:30:44 - app_logger - INFO - calculate_simulation_fue:701 - Total user-role mappings: 68752
+2026-05-22 14:30:44 - app_logger - INFO - calculate_simulation_fue:747 - Roles matched: 36245, not found: 32507
+2026-05-22 14:30:44 - app_logger - INFO - calculate_simulation_fue:748 - Total users with licenses: 3519
+2026-05-22 14:30:44 - app_logger - INFO - calculate_simulation_fue:757 - User license counts: {'Not Classified': 49, 'GD Self-Service Use': 1323, 'GC Core Use': 1520, 'GB Advanced Use': 627}
+2026-05-22 14:30:44 - app_logger - INFO - calculate_simulation_fue:765 - Final counts: GB=627, GC=1520, GD=1323, NC=49
+2026-05-22 14:30:44 - app_logger - INFO - calculate_simulation_fue:773 - === FINAL FUE ===
+2026-05-22 14:30:44 - app_logger - INFO - calculate_simulation_fue:774 - GB: 627 users × 1.0 = 627 FUE
+2026-05-22 14:30:44 - app_logger - INFO - calculate_simulation_fue:775 - GC: 1520 users × 0.2 = 304 FUE
+2026-05-22 14:30:44 - app_logger - INFO - calculate_simulation_fue:776 - GD: 1323 users × 0.0333 = 45 FUE
+2026-05-22 14:30:44 - app_logger - INFO - calculate_simulation_fue:777 - TOTAL: 976 FUE
+2026-05-22 14:42:15 - app_logger - INFO - reset_simulation:912 - Resetting simulation table for system 'SYS_2'
+2026-05-22 14:42:15 - app_logger - INFO - initialize_simulation_table:76 - Initializing simulation table for system 'SYS_2'
+2026-05-22 14:42:15 - app_logger - INFO - get_role_lice_data_tablename:70 - Generated role object license info table name for system 'SYS_2'
+2026-05-22 14:42:15 - app_logger - INFO - create_role_lic_model:469 - Model for table 'Z_FUE_SYS_2_ROLE_OBJ_LICENSE_INFO' not in cache. Creating a new dynamic model.
+2026-05-22 14:42:15 - app_logger - INFO - create_role_lic_model:478 - Successfully created dynamic model for table 'Z_FUE_SYS_2_ROLE_OBJ_LICENSE_INFO'
+2026-05-22 14:42:15 - app_logger - INFO - get_role_lic_sim_tablename:91 - Generated role_lic_sim table name for system 'SYS_2'
+2026-05-22 14:42:15 - app_logger - INFO - create_role_lic_sim_model:554 - Creating new dynamic RoleLicSim model for table 'Z_FUE_SYS_2_ROLE_LIC_SIM'
+2026-05-22 14:42:15 - app_logger - INFO - create_role_lic_sim_model:563 - Successfully created dynamic RoleLicSim model for table 'Z_FUE_SYS_2_ROLE_LIC_SIM'
+2026-05-22 14:42:16 - app_logger - INFO - initialize_simulation_table:89 - Cleared 493396 existing simulation records
+2026-05-22 14:43:15 - app_logger - INFO - initialize_simulation_table:121 - Initialized simulation table with 493396 records
+2026-05-22 14:43:35 - app_logger - INFO - apply_simulation_changes:275 - Applying 10 simulation changes for system 'SYS_2'
+2026-05-22 14:43:35 - app_logger - INFO - get_simulation_result_tablename:97 - Generated simulation_result table name for system 'SYS_2'
+2026-05-22 14:43:35 - app_logger - INFO - create_simulation_result_model:575 - Creating new dynamic SimulationResult model for table 'Z_FUE_SYS_2_SIMULATION_RESULT'
+2026-05-22 14:43:35 - app_logger - INFO - create_simulation_result_model:584 - Successfully created dynamic SimulationResult model for table 'Z_FUE_SYS_2_SIMULATION_RESULT'
+2026-05-22 14:43:35 - app_logger - INFO - apply_simulation_changes:305 - Created 10 initial result records for simulation 'SIM000186A7'
+2026-05-22 14:43:35 - app_logger - INFO - process_simulation_sync:338 - Starting background simulation processing for 'SIM000186A7'
+2026-05-22 14:43:35 - app_logger - INFO - process_simulation_background:366 - Processing simulation 'SIM000186A7' for system 'SYS_2'
+2026-05-22 14:43:35 - app_logger - INFO - get_role_lic_sim_tablename:91 - Generated role_lic_sim table name for system 'SYS_2'
+2026-05-22 14:43:35 - app_logger - INFO - create_role_lic_sim_model:551 - Model for table 'Z_FUE_SYS_2_ROLE_LIC_SIM' found in cache.
+2026-05-22 14:43:35 - app_logger - INFO - get_simulation_result_tablename:97 - Generated simulation_result table name for system 'SYS_2'
+2026-05-22 14:43:35 - app_logger - INFO - create_simulation_result_model:572 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-05-22 14:43:35 - app_logger - INFO - process_simulation_background:450 - Applied all changes to simulation table for 'SIM000186A7'
+2026-05-22 14:43:35 - app_logger - INFO - calculate_simulation_fue:637 - === STARTING FUE CALCULATION for SYS_2 ===
+2026-05-22 14:43:35 - app_logger - INFO - get_role_lic_sim_tablename:91 - Generated role_lic_sim table name for system 'SYS_2'
+2026-05-22 14:43:35 - app_logger - INFO - create_role_lic_sim_model:551 - Model for table 'Z_FUE_SYS_2_ROLE_LIC_SIM' found in cache.
+2026-05-22 14:43:35 - app_logger - INFO - get_agr_users_tablename:34 - Generated user role mapping agr_users table name for system 'SYS_2'
+2026-05-22 14:43:35 - app_logger - INFO - create_AGRUSERS_model:344 - Model for table 'Z_FUE_SYS_2_USER_ROLE_MAPPING' not in cache. Creating a new dynamic model.
+2026-05-22 14:43:35 - app_logger - INFO - create_AGRUSERS_model:351 - Successfully created dynamic model for table 'Z_FUE_SYS_2_USER_ROLE_MAPPING'
+2026-05-22 14:43:35 - app_logger - INFO - calculate_simulation_fue:647 - STEP 1: Getting most restrictive license per role...
+2026-05-22 14:43:40 - app_logger - INFO - get_current_simulation_fue:875 - Fetching current simulation FUE for system 'SYS_2'
+2026-05-22 14:43:40 - app_logger - INFO - calculate_simulation_fue:637 - === STARTING FUE CALCULATION for SYS_2 ===
+2026-05-22 14:43:40 - app_logger - INFO - get_role_lic_sim_tablename:91 - Generated role_lic_sim table name for system 'SYS_2'
+2026-05-22 14:43:40 - app_logger - INFO - create_role_lic_sim_model:551 - Model for table 'Z_FUE_SYS_2_ROLE_LIC_SIM' found in cache.
+2026-05-22 14:43:40 - app_logger - INFO - get_agr_users_tablename:34 - Generated user role mapping agr_users table name for system 'SYS_2'
+2026-05-22 14:43:40 - app_logger - INFO - create_AGRUSERS_model:342 - Model for table 'Z_FUE_SYS_2_USER_ROLE_MAPPING' found in cache. Returning cached model.
+2026-05-22 14:43:40 - app_logger - INFO - calculate_simulation_fue:647 - STEP 1: Getting most restrictive license per role...
+2026-05-22 14:43:45 - app_logger - INFO - calculate_simulation_fue:657 - Active simulation records: 493386
+2026-05-22 14:43:47 - app_logger - INFO - calculate_simulation_fue:665 - Unique roles in simulation: 2897
+2026-05-22 14:43:47 - app_logger - INFO - calculate_simulation_fue:679 - Role license distribution: {'GB Advanced Use': 814, 'GD Self-Service Use': 1153, 'Not Classified': 216, 'GC Core Use': 714}
+2026-05-22 14:43:47 - app_logger - INFO - calculate_simulation_fue:682 - STEP 2: Mapping roles to users...
+2026-05-22 14:43:49 - app_logger - INFO - calculate_simulation_fue:685 - Total user-role mappings: 68752
+2026-05-22 14:43:49 - app_logger - INFO - calculate_simulation_fue:700 - Total users with licenses: 3519
+2026-05-22 14:43:49 - app_logger - INFO - calculate_simulation_fue:703 - STEP 3: Getting most restrictive license per user...
+2026-05-22 14:43:49 - app_logger - INFO - calculate_simulation_fue:711 - User license counts: {'Not Classified': 49, 'GD Self-Service Use': 1323, 'GC Core Use': 1520, 'GB Advanced Use': 627}
+2026-05-22 14:43:49 - app_logger - INFO - calculate_simulation_fue:719 - Final counts: GB=627, GC=1520, GD=1323, NC=49
+2026-05-22 14:43:49 - app_logger - INFO - calculate_simulation_fue:727 - === FINAL FUE ===
+2026-05-22 14:43:49 - app_logger - INFO - calculate_simulation_fue:728 - GB: 627 USERS × 1.0 = 627 FUE
+2026-05-22 14:43:49 - app_logger - INFO - calculate_simulation_fue:729 - GC: 1520 USERS × 0.2 = 304 FUE
+2026-05-22 14:43:49 - app_logger - INFO - calculate_simulation_fue:730 - GD: 1323 USERS × 0.0333 = 45 FUE
+2026-05-22 14:43:49 - app_logger - INFO - calculate_simulation_fue:731 - TOTAL: 976 FUE
+2026-05-22 14:43:52 - app_logger - INFO - calculate_simulation_fue:657 - Active simulation records: 493386
+2026-05-22 14:43:53 - app_logger - INFO - calculate_simulation_fue:665 - Unique roles in simulation: 2897
+2026-05-22 14:43:53 - app_logger - INFO - calculate_simulation_fue:679 - Role license distribution: {'GB Advanced Use': 814, 'GD Self-Service Use': 1153, 'Not Classified': 216, 'GC Core Use': 714}
+2026-05-22 14:43:53 - app_logger - INFO - calculate_simulation_fue:682 - STEP 2: Mapping roles to users...
+2026-05-22 14:43:53 - app_logger - INFO - calculate_simulation_fue:685 - Total user-role mappings: 68752
+2026-05-22 14:43:54 - app_logger - INFO - calculate_simulation_fue:700 - Total users with licenses: 3519
+2026-05-22 14:43:54 - app_logger - INFO - calculate_simulation_fue:703 - STEP 3: Getting most restrictive license per user...
+2026-05-22 14:43:54 - app_logger - INFO - calculate_simulation_fue:711 - User license counts: {'Not Classified': 49, 'GD Self-Service Use': 1323, 'GC Core Use': 1520, 'GB Advanced Use': 627}
+2026-05-22 14:43:54 - app_logger - INFO - calculate_simulation_fue:719 - Final counts: GB=627, GC=1520, GD=1323, NC=49
+2026-05-22 14:43:54 - app_logger - INFO - calculate_simulation_fue:727 - === FINAL FUE ===
+2026-05-22 14:43:54 - app_logger - INFO - calculate_simulation_fue:728 - GB: 627 USERS × 1.0 = 627 FUE
+2026-05-22 14:43:54 - app_logger - INFO - calculate_simulation_fue:729 - GC: 1520 USERS × 0.2 = 304 FUE
+2026-05-22 14:43:54 - app_logger - INFO - calculate_simulation_fue:730 - GD: 1323 USERS × 0.0333 = 45 FUE
+2026-05-22 14:43:54 - app_logger - INFO - calculate_simulation_fue:731 - TOTAL: 976 FUE
+2026-05-22 14:44:23 - app_logger - INFO - get_current_simulation_fue:875 - Fetching current simulation FUE for system 'SYS_2'
+2026-05-22 14:44:23 - app_logger - INFO - calculate_simulation_fue:637 - === STARTING FUE CALCULATION for SYS_2 ===
+2026-05-22 14:44:23 - app_logger - INFO - get_role_lic_sim_tablename:91 - Generated role_lic_sim table name for system 'SYS_2'
+2026-05-22 14:44:23 - app_logger - INFO - create_role_lic_sim_model:551 - Model for table 'Z_FUE_SYS_2_ROLE_LIC_SIM' found in cache.
+2026-05-22 14:44:23 - app_logger - INFO - get_agr_users_tablename:34 - Generated user role mapping agr_users table name for system 'SYS_2'
+2026-05-22 14:44:23 - app_logger - INFO - create_AGRUSERS_model:342 - Model for table 'Z_FUE_SYS_2_USER_ROLE_MAPPING' found in cache. Returning cached model.
+2026-05-22 14:44:23 - app_logger - INFO - calculate_simulation_fue:647 - STEP 1: Getting most restrictive license per role...
+2026-05-22 14:44:29 - app_logger - INFO - calculate_simulation_fue:657 - Active simulation records: 493386
+2026-05-22 14:44:30 - app_logger - INFO - calculate_simulation_fue:665 - Unique roles in simulation: 2897
+2026-05-22 14:44:30 - app_logger - INFO - calculate_simulation_fue:679 - Role license distribution: {'GB Advanced Use': 814, 'GD Self-Service Use': 1153, 'Not Classified': 216, 'GC Core Use': 714}
+2026-05-22 14:44:30 - app_logger - INFO - calculate_simulation_fue:682 - STEP 2: Mapping roles to users...
+2026-05-22 14:44:31 - app_logger - INFO - calculate_simulation_fue:685 - Total user-role mappings: 68752
+2026-05-22 14:44:31 - app_logger - INFO - calculate_simulation_fue:700 - Total users with licenses: 3519
+2026-05-22 14:44:31 - app_logger - INFO - calculate_simulation_fue:703 - STEP 3: Getting most restrictive license per user...
+2026-05-22 14:44:31 - app_logger - INFO - calculate_simulation_fue:711 - User license counts: {'Not Classified': 49, 'GD Self-Service Use': 1323, 'GC Core Use': 1520, 'GB Advanced Use': 627}
+2026-05-22 14:44:31 - app_logger - INFO - calculate_simulation_fue:719 - Final counts: GB=627, GC=1520, GD=1323, NC=49
+2026-05-22 14:44:31 - app_logger - INFO - calculate_simulation_fue:727 - === FINAL FUE ===
+2026-05-22 14:44:31 - app_logger - INFO - calculate_simulation_fue:728 - GB: 627 USERS × 1.0 = 627 FUE
+2026-05-22 14:44:31 - app_logger - INFO - calculate_simulation_fue:729 - GC: 1520 USERS × 0.2 = 304 FUE
+2026-05-22 14:44:31 - app_logger - INFO - calculate_simulation_fue:730 - GD: 1323 USERS × 0.0333 = 45 FUE
+2026-05-22 14:44:31 - app_logger - INFO - calculate_simulation_fue:731 - TOTAL: 976 FUE
+2026-05-22 14:48:32 - app_logger - INFO - initialize_simulation_table:76 - Initializing simulation table for system 'SYS_2'
+2026-05-22 14:48:32 - app_logger - INFO - get_role_lice_data_tablename:70 - Generated role object license info table name for system 'SYS_2'
+2026-05-22 14:48:32 - app_logger - INFO - create_role_lic_model:467 - Model for table 'Z_FUE_SYS_2_ROLE_OBJ_LICENSE_INFO' found in cache. Returning cached model.
+2026-05-22 14:48:32 - app_logger - INFO - get_role_lic_sim_tablename:91 - Generated role_lic_sim table name for system 'SYS_2'
+2026-05-22 14:48:32 - app_logger - INFO - create_role_lic_sim_model:551 - Model for table 'Z_FUE_SYS_2_ROLE_LIC_SIM' found in cache.
+2026-05-22 14:48:34 - app_logger - INFO - initialize_simulation_table:89 - Cleared 493396 existing simulation records
+2026-05-22 14:49:25 - app_logger - INFO - initialize_simulation_table:121 - Initialized simulation table with 493396 records
+2026-05-22 14:49:39 - app_logger - INFO - get_current_simulation_fue:875 - Fetching current simulation FUE for system 'SYS_2'
+2026-05-22 14:49:39 - app_logger - INFO - calculate_simulation_fue:637 - === STARTING FUE CALCULATION for SYS_2 ===
+2026-05-22 14:49:39 - app_logger - INFO - get_role_lic_sim_tablename:91 - Generated role_lic_sim table name for system 'SYS_2'
+2026-05-22 14:49:39 - app_logger - INFO - create_role_lic_sim_model:551 - Model for table 'Z_FUE_SYS_2_ROLE_LIC_SIM' found in cache.
+2026-05-22 14:49:39 - app_logger - INFO - get_agr_users_tablename:34 - Generated user role mapping agr_users table name for system 'SYS_2'
+2026-05-22 14:49:39 - app_logger - INFO - create_AGRUSERS_model:342 - Model for table 'Z_FUE_SYS_2_USER_ROLE_MAPPING' found in cache. Returning cached model.
+2026-05-22 14:49:39 - app_logger - INFO - calculate_simulation_fue:647 - STEP 1: Getting most restrictive license per role...
+2026-05-22 14:49:47 - app_logger - INFO - calculate_simulation_fue:657 - Active simulation records: 493396
+2026-05-22 14:49:47 - app_logger - INFO - calculate_simulation_fue:665 - Unique roles in simulation: 2897
+2026-05-22 14:49:47 - app_logger - INFO - calculate_simulation_fue:679 - Role license distribution: {'GB Advanced Use': 815, 'GD Self-Service Use': 1153, 'Not Classified': 216, 'GC Core Use': 713}
+2026-05-22 14:49:47 - app_logger - INFO - calculate_simulation_fue:682 - STEP 2: Mapping roles to users...
+2026-05-22 14:49:48 - app_logger - INFO - calculate_simulation_fue:685 - Total user-role mappings: 68752
+2026-05-22 14:49:48 - app_logger - INFO - calculate_simulation_fue:700 - Total users with licenses: 3519
+2026-05-22 14:49:48 - app_logger - INFO - calculate_simulation_fue:703 - STEP 3: Getting most restrictive license per user...
+2026-05-22 14:49:48 - app_logger - INFO - calculate_simulation_fue:711 - User license counts: {'Not Classified': 49, 'GD Self-Service Use': 1323, 'GC Core Use': 1520, 'GB Advanced Use': 627}
+2026-05-22 14:49:48 - app_logger - INFO - calculate_simulation_fue:719 - Final counts: GB=627, GC=1520, GD=1323, NC=49
+2026-05-22 14:49:48 - app_logger - INFO - calculate_simulation_fue:727 - === FINAL FUE ===
+2026-05-22 14:49:48 - app_logger - INFO - calculate_simulation_fue:728 - GB: 627 USERS × 1.0 = 627 FUE
+2026-05-22 14:49:48 - app_logger - INFO - calculate_simulation_fue:729 - GC: 1520 USERS × 0.2 = 304 FUE
+2026-05-22 14:49:48 - app_logger - INFO - calculate_simulation_fue:730 - GD: 1323 USERS × 0.0333 = 45 FUE
+2026-05-22 14:49:48 - app_logger - INFO - calculate_simulation_fue:731 - TOTAL: 976 FUE
+2026-05-22 14:50:10 - app_logger - INFO - apply_simulation_changes:275 - Applying 10 simulation changes for system 'SYS_2'
+2026-05-22 14:50:10 - app_logger - INFO - get_simulation_result_tablename:97 - Generated simulation_result table name for system 'SYS_2'
+2026-05-22 14:50:10 - app_logger - INFO - create_simulation_result_model:572 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-05-22 14:50:10 - app_logger - INFO - apply_simulation_changes:305 - Created 10 initial result records for simulation 'SIM000186A8'
+2026-05-22 14:50:10 - app_logger - INFO - process_simulation_sync:338 - Starting background simulation processing for 'SIM000186A8'
+2026-05-22 14:50:10 - app_logger - INFO - process_simulation_background:366 - Processing simulation 'SIM000186A8' for system 'SYS_2'
+2026-05-22 14:50:10 - app_logger - INFO - get_role_lic_sim_tablename:91 - Generated role_lic_sim table name for system 'SYS_2'
+2026-05-22 14:50:10 - app_logger - INFO - create_role_lic_sim_model:551 - Model for table 'Z_FUE_SYS_2_ROLE_LIC_SIM' found in cache.
+2026-05-22 14:50:10 - app_logger - INFO - get_simulation_result_tablename:97 - Generated simulation_result table name for system 'SYS_2'
+2026-05-22 14:50:10 - app_logger - INFO - create_simulation_result_model:572 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-05-22 14:50:10 - app_logger - INFO - process_simulation_background:450 - Applied all changes to simulation table for 'SIM000186A8'
+2026-05-22 14:50:10 - app_logger - INFO - calculate_simulation_fue:637 - === STARTING FUE CALCULATION for SYS_2 ===
+2026-05-22 14:50:10 - app_logger - INFO - get_role_lic_sim_tablename:91 - Generated role_lic_sim table name for system 'SYS_2'
+2026-05-22 14:50:10 - app_logger - INFO - create_role_lic_sim_model:551 - Model for table 'Z_FUE_SYS_2_ROLE_LIC_SIM' found in cache.
+2026-05-22 14:50:10 - app_logger - INFO - get_agr_users_tablename:34 - Generated user role mapping agr_users table name for system 'SYS_2'
+2026-05-22 14:50:10 - app_logger - INFO - create_AGRUSERS_model:342 - Model for table 'Z_FUE_SYS_2_USER_ROLE_MAPPING' found in cache. Returning cached model.
+2026-05-22 14:50:10 - app_logger - INFO - calculate_simulation_fue:647 - STEP 1: Getting most restrictive license per role...
+2026-05-22 14:50:18 - app_logger - INFO - get_current_simulation_fue:875 - Fetching current simulation FUE for system 'SYS_2'
+2026-05-22 14:50:18 - app_logger - INFO - calculate_simulation_fue:637 - === STARTING FUE CALCULATION for SYS_2 ===
+2026-05-22 14:50:18 - app_logger - INFO - get_role_lic_sim_tablename:91 - Generated role_lic_sim table name for system 'SYS_2'
+2026-05-22 14:50:18 - app_logger - INFO - create_role_lic_sim_model:551 - Model for table 'Z_FUE_SYS_2_ROLE_LIC_SIM' found in cache.
+2026-05-22 14:50:18 - app_logger - INFO - calculate_simulation_fue:657 - Active simulation records: 493386
+2026-05-22 14:50:18 - app_logger - INFO - get_agr_users_tablename:34 - Generated user role mapping agr_users table name for system 'SYS_2'
+2026-05-22 14:50:18 - app_logger - INFO - create_AGRUSERS_model:342 - Model for table 'Z_FUE_SYS_2_USER_ROLE_MAPPING' found in cache. Returning cached model.
+2026-05-22 14:50:18 - app_logger - INFO - calculate_simulation_fue:647 - STEP 1: Getting most restrictive license per role...
+2026-05-22 14:50:18 - app_logger - INFO - calculate_simulation_fue:665 - Unique roles in simulation: 2897
+2026-05-22 14:50:19 - app_logger - INFO - calculate_simulation_fue:679 - Role license distribution: {'GB Advanced Use': 814, 'GD Self-Service Use': 1153, 'Not Classified': 216, 'GC Core Use': 714}
+2026-05-22 14:50:19 - app_logger - INFO - calculate_simulation_fue:682 - STEP 2: Mapping roles to users...
+2026-05-22 14:50:22 - app_logger - INFO - calculate_simulation_fue:685 - Total user-role mappings: 68752
+2026-05-22 14:50:22 - app_logger - INFO - calculate_simulation_fue:700 - Total users with licenses: 3519
+2026-05-22 14:50:22 - app_logger - INFO - calculate_simulation_fue:703 - STEP 3: Getting most restrictive license per user...
+2026-05-22 14:50:22 - app_logger - INFO - calculate_simulation_fue:711 - User license counts: {'Not Classified': 49, 'GD Self-Service Use': 1323, 'GC Core Use': 1520, 'GB Advanced Use': 627}
+2026-05-22 14:50:22 - app_logger - INFO - calculate_simulation_fue:719 - Final counts: GB=627, GC=1520, GD=1323, NC=49
+2026-05-22 14:50:22 - app_logger - INFO - calculate_simulation_fue:727 - === FINAL FUE ===
+2026-05-22 14:50:22 - app_logger - INFO - calculate_simulation_fue:728 - GB: 627 USERS × 1.0 = 627 FUE
+2026-05-22 14:50:22 - app_logger - INFO - calculate_simulation_fue:729 - GC: 1520 USERS × 0.2 = 304 FUE
+2026-05-22 14:50:22 - app_logger - INFO - calculate_simulation_fue:730 - GD: 1323 USERS × 0.0333 = 45 FUE
+2026-05-22 14:50:22 - app_logger - INFO - calculate_simulation_fue:731 - TOTAL: 976 FUE
+2026-05-22 14:50:28 - app_logger - INFO - calculate_simulation_fue:657 - Active simulation records: 493386
+2026-05-22 14:50:29 - app_logger - INFO - calculate_simulation_fue:665 - Unique roles in simulation: 2897
+2026-05-22 14:50:29 - app_logger - INFO - calculate_simulation_fue:679 - Role license distribution: {'GB Advanced Use': 814, 'GD Self-Service Use': 1153, 'Not Classified': 216, 'GC Core Use': 714}
+2026-05-22 14:50:29 - app_logger - INFO - calculate_simulation_fue:682 - STEP 2: Mapping roles to users...
+2026-05-22 14:50:29 - app_logger - INFO - calculate_simulation_fue:685 - Total user-role mappings: 68752
+2026-05-22 14:50:29 - app_logger - INFO - calculate_simulation_fue:700 - Total users with licenses: 3519
+2026-05-22 14:50:29 - app_logger - INFO - calculate_simulation_fue:703 - STEP 3: Getting most restrictive license per user...
+2026-05-22 14:50:29 - app_logger - INFO - calculate_simulation_fue:711 - User license counts: {'Not Classified': 49, 'GD Self-Service Use': 1323, 'GC Core Use': 1520, 'GB Advanced Use': 627}
+2026-05-22 14:50:29 - app_logger - INFO - calculate_simulation_fue:719 - Final counts: GB=627, GC=1520, GD=1323, NC=49
+2026-05-22 14:50:29 - app_logger - INFO - calculate_simulation_fue:727 - === FINAL FUE ===
+2026-05-22 14:50:29 - app_logger - INFO - calculate_simulation_fue:728 - GB: 627 USERS × 1.0 = 627 FUE
+2026-05-22 14:50:29 - app_logger - INFO - calculate_simulation_fue:729 - GC: 1520 USERS × 0.2 = 304 FUE
+2026-05-22 14:50:29 - app_logger - INFO - calculate_simulation_fue:730 - GD: 1323 USERS × 0.0333 = 45 FUE
+2026-05-22 14:50:29 - app_logger - INFO - calculate_simulation_fue:731 - TOTAL: 976 FUE
+2026-05-22 14:53:57 - app_logger - INFO - initialize_simulation_table:76 - Initializing simulation table for system 'SYS_2'
+2026-05-22 14:53:57 - app_logger - INFO - get_role_lice_data_tablename:70 - Generated role object license info table name for system 'SYS_2'
+2026-05-22 14:53:57 - app_logger - INFO - create_role_lic_model:469 - Model for table 'Z_FUE_SYS_2_ROLE_OBJ_LICENSE_INFO' not in cache. Creating a new dynamic model.
+2026-05-22 14:53:57 - app_logger - INFO - create_role_lic_model:478 - Successfully created dynamic model for table 'Z_FUE_SYS_2_ROLE_OBJ_LICENSE_INFO'
+2026-05-22 14:53:57 - app_logger - INFO - get_role_lic_sim_tablename:91 - Generated role_lic_sim table name for system 'SYS_2'
+2026-05-22 14:53:57 - app_logger - INFO - create_role_lic_sim_model:554 - Creating new dynamic RoleLicSim model for table 'Z_FUE_SYS_2_ROLE_LIC_SIM'
+2026-05-22 14:53:57 - app_logger - INFO - create_role_lic_sim_model:563 - Successfully created dynamic RoleLicSim model for table 'Z_FUE_SYS_2_ROLE_LIC_SIM'
+2026-05-22 14:53:58 - app_logger - INFO - initialize_simulation_table:89 - Cleared 493396 existing simulation records
+2026-05-22 14:54:47 - app_logger - INFO - initialize_simulation_table:121 - Initialized simulation table with 493396 records
+2026-05-22 14:55:10 - app_logger - INFO - get_current_simulation_fue:897 - Fetching current simulation FUE for system 'SYS_2'
+2026-05-22 14:55:10 - app_logger - INFO - calculate_simulation_fue:637 - === STARTING FUE CALCULATION for SYS_2 ===
+2026-05-22 14:55:10 - app_logger - INFO - get_role_lic_sim_tablename:91 - Generated role_lic_sim table name for system 'SYS_2'
+2026-05-22 14:55:10 - app_logger - INFO - create_role_lic_sim_model:551 - Model for table 'Z_FUE_SYS_2_ROLE_LIC_SIM' found in cache.
+2026-05-22 14:55:10 - app_logger - INFO - get_agr_users_tablename:34 - Generated user role mapping agr_users table name for system 'SYS_2'
+2026-05-22 14:55:10 - app_logger - INFO - create_AGRUSERS_model:344 - Model for table 'Z_FUE_SYS_2_USER_ROLE_MAPPING' not in cache. Creating a new dynamic model.
+2026-05-22 14:55:10 - app_logger - INFO - create_AGRUSERS_model:351 - Successfully created dynamic model for table 'Z_FUE_SYS_2_USER_ROLE_MAPPING'
+2026-05-22 14:55:10 - app_logger - INFO - get_usr02_tablename:49 - Generated USER_DATA table name for system 'SYS_2'
+2026-05-22 14:55:10 - app_logger - INFO - create_USR02_model:396 - Model for table 'Z_FUE_SYS_2_USER_DATA' not in cache. Creating a new dynamic model.
+2026-05-22 14:55:10 - app_logger - INFO - create_USR02_model:403 - Successfully created dynamic model for table 'Z_FUE_SYS_2_USER_DATA'
+2026-05-22 14:55:10 - app_logger - INFO - calculate_simulation_fue:648 - STEP 1: Getting most restrictive license per role...
+2026-05-22 14:55:18 - app_logger - INFO - calculate_simulation_fue:657 - Active simulation records: 493396
+2026-05-22 14:55:19 - app_logger - INFO - calculate_simulation_fue:665 - Unique roles in simulation: 2897
+2026-05-22 14:55:19 - app_logger - INFO - calculate_simulation_fue:678 - Role license distribution: {'GB Advanced Use': 815, 'GD Self-Service Use': 1153, 'Not Classified': 216, 'GC Core Use': 713}
+2026-05-22 14:55:19 - app_logger - INFO - calculate_simulation_fue:681 - STEP 2: Mapping roles to users...
+2026-05-22 14:55:20 - app_logger - INFO - calculate_simulation_fue:684 - Total user-role mappings: 68752
+2026-05-22 14:55:20 - app_logger - INFO - calculate_simulation_fue:698 - Total users with licenses: 3519
+2026-05-22 14:55:20 - app_logger - INFO - calculate_simulation_fue:701 - STEP 3: Checking for locked users...
+2026-05-22 14:55:21 - app_logger - INFO - calculate_simulation_fue:704 - USR02 records loaded: 4073
+2026-05-22 14:55:21 - app_logger - INFO - calculate_simulation_fue:707 - STEP 4: Calculating final user licenses with locked override...
+2026-05-22 14:55:21 - app_logger - INFO - calculate_simulation_fue:728 - Locked users downgraded to NC: 1439
+2026-05-22 14:55:21 - app_logger - INFO - calculate_simulation_fue:729 - User license counts (after locked override): {'Not Classified': 1445, 'GC Core Use': 1020, 'GB Advanced Use': 396, 'GD Self-Service Use': 658}
+2026-05-22 14:55:21 - app_logger - INFO - calculate_simulation_fue:737 - Final counts: GB=396, GC=1020, GD=658, NC=1445
+2026-05-22 14:55:21 - app_logger - INFO - calculate_simulation_fue:745 - === FINAL FUE ===
+2026-05-22 14:55:21 - app_logger - INFO - calculate_simulation_fue:746 - GB: 396 USERS × 1.0 = 396 FUE
+2026-05-22 14:55:21 - app_logger - INFO - calculate_simulation_fue:747 - GC: 1020 USERS × 0.2 = 204 FUE
+2026-05-22 14:55:21 - app_logger - INFO - calculate_simulation_fue:748 - GD: 658 USERS × 0.0333 = 22 FUE
+2026-05-22 14:55:21 - app_logger - INFO - calculate_simulation_fue:749 - TOTAL: 622 FUE
+2026-05-22 14:55:21 - app_logger - INFO - calculate_simulation_fue:750 - LOCKED: 1439 users downgraded to NC
+2026-05-22 14:55:58 - app_logger - INFO - apply_simulation_changes:275 - Applying 10 simulation changes for system 'SYS_2'
+2026-05-22 14:55:58 - app_logger - INFO - get_simulation_result_tablename:97 - Generated simulation_result table name for system 'SYS_2'
+2026-05-22 14:55:58 - app_logger - INFO - create_simulation_result_model:575 - Creating new dynamic SimulationResult model for table 'Z_FUE_SYS_2_SIMULATION_RESULT'
+2026-05-22 14:55:58 - app_logger - INFO - create_simulation_result_model:584 - Successfully created dynamic SimulationResult model for table 'Z_FUE_SYS_2_SIMULATION_RESULT'
+2026-05-22 14:55:58 - app_logger - INFO - apply_simulation_changes:305 - Created 10 initial result records for simulation 'SIM000186A9'
+2026-05-22 14:55:58 - app_logger - INFO - process_simulation_sync:338 - Starting background simulation processing for 'SIM000186A9'
+2026-05-22 14:55:58 - app_logger - INFO - process_simulation_background:366 - Processing simulation 'SIM000186A9' for system 'SYS_2'
+2026-05-22 14:55:58 - app_logger - INFO - get_role_lic_sim_tablename:91 - Generated role_lic_sim table name for system 'SYS_2'
+2026-05-22 14:55:58 - app_logger - INFO - create_role_lic_sim_model:551 - Model for table 'Z_FUE_SYS_2_ROLE_LIC_SIM' found in cache.
+2026-05-22 14:55:58 - app_logger - INFO - get_simulation_result_tablename:97 - Generated simulation_result table name for system 'SYS_2'
+2026-05-22 14:55:58 - app_logger - INFO - create_simulation_result_model:572 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-05-22 14:55:58 - app_logger - INFO - process_simulation_background:450 - Applied all changes to simulation table for 'SIM000186A9'
+2026-05-22 14:55:58 - app_logger - INFO - calculate_simulation_fue:637 - === STARTING FUE CALCULATION for SYS_2 ===
+2026-05-22 14:55:58 - app_logger - INFO - get_role_lic_sim_tablename:91 - Generated role_lic_sim table name for system 'SYS_2'
+2026-05-22 14:55:58 - app_logger - INFO - create_role_lic_sim_model:551 - Model for table 'Z_FUE_SYS_2_ROLE_LIC_SIM' found in cache.
+2026-05-22 14:55:58 - app_logger - INFO - get_agr_users_tablename:34 - Generated user role mapping agr_users table name for system 'SYS_2'
+2026-05-22 14:55:58 - app_logger - INFO - create_AGRUSERS_model:342 - Model for table 'Z_FUE_SYS_2_USER_ROLE_MAPPING' found in cache. Returning cached model.
+2026-05-22 14:55:58 - app_logger - INFO - get_usr02_tablename:49 - Generated USER_DATA table name for system 'SYS_2'
+2026-05-22 14:55:58 - app_logger - INFO - create_USR02_model:394 - Model for table 'Z_FUE_SYS_2_USER_DATA' found in cache. Returning cached model.
+2026-05-22 14:55:58 - app_logger - INFO - calculate_simulation_fue:648 - STEP 1: Getting most restrictive license per role...
+2026-05-22 14:56:03 - app_logger - INFO - get_current_simulation_fue:897 - Fetching current simulation FUE for system 'SYS_2'
+2026-05-22 14:56:03 - app_logger - INFO - calculate_simulation_fue:637 - === STARTING FUE CALCULATION for SYS_2 ===
+2026-05-22 14:56:03 - app_logger - INFO - get_role_lic_sim_tablename:91 - Generated role_lic_sim table name for system 'SYS_2'
+2026-05-22 14:56:03 - app_logger - INFO - create_role_lic_sim_model:551 - Model for table 'Z_FUE_SYS_2_ROLE_LIC_SIM' found in cache.
+2026-05-22 14:56:03 - app_logger - INFO - get_agr_users_tablename:34 - Generated user role mapping agr_users table name for system 'SYS_2'
+2026-05-22 14:56:03 - app_logger - INFO - create_AGRUSERS_model:342 - Model for table 'Z_FUE_SYS_2_USER_ROLE_MAPPING' found in cache. Returning cached model.
+2026-05-22 14:56:03 - app_logger - INFO - get_usr02_tablename:49 - Generated USER_DATA table name for system 'SYS_2'
+2026-05-22 14:56:03 - app_logger - INFO - create_USR02_model:394 - Model for table 'Z_FUE_SYS_2_USER_DATA' found in cache. Returning cached model.
+2026-05-22 14:56:03 - app_logger - INFO - calculate_simulation_fue:648 - STEP 1: Getting most restrictive license per role...
+2026-05-22 14:56:06 - app_logger - INFO - calculate_simulation_fue:657 - Active simulation records: 493386
+2026-05-22 14:56:08 - app_logger - INFO - calculate_simulation_fue:665 - Unique roles in simulation: 2897
+2026-05-22 14:56:08 - app_logger - INFO - calculate_simulation_fue:678 - Role license distribution: {'GB Advanced Use': 814, 'GD Self-Service Use': 1153, 'Not Classified': 216, 'GC Core Use': 714}
+2026-05-22 14:56:08 - app_logger - INFO - calculate_simulation_fue:681 - STEP 2: Mapping roles to users...
+2026-05-22 14:56:10 - app_logger - INFO - calculate_simulation_fue:684 - Total user-role mappings: 68752
+2026-05-22 14:56:10 - app_logger - INFO - calculate_simulation_fue:698 - Total users with licenses: 3519
+2026-05-22 14:56:10 - app_logger - INFO - calculate_simulation_fue:701 - STEP 3: Checking for locked users...
+2026-05-22 14:56:10 - app_logger - INFO - calculate_simulation_fue:704 - USR02 records loaded: 4073
+2026-05-22 14:56:10 - app_logger - INFO - calculate_simulation_fue:707 - STEP 4: Calculating final user licenses with locked override...
+2026-05-22 14:56:10 - app_logger - INFO - calculate_simulation_fue:728 - Locked users downgraded to NC: 1439
+2026-05-22 14:56:11 - app_logger - INFO - calculate_simulation_fue:729 - User license counts (after locked override): {'Not Classified': 1445, 'GC Core Use': 1020, 'GB Advanced Use': 396, 'GD Self-Service Use': 658}
+2026-05-22 14:56:11 - app_logger - INFO - calculate_simulation_fue:737 - Final counts: GB=396, GC=1020, GD=658, NC=1445
+2026-05-22 14:56:11 - app_logger - INFO - calculate_simulation_fue:745 - === FINAL FUE ===
+2026-05-22 14:56:11 - app_logger - INFO - calculate_simulation_fue:746 - GB: 396 USERS × 1.0 = 396 FUE
+2026-05-22 14:56:12 - app_logger - INFO - calculate_simulation_fue:747 - GC: 1020 USERS × 0.2 = 204 FUE
+2026-05-22 14:56:12 - app_logger - INFO - calculate_simulation_fue:748 - GD: 658 USERS × 0.0333 = 22 FUE
+2026-05-22 14:56:12 - app_logger - INFO - calculate_simulation_fue:749 - TOTAL: 622 FUE
+2026-05-22 14:56:12 - app_logger - INFO - calculate_simulation_fue:750 - LOCKED: 1439 users downgraded to NC
+2026-05-22 14:56:15 - app_logger - INFO - calculate_simulation_fue:657 - Active simulation records: 493386
+2026-05-22 14:56:15 - app_logger - INFO - process_simulation_background:490 - Simulation 'SIM000186A9' completed successfully
+2026-05-22 14:56:16 - app_logger - INFO - calculate_simulation_fue:665 - Unique roles in simulation: 2897
+2026-05-22 14:56:16 - app_logger - INFO - calculate_simulation_fue:678 - Role license distribution: {'GB Advanced Use': 814, 'GD Self-Service Use': 1153, 'Not Classified': 216, 'GC Core Use': 714}
+2026-05-22 14:56:16 - app_logger - INFO - calculate_simulation_fue:681 - STEP 2: Mapping roles to users...
+2026-05-22 14:56:17 - app_logger - INFO - calculate_simulation_fue:684 - Total user-role mappings: 68752
+2026-05-22 14:56:17 - app_logger - INFO - calculate_simulation_fue:698 - Total users with licenses: 3519
+2026-05-22 14:56:17 - app_logger - INFO - calculate_simulation_fue:701 - STEP 3: Checking for locked users...
+2026-05-22 14:56:17 - app_logger - INFO - calculate_simulation_fue:704 - USR02 records loaded: 4073
+2026-05-22 14:56:17 - app_logger - INFO - calculate_simulation_fue:707 - STEP 4: Calculating final user licenses with locked override...
+2026-05-22 14:56:17 - app_logger - INFO - calculate_simulation_fue:728 - Locked users downgraded to NC: 1439
+2026-05-22 14:56:17 - app_logger - INFO - calculate_simulation_fue:729 - User license counts (after locked override): {'Not Classified': 1445, 'GC Core Use': 1020, 'GB Advanced Use': 396, 'GD Self-Service Use': 658}
+2026-05-22 14:56:17 - app_logger - INFO - calculate_simulation_fue:737 - Final counts: GB=396, GC=1020, GD=658, NC=1445
+2026-05-22 14:56:17 - app_logger - INFO - calculate_simulation_fue:745 - === FINAL FUE ===
+2026-05-22 14:56:17 - app_logger - INFO - calculate_simulation_fue:746 - GB: 396 USERS × 1.0 = 396 FUE
+2026-05-22 14:56:17 - app_logger - INFO - calculate_simulation_fue:747 - GC: 1020 USERS × 0.2 = 204 FUE
+2026-05-22 14:56:17 - app_logger - INFO - calculate_simulation_fue:748 - GD: 658 USERS × 0.0333 = 22 FUE
+2026-05-22 14:56:17 - app_logger - INFO - calculate_simulation_fue:749 - TOTAL: 622 FUE
+2026-05-22 14:56:17 - app_logger - INFO - calculate_simulation_fue:750 - LOCKED: 1439 users downgraded to NC
+2026-05-22 19:27:16 - app_logger - INFO - load_flpca_endpoint:428 - Received request to load FLPCA data for system: 'SYS_2', release: 'SYS_2_creation'
+2026-05-22 19:27:16 - app_logger - INFO - ensure_client_system_info:80 - system info already exists: SYS_2, SYS_2_creation
+2026-05-22 19:27:16 - app_logger - INFO - load_flpca_from_csv_upload:567 - Starting FLPCA CSV data load for system: SYS_2
+2026-05-22 19:27:16 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-22 19:27:16 - app_logger - INFO - create_TSTCT_model:403 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' not in cache. Creating a new dynamic model.
+2026-05-22 19:27:16 - app_logger - INFO - create_TSTCT_model:410 - Successfully created dynamic model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA'
+2026-05-22 19:27:16 - app_logger - INFO - load_flpca_from_csv_upload:577 - Truncated (deleted) 0 rows from Z_FUE_SYS_2_TCODE_TEXT DATA.
+2026-05-22 19:29:13 - app_logger - INFO - load_flpca_endpoint:428 - Received request to load FLPCA data for system: 'SYS_2', release: 'SYS_2_creation'
+2026-05-22 19:29:13 - app_logger - INFO - ensure_client_system_info:80 - system info already exists: SYS_2, SYS_2_creation
+2026-05-22 19:29:13 - app_logger - INFO - load_flpca_from_csv_upload:567 - Starting FLPCA CSV data load for system: SYS_2
+2026-05-22 19:29:13 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-22 19:29:13 - app_logger - INFO - create_TSTCT_model:401 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-22 19:29:13 - app_logger - INFO - load_flpca_from_csv_upload:577 - Truncated (deleted) 0 rows from Z_FUE_SYS_2_TCODE_TEXT DATA.
+2026-05-22 19:31:06 - app_logger - INFO - load_flpca_endpoint:428 - Received request to load FLPCA data for system: 'SYS_2', release: 'SYS_2_creation'
+2026-05-22 19:31:06 - app_logger - INFO - ensure_client_system_info:80 - system info already exists: SYS_2, SYS_2_creation
+2026-05-22 19:31:06 - app_logger - INFO - load_flpca_from_csv_upload:567 - Starting FLPCA CSV data load for system: SYS_2
+2026-05-22 19:31:06 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-22 19:31:06 - app_logger - INFO - create_TSTCT_model:401 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-22 19:31:06 - app_logger - INFO - load_flpca_from_csv_upload:577 - Truncated (deleted) 0 rows from Z_FUE_SYS_2_TCODE_TEXT DATA.
+2026-05-22 19:34:39 - app_logger - INFO - load_flpca_endpoint:428 - Received request to load FLPCA data for system: 'SYS_2', release: 'SYS_2_creation'
+2026-05-22 19:34:39 - app_logger - INFO - ensure_client_system_info:80 - system info already exists: SYS_2, SYS_2_creation
+2026-05-22 19:34:39 - app_logger - INFO - load_flpca_from_csv_upload:567 - Starting FLPCA CSV data load for system: SYS_2
+2026-05-22 19:34:39 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-22 19:34:39 - app_logger - INFO - create_TSTCT_model:401 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-22 19:34:39 - app_logger - INFO - load_flpca_from_csv_upload:577 - Truncated (deleted) 0 rows from Z_FUE_SYS_2_TCODE_TEXT DATA.
+2026-05-22 19:38:22 - app_logger - INFO - load_flpca_endpoint:428 - Received request to load FLPCA data for system: 'SYS_2', release: 'SYS_2_creation'
+2026-05-22 19:38:22 - app_logger - INFO - ensure_client_system_info:80 - system info already exists: SYS_2, SYS_2_creation
+2026-05-22 19:38:22 - app_logger - INFO - load_flpca_from_csv_upload:567 - Starting FLPCA CSV data load for system: SYS_2
+2026-05-22 19:38:22 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-22 19:38:22 - app_logger - INFO - create_TSTCT_model:401 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-22 19:38:22 - app_logger - INFO - load_flpca_from_csv_upload:577 - Truncated (deleted) 0 rows from Z_FUE_SYS_2_TCODE_TEXT DATA.
+2026-05-22 19:38:46 - app_logger - INFO - load_flpca_endpoint:428 - Received request to load FLPCA data for system: 'SYS_2', release: 'SYS_2_creation'
+2026-05-22 19:38:46 - app_logger - INFO - ensure_client_system_info:80 - system info already exists: SYS_2, SYS_2_creation
+2026-05-22 19:38:46 - app_logger - INFO - load_flpca_from_csv_upload:567 - Starting FLPCA CSV data load for system: SYS_2
+2026-05-22 19:38:46 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-22 19:38:46 - app_logger - INFO - create_TSTCT_model:403 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' not in cache. Creating a new dynamic model.
+2026-05-22 19:38:46 - app_logger - INFO - create_TSTCT_model:410 - Successfully created dynamic model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA'
+2026-05-22 19:38:46 - app_logger - INFO - load_flpca_from_csv_upload:577 - Truncated (deleted) 0 rows from Z_FUE_SYS_2_TCODE_TEXT DATA.
+2026-05-22 19:40:05 - app_logger - INFO - load_flpca_endpoint:428 - Received request to load FLPCA data for system: 'SYS_2', release: 'SYS_2_creation'
+2026-05-22 19:40:05 - app_logger - INFO - ensure_client_system_info:80 - system info already exists: SYS_2, SYS_2_creation
+2026-05-22 19:40:05 - app_logger - INFO - load_flpca_from_csv_upload:567 - Starting FLPCA CSV data load for system: SYS_2
+2026-05-22 19:40:05 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-22 19:40:05 - app_logger - INFO - create_TSTCT_model:401 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-22 19:40:05 - app_logger - INFO - load_flpca_from_csv_upload:577 - Truncated (deleted) 0 rows from Z_FUE_SYS_2_TCODE_TEXT DATA.
+2026-05-22 19:43:57 - app_logger - INFO - load_flpca_endpoint:428 - Received request to load FLPCA data for system: 'SYS_2', release: 'SYS_2_creation'
+2026-05-22 19:43:57 - app_logger - INFO - ensure_client_system_info:80 - system info already exists: SYS_2, SYS_2_creation
+2026-05-22 19:43:57 - app_logger - INFO - load_flpca_from_csv_upload:567 - Starting FLPCA CSV data load for system: SYS_2
+2026-05-22 19:43:57 - app_logger - INFO - get_flpca_data_tablename:60 - Generated flpca table name for system 'SYS_2'
+2026-05-22 19:43:57 - app_logger - INFO - create_FLPCA_model:421 - Model for table 'Z_FUE_SYS_2_FIORI DATA' not in cache. Creating a new dynamic model.
+2026-05-22 19:43:57 - app_logger - INFO - create_FLPCA_model:428 - Successfully created dynamic model for table 'Z_FUE_SYS_2_FIORI DATA'
+2026-05-22 19:43:57 - app_logger - INFO - load_flpca_from_csv_upload:577 - Truncated (deleted) 0 rows from Z_FUE_SYS_2_FIORI DATA.
+2026-05-22 19:44:19 - app_logger - INFO - load_flpca_endpoint:428 - Received request to load FLPCA data for system: 'SYS_2', release: 'SYS_2_creation'
+2026-05-22 19:44:19 - app_logger - INFO - ensure_client_system_info:80 - system info already exists: SYS_2, SYS_2_creation
+2026-05-22 19:44:20 - app_logger - INFO - load_flpca_from_csv_upload:567 - Starting FLPCA CSV data load for system: SYS_2
+2026-05-22 19:44:20 - app_logger - INFO - get_flpca_data_tablename:60 - Generated flpca table name for system 'SYS_2'
+2026-05-22 19:44:20 - app_logger - INFO - create_FLPCA_model:421 - Model for table 'Z_FUE_SYS_2_FIORI DATA' not in cache. Creating a new dynamic model.
+2026-05-22 19:44:20 - app_logger - INFO - create_FLPCA_model:428 - Successfully created dynamic model for table 'Z_FUE_SYS_2_FIORI DATA'
+2026-05-22 19:44:20 - app_logger - INFO - load_flpca_from_csv_upload:577 - Truncated (deleted) 0 rows from Z_FUE_SYS_2_FIORI DATA.
+2026-05-22 19:44:35 - app_logger - INFO - load_flpca_endpoint:428 - Received request to load FLPCA data for system: 'SYS_2', release: 'SYS_2_creation'
+2026-05-22 19:44:35 - app_logger - INFO - ensure_client_system_info:80 - system info already exists: SYS_2, SYS_2_creation
+2026-05-22 19:44:35 - app_logger - INFO - load_flpca_from_csv_upload:567 - Starting FLPCA CSV data load for system: SYS_2
+2026-05-22 19:44:35 - app_logger - INFO - get_flpca_data_tablename:60 - Generated flpca table name for system 'SYS_2'
+2026-05-22 19:44:35 - app_logger - INFO - create_FLPCA_model:421 - Model for table 'Z_FUE_SYS_2_FIORI DATA' not in cache. Creating a new dynamic model.
+2026-05-22 19:44:35 - app_logger - INFO - create_FLPCA_model:428 - Successfully created dynamic model for table 'Z_FUE_SYS_2_FIORI DATA'
+2026-05-22 19:44:35 - app_logger - INFO - load_flpca_from_csv_upload:577 - Truncated (deleted) 0 rows from Z_FUE_SYS_2_FIORI DATA.
+2026-05-22 19:44:48 - app_logger - INFO - load_flpca_from_csv_upload:637 - Successfully loaded 89556 records into Z_FUE_SYS_2_FIORI DATA
+2026-05-22 19:44:48 - app_logger - INFO - load_flpca_endpoint:449 - FLPCA data load completed: {'message': 'Successfully loaded 89556 records into Z_FUE_SYS_2_FIORI DATA', 'table_name': 'Z_FUE_SYS_2_FIORI DATA', 'records_loaded': 89556}

@@ -1,0 +1,81 @@
+2026-05-21 17:07:41 - app_logger - INFO - create_system:60 - Created system: SYS_1
+2026-05-21 17:09:08 - app_logger - INFO - create_system:60 - Created system: SYS_2
+2026-05-21 17:10:39 - app_logger - INFO - create_system:60 - Created system: SYS_3
+2026-05-21 17:11:43 - app_logger - INFO - create_system:60 - Created system: SYS_4
+2026-05-21 17:12:56 - app_logger - INFO - create_system:60 - Created system: SYS_5
+2026-05-21 17:14:59 - app_logger - INFO - create_system:60 - Created system: SYS_6
+2026-05-21 17:17:13 - app_logger - INFO - create_system:60 - Created system: SYS_7
+2026-05-21 17:18:41 - app_logger - INFO - create_system:60 - Created system: SYS_8
+2026-05-21 17:19:33 - app_logger - INFO - create_system:60 - Created system: SYS_9
+2026-05-21 17:19:57 - app_logger - INFO - create_system:60 - Created system: SYS_10
+2026-05-21 17:22:53 - app_logger - INFO - create_system:60 - Created system: SYS_11
+2026-05-21 17:24:10 - app_logger - INFO - create_system:60 - Created system: SYS_12
+2026-05-21 17:24:50 - app_logger - INFO - create_system:60 - Created system: SYS_19
+2026-05-21 17:41:35 - app_logger - INFO - create_system:60 - Created system: S_98
+2026-05-21 17:46:10 - app_logger - INFO - create_system:60 - Created system: S_90
+2026-05-21 18:06:26 - app_logger - INFO - create_system:60 - Created system: S_09
+2026-05-21 18:08:48 - app_logger - INFO - create_system:60 - Created system: S_89
+2026-05-21 18:47:08 - app_logger - INFO - create_system:60 - Created system: S_79
+2026-05-21 18:47:31 - app_logger - INFO - create_system:60 - Created system: S_0009
+2026-05-21 19:02:26 - app_logger - INFO - create_system:58 - Created system: S_0008
+2026-05-21 23:27:50 - app_logger - INFO - load_agr_1251_endpoint:93 - Received request to agr_1251 data for system: 'SYS_2', release: 'SYS_2_creation'
+2026-05-21 23:27:50 - app_logger - INFO - create_table:44 - Creating table: Z_FUE_LOG_FILE
+2026-05-21 23:27:50 - app_logger - INFO - create_table:48 - Table 'Z_FUE_LOG_FILE' created successfully.
+2026-05-21 23:27:50 - app_logger - INFO - ensure_client_system_info:80 - system info already exists: SYS_2, SYS_2_creation
+2026-05-21 23:27:50 - app_logger - INFO - load_agr1251_from_csv_upload:27 - Starting CSV data load for system: SYS_2
+2026-05-21 23:27:50 - app_logger - INFO - get_agr_1251_tablename:29 - Generated role auth table agr_1251_name for system 'SYS_2'
+2026-05-21 23:27:50 - app_logger - INFO - create_AGR1251_model:257 - Model for table 'Z_FUE_SYS_2_ROLE_AUTH_INFO' not in cache. Creating a new dynamic model.
+2026-05-21 23:27:50 - app_logger - INFO - create_AGR1251_model:264 - Successfully created dynamic model for table 'Z_FUE_SYS_2_ROLE_AUTH_INFO'
+2026-05-21 23:27:50 - app_logger - INFO - load_agr1251_from_csv_upload:38 - Truncated (deleted) 0 rows from Z_FUE_SYS_2_ROLE_AUTH_INFO.
+2026-05-21 23:28:31 - app_logger - INFO - load_agr_1251_endpoint:93 - Received request to agr_1251 data for system: 'SYS_2', release: 'SYS_2_creation'
+2026-05-21 23:28:31 - app_logger - INFO - ensure_client_system_info:80 - system info already exists: SYS_2, SYS_2_creation
+2026-05-21 23:28:31 - app_logger - INFO - load_agr1251_from_csv_upload:27 - Starting CSV data load for system: SYS_2
+2026-05-21 23:28:31 - app_logger - INFO - get_agr_1251_tablename:29 - Generated role auth table agr_1251_name for system 'SYS_2'
+2026-05-21 23:28:31 - app_logger - INFO - create_AGR1251_model:255 - Model for table 'Z_FUE_SYS_2_ROLE_AUTH_INFO' found in cache. Returning cached model.
+2026-05-21 23:28:31 - app_logger - INFO - load_agr1251_from_csv_upload:38 - Truncated (deleted) 0 rows from Z_FUE_SYS_2_ROLE_AUTH_INFO.
+2026-05-21 23:31:30 - app_logger - INFO - load_agr_1251_endpoint:93 - Received request to agr_1251 data for system: 'SYS_2', release: 'SYS_2_creation'
+2026-05-21 23:31:30 - app_logger - INFO - ensure_client_system_info:80 - system info already exists: SYS_2, SYS_2_creation
+2026-05-21 23:31:30 - app_logger - INFO - load_agr1251_from_csv_upload:27 - Starting CSV data load for system: SYS_2
+2026-05-21 23:31:30 - app_logger - INFO - get_agr_1251_tablename:29 - Generated role auth table agr_1251_name for system 'SYS_2'
+2026-05-21 23:31:30 - app_logger - INFO - create_AGR1251_model:255 - Model for table 'Z_FUE_SYS_2_ROLE_AUTH_INFO' found in cache. Returning cached model.
+2026-05-21 23:31:30 - app_logger - INFO - load_agr1251_from_csv_upload:38 - Truncated (deleted) 0 rows from Z_FUE_SYS_2_ROLE_AUTH_INFO.
+2026-05-21 23:31:47 - app_logger - INFO - load_agr_1251_endpoint:93 - Received request to agr_1251 data for system: 'SYS_2', release: 'SYS_2_creation'
+2026-05-21 23:31:47 - app_logger - INFO - ensure_client_system_info:80 - system info already exists: SYS_2, SYS_2_creation
+2026-05-21 23:31:47 - app_logger - INFO - load_agr1251_from_csv_upload:27 - Starting CSV data load for system: SYS_2
+2026-05-21 23:31:47 - app_logger - INFO - get_agr_1251_tablename:29 - Generated role auth table agr_1251_name for system 'SYS_2'
+2026-05-21 23:31:47 - app_logger - INFO - create_AGR1251_model:255 - Model for table 'Z_FUE_SYS_2_ROLE_AUTH_INFO' found in cache. Returning cached model.
+2026-05-21 23:31:47 - app_logger - INFO - load_agr1251_from_csv_upload:38 - Truncated (deleted) 0 rows from Z_FUE_SYS_2_ROLE_AUTH_INFO.
+2026-05-21 23:44:15 - app_logger - INFO - load_agr_1251_endpoint:93 - Received request to load agr_1251 data for system: 'SYS_2', release: 'SYS_2_creation'
+2026-05-21 23:44:15 - app_logger - INFO - ensure_client_system_info:80 - system info already exists: SYS_2, SYS_2_creation
+2026-05-21 23:44:15 - app_logger - INFO - load_agr1251_from_csv_upload:27 - Starting CSV data load for system: SYS_2
+2026-05-21 23:44:15 - app_logger - INFO - get_agr_1251_tablename:29 - Generated role auth table agr_1251_name for system 'SYS_2'
+2026-05-21 23:44:15 - app_logger - INFO - create_AGR1251_model:257 - Model for table 'Z_FUE_SYS_2_ROLE_AUTH_INFO' not in cache. Creating a new dynamic model.
+2026-05-21 23:44:15 - app_logger - INFO - create_AGR1251_model:264 - Successfully created dynamic model for table 'Z_FUE_SYS_2_ROLE_AUTH_INFO'
+2026-05-21 23:44:15 - app_logger - INFO - load_agr1251_from_csv_upload:38 - Truncated (deleted) 0 rows from Z_FUE_SYS_2_ROLE_AUTH_INFO.
+2026-05-21 23:47:43 - app_logger - INFO - load_agr_1251_endpoint:93 - Received request to agr_1251 data for system: 'SYS_2', release: 'SYS_2_creation'
+2026-05-21 23:47:43 - app_logger - INFO - ensure_client_system_info:80 - system info already exists: SYS_2, SYS_2_creation
+2026-05-21 23:47:43 - app_logger - INFO - load_agr1251_from_csv_upload:27 - Starting CSV data load for system: SYS_2
+2026-05-21 23:47:43 - app_logger - INFO - get_agr_1251_tablename:29 - Generated role auth table agr_1251_name for system 'SYS_2'
+2026-05-21 23:47:43 - app_logger - INFO - create_AGR1251_model:257 - Model for table 'Z_FUE_SYS_2_ROLE_AUTH_INFO' not in cache. Creating a new dynamic model.
+2026-05-21 23:47:43 - app_logger - INFO - create_AGR1251_model:264 - Successfully created dynamic model for table 'Z_FUE_SYS_2_ROLE_AUTH_INFO'
+2026-05-21 23:47:43 - app_logger - INFO - load_agr1251_from_csv_upload:38 - Truncated (deleted) 0 rows from Z_FUE_SYS_2_ROLE_AUTH_INFO.
+2026-05-21 23:48:26 - app_logger - INFO - load_agr1251_from_csv_upload:97 - Successfully loaded 493396 records into Z_FUE_SYS_2_ROLE_AUTH_INFO
+2026-05-21 23:48:27 - app_logger - INFO - load_agr_1251_endpoint:115 - Auth data load completed: {'message': 'Successfully loaded 493396 records into Z_FUE_SYS_2_ROLE_AUTH_INFO', 'table_name': 'Z_FUE_SYS_2_ROLE_AUTH_INFO', 'records_loaded': 493396}
+2026-05-21 23:51:53 - app_logger - INFO - load_agr_users_endpoint:144 - Received request to agr_users data for system: 'SYS_2', release: 'SYS_2_creation'
+2026-05-21 23:51:53 - app_logger - INFO - ensure_client_system_info:80 - system info already exists: SYS_2, SYS_2_creation
+2026-05-21 23:51:53 - app_logger - INFO - load_agrusers_from_csv_upload:115 - Starting CSV data load for system: SYS_2
+2026-05-21 23:51:53 - app_logger - INFO - get_agr_users_tablename:34 - Generated user role mapping agr_users table name for system 'SYS_2'
+2026-05-21 23:51:53 - app_logger - INFO - create_AGRUSERS_model:274 - Model for table 'Z_FUE_SYS_2_USER_ROLE_MAPPING' not in cache. Creating a new dynamic model.
+2026-05-21 23:51:53 - app_logger - INFO - create_AGRUSERS_model:281 - Successfully created dynamic model for table 'Z_FUE_SYS_2_USER_ROLE_MAPPING'
+2026-05-21 23:51:54 - app_logger - INFO - load_agrusers_from_csv_upload:126 - Truncated (deleted) 0 rows from Z_FUE_SYS_2_USER_ROLE_MAPPING.
+2026-05-21 23:51:58 - app_logger - INFO - load_agrusers_from_csv_upload:180 - Successfully loaded 68752 records into Z_FUE_SYS_2_USER_ROLE_MAPPING
+2026-05-21 23:51:58 - app_logger - INFO - load_agr_users_endpoint:166 - Auth data load completed: {'message': 'Successfully loaded 68752 records into Z_FUE_SYS_2_USER_ROLE_MAPPING', 'table_name': 'Z_FUE_SYS_2_USER_ROLE_MAPPING', 'records_loaded': 68752}
+2026-05-21 23:52:29 - app_logger - INFO - load_agr_define_endpoint:193 - Received request to load AGR_DEFINE data for system: 'SYS_2', release: 'SYS_2_creation'
+2026-05-21 23:52:29 - app_logger - INFO - ensure_client_system_info:80 - system info already exists: SYS_2, SYS_2_creation
+2026-05-21 23:52:29 - app_logger - INFO - load_agrdefine_from_csv_upload:196 - Starting AGR_DEFINE CSV data load for system: SYS_2
+2026-05-21 23:52:29 - app_logger - INFO - get_agr_define_tablename:39 - Generated parent child role mapping table name for system 'SYS_2'
+2026-05-21 23:52:29 - app_logger - INFO - create_AGRDEFINE_model:292 - Model for table 'Z_FUE_SYS_2_PARENT_CHILD_ROLE_MAPPING' not in cache. Creating a new dynamic model.
+2026-05-21 23:52:29 - app_logger - INFO - create_AGRDEFINE_model:299 - Successfully created dynamic model for table 'Z_FUE_SYS_2_PARENT_CHILD_ROLE_MAPPING'
+2026-05-21 23:52:29 - app_logger - INFO - load_agrdefine_from_csv_upload:206 - Truncated (deleted) 0 rows from Z_FUE_SYS_2_PARENT_CHILD_ROLE_MAPPING.
+2026-05-21 23:52:30 - app_logger - INFO - load_agrdefine_from_csv_upload:251 - Successfully loaded 7482 records into Z_FUE_SYS_2_PARENT_CHILD_ROLE_MAPPING
+2026-05-21 23:52:30 - app_logger - INFO - load_agr_define_endpoint:214 - AGR_DEFINE data load completed: {'message': 'Successfully loaded 7482 records into Z_FUE_SYS_2_PARENT_CHILD_ROLE_MAPPING', 'table_name': 'Z_FUE_SYS_2_PARENT_CHILD_ROLE_MAPPING', 'records_loaded': 7482}

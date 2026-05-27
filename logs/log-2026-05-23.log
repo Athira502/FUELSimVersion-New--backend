@@ -1,0 +1,334 @@
+2026-05-23 16:38:44 - app_logger - INFO - compute_rolelic:595 - [Stage 2] Computing RoleLic for SYS_2
+2026-05-23 16:38:44 - app_logger - INFO - get_agr_1251_tablename:29 - Generated role auth table agr_1251_name for system 'SYS_2'
+2026-05-23 16:38:44 - app_logger - INFO - create_AGR1251_model:300 - Model for table 'Z_FUE_SYS_2_ROLE_AUTH_INFO' not in cache. Creating a new dynamic model.
+2026-05-23 16:38:44 - app_logger - INFO - create_AGR1251_model:307 - Successfully created dynamic model for table 'Z_FUE_SYS_2_ROLE_AUTH_INFO'
+2026-05-23 16:38:44 - app_logger - INFO - get_role_lice_data_tablename:70 - Generated role object license info table name for system 'SYS_2'
+2026-05-23 16:38:44 - app_logger - INFO - create_role_lic_model:442 - Model for table 'Z_FUE_SYS_2_ROLE_OBJ_LICENSE_INFO' not in cache. Creating a new dynamic model.
+2026-05-23 16:38:44 - app_logger - INFO - create_role_lic_model:451 - Successfully created dynamic model for table 'Z_FUE_SYS_2_ROLE_OBJ_LICENSE_INFO'
+2026-05-23 16:39:42 - app_logger - INFO - compute_rolelic:650 - [Stage 2] Done — 493396 rows written to RoleLic
+2026-05-23 16:40:03 - app_logger - INFO - compute_rolelicsummary:666 - [Stage 3] Computing RoleLicSummary for SYS_2
+2026-05-23 16:40:03 - app_logger - INFO - get_role_lice_data_tablename:70 - Generated role object license info table name for system 'SYS_2'
+2026-05-23 16:40:03 - app_logger - INFO - create_role_lic_model:440 - Model for table 'Z_FUE_SYS_2_ROLE_OBJ_LICENSE_INFO' found in cache. Returning cached model.
+2026-05-23 16:40:03 - app_logger - INFO - get_agr_define_tablename:39 - Generated parent child role mapping table name for system 'SYS_2'
+2026-05-23 16:40:03 - app_logger - INFO - create_AGRDEFINE_model:335 - Model for table 'Z_FUE_SYS_2_PARENT_CHILD_ROLE_MAPPING' not in cache. Creating a new dynamic model.
+2026-05-23 16:40:03 - app_logger - INFO - create_AGRDEFINE_model:342 - Successfully created dynamic model for table 'Z_FUE_SYS_2_PARENT_CHILD_ROLE_MAPPING'
+2026-05-23 16:40:03 - app_logger - INFO - get_role_lice_data_summary_tablename:75 - Generated role license summary info table name for system 'SYS_2'
+2026-05-23 16:40:03 - app_logger - INFO - create_role_lic_summary_model:463 - Model for table 'Z_FUE_SYS_2_ROLE_LICENSE_SUMMARY' not in cache. Creating a new dynamic model.
+2026-05-23 16:40:03 - app_logger - INFO - create_role_lic_summary_model:472 - Successfully created dynamic model for table 'Z_FUE_SYS_2_ROLE_LICENSE_SUMMARY'
+2026-05-23 16:40:14 - app_logger - INFO - compute_rolelicsummary:712 - [Stage 3] Done — 2897 rows written to RoleLicSummary
+2026-05-23 16:40:30 - app_logger - INFO - compute_userrolellic:728 - [Stage 4] Computing UserRoleLic for SYS_2
+2026-05-23 16:40:30 - app_logger - INFO - get_agr_users_tablename:34 - Generated user role mapping agr_users table name for system 'SYS_2'
+2026-05-23 16:40:30 - app_logger - INFO - create_AGRUSERS_model:317 - Model for table 'Z_FUE_SYS_2_USER_ROLE_MAPPING' not in cache. Creating a new dynamic model.
+2026-05-23 16:40:30 - app_logger - INFO - create_AGRUSERS_model:324 - Successfully created dynamic model for table 'Z_FUE_SYS_2_USER_ROLE_MAPPING'
+2026-05-23 16:40:30 - app_logger - INFO - get_role_lice_data_summary_tablename:75 - Generated role license summary info table name for system 'SYS_2'
+2026-05-23 16:40:30 - app_logger - INFO - create_role_lic_summary_model:461 - Model for table 'Z_FUE_SYS_2_ROLE_LICENSE_SUMMARY' found in cache. Returning cached model.
+2026-05-23 16:40:30 - app_logger - INFO - get_user_role_data_tablename:80 - Generated user-role license info table name for system 'SYS_2'
+2026-05-23 16:40:30 - app_logger - INFO - create_user_lic_model:485 - Model for table 'Z_FUE_SYS_2_USER_ROLE_LICENSE_INFO' not in cache. Creating a new dynamic model.
+2026-05-23 16:40:30 - app_logger - INFO - create_user_lic_model:494 - Successfully created dynamic model for table 'Z_FUE_SYS_2_USER_ROLE_LICENSE_INFO'
+2026-05-23 16:40:38 - app_logger - INFO - compute_userrolellic:763 - [Stage 4] Done — 68752 rows written to UserRoleLic
+2026-05-23 16:40:55 - app_logger - INFO - compute_userlicsummary:791 - [Stage 5] Computing UserLicSummary for SYS_2
+2026-05-23 16:40:55 - app_logger - INFO - get_user_role_data_tablename:80 - Generated user-role license info table name for system 'SYS_2'
+2026-05-23 16:40:55 - app_logger - INFO - create_user_lic_model:483 - Model for table 'Z_FUE_SYS_2_USER_ROLE_LICENSE_INFO' found in cache. Returning cached model.
+2026-05-23 16:40:55 - app_logger - INFO - get_usr02_tablename:49 - Generated USER_DATA table name for system 'SYS_2'
+2026-05-23 16:40:55 - app_logger - INFO - create_USR02_model:369 - Model for table 'Z_FUE_SYS_2_USER_DATA' not in cache. Creating a new dynamic model.
+2026-05-23 16:40:56 - app_logger - INFO - create_USR02_model:376 - Successfully created dynamic model for table 'Z_FUE_SYS_2_USER_DATA'
+2026-05-23 16:40:56 - app_logger - INFO - get_transaction_usage_data_tablename:54 - Generated transaction_usage_data table name for system 'SYS_2'
+2026-05-23 16:40:56 - app_logger - INFO - create_TRANSACTIONUSAGE_model:386 - Model for table 'Z_FUE_SYS_2_TRANSACTION_USAGE' not in cache. Creating a new dynamic model.
+2026-05-23 16:40:56 - app_logger - INFO - create_TRANSACTIONUSAGE_model:393 - Successfully created dynamic model for table 'Z_FUE_SYS_2_TRANSACTION_USAGE'
+2026-05-23 16:40:56 - app_logger - INFO - get_user_role_summary_tablename:85 - Generated user-role summary license table name for system 'SYS_2'
+2026-05-23 16:40:56 - app_logger - INFO - create_user_lic_summary_model:507 - Model for table 'Z_FUE_SYS_2_USER_LICENSE_SUMMARY' not in cache. Creating a new dynamic model.
+2026-05-23 16:40:56 - app_logger - INFO - create_user_lic_summary_model:516 - Successfully created dynamic model for table 'Z_FUE_SYS_2_USER_LICENSE_SUMMARY'
+2026-05-23 16:41:02 - app_logger - INFO - compute_userlicsummary:911 - [Stage 5] Done — 3519 rows written to UserLicSummary
+2026-05-23 16:42:53 - app_logger - INFO - get_fue_dashboard:955 - [Stage 6] Fetching FUE Dashboard for SYS_2
+2026-05-23 16:42:53 - app_logger - INFO - get_user_role_summary_tablename:85 - Generated user-role summary license table name for system 'SYS_2'
+2026-05-23 16:42:53 - app_logger - INFO - create_user_lic_summary_model:505 - Model for table 'Z_FUE_SYS_2_USER_LICENSE_SUMMARY' found in cache. Returning cached model.
+2026-05-23 16:48:49 - app_logger - INFO - compute_rolelic:595 - [Stage 2] Computing RoleLic for SYS_2
+2026-05-23 16:48:49 - app_logger - INFO - get_agr_1251_tablename:29 - Generated role auth table agr_1251_name for system 'SYS_2'
+2026-05-23 16:48:49 - app_logger - INFO - create_AGR1251_model:300 - Model for table 'Z_FUE_SYS_2_ROLE_AUTH_INFO' not in cache. Creating a new dynamic model.
+2026-05-23 16:48:49 - app_logger - INFO - create_AGR1251_model:307 - Successfully created dynamic model for table 'Z_FUE_SYS_2_ROLE_AUTH_INFO'
+2026-05-23 16:48:49 - app_logger - INFO - get_role_lice_data_tablename:70 - Generated role object license info table name for system 'SYS_2'
+2026-05-23 16:48:49 - app_logger - INFO - create_role_lic_model:442 - Model for table 'Z_FUE_SYS_2_ROLE_OBJ_LICENSE_INFO' not in cache. Creating a new dynamic model.
+2026-05-23 16:48:49 - app_logger - INFO - create_role_lic_model:451 - Successfully created dynamic model for table 'Z_FUE_SYS_2_ROLE_OBJ_LICENSE_INFO'
+2026-05-23 16:49:48 - app_logger - INFO - compute_rolelic:650 - [Stage 2] Done — 493396 rows written to RoleLic
+2026-05-23 16:49:48 - app_logger - INFO - compute_rolelicsummary:666 - [Stage 3] Computing RoleLicSummary for SYS_2
+2026-05-23 16:49:48 - app_logger - INFO - get_role_lice_data_tablename:70 - Generated role object license info table name for system 'SYS_2'
+2026-05-23 16:49:48 - app_logger - INFO - create_role_lic_model:440 - Model for table 'Z_FUE_SYS_2_ROLE_OBJ_LICENSE_INFO' found in cache. Returning cached model.
+2026-05-23 16:49:48 - app_logger - INFO - get_agr_define_tablename:39 - Generated parent child role mapping table name for system 'SYS_2'
+2026-05-23 16:49:48 - app_logger - INFO - create_AGRDEFINE_model:335 - Model for table 'Z_FUE_SYS_2_PARENT_CHILD_ROLE_MAPPING' not in cache. Creating a new dynamic model.
+2026-05-23 16:49:48 - app_logger - INFO - create_AGRDEFINE_model:342 - Successfully created dynamic model for table 'Z_FUE_SYS_2_PARENT_CHILD_ROLE_MAPPING'
+2026-05-23 16:49:48 - app_logger - INFO - get_role_lice_data_summary_tablename:75 - Generated role license summary info table name for system 'SYS_2'
+2026-05-23 16:49:48 - app_logger - INFO - create_role_lic_summary_model:463 - Model for table 'Z_FUE_SYS_2_ROLE_LICENSE_SUMMARY' not in cache. Creating a new dynamic model.
+2026-05-23 16:49:48 - app_logger - INFO - create_role_lic_summary_model:472 - Successfully created dynamic model for table 'Z_FUE_SYS_2_ROLE_LICENSE_SUMMARY'
+2026-05-23 16:50:02 - app_logger - INFO - compute_rolelicsummary:712 - [Stage 3] Done — 2897 rows written to RoleLicSummary
+2026-05-23 16:50:02 - app_logger - INFO - compute_userrolellic:728 - [Stage 4] Computing UserRoleLic for SYS_2
+2026-05-23 16:50:02 - app_logger - INFO - get_agr_users_tablename:34 - Generated user role mapping agr_users table name for system 'SYS_2'
+2026-05-23 16:50:02 - app_logger - INFO - create_AGRUSERS_model:317 - Model for table 'Z_FUE_SYS_2_USER_ROLE_MAPPING' not in cache. Creating a new dynamic model.
+2026-05-23 16:50:02 - app_logger - INFO - create_AGRUSERS_model:324 - Successfully created dynamic model for table 'Z_FUE_SYS_2_USER_ROLE_MAPPING'
+2026-05-23 16:50:02 - app_logger - INFO - get_role_lice_data_summary_tablename:75 - Generated role license summary info table name for system 'SYS_2'
+2026-05-23 16:50:02 - app_logger - INFO - create_role_lic_summary_model:461 - Model for table 'Z_FUE_SYS_2_ROLE_LICENSE_SUMMARY' found in cache. Returning cached model.
+2026-05-23 16:50:02 - app_logger - INFO - get_user_role_data_tablename:80 - Generated user-role license info table name for system 'SYS_2'
+2026-05-23 16:50:02 - app_logger - INFO - create_user_lic_model:485 - Model for table 'Z_FUE_SYS_2_USER_ROLE_LICENSE_INFO' not in cache. Creating a new dynamic model.
+2026-05-23 16:50:02 - app_logger - INFO - create_user_lic_model:494 - Successfully created dynamic model for table 'Z_FUE_SYS_2_USER_ROLE_LICENSE_INFO'
+2026-05-23 16:50:10 - app_logger - INFO - compute_userrolellic:763 - [Stage 4] Done — 68752 rows written to UserRoleLic
+2026-05-23 16:50:10 - app_logger - INFO - compute_userlicsummary:815 - [Stage 5] Computing UserLicSummary for SYS_2
+2026-05-23 16:50:10 - app_logger - INFO - get_user_role_data_tablename:80 - Generated user-role license info table name for system 'SYS_2'
+2026-05-23 16:50:10 - app_logger - INFO - create_user_lic_model:483 - Model for table 'Z_FUE_SYS_2_USER_ROLE_LICENSE_INFO' found in cache. Returning cached model.
+2026-05-23 16:50:10 - app_logger - INFO - get_usr02_tablename:49 - Generated USER_DATA table name for system 'SYS_2'
+2026-05-23 16:50:10 - app_logger - INFO - create_USR02_model:369 - Model for table 'Z_FUE_SYS_2_USER_DATA' not in cache. Creating a new dynamic model.
+2026-05-23 16:50:10 - app_logger - INFO - create_USR02_model:376 - Successfully created dynamic model for table 'Z_FUE_SYS_2_USER_DATA'
+2026-05-23 16:50:10 - app_logger - INFO - get_transaction_usage_data_tablename:54 - Generated transaction_usage_data table name for system 'SYS_2'
+2026-05-23 16:50:10 - app_logger - INFO - create_TRANSACTIONUSAGE_model:386 - Model for table 'Z_FUE_SYS_2_TRANSACTION_USAGE' not in cache. Creating a new dynamic model.
+2026-05-23 16:50:10 - app_logger - INFO - create_TRANSACTIONUSAGE_model:393 - Successfully created dynamic model for table 'Z_FUE_SYS_2_TRANSACTION_USAGE'
+2026-05-23 16:50:10 - app_logger - INFO - get_user_role_summary_tablename:85 - Generated user-role summary license table name for system 'SYS_2'
+2026-05-23 16:50:10 - app_logger - INFO - create_user_lic_summary_model:507 - Model for table 'Z_FUE_SYS_2_USER_LICENSE_SUMMARY' not in cache. Creating a new dynamic model.
+2026-05-23 16:50:10 - app_logger - INFO - create_user_lic_summary_model:516 - Successfully created dynamic model for table 'Z_FUE_SYS_2_USER_LICENSE_SUMMARY'
+2026-05-23 16:50:16 - app_logger - INFO - compute_userlicsummary:933 - [Stage 5] Done — 3519 rows written to UserLicSummary
+2026-05-23 16:50:33 - app_logger - INFO - get_fue_dashboard:977 - [Stage 6] Fetching FUE Dashboard for SYS_2
+2026-05-23 16:50:33 - app_logger - INFO - get_user_role_summary_tablename:85 - Generated user-role summary license table name for system 'SYS_2'
+2026-05-23 16:50:33 - app_logger - INFO - create_user_lic_summary_model:505 - Model for table 'Z_FUE_SYS_2_USER_LICENSE_SUMMARY' found in cache. Returning cached model.
+2026-05-23 16:57:11 - app_logger - INFO - get_fue_dashboard:1026 - [Stage 6] Fetching FUE Dashboard for SYS_2
+2026-05-23 16:57:11 - app_logger - INFO - get_user_role_summary_tablename:85 - Generated user-role summary license table name for system 'SYS_2'
+2026-05-23 16:57:11 - app_logger - INFO - create_user_lic_summary_model:507 - Model for table 'Z_FUE_SYS_2_USER_LICENSE_SUMMARY' not in cache. Creating a new dynamic model.
+2026-05-23 16:57:11 - app_logger - INFO - create_user_lic_summary_model:516 - Successfully created dynamic model for table 'Z_FUE_SYS_2_USER_LICENSE_SUMMARY'
+2026-05-23 16:57:11 - app_logger - INFO - get_role_lice_data_summary_tablename:75 - Generated role license summary info table name for system 'SYS_2'
+2026-05-23 16:57:11 - app_logger - INFO - create_role_lic_summary_model:463 - Model for table 'Z_FUE_SYS_2_ROLE_LICENSE_SUMMARY' not in cache. Creating a new dynamic model.
+2026-05-23 16:57:11 - app_logger - INFO - create_role_lic_summary_model:472 - Successfully created dynamic model for table 'Z_FUE_SYS_2_ROLE_LICENSE_SUMMARY'
+2026-05-23 18:13:39 - app_logger - INFO - get_logs:62 - Received request to get logs. Filename provided: None
+2026-05-23 18:13:39 - app_logger - INFO - get_logs:159 - Returning details for 3 log files.
+2026-05-23 18:13:39 - app_logger - INFO - get_logs:62 - Received request to get logs. Filename provided: None
+2026-05-23 18:13:39 - app_logger - INFO - get_logs:159 - Returning details for 3 log files.
+2026-05-23 18:13:45 - app_logger - INFO - get_logs:62 - Received request to get logs. Filename provided: None
+2026-05-23 18:13:45 - app_logger - INFO - get_logs:159 - Returning details for 3 log files.
+2026-05-23 18:13:45 - app_logger - INFO - get_logs:62 - Received request to get logs. Filename provided: None
+2026-05-23 18:13:45 - app_logger - INFO - get_logs:159 - Returning details for 3 log files.
+2026-05-23 18:13:48 - app_logger - INFO - get_logs:62 - Received request to get logs. Filename provided: log-2026-05-22.log
+2026-05-23 18:13:48 - app_logger - INFO - get_logs:86 - Successfully read content of log file: log-2026-05-22.log
+2026-05-23 18:49:33 - app_logger - INFO - get_fue_dashboard:1026 - [Stage 6] Fetching FUE Dashboard for SYS_1
+2026-05-23 18:49:33 - app_logger - INFO - get_user_role_summary_tablename:85 - Generated user-role summary license table name for system 'SYS_1'
+2026-05-23 18:49:33 - app_logger - INFO - create_user_lic_summary_model:507 - Model for table 'Z_FUE_SYS_1_USER_LICENSE_SUMMARY' not in cache. Creating a new dynamic model.
+2026-05-23 18:49:33 - app_logger - INFO - create_user_lic_summary_model:516 - Successfully created dynamic model for table 'Z_FUE_SYS_1_USER_LICENSE_SUMMARY'
+2026-05-23 18:49:33 - app_logger - INFO - get_role_lice_data_summary_tablename:75 - Generated role license summary info table name for system 'SYS_1'
+2026-05-23 18:49:33 - app_logger - INFO - create_role_lic_summary_model:463 - Model for table 'Z_FUE_SYS_1_ROLE_LICENSE_SUMMARY' not in cache. Creating a new dynamic model.
+2026-05-23 18:49:33 - app_logger - INFO - create_role_lic_summary_model:472 - Successfully created dynamic model for table 'Z_FUE_SYS_1_ROLE_LICENSE_SUMMARY'
+2026-05-23 18:49:36 - app_logger - INFO - get_fue_dashboard:1026 - [Stage 6] Fetching FUE Dashboard for SYS_2
+2026-05-23 18:49:36 - app_logger - INFO - get_user_role_summary_tablename:85 - Generated user-role summary license table name for system 'SYS_2'
+2026-05-23 18:49:36 - app_logger - INFO - create_user_lic_summary_model:507 - Model for table 'Z_FUE_SYS_2_USER_LICENSE_SUMMARY' not in cache. Creating a new dynamic model.
+2026-05-23 18:49:36 - app_logger - INFO - create_user_lic_summary_model:516 - Successfully created dynamic model for table 'Z_FUE_SYS_2_USER_LICENSE_SUMMARY'
+2026-05-23 18:49:36 - app_logger - INFO - get_role_lice_data_summary_tablename:75 - Generated role license summary info table name for system 'SYS_2'
+2026-05-23 18:49:36 - app_logger - INFO - create_role_lic_summary_model:463 - Model for table 'Z_FUE_SYS_2_ROLE_LICENSE_SUMMARY' not in cache. Creating a new dynamic model.
+2026-05-23 18:49:36 - app_logger - INFO - create_role_lic_summary_model:472 - Successfully created dynamic model for table 'Z_FUE_SYS_2_ROLE_LICENSE_SUMMARY'
+2026-05-23 18:50:14 - app_logger - INFO - get_fue_dashboard:1026 - [Stage 6] Fetching FUE Dashboard for SYS_2
+2026-05-23 18:50:14 - app_logger - INFO - get_user_role_summary_tablename:85 - Generated user-role summary license table name for system 'SYS_2'
+2026-05-23 18:50:14 - app_logger - INFO - create_user_lic_summary_model:505 - Model for table 'Z_FUE_SYS_2_USER_LICENSE_SUMMARY' found in cache. Returning cached model.
+2026-05-23 18:50:14 - app_logger - INFO - get_role_lice_data_summary_tablename:75 - Generated role license summary info table name for system 'SYS_2'
+2026-05-23 18:50:14 - app_logger - INFO - create_role_lic_summary_model:461 - Model for table 'Z_FUE_SYS_2_ROLE_LICENSE_SUMMARY' found in cache. Returning cached model.
+2026-05-23 18:50:44 - app_logger - INFO - get_fue_dashboard:1026 - [Stage 6] Fetching FUE Dashboard for SYS_1
+2026-05-23 18:50:44 - app_logger - INFO - get_user_role_summary_tablename:85 - Generated user-role summary license table name for system 'SYS_1'
+2026-05-23 18:50:44 - app_logger - INFO - create_user_lic_summary_model:505 - Model for table 'Z_FUE_SYS_1_USER_LICENSE_SUMMARY' found in cache. Returning cached model.
+2026-05-23 18:50:44 - app_logger - INFO - get_role_lice_data_summary_tablename:75 - Generated role license summary info table name for system 'SYS_1'
+2026-05-23 18:50:44 - app_logger - INFO - create_role_lic_summary_model:461 - Model for table 'Z_FUE_SYS_1_ROLE_LICENSE_SUMMARY' found in cache. Returning cached model.
+2026-05-23 18:50:48 - app_logger - INFO - get_fue_dashboard:1026 - [Stage 6] Fetching FUE Dashboard for SYS_2
+2026-05-23 18:50:48 - app_logger - INFO - get_user_role_summary_tablename:85 - Generated user-role summary license table name for system 'SYS_2'
+2026-05-23 18:50:48 - app_logger - INFO - create_user_lic_summary_model:505 - Model for table 'Z_FUE_SYS_2_USER_LICENSE_SUMMARY' found in cache. Returning cached model.
+2026-05-23 18:50:48 - app_logger - INFO - get_role_lice_data_summary_tablename:75 - Generated role license summary info table name for system 'SYS_2'
+2026-05-23 18:50:48 - app_logger - INFO - create_role_lic_summary_model:461 - Model for table 'Z_FUE_SYS_2_ROLE_LICENSE_SUMMARY' found in cache. Returning cached model.
+2026-05-23 18:50:56 - app_logger - INFO - get_fue_dashboard:1026 - [Stage 6] Fetching FUE Dashboard for SYS_1
+2026-05-23 18:50:56 - app_logger - INFO - get_user_role_summary_tablename:85 - Generated user-role summary license table name for system 'SYS_1'
+2026-05-23 18:50:56 - app_logger - INFO - create_user_lic_summary_model:505 - Model for table 'Z_FUE_SYS_1_USER_LICENSE_SUMMARY' found in cache. Returning cached model.
+2026-05-23 18:50:56 - app_logger - INFO - get_role_lice_data_summary_tablename:75 - Generated role license summary info table name for system 'SYS_1'
+2026-05-23 18:50:56 - app_logger - INFO - create_role_lic_summary_model:461 - Model for table 'Z_FUE_SYS_1_ROLE_LICENSE_SUMMARY' found in cache. Returning cached model.
+2026-05-23 18:51:01 - app_logger - INFO - get_fue_dashboard:1026 - [Stage 6] Fetching FUE Dashboard for SYS_2
+2026-05-23 18:51:01 - app_logger - INFO - get_user_role_summary_tablename:85 - Generated user-role summary license table name for system 'SYS_2'
+2026-05-23 18:51:01 - app_logger - INFO - create_user_lic_summary_model:505 - Model for table 'Z_FUE_SYS_2_USER_LICENSE_SUMMARY' found in cache. Returning cached model.
+2026-05-23 18:51:01 - app_logger - INFO - get_role_lice_data_summary_tablename:75 - Generated role license summary info table name for system 'SYS_2'
+2026-05-23 18:51:01 - app_logger - INFO - create_role_lic_summary_model:461 - Model for table 'Z_FUE_SYS_2_ROLE_LICENSE_SUMMARY' found in cache. Returning cached model.
+2026-05-23 18:51:29 - app_logger - INFO - get_fue_dashboard:1026 - [Stage 6] Fetching FUE Dashboard for SYS_1
+2026-05-23 18:51:29 - app_logger - INFO - get_user_role_summary_tablename:85 - Generated user-role summary license table name for system 'SYS_1'
+2026-05-23 18:51:29 - app_logger - INFO - create_user_lic_summary_model:505 - Model for table 'Z_FUE_SYS_1_USER_LICENSE_SUMMARY' found in cache. Returning cached model.
+2026-05-23 18:51:29 - app_logger - INFO - get_role_lice_data_summary_tablename:75 - Generated role license summary info table name for system 'SYS_1'
+2026-05-23 18:51:29 - app_logger - INFO - create_role_lic_summary_model:461 - Model for table 'Z_FUE_SYS_1_ROLE_LICENSE_SUMMARY' found in cache. Returning cached model.
+2026-05-23 18:51:31 - app_logger - INFO - get_fue_dashboard:1026 - [Stage 6] Fetching FUE Dashboard for SYS_2
+2026-05-23 18:51:31 - app_logger - INFO - get_user_role_summary_tablename:85 - Generated user-role summary license table name for system 'SYS_2'
+2026-05-23 18:51:31 - app_logger - INFO - create_user_lic_summary_model:505 - Model for table 'Z_FUE_SYS_2_USER_LICENSE_SUMMARY' found in cache. Returning cached model.
+2026-05-23 18:51:31 - app_logger - INFO - get_role_lice_data_summary_tablename:75 - Generated role license summary info table name for system 'SYS_2'
+2026-05-23 18:51:31 - app_logger - INFO - create_role_lic_summary_model:461 - Model for table 'Z_FUE_SYS_2_ROLE_LICENSE_SUMMARY' found in cache. Returning cached model.
+2026-05-23 20:30:44 - app_logger - INFO - create_system:58 - Created system: NEW
+2026-05-23 20:31:38 - app_logger - INFO - load_agr_define_endpoint:193 - Received request to load AGR_DEFINE data for system: 'NEW', release: 'NEW SYSTEM'
+2026-05-23 20:31:38 - app_logger - INFO - ensure_client_system_info:80 - system info already exists: NEW, NEW SYSTEM
+2026-05-23 20:31:38 - app_logger - INFO - load_agrdefine_from_csv_upload:196 - Starting AGR_DEFINE CSV data load for system: NEW
+2026-05-23 20:31:38 - app_logger - INFO - get_agr_define_tablename:39 - Generated parent child role mapping table name for system 'NEW'
+2026-05-23 20:31:38 - app_logger - INFO - create_AGRDEFINE_model:335 - Model for table 'Z_FUE_NEW_PARENT_CHILD_ROLE_MAPPING' not in cache. Creating a new dynamic model.
+2026-05-23 20:31:38 - app_logger - INFO - create_AGRDEFINE_model:342 - Successfully created dynamic model for table 'Z_FUE_NEW_PARENT_CHILD_ROLE_MAPPING'
+2026-05-23 20:31:39 - app_logger - INFO - load_agrdefine_from_csv_upload:206 - Truncated (deleted) 0 rows from Z_FUE_NEW_PARENT_CHILD_ROLE_MAPPING.
+2026-05-23 20:31:40 - app_logger - INFO - load_agrdefine_from_csv_upload:251 - Successfully loaded 7482 records into Z_FUE_NEW_PARENT_CHILD_ROLE_MAPPING
+2026-05-23 20:31:40 - app_logger - INFO - load_agr_define_endpoint:214 - AGR_DEFINE data load completed: {'message': 'Successfully loaded 7482 records into Z_FUE_NEW_PARENT_CHILD_ROLE_MAPPING', 'table_name': 'Z_FUE_NEW_PARENT_CHILD_ROLE_MAPPING', 'records_loaded': 7482}
+2026-05-23 20:31:40 - app_logger - INFO - load_agr_users_endpoint:144 - Received request to agr_users data for system: 'NEW', release: 'NEW SYSTEM'
+2026-05-23 20:31:40 - app_logger - INFO - ensure_client_system_info:80 - system info already exists: NEW, NEW SYSTEM
+2026-05-23 20:31:40 - app_logger - INFO - load_agrusers_from_csv_upload:115 - Starting CSV data load for system: NEW
+2026-05-23 20:31:40 - app_logger - INFO - get_agr_users_tablename:34 - Generated user role mapping agr_users table name for system 'NEW'
+2026-05-23 20:31:40 - app_logger - INFO - create_AGRUSERS_model:317 - Model for table 'Z_FUE_NEW_USER_ROLE_MAPPING' not in cache. Creating a new dynamic model.
+2026-05-23 20:31:40 - app_logger - INFO - create_AGRUSERS_model:324 - Successfully created dynamic model for table 'Z_FUE_NEW_USER_ROLE_MAPPING'
+2026-05-23 20:31:40 - app_logger - INFO - load_agrusers_from_csv_upload:126 - Truncated (deleted) 0 rows from Z_FUE_NEW_USER_ROLE_MAPPING.
+2026-05-23 20:31:49 - app_logger - INFO - load_agrusers_from_csv_upload:180 - Successfully loaded 68752 records into Z_FUE_NEW_USER_ROLE_MAPPING
+2026-05-23 20:31:49 - app_logger - INFO - load_agr_users_endpoint:166 - Auth data load completed: {'message': 'Successfully loaded 68752 records into Z_FUE_NEW_USER_ROLE_MAPPING', 'table_name': 'Z_FUE_NEW_USER_ROLE_MAPPING', 'records_loaded': 68752}
+2026-05-23 20:31:49 - app_logger - INFO - load_agr_1251_endpoint:93 - Received request to agr_1251 data for system: 'NEW', release: 'NEW SYSTEM'
+2026-05-23 20:31:49 - app_logger - INFO - ensure_client_system_info:80 - system info already exists: NEW, NEW SYSTEM
+2026-05-23 20:31:49 - app_logger - INFO - load_agr1251_from_csv_upload:27 - Starting CSV data load for system: NEW
+2026-05-23 20:31:49 - app_logger - INFO - get_agr_1251_tablename:29 - Generated role auth table agr_1251_name for system 'NEW'
+2026-05-23 20:31:49 - app_logger - INFO - create_AGR1251_model:300 - Model for table 'Z_FUE_NEW_ROLE_AUTH_INFO' not in cache. Creating a new dynamic model.
+2026-05-23 20:31:49 - app_logger - INFO - create_AGR1251_model:307 - Successfully created dynamic model for table 'Z_FUE_NEW_ROLE_AUTH_INFO'
+2026-05-23 20:31:49 - app_logger - INFO - load_agr1251_from_csv_upload:38 - Truncated (deleted) 0 rows from Z_FUE_NEW_ROLE_AUTH_INFO.
+2026-05-23 20:32:46 - app_logger - INFO - load_agr1251_from_csv_upload:97 - Successfully loaded 493396 records into Z_FUE_NEW_ROLE_AUTH_INFO
+2026-05-23 20:32:47 - app_logger - INFO - load_agr_1251_endpoint:115 - Auth data load completed: {'message': 'Successfully loaded 493396 records into Z_FUE_NEW_ROLE_AUTH_INFO', 'table_name': 'Z_FUE_NEW_ROLE_AUTH_INFO', 'records_loaded': 493396}
+2026-05-23 20:34:39 - app_logger - INFO - get_fue_dashboard:1026 - [Stage 6] Fetching FUE Dashboard for SYS_1
+2026-05-23 20:34:39 - app_logger - INFO - get_user_role_summary_tablename:85 - Generated user-role summary license table name for system 'SYS_1'
+2026-05-23 20:34:39 - app_logger - INFO - create_user_lic_summary_model:505 - Model for table 'Z_FUE_SYS_1_USER_LICENSE_SUMMARY' found in cache. Returning cached model.
+2026-05-23 20:34:39 - app_logger - INFO - get_role_lice_data_summary_tablename:75 - Generated role license summary info table name for system 'SYS_1'
+2026-05-23 20:34:39 - app_logger - INFO - create_role_lic_summary_model:461 - Model for table 'Z_FUE_SYS_1_ROLE_LICENSE_SUMMARY' found in cache. Returning cached model.
+2026-05-23 21:46:44 - app_logger - INFO - get_fue_dashboard:1026 - [Stage 6] Fetching FUE Dashboard for SYS_1
+2026-05-23 21:46:44 - app_logger - INFO - get_user_role_summary_tablename:85 - Generated user-role summary license table name for system 'SYS_1'
+2026-05-23 21:46:44 - app_logger - INFO - create_user_lic_summary_model:505 - Model for table 'Z_FUE_SYS_1_USER_LICENSE_SUMMARY' found in cache. Returning cached model.
+2026-05-23 21:46:44 - app_logger - INFO - get_role_lice_data_summary_tablename:75 - Generated role license summary info table name for system 'SYS_1'
+2026-05-23 21:46:44 - app_logger - INFO - create_role_lic_summary_model:461 - Model for table 'Z_FUE_SYS_1_ROLE_LICENSE_SUMMARY' found in cache. Returning cached model.
+2026-05-23 21:46:48 - app_logger - INFO - get_fue_dashboard:1026 - [Stage 6] Fetching FUE Dashboard for SYS_2
+2026-05-23 21:46:48 - app_logger - INFO - get_user_role_summary_tablename:85 - Generated user-role summary license table name for system 'SYS_2'
+2026-05-23 21:46:48 - app_logger - INFO - create_user_lic_summary_model:505 - Model for table 'Z_FUE_SYS_2_USER_LICENSE_SUMMARY' found in cache. Returning cached model.
+2026-05-23 21:46:48 - app_logger - INFO - get_role_lice_data_summary_tablename:75 - Generated role license summary info table name for system 'SYS_2'
+2026-05-23 21:46:48 - app_logger - INFO - create_role_lic_summary_model:461 - Model for table 'Z_FUE_SYS_2_ROLE_LICENSE_SUMMARY' found in cache. Returning cached model.
+2026-05-23 21:46:53 - app_logger - INFO - get_fue_dashboard:1026 - [Stage 6] Fetching FUE Dashboard for SYS_1
+2026-05-23 21:46:53 - app_logger - INFO - get_user_role_summary_tablename:85 - Generated user-role summary license table name for system 'SYS_1'
+2026-05-23 21:46:53 - app_logger - INFO - create_user_lic_summary_model:505 - Model for table 'Z_FUE_SYS_1_USER_LICENSE_SUMMARY' found in cache. Returning cached model.
+2026-05-23 21:46:53 - app_logger - INFO - get_role_lice_data_summary_tablename:75 - Generated role license summary info table name for system 'SYS_1'
+2026-05-23 21:46:53 - app_logger - INFO - create_role_lic_summary_model:461 - Model for table 'Z_FUE_SYS_1_ROLE_LICENSE_SUMMARY' found in cache. Returning cached model.
+2026-05-23 21:48:41 - app_logger - INFO - get_fue_dashboard:1026 - [Stage 6] Fetching FUE Dashboard for SYS_1
+2026-05-23 21:48:41 - app_logger - INFO - get_user_role_summary_tablename:85 - Generated user-role summary license table name for system 'SYS_1'
+2026-05-23 21:48:41 - app_logger - INFO - create_user_lic_summary_model:505 - Model for table 'Z_FUE_SYS_1_USER_LICENSE_SUMMARY' found in cache. Returning cached model.
+2026-05-23 21:48:41 - app_logger - INFO - get_role_lice_data_summary_tablename:75 - Generated role license summary info table name for system 'SYS_1'
+2026-05-23 21:48:41 - app_logger - INFO - create_role_lic_summary_model:461 - Model for table 'Z_FUE_SYS_1_ROLE_LICENSE_SUMMARY' found in cache. Returning cached model.
+2026-05-23 22:31:58 - app_logger - INFO - get_fue_dashboard:1026 - [Stage 6] Fetching FUE Dashboard for SYS_1
+2026-05-23 22:31:58 - app_logger - INFO - get_user_role_summary_tablename:85 - Generated user-role summary license table name for system 'SYS_1'
+2026-05-23 22:31:58 - app_logger - INFO - create_user_lic_summary_model:505 - Model for table 'Z_FUE_SYS_1_USER_LICENSE_SUMMARY' found in cache. Returning cached model.
+2026-05-23 22:31:58 - app_logger - INFO - get_role_lice_data_summary_tablename:75 - Generated role license summary info table name for system 'SYS_1'
+2026-05-23 22:31:58 - app_logger - INFO - create_role_lic_summary_model:461 - Model for table 'Z_FUE_SYS_1_ROLE_LICENSE_SUMMARY' found in cache. Returning cached model.
+2026-05-23 22:32:02 - app_logger - INFO - get_fue_dashboard:1026 - [Stage 6] Fetching FUE Dashboard for SYS_2
+2026-05-23 22:32:02 - app_logger - INFO - get_user_role_summary_tablename:85 - Generated user-role summary license table name for system 'SYS_2'
+2026-05-23 22:32:02 - app_logger - INFO - create_user_lic_summary_model:505 - Model for table 'Z_FUE_SYS_2_USER_LICENSE_SUMMARY' found in cache. Returning cached model.
+2026-05-23 22:32:02 - app_logger - INFO - get_role_lice_data_summary_tablename:75 - Generated role license summary info table name for system 'SYS_2'
+2026-05-23 22:32:02 - app_logger - INFO - create_role_lic_summary_model:461 - Model for table 'Z_FUE_SYS_2_ROLE_LICENSE_SUMMARY' found in cache. Returning cached model.
+2026-05-23 22:32:22 - app_logger - INFO - get_fue_dashboard:1026 - [Stage 6] Fetching FUE Dashboard for SYS_1
+2026-05-23 22:32:22 - app_logger - INFO - get_user_role_summary_tablename:85 - Generated user-role summary license table name for system 'SYS_1'
+2026-05-23 22:32:22 - app_logger - INFO - create_user_lic_summary_model:505 - Model for table 'Z_FUE_SYS_1_USER_LICENSE_SUMMARY' found in cache. Returning cached model.
+2026-05-23 22:32:22 - app_logger - INFO - get_role_lice_data_summary_tablename:75 - Generated role license summary info table name for system 'SYS_1'
+2026-05-23 22:32:22 - app_logger - INFO - create_role_lic_summary_model:461 - Model for table 'Z_FUE_SYS_1_ROLE_LICENSE_SUMMARY' found in cache. Returning cached model.
+2026-05-23 22:32:28 - app_logger - INFO - get_fue_dashboard:1026 - [Stage 6] Fetching FUE Dashboard for SYS_2
+2026-05-23 22:32:28 - app_logger - INFO - get_user_role_summary_tablename:85 - Generated user-role summary license table name for system 'SYS_2'
+2026-05-23 22:32:28 - app_logger - INFO - create_user_lic_summary_model:505 - Model for table 'Z_FUE_SYS_2_USER_LICENSE_SUMMARY' found in cache. Returning cached model.
+2026-05-23 22:32:28 - app_logger - INFO - get_role_lice_data_summary_tablename:75 - Generated role license summary info table name for system 'SYS_2'
+2026-05-23 22:32:28 - app_logger - INFO - create_role_lic_summary_model:461 - Model for table 'Z_FUE_SYS_2_ROLE_LICENSE_SUMMARY' found in cache. Returning cached model.
+2026-05-23 22:39:02 - app_logger - INFO - get_fue_dashboard:1026 - [Stage 6] Fetching FUE Dashboard for SYS_1
+2026-05-23 22:39:02 - app_logger - INFO - get_user_role_summary_tablename:85 - Generated user-role summary license table name for system 'SYS_1'
+2026-05-23 22:39:02 - app_logger - INFO - create_user_lic_summary_model:505 - Model for table 'Z_FUE_SYS_1_USER_LICENSE_SUMMARY' found in cache. Returning cached model.
+2026-05-23 22:39:02 - app_logger - INFO - get_role_lice_data_summary_tablename:75 - Generated role license summary info table name for system 'SYS_1'
+2026-05-23 22:39:02 - app_logger - INFO - create_role_lic_summary_model:461 - Model for table 'Z_FUE_SYS_1_ROLE_LICENSE_SUMMARY' found in cache. Returning cached model.
+2026-05-23 22:39:38 - app_logger - INFO - get_fue_dashboard:1026 - [Stage 6] Fetching FUE Dashboard for SYS_1
+2026-05-23 22:39:38 - app_logger - INFO - get_user_role_summary_tablename:85 - Generated user-role summary license table name for system 'SYS_1'
+2026-05-23 22:39:38 - app_logger - INFO - create_user_lic_summary_model:505 - Model for table 'Z_FUE_SYS_1_USER_LICENSE_SUMMARY' found in cache. Returning cached model.
+2026-05-23 22:39:38 - app_logger - INFO - get_role_lice_data_summary_tablename:75 - Generated role license summary info table name for system 'SYS_1'
+2026-05-23 22:39:38 - app_logger - INFO - create_role_lic_summary_model:461 - Model for table 'Z_FUE_SYS_1_ROLE_LICENSE_SUMMARY' found in cache. Returning cached model.
+2026-05-23 22:42:09 - app_logger - INFO - get_fue_dashboard:1026 - [Stage 6] Fetching FUE Dashboard for SYS_1
+2026-05-23 22:42:09 - app_logger - INFO - get_user_role_summary_tablename:85 - Generated user-role summary license table name for system 'SYS_1'
+2026-05-23 22:42:09 - app_logger - INFO - create_user_lic_summary_model:505 - Model for table 'Z_FUE_SYS_1_USER_LICENSE_SUMMARY' found in cache. Returning cached model.
+2026-05-23 22:42:09 - app_logger - INFO - get_role_lice_data_summary_tablename:75 - Generated role license summary info table name for system 'SYS_1'
+2026-05-23 22:42:09 - app_logger - INFO - create_role_lic_summary_model:461 - Model for table 'Z_FUE_SYS_1_ROLE_LICENSE_SUMMARY' found in cache. Returning cached model.
+2026-05-23 22:42:20 - app_logger - INFO - get_agr_1251_tablename:29 - Generated role auth table agr_1251_name for system 'SYS_2'
+2026-05-23 22:42:20 - app_logger - INFO - get_agr_users_tablename:34 - Generated user role mapping agr_users table name for system 'SYS_2'
+2026-05-23 22:42:20 - app_logger - INFO - get_agr_define_tablename:39 - Generated parent child role mapping table name for system 'SYS_2'
+2026-05-23 22:42:20 - app_logger - INFO - get_agr_agrs_tablename:44 - Generated Composite roles data table name for system 'SYS_2'
+2026-05-23 22:42:20 - app_logger - INFO - get_usr02_tablename:49 - Generated USER_DATA table name for system 'SYS_2'
+2026-05-23 22:42:20 - app_logger - INFO - get_transaction_usage_data_tablename:54 - Generated transaction_usage_data table name for system 'SYS_2'
+2026-05-23 22:42:20 - app_logger - INFO - get_tables_for_client_system:260 - Successfully fetched tables ['Z_FUE_CLIENT_SYS_INFO', 'Z_FUE_SYS_2_COMPOSITE_ROLE_DATA', 'Z_FUE_SYS_2_TRANSACTION_USAGE', 'Z_FUE_SYS_2_USER_DATA', 'Z_FUE_SYS_2_ROLE_LIC_SIM', 'Z_FUE_SYS_2_TCODE_TEXT DATA', 'Z_FUE_LOG_FILE', 'Z_FUE_SYS_2_SIMULATION_RESULT', 'Z_FUE_SYS_2_ROLE_AUTH_INFO', 'Z_FUE_RULESET', 'Z_FUE_SYS_2_ROLE_LICENSE_SUMMARY', 'Z_FUE_SYS_2_FIORI DATA', 'Z_FUE_NEW_USER_ROLE_MAPPING', 'Z_FUE_SYS_2_USER_ROLE_MAPPING', 'Z_FUE_SYS_2_ROLE_OBJ_LICENSE_INFO', 'Z_FUE_SYS_2_USER_ROLE_LICENSE_INFO', 'Z_FUE_SYS_2_USER_LICENSE_SUMMARY', 'Z_FUE_SYS_2_PARENT_CHILD_ROLE_MAPPING', 'Z_FUE_NEW_PARENT_CHILD_ROLE_MAPPING', 'Z_FUE_NEW_ROLE_AUTH_INFO'] for  and system: SYS_2.
+2026-05-23 22:43:06 - app_logger - INFO - delete_system:119 - Deleted system: S_09
+2026-05-23 22:43:19 - app_logger - INFO - delete_system:119 - Deleted system: S_98
+2026-05-23 22:45:19 - app_logger - INFO - get_agr_1251_tablename:29 - Generated role auth table agr_1251_name for system 'SYS_2'
+2026-05-23 22:45:19 - app_logger - INFO - get_agr_users_tablename:34 - Generated user role mapping agr_users table name for system 'SYS_2'
+2026-05-23 22:45:19 - app_logger - INFO - get_agr_define_tablename:39 - Generated parent child role mapping table name for system 'SYS_2'
+2026-05-23 22:45:19 - app_logger - INFO - get_agr_agrs_tablename:44 - Generated Composite roles data table name for system 'SYS_2'
+2026-05-23 22:45:19 - app_logger - INFO - get_usr02_tablename:49 - Generated USER_DATA table name for system 'SYS_2'
+2026-05-23 22:45:19 - app_logger - INFO - get_transaction_usage_data_tablename:54 - Generated transaction_usage_data table name for system 'SYS_2'
+2026-05-23 22:45:19 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-23 22:45:19 - app_logger - INFO - get_flpca_data_tablename:60 - Generated flpca table name for system 'SYS_2'
+2026-05-23 22:45:19 - app_logger - INFO - get_tables_for_client_system:262 - Successfully fetched tables ['Z_FUE_CLIENT_SYS_INFO', 'Z_FUE_SYS_2_COMPOSITE_ROLE_DATA', 'Z_FUE_SYS_2_TRANSACTION_USAGE', 'Z_FUE_SYS_2_USER_DATA', 'Z_FUE_SYS_2_ROLE_LIC_SIM', 'Z_FUE_SYS_2_TCODE_TEXT DATA', 'Z_FUE_LOG_FILE', 'Z_FUE_SYS_2_SIMULATION_RESULT', 'Z_FUE_SYS_2_ROLE_AUTH_INFO', 'Z_FUE_RULESET', 'Z_FUE_SYS_2_ROLE_LICENSE_SUMMARY', 'Z_FUE_SYS_2_FIORI DATA', 'Z_FUE_NEW_USER_ROLE_MAPPING', 'Z_FUE_SYS_2_USER_ROLE_MAPPING', 'Z_FUE_SYS_2_ROLE_OBJ_LICENSE_INFO', 'Z_FUE_SYS_2_USER_ROLE_LICENSE_INFO', 'Z_FUE_SYS_2_USER_LICENSE_SUMMARY', 'Z_FUE_SYS_2_PARENT_CHILD_ROLE_MAPPING', 'Z_FUE_NEW_PARENT_CHILD_ROLE_MAPPING', 'Z_FUE_NEW_ROLE_AUTH_INFO'] for  and system: SYS_2.
+2026-05-23 22:45:19 - app_logger - INFO - get_agr_1251_tablename:29 - Generated role auth table agr_1251_name for system 'NEW'
+2026-05-23 22:45:19 - app_logger - INFO - get_agr_users_tablename:34 - Generated user role mapping agr_users table name for system 'NEW'
+2026-05-23 22:45:19 - app_logger - INFO - get_agr_define_tablename:39 - Generated parent child role mapping table name for system 'NEW'
+2026-05-23 22:45:19 - app_logger - INFO - get_agr_agrs_tablename:44 - Generated Composite roles data table name for system 'NEW'
+2026-05-23 22:45:19 - app_logger - INFO - get_usr02_tablename:49 - Generated USER_DATA table name for system 'NEW'
+2026-05-23 22:45:19 - app_logger - INFO - get_transaction_usage_data_tablename:54 - Generated transaction_usage_data table name for system 'NEW'
+2026-05-23 22:45:19 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'NEW'
+2026-05-23 22:45:19 - app_logger - INFO - get_flpca_data_tablename:60 - Generated flpca table name for system 'NEW'
+2026-05-23 22:45:19 - app_logger - INFO - get_tables_for_client_system:262 - Successfully fetched tables ['Z_FUE_CLIENT_SYS_INFO', 'Z_FUE_SYS_2_COMPOSITE_ROLE_DATA', 'Z_FUE_SYS_2_TRANSACTION_USAGE', 'Z_FUE_SYS_2_USER_DATA', 'Z_FUE_SYS_2_ROLE_LIC_SIM', 'Z_FUE_SYS_2_TCODE_TEXT DATA', 'Z_FUE_LOG_FILE', 'Z_FUE_SYS_2_SIMULATION_RESULT', 'Z_FUE_SYS_2_ROLE_AUTH_INFO', 'Z_FUE_RULESET', 'Z_FUE_SYS_2_ROLE_LICENSE_SUMMARY', 'Z_FUE_SYS_2_FIORI DATA', 'Z_FUE_NEW_USER_ROLE_MAPPING', 'Z_FUE_SYS_2_USER_ROLE_MAPPING', 'Z_FUE_SYS_2_ROLE_OBJ_LICENSE_INFO', 'Z_FUE_SYS_2_USER_ROLE_LICENSE_INFO', 'Z_FUE_SYS_2_USER_LICENSE_SUMMARY', 'Z_FUE_SYS_2_PARENT_CHILD_ROLE_MAPPING', 'Z_FUE_NEW_PARENT_CHILD_ROLE_MAPPING', 'Z_FUE_NEW_ROLE_AUTH_INFO'] for  and system: NEW.
+2026-05-23 22:45:23 - app_logger - INFO - get_agr_1251_tablename:29 - Generated role auth table agr_1251_name for system 'SYS_2'
+2026-05-23 22:45:23 - app_logger - INFO - get_agr_users_tablename:34 - Generated user role mapping agr_users table name for system 'SYS_2'
+2026-05-23 22:45:23 - app_logger - INFO - get_agr_define_tablename:39 - Generated parent child role mapping table name for system 'SYS_2'
+2026-05-23 22:45:23 - app_logger - INFO - get_agr_agrs_tablename:44 - Generated Composite roles data table name for system 'SYS_2'
+2026-05-23 22:45:23 - app_logger - INFO - get_usr02_tablename:49 - Generated USER_DATA table name for system 'SYS_2'
+2026-05-23 22:45:23 - app_logger - INFO - get_transaction_usage_data_tablename:54 - Generated transaction_usage_data table name for system 'SYS_2'
+2026-05-23 22:45:23 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-23 22:45:23 - app_logger - INFO - get_flpca_data_tablename:60 - Generated flpca table name for system 'SYS_2'
+2026-05-23 22:45:23 - app_logger - INFO - get_tables_for_client_system:262 - Successfully fetched tables ['Z_FUE_CLIENT_SYS_INFO', 'Z_FUE_SYS_2_COMPOSITE_ROLE_DATA', 'Z_FUE_SYS_2_TRANSACTION_USAGE', 'Z_FUE_SYS_2_USER_DATA', 'Z_FUE_SYS_2_ROLE_LIC_SIM', 'Z_FUE_SYS_2_TCODE_TEXT DATA', 'Z_FUE_LOG_FILE', 'Z_FUE_SYS_2_SIMULATION_RESULT', 'Z_FUE_SYS_2_ROLE_AUTH_INFO', 'Z_FUE_RULESET', 'Z_FUE_SYS_2_ROLE_LICENSE_SUMMARY', 'Z_FUE_SYS_2_FIORI DATA', 'Z_FUE_NEW_USER_ROLE_MAPPING', 'Z_FUE_SYS_2_USER_ROLE_MAPPING', 'Z_FUE_SYS_2_ROLE_OBJ_LICENSE_INFO', 'Z_FUE_SYS_2_USER_ROLE_LICENSE_INFO', 'Z_FUE_SYS_2_USER_LICENSE_SUMMARY', 'Z_FUE_SYS_2_PARENT_CHILD_ROLE_MAPPING', 'Z_FUE_NEW_PARENT_CHILD_ROLE_MAPPING', 'Z_FUE_NEW_ROLE_AUTH_INFO'] for  and system: SYS_2.
+2026-05-23 22:45:30 - app_logger - INFO - download_table_data:268 - download_table_data called with: system_name=SYS_2, table_name=Z_FUE_SYS_2_FIORI DATA
+2026-05-23 22:45:30 - app_logger - INFO - download_table_data:277 - Executing query: SELECT * FROM public."Z_FUE_SYS_2_FIORI DATA"
+2026-05-23 22:45:31 - app_logger - INFO - download_table_data:298 - Returning StreamingResponse
+2026-05-23 22:45:41 - app_logger - INFO - get_agr_1251_tablename:29 - Generated role auth table agr_1251_name for system 'NEW'
+2026-05-23 22:45:41 - app_logger - INFO - get_agr_users_tablename:34 - Generated user role mapping agr_users table name for system 'NEW'
+2026-05-23 22:45:41 - app_logger - INFO - get_agr_define_tablename:39 - Generated parent child role mapping table name for system 'NEW'
+2026-05-23 22:45:41 - app_logger - INFO - get_agr_agrs_tablename:44 - Generated Composite roles data table name for system 'NEW'
+2026-05-23 22:45:41 - app_logger - INFO - get_usr02_tablename:49 - Generated USER_DATA table name for system 'NEW'
+2026-05-23 22:45:41 - app_logger - INFO - get_transaction_usage_data_tablename:54 - Generated transaction_usage_data table name for system 'NEW'
+2026-05-23 22:45:41 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'NEW'
+2026-05-23 22:45:41 - app_logger - INFO - get_flpca_data_tablename:60 - Generated flpca table name for system 'NEW'
+2026-05-23 22:45:41 - app_logger - INFO - get_tables_for_client_system:262 - Successfully fetched tables ['Z_FUE_CLIENT_SYS_INFO', 'Z_FUE_SYS_2_COMPOSITE_ROLE_DATA', 'Z_FUE_SYS_2_TRANSACTION_USAGE', 'Z_FUE_SYS_2_USER_DATA', 'Z_FUE_SYS_2_ROLE_LIC_SIM', 'Z_FUE_SYS_2_TCODE_TEXT DATA', 'Z_FUE_LOG_FILE', 'Z_FUE_SYS_2_SIMULATION_RESULT', 'Z_FUE_SYS_2_ROLE_AUTH_INFO', 'Z_FUE_RULESET', 'Z_FUE_SYS_2_ROLE_LICENSE_SUMMARY', 'Z_FUE_SYS_2_FIORI DATA', 'Z_FUE_NEW_USER_ROLE_MAPPING', 'Z_FUE_SYS_2_USER_ROLE_MAPPING', 'Z_FUE_SYS_2_ROLE_OBJ_LICENSE_INFO', 'Z_FUE_SYS_2_USER_ROLE_LICENSE_INFO', 'Z_FUE_SYS_2_USER_LICENSE_SUMMARY', 'Z_FUE_SYS_2_PARENT_CHILD_ROLE_MAPPING', 'Z_FUE_NEW_PARENT_CHILD_ROLE_MAPPING', 'Z_FUE_NEW_ROLE_AUTH_INFO'] for  and system: NEW.
+2026-05-23 22:45:49 - app_logger - INFO - truncate_table:318 - Table 'Z_FUE_NEW_PARENT_CHILD_ROLE_MAPPING' deleted successfully
+2026-05-23 22:45:49 - app_logger - INFO - get_agr_1251_tablename:29 - Generated role auth table agr_1251_name for system 'NEW'
+2026-05-23 22:45:49 - app_logger - INFO - get_agr_users_tablename:34 - Generated user role mapping agr_users table name for system 'NEW'
+2026-05-23 22:45:49 - app_logger - INFO - get_agr_define_tablename:39 - Generated parent child role mapping table name for system 'NEW'
+2026-05-23 22:45:49 - app_logger - INFO - get_agr_agrs_tablename:44 - Generated Composite roles data table name for system 'NEW'
+2026-05-23 22:45:49 - app_logger - INFO - get_usr02_tablename:49 - Generated USER_DATA table name for system 'NEW'
+2026-05-23 22:45:49 - app_logger - INFO - get_transaction_usage_data_tablename:54 - Generated transaction_usage_data table name for system 'NEW'
+2026-05-23 22:45:49 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'NEW'
+2026-05-23 22:45:49 - app_logger - INFO - get_flpca_data_tablename:60 - Generated flpca table name for system 'NEW'
+2026-05-23 22:45:49 - app_logger - INFO - get_tables_for_client_system:262 - Successfully fetched tables ['Z_FUE_CLIENT_SYS_INFO', 'Z_FUE_SYS_2_COMPOSITE_ROLE_DATA', 'Z_FUE_SYS_2_TRANSACTION_USAGE', 'Z_FUE_SYS_2_USER_DATA', 'Z_FUE_SYS_2_ROLE_LIC_SIM', 'Z_FUE_SYS_2_TCODE_TEXT DATA', 'Z_FUE_LOG_FILE', 'Z_FUE_SYS_2_SIMULATION_RESULT', 'Z_FUE_SYS_2_ROLE_AUTH_INFO', 'Z_FUE_RULESET', 'Z_FUE_SYS_2_ROLE_LICENSE_SUMMARY', 'Z_FUE_SYS_2_FIORI DATA', 'Z_FUE_NEW_USER_ROLE_MAPPING', 'Z_FUE_SYS_2_USER_ROLE_MAPPING', 'Z_FUE_SYS_2_ROLE_OBJ_LICENSE_INFO', 'Z_FUE_SYS_2_USER_ROLE_LICENSE_INFO', 'Z_FUE_SYS_2_USER_LICENSE_SUMMARY', 'Z_FUE_SYS_2_PARENT_CHILD_ROLE_MAPPING', 'Z_FUE_NEW_ROLE_AUTH_INFO'] for  and system: NEW.
+2026-05-23 22:46:12 - app_logger - INFO - get_logs:62 - Received request to get logs. Filename provided: None
+2026-05-23 22:46:12 - app_logger - INFO - get_logs:159 - Returning details for 3 log files.
+2026-05-23 22:46:12 - app_logger - INFO - get_logs:62 - Received request to get logs. Filename provided: None
+2026-05-23 22:46:12 - app_logger - INFO - get_logs:159 - Returning details for 3 log files.
+2026-05-23 22:47:02 - app_logger - INFO - get_fue_dashboard:1026 - [Stage 6] Fetching FUE Dashboard for SYS_1
+2026-05-23 22:47:02 - app_logger - INFO - get_user_role_summary_tablename:85 - Generated user-role summary license table name for system 'SYS_1'
+2026-05-23 22:47:02 - app_logger - INFO - create_user_lic_summary_model:507 - Model for table 'Z_FUE_SYS_1_USER_LICENSE_SUMMARY' not in cache. Creating a new dynamic model.
+2026-05-23 22:47:02 - app_logger - INFO - create_user_lic_summary_model:516 - Successfully created dynamic model for table 'Z_FUE_SYS_1_USER_LICENSE_SUMMARY'
+2026-05-23 22:47:02 - app_logger - INFO - get_role_lice_data_summary_tablename:75 - Generated role license summary info table name for system 'SYS_1'
+2026-05-23 22:47:02 - app_logger - INFO - create_role_lic_summary_model:463 - Model for table 'Z_FUE_SYS_1_ROLE_LICENSE_SUMMARY' not in cache. Creating a new dynamic model.
+2026-05-23 22:47:02 - app_logger - INFO - create_role_lic_summary_model:472 - Successfully created dynamic model for table 'Z_FUE_SYS_1_ROLE_LICENSE_SUMMARY'
+2026-05-23 22:47:12 - app_logger - INFO - get_fue_dashboard:1026 - [Stage 6] Fetching FUE Dashboard for SYS_2
+2026-05-23 22:47:12 - app_logger - INFO - get_user_role_summary_tablename:85 - Generated user-role summary license table name for system 'SYS_2'
+2026-05-23 22:47:12 - app_logger - INFO - create_user_lic_summary_model:507 - Model for table 'Z_FUE_SYS_2_USER_LICENSE_SUMMARY' not in cache. Creating a new dynamic model.
+2026-05-23 22:47:12 - app_logger - INFO - create_user_lic_summary_model:516 - Successfully created dynamic model for table 'Z_FUE_SYS_2_USER_LICENSE_SUMMARY'
+2026-05-23 22:47:12 - app_logger - INFO - get_role_lice_data_summary_tablename:75 - Generated role license summary info table name for system 'SYS_2'
+2026-05-23 22:47:12 - app_logger - INFO - create_role_lic_summary_model:463 - Model for table 'Z_FUE_SYS_2_ROLE_LICENSE_SUMMARY' not in cache. Creating a new dynamic model.
+2026-05-23 22:47:12 - app_logger - INFO - create_role_lic_summary_model:472 - Successfully created dynamic model for table 'Z_FUE_SYS_2_ROLE_LICENSE_SUMMARY'
+2026-05-23 22:47:29 - app_logger - INFO - get_fue_dashboard:1026 - [Stage 6] Fetching FUE Dashboard for NEW
+2026-05-23 22:47:29 - app_logger - INFO - get_user_role_summary_tablename:85 - Generated user-role summary license table name for system 'NEW'
+2026-05-23 22:47:29 - app_logger - INFO - create_user_lic_summary_model:507 - Model for table 'Z_FUE_NEW_USER_LICENSE_SUMMARY' not in cache. Creating a new dynamic model.
+2026-05-23 22:47:29 - app_logger - INFO - create_user_lic_summary_model:516 - Successfully created dynamic model for table 'Z_FUE_NEW_USER_LICENSE_SUMMARY'
+2026-05-23 22:47:29 - app_logger - INFO - get_role_lice_data_summary_tablename:75 - Generated role license summary info table name for system 'NEW'
+2026-05-23 22:47:29 - app_logger - INFO - create_role_lic_summary_model:463 - Model for table 'Z_FUE_NEW_ROLE_LICENSE_SUMMARY' not in cache. Creating a new dynamic model.
+2026-05-23 22:47:29 - app_logger - INFO - create_role_lic_summary_model:472 - Successfully created dynamic model for table 'Z_FUE_NEW_ROLE_LICENSE_SUMMARY'
+2026-05-23 22:47:32 - app_logger - INFO - get_fue_dashboard:1026 - [Stage 6] Fetching FUE Dashboard for SYS_2
+2026-05-23 22:47:32 - app_logger - INFO - get_user_role_summary_tablename:85 - Generated user-role summary license table name for system 'SYS_2'
+2026-05-23 22:47:32 - app_logger - INFO - create_user_lic_summary_model:505 - Model for table 'Z_FUE_SYS_2_USER_LICENSE_SUMMARY' found in cache. Returning cached model.
+2026-05-23 22:47:32 - app_logger - INFO - get_role_lice_data_summary_tablename:75 - Generated role license summary info table name for system 'SYS_2'
+2026-05-23 22:47:32 - app_logger - INFO - create_role_lic_summary_model:461 - Model for table 'Z_FUE_SYS_2_ROLE_LICENSE_SUMMARY' found in cache. Returning cached model.
+2026-05-23 22:47:48 - app_logger - INFO - get_logs:62 - Received request to get logs. Filename provided: None
+2026-05-23 22:47:48 - app_logger - INFO - get_logs:159 - Returning details for 3 log files.
+2026-05-23 22:47:48 - app_logger - INFO - get_logs:62 - Received request to get logs. Filename provided: None
+2026-05-23 22:47:48 - app_logger - INFO - get_logs:159 - Returning details for 3 log files.

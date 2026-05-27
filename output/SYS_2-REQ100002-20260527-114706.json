@@ -1,0 +1,49 @@
+{
+    "Z:MM:FDBD:SOURCE:SUP:EVL:CHG": [
+        {
+            "authorizationObject": "/SRMSMC/BO",
+            "field": "ACTVT",
+            "value": "06",
+            "licenseCanBeReduced": "Yes",
+            "insights": "Delete activity for SLC Business Objects is administrative",
+            "recommendation": "Keep as-is for supplier evaluation management",
+            "explanation": "Activity 06 (Delete) for Business Object Authorization in SLC is a standard administrative function that doesn't require advanced licensing. This is part of core supplier management functionality."
+        },
+        {
+            "authorizationObject": "F_BKPF_BUK",
+            "field": "ACTVT",
+            "value": "22",
+            "licenseCanBeReduced": "Yes",
+            "insights": "Enter via time ledger is a posting activity",
+            "recommendation": "Keep for supplier evaluation posting needs",
+            "explanation": "Activity 22 (Enter via time ledger) for accounting documents is a standard posting activity that falls under core use. This allows posting of supplier evaluation-related documents."
+        },
+        {
+            "authorizationObject": "F_BKPF_BUK",
+            "field": "ACTVT",
+            "value": "43",
+            "licenseCanBeReduced": "Yes",
+            "insights": "Release for payment is a standard approval activity",
+            "recommendation": "Keep for payment release functionality",
+            "explanation": "Activity 43 (Release for payment) is a standard financial approval activity that doesn't require advanced licensing. This is core functionality for managing supplier-related payments."
+        },
+        {
+            "authorizationObject": "F_BKPF_BUK",
+            "field": "ACTVT",
+            "value": "C4",
+            "licenseCanBeReduced": "Yes",
+            "insights": "Archiving preparation is a housekeeping activity",
+            "recommendation": "Keep for document management",
+            "explanation": "Activity C4 (Prepare for archiving) is a standard housekeeping activity for document management. This is core functionality that doesn't require advanced licensing."
+        },
+        {
+            "authorizationObject": "M_MMSEVAL",
+            "field": "ACTVT",
+            "value": "02",
+            "licenseCanBeReduced": "Yes",
+            "insights": "Change supplier evaluation is core MM functionality",
+            "recommendation": "Keep for supplier evaluation changes",
+            "explanation": "Activity 02 (Change) for adjusting supplier evaluation scores is core Materials Management functionality. This allows users to modify supplier evaluations, which is a standard procurement activity not requiring advanced licensing."
+        }
+    ]
+}

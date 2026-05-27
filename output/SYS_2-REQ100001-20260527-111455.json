@@ -1,0 +1,58 @@
+{
+    "ZD_FTM_M_TAX_ACCT_1100": [
+        {
+            "authorizationObject": "/ECRS/RPHD",
+            "field": "ACTVT",
+            "value": "01",
+            "licenseCanBeReduced": "No",
+            "insights": "Create activity for Intrastat declarations requires Advanced Use",
+            "recommendation": "Keep as-is for tax compliance",
+            "explanation": "Activity 01 (Create) for Intrastat declarations is a specialized tax compliance function that requires Advanced Use license. This is used with /ECRS/RP_EDIT transaction for managing regulatory reporting."
+        },
+        {
+            "authorizationObject": "/ECRS/RPHD",
+            "field": "ACTVT",
+            "value": "02",
+            "licenseCanBeReduced": "No",
+            "insights": "Change activity for Intrastat declarations requires Advanced Use",
+            "recommendation": "Keep as-is for tax compliance",
+            "explanation": "Activity 02 (Change) for Intrastat declarations allows modification of regulatory reports. This specialized tax function requires Advanced Use license for compliance management."
+        },
+        {
+            "authorizationObject": "/ECRS/RPHD",
+            "field": "ACTVT",
+            "value": "06",
+            "licenseCanBeReduced": "No",
+            "insights": "Delete activity for Intrastat declarations requires Advanced Use",
+            "recommendation": "Keep as-is for tax compliance",
+            "explanation": "Activity 06 (Delete) for Intrastat declarations is a critical compliance function. Combined with other tax transactions like FB41 (Post Tax Payable) and FTXP (Maintain Tax Code), this role performs advanced tax accounting requiring Advanced Use."
+        },
+        {
+            "authorizationObject": "/ECRS/RPHD",
+            "field": "ACTVT",
+            "value": "43",
+            "licenseCanBeReduced": "No",
+            "insights": "Release activity for Intrastat declarations requires Advanced Use",
+            "recommendation": "Keep as-is for tax compliance",
+            "explanation": "Activity 43 (Release) for Intrastat declarations is part of the approval workflow for regulatory reporting. This specialized function requires Advanced Use license."
+        },
+        {
+            "authorizationObject": "/ECRS/RPHD",
+            "field": "ACTVT",
+            "value": "74",
+            "licenseCanBeReduced": "No",
+            "insights": "Generate activity for Intrastat declarations requires Advanced Use",
+            "recommendation": "Keep as-is for tax compliance",
+            "explanation": "Activity 74 (Generate) for Intrastat declarations creates official regulatory reports. Combined with EC Sales List (S_ALR_87012400) and tax return transactions, this requires Advanced Use."
+        },
+        {
+            "authorizationObject": "/ECRS/RPHD",
+            "field": "ACTVT",
+            "value": "DL",
+            "licenseCanBeReduced": "No",
+            "insights": "Download activity for Intrastat declarations requires Advanced Use",
+            "recommendation": "Keep as-is for tax compliance",
+            "explanation": "Activity DL (Download) for Intrastat declarations enables extraction of regulatory data for submission. This tax accountant role with comprehensive Intrastat and tax posting capabilities requires Advanced Use license."
+        }
+    ]
+}

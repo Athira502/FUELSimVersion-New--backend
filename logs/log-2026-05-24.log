@@ -1,0 +1,461 @@
+2026-05-24 19:11:49 - app_logger - INFO - get_fue_dashboard:1026 - [Stage 6] Fetching FUE Dashboard for SYS_1
+2026-05-24 19:11:49 - app_logger - INFO - get_user_role_summary_tablename:85 - Generated user-role summary license table name for system 'SYS_1'
+2026-05-24 19:11:49 - app_logger - INFO - create_user_lic_summary_model:507 - Model for table 'Z_FUE_SYS_1_USER_LICENSE_SUMMARY' not in cache. Creating a new dynamic model.
+2026-05-24 19:11:49 - app_logger - INFO - create_user_lic_summary_model:516 - Successfully created dynamic model for table 'Z_FUE_SYS_1_USER_LICENSE_SUMMARY'
+2026-05-24 19:11:49 - app_logger - INFO - get_role_lice_data_summary_tablename:75 - Generated role license summary info table name for system 'SYS_1'
+2026-05-24 19:11:49 - app_logger - INFO - create_role_lic_summary_model:463 - Model for table 'Z_FUE_SYS_1_ROLE_LICENSE_SUMMARY' not in cache. Creating a new dynamic model.
+2026-05-24 19:11:49 - app_logger - INFO - create_role_lic_summary_model:472 - Successfully created dynamic model for table 'Z_FUE_SYS_1_ROLE_LICENSE_SUMMARY'
+2026-05-24 19:11:50 - app_logger - INFO - get_logs:62 - Received request to get logs. Filename provided: None
+2026-05-24 19:11:50 - app_logger - INFO - get_logs:159 - Returning details for 4 log files.
+2026-05-24 19:11:50 - app_logger - INFO - get_logs:62 - Received request to get logs. Filename provided: None
+2026-05-24 19:11:50 - app_logger - INFO - get_logs:159 - Returning details for 4 log files.
+2026-05-24 19:22:00 - app_logger - INFO - get_logs:62 - Received request to get logs. Filename provided: None
+2026-05-24 19:22:00 - app_logger - INFO - get_logs:159 - Returning details for 4 log files.
+2026-05-24 19:22:00 - app_logger - INFO - get_logs:62 - Received request to get logs. Filename provided: None
+2026-05-24 19:22:00 - app_logger - INFO - get_logs:159 - Returning details for 4 log files.
+2026-05-24 19:22:07 - app_logger - INFO - get_logs:62 - Received request to get logs. Filename provided: None
+2026-05-24 19:22:07 - app_logger - INFO - get_logs:159 - Returning details for 4 log files.
+2026-05-24 19:22:07 - app_logger - INFO - get_logs:62 - Received request to get logs. Filename provided: None
+2026-05-24 19:22:07 - app_logger - INFO - get_logs:159 - Returning details for 4 log files.
+2026-05-24 19:33:55 - app_logger - INFO - get_fue_dashboard:1026 - [Stage 6] Fetching FUE Dashboard for SYS_1
+2026-05-24 19:33:55 - app_logger - INFO - get_user_role_summary_tablename:85 - Generated user-role summary license table name for system 'SYS_1'
+2026-05-24 19:33:55 - app_logger - INFO - create_user_lic_summary_model:505 - Model for table 'Z_FUE_SYS_1_USER_LICENSE_SUMMARY' found in cache. Returning cached model.
+2026-05-24 19:33:55 - app_logger - INFO - get_role_lice_data_summary_tablename:75 - Generated role license summary info table name for system 'SYS_1'
+2026-05-24 19:33:55 - app_logger - INFO - create_role_lic_summary_model:461 - Model for table 'Z_FUE_SYS_1_ROLE_LICENSE_SUMMARY' found in cache. Returning cached model.
+2026-05-24 19:34:04 - app_logger - INFO - get_fue_dashboard:1026 - [Stage 6] Fetching FUE Dashboard for SYS_2
+2026-05-24 19:34:04 - app_logger - INFO - get_user_role_summary_tablename:85 - Generated user-role summary license table name for system 'SYS_2'
+2026-05-24 19:34:04 - app_logger - INFO - create_user_lic_summary_model:507 - Model for table 'Z_FUE_SYS_2_USER_LICENSE_SUMMARY' not in cache. Creating a new dynamic model.
+2026-05-24 19:34:04 - app_logger - INFO - create_user_lic_summary_model:516 - Successfully created dynamic model for table 'Z_FUE_SYS_2_USER_LICENSE_SUMMARY'
+2026-05-24 19:34:04 - app_logger - INFO - get_role_lice_data_summary_tablename:75 - Generated role license summary info table name for system 'SYS_2'
+2026-05-24 19:34:04 - app_logger - INFO - create_role_lic_summary_model:463 - Model for table 'Z_FUE_SYS_2_ROLE_LICENSE_SUMMARY' not in cache. Creating a new dynamic model.
+2026-05-24 19:34:04 - app_logger - INFO - create_role_lic_summary_model:472 - Successfully created dynamic model for table 'Z_FUE_SYS_2_ROLE_LICENSE_SUMMARY'
+2026-05-24 19:40:33 - app_logger - INFO - get_fue_dashboard:1026 - [Stage 6] Fetching FUE Dashboard for SYS_1
+2026-05-24 19:40:33 - app_logger - INFO - get_user_role_summary_tablename:85 - Generated user-role summary license table name for system 'SYS_1'
+2026-05-24 19:40:33 - app_logger - INFO - create_user_lic_summary_model:507 - Model for table 'Z_FUE_SYS_1_USER_LICENSE_SUMMARY' not in cache. Creating a new dynamic model.
+2026-05-24 19:40:33 - app_logger - INFO - create_user_lic_summary_model:516 - Successfully created dynamic model for table 'Z_FUE_SYS_1_USER_LICENSE_SUMMARY'
+2026-05-24 19:40:33 - app_logger - INFO - get_role_lice_data_summary_tablename:75 - Generated role license summary info table name for system 'SYS_1'
+2026-05-24 19:40:33 - app_logger - INFO - create_role_lic_summary_model:463 - Model for table 'Z_FUE_SYS_1_ROLE_LICENSE_SUMMARY' not in cache. Creating a new dynamic model.
+2026-05-24 19:40:33 - app_logger - INFO - create_role_lic_summary_model:472 - Successfully created dynamic model for table 'Z_FUE_SYS_1_ROLE_LICENSE_SUMMARY'
+2026-05-24 19:42:35 - app_logger - INFO - get_fue_dashboard:1026 - [Stage 6] Fetching FUE Dashboard for SYS_2
+2026-05-24 19:42:35 - app_logger - INFO - get_user_role_summary_tablename:85 - Generated user-role summary license table name for system 'SYS_2'
+2026-05-24 19:42:35 - app_logger - INFO - create_user_lic_summary_model:507 - Model for table 'Z_FUE_SYS_2_USER_LICENSE_SUMMARY' not in cache. Creating a new dynamic model.
+2026-05-24 19:42:35 - app_logger - INFO - create_user_lic_summary_model:516 - Successfully created dynamic model for table 'Z_FUE_SYS_2_USER_LICENSE_SUMMARY'
+2026-05-24 19:42:35 - app_logger - INFO - get_role_lice_data_summary_tablename:75 - Generated role license summary info table name for system 'SYS_2'
+2026-05-24 19:42:35 - app_logger - INFO - create_role_lic_summary_model:463 - Model for table 'Z_FUE_SYS_2_ROLE_LICENSE_SUMMARY' not in cache. Creating a new dynamic model.
+2026-05-24 19:42:35 - app_logger - INFO - create_role_lic_summary_model:472 - Successfully created dynamic model for table 'Z_FUE_SYS_2_ROLE_LICENSE_SUMMARY'
+2026-05-24 19:42:38 - app_logger - INFO - get_fue_dashboard:1026 - [Stage 6] Fetching FUE Dashboard for SYS_2
+2026-05-24 19:42:38 - app_logger - INFO - get_user_role_summary_tablename:85 - Generated user-role summary license table name for system 'SYS_2'
+2026-05-24 19:42:38 - app_logger - INFO - create_user_lic_summary_model:505 - Model for table 'Z_FUE_SYS_2_USER_LICENSE_SUMMARY' found in cache. Returning cached model.
+2026-05-24 19:42:38 - app_logger - INFO - get_role_lice_data_summary_tablename:75 - Generated role license summary info table name for system 'SYS_2'
+2026-05-24 19:42:38 - app_logger - INFO - create_role_lic_summary_model:461 - Model for table 'Z_FUE_SYS_2_ROLE_LICENSE_SUMMARY' found in cache. Returning cached model.
+2026-05-24 19:42:43 - app_logger - INFO - get_fue_dashboard:1026 - [Stage 6] Fetching FUE Dashboard for SYS_2
+2026-05-24 19:42:43 - app_logger - INFO - get_user_role_summary_tablename:85 - Generated user-role summary license table name for system 'SYS_2'
+2026-05-24 19:42:43 - app_logger - INFO - create_user_lic_summary_model:505 - Model for table 'Z_FUE_SYS_2_USER_LICENSE_SUMMARY' found in cache. Returning cached model.
+2026-05-24 19:42:43 - app_logger - INFO - get_role_lice_data_summary_tablename:75 - Generated role license summary info table name for system 'SYS_2'
+2026-05-24 19:42:43 - app_logger - INFO - create_role_lic_summary_model:461 - Model for table 'Z_FUE_SYS_2_ROLE_LICENSE_SUMMARY' found in cache. Returning cached model.
+2026-05-24 20:41:17 - app_logger - INFO - get_fue_dashboard:1026 - [Stage 6] Fetching FUE Dashboard for SYS_2
+2026-05-24 20:41:17 - app_logger - INFO - get_user_role_summary_tablename:85 - Generated user-role summary license table name for system 'SYS_2'
+2026-05-24 20:41:17 - app_logger - INFO - create_user_lic_summary_model:507 - Model for table 'Z_FUE_SYS_2_USER_LICENSE_SUMMARY' not in cache. Creating a new dynamic model.
+2026-05-24 20:41:17 - app_logger - INFO - create_user_lic_summary_model:516 - Successfully created dynamic model for table 'Z_FUE_SYS_2_USER_LICENSE_SUMMARY'
+2026-05-24 20:41:17 - app_logger - INFO - get_role_lice_data_summary_tablename:75 - Generated role license summary info table name for system 'SYS_2'
+2026-05-24 20:41:17 - app_logger - INFO - create_role_lic_summary_model:463 - Model for table 'Z_FUE_SYS_2_ROLE_LICENSE_SUMMARY' not in cache. Creating a new dynamic model.
+2026-05-24 20:41:17 - app_logger - INFO - create_role_lic_summary_model:472 - Successfully created dynamic model for table 'Z_FUE_SYS_2_ROLE_LICENSE_SUMMARY'
+2026-05-24 20:41:53 - app_logger - INFO - get_fue_dashboard:1026 - [Stage 6] Fetching FUE Dashboard for SYS_2
+2026-05-24 20:41:53 - app_logger - INFO - get_user_role_summary_tablename:85 - Generated user-role summary license table name for system 'SYS_2'
+2026-05-24 20:41:53 - app_logger - INFO - create_user_lic_summary_model:505 - Model for table 'Z_FUE_SYS_2_USER_LICENSE_SUMMARY' found in cache. Returning cached model.
+2026-05-24 20:41:53 - app_logger - INFO - get_role_lice_data_summary_tablename:75 - Generated role license summary info table name for system 'SYS_2'
+2026-05-24 20:41:53 - app_logger - INFO - create_role_lic_summary_model:461 - Model for table 'Z_FUE_SYS_2_ROLE_LICENSE_SUMMARY' found in cache. Returning cached model.
+2026-05-24 20:43:05 - app_logger - INFO - get_fue_dashboard:1026 - [Stage 6] Fetching FUE Dashboard for SYS_2
+2026-05-24 20:43:05 - app_logger - INFO - get_user_role_summary_tablename:85 - Generated user-role summary license table name for system 'SYS_2'
+2026-05-24 20:43:05 - app_logger - INFO - create_user_lic_summary_model:505 - Model for table 'Z_FUE_SYS_2_USER_LICENSE_SUMMARY' found in cache. Returning cached model.
+2026-05-24 20:43:05 - app_logger - INFO - get_role_lice_data_summary_tablename:75 - Generated role license summary info table name for system 'SYS_2'
+2026-05-24 20:43:05 - app_logger - INFO - create_role_lic_summary_model:461 - Model for table 'Z_FUE_SYS_2_ROLE_LICENSE_SUMMARY' found in cache. Returning cached model.
+2026-05-24 20:43:31 - app_logger - INFO - get_fue_dashboard:1026 - [Stage 6] Fetching FUE Dashboard for SYS_2
+2026-05-24 20:43:31 - app_logger - INFO - get_user_role_summary_tablename:85 - Generated user-role summary license table name for system 'SYS_2'
+2026-05-24 20:43:31 - app_logger - INFO - create_user_lic_summary_model:505 - Model for table 'Z_FUE_SYS_2_USER_LICENSE_SUMMARY' found in cache. Returning cached model.
+2026-05-24 20:43:31 - app_logger - INFO - get_role_lice_data_summary_tablename:75 - Generated role license summary info table name for system 'SYS_2'
+2026-05-24 20:43:31 - app_logger - INFO - create_role_lic_summary_model:461 - Model for table 'Z_FUE_SYS_2_ROLE_LICENSE_SUMMARY' found in cache. Returning cached model.
+2026-05-24 20:44:35 - app_logger - INFO - get_fue_dashboard:1026 - [Stage 6] Fetching FUE Dashboard for SYS_1
+2026-05-24 20:44:35 - app_logger - INFO - get_user_role_summary_tablename:85 - Generated user-role summary license table name for system 'SYS_1'
+2026-05-24 20:44:35 - app_logger - INFO - create_user_lic_summary_model:507 - Model for table 'Z_FUE_SYS_1_USER_LICENSE_SUMMARY' not in cache. Creating a new dynamic model.
+2026-05-24 20:44:35 - app_logger - INFO - create_user_lic_summary_model:516 - Successfully created dynamic model for table 'Z_FUE_SYS_1_USER_LICENSE_SUMMARY'
+2026-05-24 20:44:35 - app_logger - INFO - get_role_lice_data_summary_tablename:75 - Generated role license summary info table name for system 'SYS_1'
+2026-05-24 20:44:35 - app_logger - INFO - create_role_lic_summary_model:463 - Model for table 'Z_FUE_SYS_1_ROLE_LICENSE_SUMMARY' not in cache. Creating a new dynamic model.
+2026-05-24 20:44:35 - app_logger - INFO - create_role_lic_summary_model:472 - Successfully created dynamic model for table 'Z_FUE_SYS_1_ROLE_LICENSE_SUMMARY'
+2026-05-24 20:56:01 - fue_calculation_logger - INFO - get_fue_dashboard:293 - Fetching FUE dashboard for system: 'SYS_2'
+2026-05-24 20:56:01 - app_logger - INFO - get_user_role_summary_tablename:85 - Generated user-role summary license table name for system 'SYS_2'
+2026-05-24 20:56:01 - app_logger - INFO - get_role_lice_data_summary_tablename:75 - Generated role license summary info table name for system 'SYS_2'
+2026-05-24 20:56:01 - fue_calculation_logger - INFO - get_fue_dashboard:377 - Successfully fetched dashboard data for system 'SYS_2'.
+2026-05-24 20:56:01 - fue_calculation_logger - INFO - get_role_details:36 - Fetching role details for system: 'SYS_2'
+2026-05-24 20:56:01 - app_logger - INFO - get_role_lice_data_summary_tablename:75 - Generated role license summary info table name for system 'SYS_2'
+2026-05-24 20:56:01 - app_logger - INFO - get_agr_users_tablename:34 - Generated user role mapping agr_users table name for system 'SYS_2'
+2026-05-24 20:56:01 - fue_calculation_logger - INFO - get_role_details:77 - Successfully fetched 2681 roles for system 'SYS_2'.
+2026-05-24 20:56:30 - fue_calculation_logger - INFO - get_specific_role_details:123 - Fetching details for role: '/ECRS/INTRASTAT_SPECIALIST' for system: 'SYS_2'
+2026-05-24 20:56:30 - app_logger - INFO - get_role_lice_data_summary_tablename:75 - Generated role license summary info table name for system 'SYS_2'
+2026-05-24 20:56:30 - app_logger - INFO - get_role_lice_data_tablename:70 - Generated role object license info table name for system 'SYS_2'
+2026-05-24 20:56:30 - fue_calculation_logger - INFO - get_specific_role_details:178 - Successfully fetched details for role '/ECRS/INTRASTAT_SPECIALIST'. Found 15 authorization objects.
+2026-05-24 20:56:30 - fue_calculation_logger - INFO - get_specific_role_details:123 - Fetching details for role: '/ECRS/INTRASTAT_SPECIALIST' for system: 'SYS_2'
+2026-05-24 20:56:30 - app_logger - INFO - get_role_lice_data_summary_tablename:75 - Generated role license summary info table name for system 'SYS_2'
+2026-05-24 20:56:30 - app_logger - INFO - get_role_lice_data_tablename:70 - Generated role object license info table name for system 'SYS_2'
+2026-05-24 20:56:30 - fue_calculation_logger - INFO - get_specific_role_details:178 - Successfully fetched details for role '/ECRS/INTRASTAT_SPECIALIST'. Found 15 authorization objects.
+2026-05-24 20:56:33 - fue_calculation_logger - INFO - get_specific_role_details:123 - Fetching details for role: '/ECRS/INTRASTAT_SPECIALIST' for system: 'S4HANA'
+2026-05-24 20:56:33 - app_logger - INFO - get_role_lice_data_summary_tablename:75 - Generated role license summary info table name for system 'S4HANA'
+2026-05-24 20:56:33 - app_logger - INFO - get_role_lice_data_tablename:70 - Generated role object license info table name for system 'S4HANA'
+2026-05-24 20:56:38 - fue_calculation_logger - INFO - get_fue_dashboard:293 - Fetching FUE dashboard for system: 'SYS_2'
+2026-05-24 20:56:38 - app_logger - INFO - get_user_role_summary_tablename:85 - Generated user-role summary license table name for system 'SYS_2'
+2026-05-24 20:56:38 - app_logger - INFO - get_role_lice_data_summary_tablename:75 - Generated role license summary info table name for system 'SYS_2'
+2026-05-24 20:56:38 - fue_calculation_logger - INFO - get_fue_dashboard:377 - Successfully fetched dashboard data for system 'SYS_2'.
+2026-05-24 20:56:38 - fue_calculation_logger - INFO - get_role_details:36 - Fetching role details for system: 'SYS_2'
+2026-05-24 20:56:38 - app_logger - INFO - get_role_lice_data_summary_tablename:75 - Generated role license summary info table name for system 'SYS_2'
+2026-05-24 20:56:38 - app_logger - INFO - get_agr_users_tablename:34 - Generated user role mapping agr_users table name for system 'SYS_2'
+2026-05-24 20:56:38 - fue_calculation_logger - INFO - get_role_details:77 - Successfully fetched 2681 roles for system 'SYS_2'.
+2026-05-24 20:57:29 - fue_calculation_logger - INFO - get_specific_role_details:123 - Fetching details for role: 'ZM_DTS_M_QM_BF' for system: 'SYS_2'
+2026-05-24 20:57:29 - app_logger - INFO - get_role_lice_data_summary_tablename:75 - Generated role license summary info table name for system 'SYS_2'
+2026-05-24 20:57:29 - app_logger - INFO - get_role_lice_data_tablename:70 - Generated role object license info table name for system 'SYS_2'
+2026-05-24 20:57:29 - fue_calculation_logger - INFO - get_specific_role_details:178 - Successfully fetched details for role 'ZM_DTS_M_QM_BF'. Found 455 authorization objects.
+2026-05-24 20:57:29 - fue_calculation_logger - INFO - get_specific_role_details:123 - Fetching details for role: 'ZM_DTS_M_QM_BF' for system: 'SYS_2'
+2026-05-24 20:57:29 - app_logger - INFO - get_role_lice_data_summary_tablename:75 - Generated role license summary info table name for system 'SYS_2'
+2026-05-24 20:57:29 - app_logger - INFO - get_role_lice_data_tablename:70 - Generated role object license info table name for system 'SYS_2'
+2026-05-24 20:57:29 - fue_calculation_logger - INFO - get_specific_role_details:178 - Successfully fetched details for role 'ZM_DTS_M_QM_BF'. Found 455 authorization objects.
+2026-05-24 20:57:31 - fue_calculation_logger - INFO - get_specific_role_details:123 - Fetching details for role: 'ZM_DTS_M_QM_BF' for system: 'S4HANA'
+2026-05-24 20:57:31 - app_logger - INFO - get_role_lice_data_summary_tablename:75 - Generated role license summary info table name for system 'S4HANA'
+2026-05-24 20:57:31 - app_logger - INFO - get_role_lice_data_tablename:70 - Generated role object license info table name for system 'S4HANA'
+2026-05-24 20:57:35 - fue_calculation_logger - INFO - get_fue_dashboard:293 - Fetching FUE dashboard for system: 'SYS_2'
+2026-05-24 20:57:35 - app_logger - INFO - get_user_role_summary_tablename:85 - Generated user-role summary license table name for system 'SYS_2'
+2026-05-24 20:57:35 - app_logger - INFO - get_role_lice_data_summary_tablename:75 - Generated role license summary info table name for system 'SYS_2'
+2026-05-24 20:57:35 - fue_calculation_logger - INFO - get_fue_dashboard:377 - Successfully fetched dashboard data for system 'SYS_2'.
+2026-05-24 20:57:35 - fue_calculation_logger - INFO - get_role_details:36 - Fetching role details for system: 'SYS_2'
+2026-05-24 20:57:35 - app_logger - INFO - get_role_lice_data_summary_tablename:75 - Generated role license summary info table name for system 'SYS_2'
+2026-05-24 20:57:35 - app_logger - INFO - get_agr_users_tablename:34 - Generated user role mapping agr_users table name for system 'SYS_2'
+2026-05-24 20:57:35 - fue_calculation_logger - INFO - get_role_details:77 - Successfully fetched 2681 roles for system 'SYS_2'.
+2026-05-24 20:58:27 - fue_calculation_logger - INFO - get_fue_dashboard:293 - Fetching FUE dashboard for system: 'SYS_2'
+2026-05-24 20:58:27 - app_logger - INFO - get_user_role_summary_tablename:85 - Generated user-role summary license table name for system 'SYS_2'
+2026-05-24 20:58:27 - app_logger - INFO - get_role_lice_data_summary_tablename:75 - Generated role license summary info table name for system 'SYS_2'
+2026-05-24 20:58:27 - fue_calculation_logger - INFO - get_fue_dashboard:377 - Successfully fetched dashboard data for system 'SYS_2'.
+2026-05-24 20:58:27 - fue_calculation_logger - INFO - get_role_details:36 - Fetching role details for system: 'SYS_2'
+2026-05-24 20:58:27 - app_logger - INFO - get_role_lice_data_summary_tablename:75 - Generated role license summary info table name for system 'SYS_2'
+2026-05-24 20:58:27 - app_logger - INFO - get_agr_users_tablename:34 - Generated user role mapping agr_users table name for system 'SYS_2'
+2026-05-24 20:58:28 - fue_calculation_logger - INFO - get_role_details:77 - Successfully fetched 2681 roles for system 'SYS_2'.
+2026-05-24 20:58:38 - fue_calculation_logger - INFO - get_specific_role_details:123 - Fetching details for role: 'ZD_DTS_M_QM_PRD_MD_1300' for system: 'SYS_2'
+2026-05-24 20:58:38 - app_logger - INFO - get_role_lice_data_summary_tablename:75 - Generated role license summary info table name for system 'SYS_2'
+2026-05-24 20:58:38 - app_logger - INFO - get_role_lice_data_tablename:70 - Generated role object license info table name for system 'SYS_2'
+2026-05-24 20:58:38 - fue_calculation_logger - INFO - get_specific_role_details:178 - Successfully fetched details for role 'ZD_DTS_M_QM_PRD_MD_1300'. Found 156 authorization objects.
+2026-05-24 20:58:38 - fue_calculation_logger - INFO - get_specific_role_details:123 - Fetching details for role: 'ZD_DTS_M_QM_PRD_MD_1300' for system: 'SYS_2'
+2026-05-24 20:58:38 - app_logger - INFO - get_role_lice_data_summary_tablename:75 - Generated role license summary info table name for system 'SYS_2'
+2026-05-24 20:58:38 - app_logger - INFO - get_role_lice_data_tablename:70 - Generated role object license info table name for system 'SYS_2'
+2026-05-24 20:58:38 - fue_calculation_logger - INFO - get_specific_role_details:178 - Successfully fetched details for role 'ZD_DTS_M_QM_PRD_MD_1300'. Found 156 authorization objects.
+2026-05-24 21:00:04 - fue_calculation_logger - INFO - get_fue_dashboard:293 - Fetching FUE dashboard for system: 'SYS_2'
+2026-05-24 21:00:04 - app_logger - INFO - get_user_role_summary_tablename:85 - Generated user-role summary license table name for system 'SYS_2'
+2026-05-24 21:00:04 - app_logger - INFO - get_role_lice_data_summary_tablename:75 - Generated role license summary info table name for system 'SYS_2'
+2026-05-24 21:00:04 - fue_calculation_logger - INFO - get_fue_dashboard:377 - Successfully fetched dashboard data for system 'SYS_2'.
+2026-05-24 21:00:04 - fue_calculation_logger - INFO - get_role_details:36 - Fetching role details for system: 'SYS_2'
+2026-05-24 21:00:04 - app_logger - INFO - get_role_lice_data_summary_tablename:75 - Generated role license summary info table name for system 'SYS_2'
+2026-05-24 21:00:04 - app_logger - INFO - get_agr_users_tablename:34 - Generated user role mapping agr_users table name for system 'SYS_2'
+2026-05-24 21:00:05 - fue_calculation_logger - INFO - get_role_details:77 - Successfully fetched 2681 roles for system 'SYS_2'.
+2026-05-24 21:01:45 - fue_calculation_logger - INFO - get_fue_dashboard:293 - Fetching FUE dashboard for system: 'SYS_2'
+2026-05-24 21:01:45 - app_logger - INFO - get_user_role_summary_tablename:85 - Generated user-role summary license table name for system 'SYS_2'
+2026-05-24 21:01:45 - app_logger - INFO - get_role_lice_data_summary_tablename:75 - Generated role license summary info table name for system 'SYS_2'
+2026-05-24 21:01:45 - fue_calculation_logger - INFO - get_fue_dashboard:377 - Successfully fetched dashboard data for system 'SYS_2'.
+2026-05-24 21:01:45 - fue_calculation_logger - INFO - get_role_details:36 - Fetching role details for system: 'SYS_2'
+2026-05-24 21:01:45 - app_logger - INFO - get_role_lice_data_summary_tablename:75 - Generated role license summary info table name for system 'SYS_2'
+2026-05-24 21:01:45 - app_logger - INFO - get_agr_users_tablename:34 - Generated user role mapping agr_users table name for system 'SYS_2'
+2026-05-24 21:01:46 - fue_calculation_logger - INFO - get_role_details:77 - Successfully fetched 2681 roles for system 'SYS_2'.
+2026-05-24 21:06:12 - fue_calculation_logger - INFO - get_fue_dashboard:293 - Fetching FUE dashboard for system: 'SYS_2'
+2026-05-24 21:06:12 - app_logger - INFO - get_user_role_summary_tablename:85 - Generated user-role summary license table name for system 'SYS_2'
+2026-05-24 21:06:12 - app_logger - INFO - get_role_lice_data_summary_tablename:75 - Generated role license summary info table name for system 'SYS_2'
+2026-05-24 21:06:12 - fue_calculation_logger - INFO - get_fue_dashboard:377 - Successfully fetched dashboard data for system 'SYS_2'.
+2026-05-24 21:06:12 - fue_calculation_logger - INFO - get_role_details:36 - Fetching role details for system: 'SYS_2'
+2026-05-24 21:06:12 - app_logger - INFO - get_role_lice_data_summary_tablename:75 - Generated role license summary info table name for system 'SYS_2'
+2026-05-24 21:06:12 - app_logger - INFO - get_agr_users_tablename:34 - Generated user role mapping agr_users table name for system 'SYS_2'
+2026-05-24 21:06:12 - fue_calculation_logger - INFO - get_role_details:77 - Successfully fetched 2681 roles for system 'SYS_2'.
+2026-05-24 21:06:29 - fue_calculation_logger - INFO - get_specific_role_details:123 - Fetching details for role: 'Z:FDBD:FIORI:ALL:DISPLAY' for system: 'SYS_2'
+2026-05-24 21:06:29 - app_logger - INFO - get_role_lice_data_summary_tablename:75 - Generated role license summary info table name for system 'SYS_2'
+2026-05-24 21:06:29 - app_logger - INFO - get_role_lice_data_tablename:70 - Generated role object license info table name for system 'SYS_2'
+2026-05-24 21:06:29 - fue_calculation_logger - INFO - get_specific_role_details:178 - Successfully fetched details for role 'Z:FDBD:FIORI:ALL:DISPLAY'. Found 2010 authorization objects.
+2026-05-24 21:06:29 - fue_calculation_logger - INFO - get_specific_role_details:123 - Fetching details for role: 'Z:FDBD:FIORI:ALL:DISPLAY' for system: 'SYS_2'
+2026-05-24 21:06:29 - app_logger - INFO - get_role_lice_data_summary_tablename:75 - Generated role license summary info table name for system 'SYS_2'
+2026-05-24 21:06:29 - app_logger - INFO - get_role_lice_data_tablename:70 - Generated role object license info table name for system 'SYS_2'
+2026-05-24 21:06:29 - fue_calculation_logger - INFO - get_specific_role_details:178 - Successfully fetched details for role 'Z:FDBD:FIORI:ALL:DISPLAY'. Found 2010 authorization objects.
+2026-05-24 21:07:07 - fue_calculation_logger - INFO - get_specific_role_details:123 - Fetching details for role: 'Z:FDBD:FIORI:ALL:DISPLAY' for system: 'SYS_2'
+2026-05-24 21:07:07 - app_logger - INFO - get_role_lice_data_summary_tablename:75 - Generated role license summary info table name for system 'SYS_2'
+2026-05-24 21:07:07 - app_logger - INFO - get_role_lice_data_tablename:70 - Generated role object license info table name for system 'SYS_2'
+2026-05-24 21:07:07 - fue_calculation_logger - INFO - get_specific_role_details:178 - Successfully fetched details for role 'Z:FDBD:FIORI:ALL:DISPLAY'. Found 2010 authorization objects.
+2026-05-24 21:07:19 - fue_calculation_logger - INFO - get_specific_role_details:123 - Fetching details for role: 'Z:FDBD:FIORI:ALL:DISPLAY' for system: 'SYS_2'
+2026-05-24 21:07:19 - app_logger - INFO - get_role_lice_data_summary_tablename:75 - Generated role license summary info table name for system 'SYS_2'
+2026-05-24 21:07:19 - app_logger - INFO - get_role_lice_data_tablename:70 - Generated role object license info table name for system 'SYS_2'
+2026-05-24 21:07:19 - fue_calculation_logger - INFO - get_specific_role_details:178 - Successfully fetched details for role 'Z:FDBD:FIORI:ALL:DISPLAY'. Found 2010 authorization objects.
+2026-05-24 21:07:24 - fue_calculation_logger - INFO - get_fue_dashboard:293 - Fetching FUE dashboard for system: 'SYS_2'
+2026-05-24 21:07:24 - app_logger - INFO - get_user_role_summary_tablename:85 - Generated user-role summary license table name for system 'SYS_2'
+2026-05-24 21:07:24 - app_logger - INFO - get_role_lice_data_summary_tablename:75 - Generated role license summary info table name for system 'SYS_2'
+2026-05-24 21:07:24 - fue_calculation_logger - INFO - get_fue_dashboard:377 - Successfully fetched dashboard data for system 'SYS_2'.
+2026-05-24 21:07:24 - fue_calculation_logger - INFO - get_role_details:36 - Fetching role details for system: 'SYS_2'
+2026-05-24 21:07:24 - app_logger - INFO - get_role_lice_data_summary_tablename:75 - Generated role license summary info table name for system 'SYS_2'
+2026-05-24 21:07:24 - app_logger - INFO - get_agr_users_tablename:34 - Generated user role mapping agr_users table name for system 'SYS_2'
+2026-05-24 21:07:25 - fue_calculation_logger - INFO - get_role_details:77 - Successfully fetched 2681 roles for system 'SYS_2'.
+2026-05-24 21:11:42 - fue_calculation_logger - INFO - get_users_by_role:225 - Fetching users for role: 'ZD_DTS_M_QM_T_FG_1300' in system: 'SYS_2'
+2026-05-24 21:11:42 - app_logger - INFO - get_user_role_data_tablename:80 - Generated user-role license info table name for system 'SYS_2'
+2026-05-24 21:11:42 - fue_calculation_logger - INFO - get_users_by_role:252 - Successfully fetched 11 users for role 'ZD_DTS_M_QM_T_FG_1300'.
+2026-05-24 21:12:05 - fue_calculation_logger - INFO - get_fue_dashboard:293 - Fetching FUE dashboard for system: 'SYS_2'
+2026-05-24 21:12:05 - app_logger - INFO - get_user_role_summary_tablename:85 - Generated user-role summary license table name for system 'SYS_2'
+2026-05-24 21:12:05 - app_logger - INFO - get_role_lice_data_summary_tablename:75 - Generated role license summary info table name for system 'SYS_2'
+2026-05-24 21:12:05 - fue_calculation_logger - INFO - get_fue_dashboard:377 - Successfully fetched dashboard data for system 'SYS_2'.
+2026-05-24 21:12:05 - fue_calculation_logger - INFO - get_role_details:36 - Fetching role details for system: 'SYS_2'
+2026-05-24 21:12:05 - app_logger - INFO - get_role_lice_data_summary_tablename:75 - Generated role license summary info table name for system 'SYS_2'
+2026-05-24 21:12:05 - app_logger - INFO - get_agr_users_tablename:34 - Generated user role mapping agr_users table name for system 'SYS_2'
+2026-05-24 21:12:06 - fue_calculation_logger - INFO - get_role_details:77 - Successfully fetched 2681 roles for system 'SYS_2'.
+2026-05-24 21:18:14 - app_logger - INFO - get_fue_dashboard:1026 - [Stage 6] Fetching FUE Dashboard for SYS_1
+2026-05-24 21:18:14 - app_logger - INFO - get_user_role_summary_tablename:85 - Generated user-role summary license table name for system 'SYS_1'
+2026-05-24 21:18:14 - app_logger - INFO - create_user_lic_summary_model:507 - Model for table 'Z_FUE_SYS_1_USER_LICENSE_SUMMARY' not in cache. Creating a new dynamic model.
+2026-05-24 21:18:14 - app_logger - INFO - create_user_lic_summary_model:516 - Successfully created dynamic model for table 'Z_FUE_SYS_1_USER_LICENSE_SUMMARY'
+2026-05-24 21:18:14 - app_logger - INFO - get_role_lice_data_summary_tablename:75 - Generated role license summary info table name for system 'SYS_1'
+2026-05-24 21:18:14 - app_logger - INFO - create_role_lic_summary_model:463 - Model for table 'Z_FUE_SYS_1_ROLE_LICENSE_SUMMARY' not in cache. Creating a new dynamic model.
+2026-05-24 21:18:14 - app_logger - INFO - create_role_lic_summary_model:472 - Successfully created dynamic model for table 'Z_FUE_SYS_1_ROLE_LICENSE_SUMMARY'
+2026-05-24 21:29:06 - fue_calculation_logger - INFO - get_fue_dashboard:293 - Fetching FUE dashboard for system: 'SYS_2'
+2026-05-24 21:29:06 - app_logger - INFO - get_user_role_summary_tablename:85 - Generated user-role summary license table name for system 'SYS_2'
+2026-05-24 21:29:06 - app_logger - INFO - get_role_lice_data_summary_tablename:75 - Generated role license summary info table name for system 'SYS_2'
+2026-05-24 21:29:06 - fue_calculation_logger - INFO - get_fue_dashboard:377 - Successfully fetched dashboard data for system 'SYS_2'.
+2026-05-24 21:29:06 - fue_calculation_logger - INFO - get_role_details:36 - Fetching role details for system: 'SYS_2'
+2026-05-24 21:29:06 - app_logger - INFO - get_role_lice_data_summary_tablename:75 - Generated role license summary info table name for system 'SYS_2'
+2026-05-24 21:29:06 - app_logger - INFO - get_agr_users_tablename:34 - Generated user role mapping agr_users table name for system 'SYS_2'
+2026-05-24 21:29:06 - fue_calculation_logger - INFO - get_role_details:77 - Successfully fetched 2681 roles for system 'SYS_2'.
+2026-05-24 21:36:12 - fue_calculation_logger - INFO - get_specific_role_details:123 - Fetching details for role: '/ISDFPS/ROLE_GEN_TESTER' for system: 'SYS_2'
+2026-05-24 21:36:12 - app_logger - INFO - get_role_lice_data_summary_tablename:75 - Generated role license summary info table name for system 'SYS_2'
+2026-05-24 21:36:12 - app_logger - INFO - get_role_lice_data_tablename:70 - Generated role object license info table name for system 'SYS_2'
+2026-05-24 21:36:12 - fue_calculation_logger - INFO - get_specific_role_details:178 - Successfully fetched details for role '/ISDFPS/ROLE_GEN_TESTER'. Found 22 authorization objects.
+2026-05-24 21:36:18 - fue_calculation_logger - INFO - get_specific_role_details:123 - Fetching details for role: '/ISDFPS/ROLE_GEN_TESTER' for system: 'SYS_2'
+2026-05-24 21:36:18 - app_logger - INFO - get_role_lice_data_summary_tablename:75 - Generated role license summary info table name for system 'SYS_2'
+2026-05-24 21:36:18 - app_logger - INFO - get_role_lice_data_tablename:70 - Generated role object license info table name for system 'SYS_2'
+2026-05-24 21:36:18 - fue_calculation_logger - INFO - get_specific_role_details:178 - Successfully fetched details for role '/ISDFPS/ROLE_GEN_TESTER'. Found 22 authorization objects.
+2026-05-24 21:36:19 - fue_calculation_logger - INFO - get_fue_dashboard:293 - Fetching FUE dashboard for system: 'SYS_2'
+2026-05-24 21:36:19 - app_logger - INFO - get_user_role_summary_tablename:85 - Generated user-role summary license table name for system 'SYS_2'
+2026-05-24 21:36:19 - app_logger - INFO - get_role_lice_data_summary_tablename:75 - Generated role license summary info table name for system 'SYS_2'
+2026-05-24 21:36:19 - fue_calculation_logger - INFO - get_fue_dashboard:377 - Successfully fetched dashboard data for system 'SYS_2'.
+2026-05-24 21:36:19 - fue_calculation_logger - INFO - get_role_details:36 - Fetching role details for system: 'SYS_2'
+2026-05-24 21:36:19 - app_logger - INFO - get_role_lice_data_summary_tablename:75 - Generated role license summary info table name for system 'SYS_2'
+2026-05-24 21:36:19 - app_logger - INFO - get_agr_users_tablename:34 - Generated user role mapping agr_users table name for system 'SYS_2'
+2026-05-24 21:36:19 - fue_calculation_logger - INFO - get_role_details:77 - Successfully fetched 2681 roles for system 'SYS_2'.
+2026-05-24 21:36:58 - fue_calculation_logger - INFO - get_users_by_role:225 - Fetching users for role: 'ZD_MDM_M_MTRL_1200' in system: 'SYS_2'
+2026-05-24 21:36:58 - app_logger - INFO - get_user_role_data_tablename:80 - Generated user-role license info table name for system 'SYS_2'
+2026-05-24 21:36:58 - fue_calculation_logger - INFO - get_users_by_role:252 - Successfully fetched 4 users for role 'ZD_MDM_M_MTRL_1200'.
+2026-05-24 21:36:58 - fue_calculation_logger - INFO - get_users_by_role:225 - Fetching users for role: 'ZD_MDM_M_MTRL_1200' in system: 'SYS_2'
+2026-05-24 21:36:58 - app_logger - INFO - get_user_role_data_tablename:80 - Generated user-role license info table name for system 'SYS_2'
+2026-05-24 21:36:58 - fue_calculation_logger - INFO - get_users_by_role:252 - Successfully fetched 4 users for role 'ZD_MDM_M_MTRL_1200'.
+2026-05-24 21:37:01 - fue_calculation_logger - INFO - get_fue_dashboard:293 - Fetching FUE dashboard for system: 'SYS_2'
+2026-05-24 21:37:01 - app_logger - INFO - get_user_role_summary_tablename:85 - Generated user-role summary license table name for system 'SYS_2'
+2026-05-24 21:37:01 - app_logger - INFO - get_role_lice_data_summary_tablename:75 - Generated role license summary info table name for system 'SYS_2'
+2026-05-24 21:37:01 - fue_calculation_logger - INFO - get_fue_dashboard:377 - Successfully fetched dashboard data for system 'SYS_2'.
+2026-05-24 21:37:01 - fue_calculation_logger - INFO - get_role_details:36 - Fetching role details for system: 'SYS_2'
+2026-05-24 21:37:01 - app_logger - INFO - get_role_lice_data_summary_tablename:75 - Generated role license summary info table name for system 'SYS_2'
+2026-05-24 21:37:01 - app_logger - INFO - get_agr_users_tablename:34 - Generated user role mapping agr_users table name for system 'SYS_2'
+2026-05-24 21:37:01 - fue_calculation_logger - INFO - get_role_details:77 - Successfully fetched 2681 roles for system 'SYS_2'.
+2026-05-24 21:37:13 - fue_calculation_logger - INFO - get_fue_dashboard:293 - Fetching FUE dashboard for system: 'SYS_2'
+2026-05-24 21:37:13 - app_logger - INFO - get_user_role_summary_tablename:85 - Generated user-role summary license table name for system 'SYS_2'
+2026-05-24 21:37:13 - app_logger - INFO - get_role_lice_data_summary_tablename:75 - Generated role license summary info table name for system 'SYS_2'
+2026-05-24 21:37:13 - fue_calculation_logger - INFO - get_fue_dashboard:377 - Successfully fetched dashboard data for system 'SYS_2'.
+2026-05-24 21:37:13 - fue_calculation_logger - INFO - get_role_details:36 - Fetching role details for system: 'SYS_2'
+2026-05-24 21:37:13 - app_logger - INFO - get_role_lice_data_summary_tablename:75 - Generated role license summary info table name for system 'SYS_2'
+2026-05-24 21:37:13 - app_logger - INFO - get_agr_users_tablename:34 - Generated user role mapping agr_users table name for system 'SYS_2'
+2026-05-24 21:37:13 - fue_calculation_logger - INFO - get_role_details:77 - Successfully fetched 2681 roles for system 'SYS_2'.
+2026-05-24 21:47:11 - fue_calculation_logger - INFO - get_fue_dashboard:293 - Fetching FUE dashboard for system: 'SYS_2'
+2026-05-24 21:47:11 - app_logger - INFO - get_user_role_summary_tablename:85 - Generated user-role summary license table name for system 'SYS_2'
+2026-05-24 21:47:11 - app_logger - INFO - get_role_lice_data_summary_tablename:75 - Generated role license summary info table name for system 'SYS_2'
+2026-05-24 21:47:11 - fue_calculation_logger - INFO - get_fue_dashboard:377 - Successfully fetched dashboard data for system 'SYS_2'.
+2026-05-24 21:47:11 - fue_calculation_logger - INFO - get_role_details:36 - Fetching role details for system: 'SYS_2'
+2026-05-24 21:47:11 - app_logger - INFO - get_role_lice_data_summary_tablename:75 - Generated role license summary info table name for system 'SYS_2'
+2026-05-24 21:47:11 - app_logger - INFO - get_agr_users_tablename:34 - Generated user role mapping agr_users table name for system 'SYS_2'
+2026-05-24 21:47:12 - fue_calculation_logger - INFO - get_role_details:77 - Successfully fetched 2681 roles for system 'SYS_2'.
+2026-05-24 21:47:19 - fue_calculation_logger - INFO - get_fue_dashboard:293 - Fetching FUE dashboard for system: 'SYS_2'
+2026-05-24 21:47:19 - app_logger - INFO - get_user_role_summary_tablename:85 - Generated user-role summary license table name for system 'SYS_2'
+2026-05-24 21:47:19 - app_logger - INFO - get_role_lice_data_summary_tablename:75 - Generated role license summary info table name for system 'SYS_2'
+2026-05-24 21:47:19 - fue_calculation_logger - INFO - get_fue_dashboard:377 - Successfully fetched dashboard data for system 'SYS_2'.
+2026-05-24 21:47:19 - fue_calculation_logger - INFO - get_role_details:36 - Fetching role details for system: 'SYS_2'
+2026-05-24 21:47:19 - app_logger - INFO - get_role_lice_data_summary_tablename:75 - Generated role license summary info table name for system 'SYS_2'
+2026-05-24 21:47:19 - app_logger - INFO - get_agr_users_tablename:34 - Generated user role mapping agr_users table name for system 'SYS_2'
+2026-05-24 21:47:20 - fue_calculation_logger - INFO - get_role_details:77 - Successfully fetched 2681 roles for system 'SYS_2'.
+2026-05-24 23:00:11 - fue_calculation_logger - INFO - get_fue_dashboard:293 - Fetching FUE dashboard for system: 'SYS_2'
+2026-05-24 23:00:11 - app_logger - INFO - get_user_role_summary_tablename:85 - Generated user-role summary license table name for system 'SYS_2'
+2026-05-24 23:00:11 - app_logger - INFO - get_role_lice_data_summary_tablename:75 - Generated role license summary info table name for system 'SYS_2'
+2026-05-24 23:00:11 - fue_calculation_logger - INFO - get_fue_dashboard:377 - Successfully fetched dashboard data for system 'SYS_2'.
+2026-05-24 23:00:11 - fue_calculation_logger - INFO - get_role_details:36 - Fetching role details for system: 'SYS_2'
+2026-05-24 23:00:11 - app_logger - INFO - get_role_lice_data_summary_tablename:75 - Generated role license summary info table name for system 'SYS_2'
+2026-05-24 23:00:11 - app_logger - INFO - get_agr_users_tablename:34 - Generated user role mapping agr_users table name for system 'SYS_2'
+2026-05-24 23:00:12 - fue_calculation_logger - INFO - get_role_details:77 - Successfully fetched 2681 roles for system 'SYS_2'.
+2026-05-24 23:03:06 - app_logger - INFO - get_fue_dashboard:1026 - [Stage 6] Fetching FUE Dashboard for SYS_1
+2026-05-24 23:03:06 - app_logger - INFO - get_user_role_summary_tablename:85 - Generated user-role summary license table name for system 'SYS_1'
+2026-05-24 23:03:06 - app_logger - INFO - create_user_lic_summary_model:507 - Model for table 'Z_FUE_SYS_1_USER_LICENSE_SUMMARY' not in cache. Creating a new dynamic model.
+2026-05-24 23:03:06 - app_logger - INFO - create_user_lic_summary_model:516 - Successfully created dynamic model for table 'Z_FUE_SYS_1_USER_LICENSE_SUMMARY'
+2026-05-24 23:03:06 - app_logger - INFO - get_role_lice_data_summary_tablename:75 - Generated role license summary info table name for system 'SYS_1'
+2026-05-24 23:03:06 - app_logger - INFO - create_role_lic_summary_model:463 - Model for table 'Z_FUE_SYS_1_ROLE_LICENSE_SUMMARY' not in cache. Creating a new dynamic model.
+2026-05-24 23:03:06 - app_logger - INFO - create_role_lic_summary_model:472 - Successfully created dynamic model for table 'Z_FUE_SYS_1_ROLE_LICENSE_SUMMARY'
+2026-05-24 23:03:14 - app_logger - INFO - get_fue_dashboard:1026 - [Stage 6] Fetching FUE Dashboard for SYS_1
+2026-05-24 23:03:14 - app_logger - INFO - get_user_role_summary_tablename:85 - Generated user-role summary license table name for system 'SYS_1'
+2026-05-24 23:03:14 - app_logger - INFO - create_user_lic_summary_model:505 - Model for table 'Z_FUE_SYS_1_USER_LICENSE_SUMMARY' found in cache. Returning cached model.
+2026-05-24 23:03:14 - app_logger - INFO - get_role_lice_data_summary_tablename:75 - Generated role license summary info table name for system 'SYS_1'
+2026-05-24 23:03:14 - app_logger - INFO - create_role_lic_summary_model:461 - Model for table 'Z_FUE_SYS_1_ROLE_LICENSE_SUMMARY' found in cache. Returning cached model.
+2026-05-24 23:22:40 - fue_calculation_logger - INFO - get_fue_dashboard:293 - Fetching FUE dashboard for system: 'SYS_1'
+2026-05-24 23:22:40 - app_logger - INFO - get_user_role_summary_tablename:85 - Generated user-role summary license table name for system 'SYS_1'
+2026-05-24 23:22:40 - app_logger - INFO - get_role_lice_data_summary_tablename:75 - Generated role license summary info table name for system 'SYS_1'
+2026-05-24 23:22:40 - app_logger - INFO - get_simulation_results:822 - Fetching simulation results for system 'SYS_1'
+2026-05-24 23:22:40 - app_logger - INFO - get_simulation_result_tablename:97 - Generated simulation_result table name for system 'SYS_1'
+2026-05-24 23:22:40 - app_logger - INFO - create_simulation_result_model:548 - Creating new dynamic SimulationResult model for table 'Z_FUE_SYS_1_SIMULATION_RESULT'
+2026-05-24 23:22:40 - app_logger - INFO - create_simulation_result_model:557 - Successfully created dynamic SimulationResult model for table 'Z_FUE_SYS_1_SIMULATION_RESULT'
+2026-05-24 23:22:43 - fue_calculation_logger - INFO - get_fue_dashboard:293 - Fetching FUE dashboard for system: 'SYS_2'
+2026-05-24 23:22:43 - app_logger - INFO - get_user_role_summary_tablename:85 - Generated user-role summary license table name for system 'SYS_2'
+2026-05-24 23:22:43 - app_logger - INFO - get_role_lice_data_summary_tablename:75 - Generated role license summary info table name for system 'SYS_2'
+2026-05-24 23:22:43 - fue_calculation_logger - INFO - get_fue_dashboard:377 - Successfully fetched dashboard data for system 'SYS_2'.
+2026-05-24 23:22:43 - app_logger - INFO - get_simulation_results:822 - Fetching simulation results for system 'SYS_2'
+2026-05-24 23:22:43 - app_logger - INFO - get_simulation_result_tablename:97 - Generated simulation_result table name for system 'SYS_2'
+2026-05-24 23:22:43 - app_logger - INFO - create_simulation_result_model:548 - Creating new dynamic SimulationResult model for table 'Z_FUE_SYS_2_SIMULATION_RESULT'
+2026-05-24 23:22:43 - app_logger - INFO - create_simulation_result_model:557 - Successfully created dynamic SimulationResult model for table 'Z_FUE_SYS_2_SIMULATION_RESULT'
+2026-05-24 23:22:47 - app_logger - INFO - get_simulation_results:822 - Fetching simulation results for system 'SYS_2'
+2026-05-24 23:22:47 - app_logger - INFO - get_simulation_result_tablename:97 - Generated simulation_result table name for system 'SYS_2'
+2026-05-24 23:22:47 - app_logger - INFO - create_simulation_result_model:545 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-05-24 23:22:47 - fue_calculation_logger - INFO - get_fue_dashboard:293 - Fetching FUE dashboard for system: 'SYS_2'
+2026-05-24 23:22:47 - app_logger - INFO - get_user_role_summary_tablename:85 - Generated user-role summary license table name for system 'SYS_2'
+2026-05-24 23:22:47 - app_logger - INFO - get_role_lice_data_summary_tablename:75 - Generated role license summary info table name for system 'SYS_2'
+2026-05-24 23:22:47 - fue_calculation_logger - INFO - get_fue_dashboard:377 - Successfully fetched dashboard data for system 'SYS_2'.
+2026-05-24 23:22:47 - app_logger - INFO - get_simulation_results:822 - Fetching simulation results for system 'SYS_2'
+2026-05-24 23:22:47 - app_logger - INFO - get_simulation_result_tablename:97 - Generated simulation_result table name for system 'SYS_2'
+2026-05-24 23:22:47 - app_logger - INFO - create_simulation_result_model:545 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-05-24 23:22:47 - fue_calculation_logger - INFO - get_fue_dashboard:293 - Fetching FUE dashboard for system: 'SYS_2'
+2026-05-24 23:22:47 - app_logger - INFO - get_user_role_summary_tablename:85 - Generated user-role summary license table name for system 'SYS_2'
+2026-05-24 23:22:47 - app_logger - INFO - get_role_lice_data_summary_tablename:75 - Generated role license summary info table name for system 'SYS_2'
+2026-05-24 23:22:47 - fue_calculation_logger - INFO - get_fue_dashboard:377 - Successfully fetched dashboard data for system 'SYS_2'.
+2026-05-24 23:22:52 - fue_calculation_logger - INFO - get_fue_dashboard:293 - Fetching FUE dashboard for system: 'SYS_2'
+2026-05-24 23:22:52 - app_logger - INFO - get_user_role_summary_tablename:85 - Generated user-role summary license table name for system 'SYS_2'
+2026-05-24 23:22:52 - app_logger - INFO - get_role_lice_data_summary_tablename:75 - Generated role license summary info table name for system 'SYS_2'
+2026-05-24 23:22:52 - fue_calculation_logger - INFO - get_fue_dashboard:377 - Successfully fetched dashboard data for system 'SYS_2'.
+2026-05-24 23:22:52 - app_logger - INFO - get_simulation_results:822 - Fetching simulation results for system 'SYS_2'
+2026-05-24 23:22:52 - app_logger - INFO - get_simulation_result_tablename:97 - Generated simulation_result table name for system 'SYS_2'
+2026-05-24 23:22:52 - app_logger - INFO - create_simulation_result_model:545 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-05-24 23:23:14 - app_logger - INFO - get_simulation_results:822 - Fetching simulation results for system 'SYS_2'
+2026-05-24 23:23:14 - app_logger - INFO - get_simulation_result_tablename:97 - Generated simulation_result table name for system 'SYS_2'
+2026-05-24 23:23:14 - app_logger - INFO - create_simulation_result_model:545 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-05-24 23:23:14 - fue_calculation_logger - INFO - get_fue_dashboard:293 - Fetching FUE dashboard for system: 'SYS_2'
+2026-05-24 23:23:14 - app_logger - INFO - get_user_role_summary_tablename:85 - Generated user-role summary license table name for system 'SYS_2'
+2026-05-24 23:23:14 - app_logger - INFO - get_role_lice_data_summary_tablename:75 - Generated role license summary info table name for system 'SYS_2'
+2026-05-24 23:23:14 - fue_calculation_logger - INFO - get_fue_dashboard:377 - Successfully fetched dashboard data for system 'SYS_2'.
+2026-05-24 23:23:15 - app_logger - INFO - get_simulation_results:822 - Fetching simulation results for system 'SYS_2'
+2026-05-24 23:23:15 - app_logger - INFO - get_simulation_result_tablename:97 - Generated simulation_result table name for system 'SYS_2'
+2026-05-24 23:23:15 - app_logger - INFO - create_simulation_result_model:545 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-05-24 23:23:15 - fue_calculation_logger - INFO - get_fue_dashboard:293 - Fetching FUE dashboard for system: 'SYS_2'
+2026-05-24 23:23:15 - app_logger - INFO - get_user_role_summary_tablename:85 - Generated user-role summary license table name for system 'SYS_2'
+2026-05-24 23:23:15 - app_logger - INFO - get_role_lice_data_summary_tablename:75 - Generated role license summary info table name for system 'SYS_2'
+2026-05-24 23:23:15 - fue_calculation_logger - INFO - get_fue_dashboard:377 - Successfully fetched dashboard data for system 'SYS_2'.
+2026-05-24 23:23:18 - fue_calculation_logger - INFO - get_fue_dashboard:293 - Fetching FUE dashboard for system: 'SYS_2'
+2026-05-24 23:23:18 - app_logger - INFO - get_user_role_summary_tablename:85 - Generated user-role summary license table name for system 'SYS_2'
+2026-05-24 23:23:18 - app_logger - INFO - get_role_lice_data_summary_tablename:75 - Generated role license summary info table name for system 'SYS_2'
+2026-05-24 23:23:18 - fue_calculation_logger - INFO - get_fue_dashboard:377 - Successfully fetched dashboard data for system 'SYS_2'.
+2026-05-24 23:23:18 - app_logger - INFO - get_simulation_results:822 - Fetching simulation results for system 'SYS_2'
+2026-05-24 23:23:18 - app_logger - INFO - get_simulation_result_tablename:97 - Generated simulation_result table name for system 'SYS_2'
+2026-05-24 23:23:18 - app_logger - INFO - create_simulation_result_model:545 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-05-24 23:23:22 - fue_calculation_logger - INFO - get_fue_dashboard:293 - Fetching FUE dashboard for system: 'SYS_2'
+2026-05-24 23:23:22 - app_logger - INFO - get_user_role_summary_tablename:85 - Generated user-role summary license table name for system 'SYS_2'
+2026-05-24 23:23:22 - app_logger - INFO - get_role_lice_data_summary_tablename:75 - Generated role license summary info table name for system 'SYS_2'
+2026-05-24 23:23:22 - fue_calculation_logger - INFO - get_fue_dashboard:377 - Successfully fetched dashboard data for system 'SYS_2'.
+2026-05-24 23:23:22 - app_logger - INFO - get_simulation_results:822 - Fetching simulation results for system 'SYS_2'
+2026-05-24 23:23:22 - app_logger - INFO - get_simulation_result_tablename:97 - Generated simulation_result table name for system 'SYS_2'
+2026-05-24 23:23:22 - app_logger - INFO - create_simulation_result_model:545 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-05-24 23:23:29 - app_logger - INFO - get_fue_dashboard:1026 - [Stage 6] Fetching FUE Dashboard for SYS_1
+2026-05-24 23:23:29 - app_logger - INFO - get_user_role_summary_tablename:85 - Generated user-role summary license table name for system 'SYS_1'
+2026-05-24 23:23:29 - app_logger - INFO - create_user_lic_summary_model:505 - Model for table 'Z_FUE_SYS_1_USER_LICENSE_SUMMARY' found in cache. Returning cached model.
+2026-05-24 23:23:29 - app_logger - INFO - get_role_lice_data_summary_tablename:75 - Generated role license summary info table name for system 'SYS_1'
+2026-05-24 23:23:29 - app_logger - INFO - create_role_lic_summary_model:461 - Model for table 'Z_FUE_SYS_1_ROLE_LICENSE_SUMMARY' found in cache. Returning cached model.
+2026-05-24 23:48:13 - app_logger - INFO - get_fue_dashboard:1026 - [Stage 6] Fetching FUE Dashboard for SYS_1
+2026-05-24 23:48:13 - app_logger - INFO - get_user_role_summary_tablename:85 - Generated user-role summary license table name for system 'SYS_1'
+2026-05-24 23:48:13 - app_logger - INFO - create_user_lic_summary_model:505 - Model for table 'Z_FUE_SYS_1_USER_LICENSE_SUMMARY' found in cache. Returning cached model.
+2026-05-24 23:48:13 - app_logger - INFO - get_role_lice_data_summary_tablename:75 - Generated role license summary info table name for system 'SYS_1'
+2026-05-24 23:48:13 - app_logger - INFO - create_role_lic_summary_model:461 - Model for table 'Z_FUE_SYS_1_ROLE_LICENSE_SUMMARY' found in cache. Returning cached model.
+2026-05-24 23:48:16 - fue_calculation_logger - INFO - get_fue_dashboard:293 - Fetching FUE dashboard for system: 'SYS_1'
+2026-05-24 23:48:16 - app_logger - INFO - get_user_role_summary_tablename:85 - Generated user-role summary license table name for system 'SYS_1'
+2026-05-24 23:48:16 - app_logger - INFO - get_role_lice_data_summary_tablename:75 - Generated role license summary info table name for system 'SYS_1'
+2026-05-24 23:48:16 - app_logger - INFO - get_simulation_results:822 - Fetching simulation results for system 'SYS_1'
+2026-05-24 23:48:16 - app_logger - INFO - get_simulation_result_tablename:97 - Generated simulation_result table name for system 'SYS_1'
+2026-05-24 23:48:16 - app_logger - INFO - create_simulation_result_model:545 - Model for table 'Z_FUE_SYS_1_SIMULATION_RESULT' found in cache.
+2026-05-24 23:48:18 - fue_calculation_logger - INFO - get_fue_dashboard:293 - Fetching FUE dashboard for system: 'SYS_2'
+2026-05-24 23:48:18 - app_logger - INFO - get_user_role_summary_tablename:85 - Generated user-role summary license table name for system 'SYS_2'
+2026-05-24 23:48:18 - app_logger - INFO - get_role_lice_data_summary_tablename:75 - Generated role license summary info table name for system 'SYS_2'
+2026-05-24 23:48:18 - fue_calculation_logger - INFO - get_fue_dashboard:377 - Successfully fetched dashboard data for system 'SYS_2'.
+2026-05-24 23:48:18 - app_logger - INFO - get_simulation_results:822 - Fetching simulation results for system 'SYS_2'
+2026-05-24 23:48:18 - app_logger - INFO - get_simulation_result_tablename:97 - Generated simulation_result table name for system 'SYS_2'
+2026-05-24 23:48:18 - app_logger - INFO - create_simulation_result_model:545 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-05-24 23:48:20 - app_logger - INFO - get_simulation_results:822 - Fetching simulation results for system 'SYS_2'
+2026-05-24 23:48:20 - app_logger - INFO - get_simulation_result_tablename:97 - Generated simulation_result table name for system 'SYS_2'
+2026-05-24 23:48:20 - app_logger - INFO - create_simulation_result_model:545 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-05-24 23:48:20 - fue_calculation_logger - INFO - get_fue_dashboard:293 - Fetching FUE dashboard for system: 'SYS_2'
+2026-05-24 23:48:20 - app_logger - INFO - get_user_role_summary_tablename:85 - Generated user-role summary license table name for system 'SYS_2'
+2026-05-24 23:48:20 - app_logger - INFO - get_role_lice_data_summary_tablename:75 - Generated role license summary info table name for system 'SYS_2'
+2026-05-24 23:48:20 - fue_calculation_logger - INFO - get_fue_dashboard:377 - Successfully fetched dashboard data for system 'SYS_2'.
+2026-05-24 23:48:20 - fue_calculation_logger - INFO - get_fue_dashboard:293 - Fetching FUE dashboard for system: 'SYS_2'
+2026-05-24 23:48:20 - app_logger - INFO - get_user_role_summary_tablename:85 - Generated user-role summary license table name for system 'SYS_2'
+2026-05-24 23:48:20 - app_logger - INFO - get_role_lice_data_summary_tablename:75 - Generated role license summary info table name for system 'SYS_2'
+2026-05-24 23:48:20 - fue_calculation_logger - INFO - get_fue_dashboard:377 - Successfully fetched dashboard data for system 'SYS_2'.
+2026-05-24 23:48:20 - app_logger - INFO - get_simulation_results:822 - Fetching simulation results for system 'SYS_2'
+2026-05-24 23:48:20 - app_logger - INFO - get_simulation_result_tablename:97 - Generated simulation_result table name for system 'SYS_2'
+2026-05-24 23:48:20 - app_logger - INFO - create_simulation_result_model:545 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-05-24 23:48:22 - fue_calculation_logger - INFO - get_fue_dashboard:293 - Fetching FUE dashboard for system: 'SYS_2'
+2026-05-24 23:48:22 - app_logger - INFO - get_user_role_summary_tablename:85 - Generated user-role summary license table name for system 'SYS_2'
+2026-05-24 23:48:22 - app_logger - INFO - get_role_lice_data_summary_tablename:75 - Generated role license summary info table name for system 'SYS_2'
+2026-05-24 23:48:22 - fue_calculation_logger - INFO - get_fue_dashboard:377 - Successfully fetched dashboard data for system 'SYS_2'.
+2026-05-24 23:48:22 - app_logger - INFO - get_simulation_results:822 - Fetching simulation results for system 'SYS_2'
+2026-05-24 23:48:22 - app_logger - INFO - get_simulation_result_tablename:97 - Generated simulation_result table name for system 'SYS_2'
+2026-05-24 23:48:22 - app_logger - INFO - create_simulation_result_model:545 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-05-24 23:48:40 - app_logger - INFO - get_simulation_results:822 - Fetching simulation results for system 'SYS_2'
+2026-05-24 23:48:40 - app_logger - INFO - get_simulation_result_tablename:97 - Generated simulation_result table name for system 'SYS_2'
+2026-05-24 23:48:40 - app_logger - INFO - create_simulation_result_model:545 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-05-24 23:48:40 - fue_calculation_logger - INFO - get_fue_dashboard:293 - Fetching FUE dashboard for system: 'SYS_2'
+2026-05-24 23:48:40 - app_logger - INFO - get_user_role_summary_tablename:85 - Generated user-role summary license table name for system 'SYS_2'
+2026-05-24 23:48:40 - app_logger - INFO - get_role_lice_data_summary_tablename:75 - Generated role license summary info table name for system 'SYS_2'
+2026-05-24 23:48:40 - fue_calculation_logger - INFO - get_fue_dashboard:377 - Successfully fetched dashboard data for system 'SYS_2'.
+2026-05-24 23:48:40 - app_logger - INFO - get_simulation_results:822 - Fetching simulation results for system 'SYS_2'
+2026-05-24 23:48:40 - app_logger - INFO - get_simulation_result_tablename:97 - Generated simulation_result table name for system 'SYS_2'
+2026-05-24 23:48:40 - app_logger - INFO - create_simulation_result_model:545 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-05-24 23:48:40 - fue_calculation_logger - INFO - get_fue_dashboard:293 - Fetching FUE dashboard for system: 'SYS_2'
+2026-05-24 23:48:40 - app_logger - INFO - get_user_role_summary_tablename:85 - Generated user-role summary license table name for system 'SYS_2'
+2026-05-24 23:48:40 - app_logger - INFO - get_role_lice_data_summary_tablename:75 - Generated role license summary info table name for system 'SYS_2'
+2026-05-24 23:48:40 - fue_calculation_logger - INFO - get_fue_dashboard:377 - Successfully fetched dashboard data for system 'SYS_2'.
+2026-05-24 23:48:42 - fue_calculation_logger - INFO - get_fue_dashboard:293 - Fetching FUE dashboard for system: 'SYS_2'
+2026-05-24 23:48:42 - app_logger - INFO - get_user_role_summary_tablename:85 - Generated user-role summary license table name for system 'SYS_2'
+2026-05-24 23:48:42 - app_logger - INFO - get_role_lice_data_summary_tablename:75 - Generated role license summary info table name for system 'SYS_2'
+2026-05-24 23:48:42 - fue_calculation_logger - INFO - get_fue_dashboard:377 - Successfully fetched dashboard data for system 'SYS_2'.
+2026-05-24 23:48:42 - app_logger - INFO - get_simulation_results:822 - Fetching simulation results for system 'SYS_2'
+2026-05-24 23:48:42 - app_logger - INFO - get_simulation_result_tablename:97 - Generated simulation_result table name for system 'SYS_2'
+2026-05-24 23:48:42 - app_logger - INFO - create_simulation_result_model:545 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-05-24 23:48:55 - fue_calculation_logger - INFO - get_fue_dashboard:293 - Fetching FUE dashboard for system: 'SYS_2'
+2026-05-24 23:48:55 - app_logger - INFO - get_user_role_summary_tablename:85 - Generated user-role summary license table name for system 'SYS_2'
+2026-05-24 23:48:55 - app_logger - INFO - get_role_lice_data_summary_tablename:75 - Generated role license summary info table name for system 'SYS_2'
+2026-05-24 23:48:55 - fue_calculation_logger - INFO - get_fue_dashboard:377 - Successfully fetched dashboard data for system 'SYS_2'.
+2026-05-24 23:48:55 - app_logger - INFO - get_simulation_results:822 - Fetching simulation results for system 'SYS_2'
+2026-05-24 23:48:55 - app_logger - INFO - get_simulation_result_tablename:97 - Generated simulation_result table name for system 'SYS_2'
+2026-05-24 23:48:55 - app_logger - INFO - create_simulation_result_model:545 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-05-25 01:29:15 - app_logger - INFO - get_simulation_role_details:60 - Fetching simulation role details for system 'SYS_2'
+2026-05-25 01:29:15 - app_logger - INFO - get_role_lice_data_summary_tablename:75 - Generated role license summary info table name for system 'SYS_2'
+2026-05-25 01:29:15 - app_logger - INFO - create_role_lic_summary_model:463 - Model for table 'Z_FUE_SYS_2_ROLE_LICENSE_SUMMARY' not in cache. Creating a new dynamic model.
+2026-05-25 01:29:15 - app_logger - INFO - create_role_lic_summary_model:472 - Successfully created dynamic model for table 'Z_FUE_SYS_2_ROLE_LICENSE_SUMMARY'
+2026-05-25 01:29:15 - app_logger - INFO - get_agr_users_tablename:34 - Generated user role mapping agr_users table name for system 'SYS_2'
+2026-05-25 01:29:15 - app_logger - INFO - create_AGRUSERS_model:317 - Model for table 'Z_FUE_SYS_2_USER_ROLE_MAPPING' not in cache. Creating a new dynamic model.
+2026-05-25 01:29:15 - app_logger - INFO - create_AGRUSERS_model:324 - Successfully created dynamic model for table 'Z_FUE_SYS_2_USER_ROLE_MAPPING'
+2026-05-25 01:30:11 - app_logger - INFO - get_specific_role_simulation_details:145 - Fetching simulation details for role 'ZD_OTC_M_PRGM_MGR_2100' in system 'SYS_2'
+2026-05-25 01:30:11 - app_logger - INFO - get_role_lic_sim_tablename:91 - Generated role_lic_sim table name for system 'SYS_2'
+2026-05-25 01:30:11 - app_logger - INFO - create_role_lic_sim_model:527 - Creating new dynamic RoleLicSim model for table 'Z_FUE_SYS_2_ROLE_LIC_SIM'
+2026-05-25 01:30:11 - app_logger - INFO - create_role_lic_sim_model:536 - Successfully created dynamic RoleLicSim model for table 'Z_FUE_SYS_2_ROLE_LIC_SIM'
+2026-05-25 01:30:24 - app_logger - INFO - get_auth_field_license_data:329 - Fetching auth field license data for object='F_BKPF_BES', field='ACTVT', system='SYS_2'
+2026-05-25 01:30:24 - app_logger - INFO - get_auth_field_license_data:357 - Found 6 license options for object='F_BKPF_BES', field='ACTVT'
+2026-05-25 01:30:24 - app_logger - INFO - get_auth_field_license_data:329 - Fetching auth field license data for object='F_BKPF_BES', field='ACTVT', system='SYS_2'
+2026-05-25 01:30:24 - app_logger - INFO - get_auth_field_license_data:357 - Found 6 license options for object='F_BKPF_BES', field='ACTVT'
+2026-05-25 01:31:35 - app_logger - INFO - get_auth_field_license_data:329 - Fetching auth field license data for object='F_BKPF_BUK', field='ACTVT', system='SYS_2'
+2026-05-25 01:31:35 - app_logger - INFO - get_auth_field_license_data:357 - Found 10 license options for object='F_BKPF_BUK', field='ACTVT'
+2026-05-25 01:31:35 - app_logger - INFO - get_auth_field_license_data:329 - Fetching auth field license data for object='F_BKPF_BUK', field='ACTVT', system='SYS_2'
+2026-05-25 01:31:35 - app_logger - INFO - get_auth_field_license_data:357 - Found 10 license options for object='F_BKPF_BUK', field='ACTVT'
+2026-05-25 01:36:28 - app_logger - INFO - get_simulation_role_details:60 - Fetching simulation role details for system 'SYS_2'
+2026-05-25 01:36:28 - app_logger - INFO - get_role_lice_data_summary_tablename:75 - Generated role license summary info table name for system 'SYS_2'
+2026-05-25 01:36:28 - app_logger - INFO - create_role_lic_summary_model:461 - Model for table 'Z_FUE_SYS_2_ROLE_LICENSE_SUMMARY' found in cache. Returning cached model.
+2026-05-25 01:36:28 - app_logger - INFO - get_agr_users_tablename:34 - Generated user role mapping agr_users table name for system 'SYS_2'
+2026-05-25 01:36:28 - app_logger - INFO - create_AGRUSERS_model:315 - Model for table 'Z_FUE_SYS_2_USER_ROLE_MAPPING' found in cache. Returning cached model.
+2026-05-25 01:36:59 - app_logger - INFO - get_specific_role_simulation_details:145 - Fetching simulation details for role 'ZD_DTS_M_EWM_MGR_1100' in system 'SYS_2'
+2026-05-25 01:36:59 - app_logger - INFO - get_role_lic_sim_tablename:91 - Generated role_lic_sim table name for system 'SYS_2'
+2026-05-25 01:36:59 - app_logger - INFO - create_role_lic_sim_model:524 - Model for table 'Z_FUE_SYS_2_ROLE_LIC_SIM' found in cache.
+2026-05-25 01:37:18 - app_logger - INFO - get_auth_field_license_data:329 - Fetching auth field license data for object='M_EINF_EKG', field='ACTVT', system='SYS_2'
+2026-05-25 01:37:18 - app_logger - INFO - get_auth_field_license_data:357 - Found 5 license options for object='M_EINF_EKG', field='ACTVT'
+2026-05-25 01:37:18 - app_logger - INFO - get_auth_field_license_data:329 - Fetching auth field license data for object='M_EINF_EKG', field='ACTVT', system='SYS_2'
+2026-05-25 01:37:18 - app_logger - INFO - get_auth_field_license_data:357 - Found 5 license options for object='M_EINF_EKG', field='ACTVT'

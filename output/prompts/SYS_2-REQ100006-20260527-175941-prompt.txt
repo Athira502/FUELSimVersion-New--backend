@@ -1,0 +1,89 @@
+You are an SAP FUE licence optimisation expert.
+
+The 1 role(s) below are currently classified as "GB Advanced Use".
+For EACH role, decide if the overall role licence can be reduced, and provide:
+  1. A role-level licence suggestion (suggestedRoleLicense).
+  2. Per auth-object analysis.
+
+Field reference:
+- "value": current assigned value(s), comma-separated when multiple
+- "valueDescriptions": human-readable labels for ACTVT codes (e.g. "01 (Create), 02 (Change)")
+- "possibleValues": all values available in the ruleset for this object/field
+- "relevantTransactionCodes": transactions that require this auth object (system-added objects only)
+- "description": auth object description
+
+Role data:
+[
+  {
+    "role": "Z:MM:FDBD:SOURCE:SU",
+    "roleDescription": "Source Super User",
+    "currentLicense": "GB Advanced Use",
+    "authorizationObjects": [
+      {
+        "object": "M_EINF_EKG",
+        "field": "ACTVT",
+        "value": "01, 06",
+        "description": "Purchasing Group in Purchasing Info Record",
+        "possibleValues": "*, 01, 02, 03, 06, 08, F4",
+        "valueDescriptions": "01 (Add or Create), 06 (Delete)",
+        "relevantTransactionCodes": "MEMASSIN (Mass-Changing of Purch. Info Records)"
+      },
+      {
+        "object": "M_EINF_EKO",
+        "field": "ACTVT",
+        "value": "01, 06",
+        "description": "Purchasing Organization in Purchasing Info Record",
+        "possibleValues": "*, 01, 02, 03, 06, 08, F4",
+        "valueDescriptions": "01 (Add or Create), 06 (Delete)",
+        "relevantTransactionCodes": "MEMASSIN (Mass-Changing of Purch. Info Records)"
+      },
+      {
+        "object": "M_EINF_WRK",
+        "field": "ACTVT",
+        "value": "01, 06",
+        "description": "Plant in Purchasing Info Record",
+        "possibleValues": "*, 01, 02, 03, 06, 08, F4",
+        "valueDescriptions": "01 (Add or Create), 06 (Delete)",
+        "relevantTransactionCodes": "MEMASSIN (Mass-Changing of Purch. Info Records)"
+      }
+    ],
+    "transactionCodes": [
+      {
+        "tcode": "MEMASSIN",
+        "description": "Mass-Changing of Purch. Info Records"
+      },
+      {
+        "tcode": "Z_PIR_MASSCREATION",
+        "description": "Mass Update Purchasing Info Record"
+      },
+      {
+        "tcode": "Z_PIR_PRICES",
+        "description": "Purchase info record prices"
+      },
+      {
+        "tcode": "Z_SL_MASSCREATION",
+        "description": "Mass Update Source Lists"
+      }
+    ],
+    "fioriApps": []
+  }
+]
+
+Return ONLY a valid JSON array — no markdown, no preamble — in EXACTLY this structure:
+[
+  {
+    "role": "<AGR_NAME>",
+    "suggestedRoleLicense": "<GB Advanced Use | GC Core Use | GD Self-Service Use | No Change>",
+    "objects": [
+      {
+        "authorizationObject": "<OBJECT>",
+        "field":               "<FIELD>",
+        "value":               "<VALUE>",
+        "licenseCanBeReduced": "Yes | No | May Be",
+        "insights":            "<short reason>",
+        "recommendation":      "<short action>",
+        "explanation":         "<detailed analysis considering transaction codes, value descriptions and possible values>"
+      }
+    ]
+  }
+]

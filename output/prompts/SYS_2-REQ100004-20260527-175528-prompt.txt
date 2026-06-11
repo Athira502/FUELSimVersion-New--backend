@@ -1,0 +1,263 @@
+You are an SAP FUE licence optimisation expert.
+
+The 1 role(s) below are currently classified as "GB Advanced Use".
+For EACH role, decide if the overall role licence can be reduced, and provide:
+  1. A role-level licence suggestion (suggestedRoleLicense).
+  2. Per auth-object analysis.
+
+Field reference:
+- "value": current assigned value(s), comma-separated when multiple
+- "valueDescriptions": human-readable labels for ACTVT codes (e.g. "01 (Create), 02 (Change)")
+- "possibleValues": all values available in the ruleset for this object/field
+- "relevantTransactionCodes": transactions that require this auth object (system-added objects only)
+- "description": auth object description
+
+Role data:
+[
+  {
+    "role": "Z:FI:FDBD:COMM:ACCOUNTANT",
+    "roleDescription": "FI Commercial Accountant",
+    "currentLicense": "GB Advanced Use",
+    "authorizationObjects": [
+      {
+        "object": "F_MANDATE",
+        "field": "ACTVT",
+        "value": "01, 02",
+        "description": "Authorization to Process a SEPA Mandate in FI",
+        "possibleValues": "*, 01, 02, 03, 06, F4",
+        "valueDescriptions": "01 (Add or Create), 02 (Change)",
+        "relevantTransactionCodes": "FB01 (Post Document), FB03 (Display Document), FD03 (Display Customer (Accounting))"
+      },
+      {
+        "object": "K_FVMK",
+        "field": "ACTVT",
+        "value": "43",
+        "description": "CO-PC: Release/Marking - Product Costing",
+        "possibleValues": "*, 43, 44, 45",
+        "valueDescriptions": "43 (Release)",
+        "relevantTransactionCodes": "CKME (Activation of Planned Prices)"
+      },
+      {
+        "object": "K_MLPR_VA",
+        "field": "ACTVT",
+        "value": "16",
+        "description": "CO Material Price Change: Valuation Area",
+        "possibleValues": "*, 03, 16, 44",
+        "valueDescriptions": "16 (Execute)",
+        "relevantTransactionCodes": "CKME (Activation of Planned Prices)"
+      },
+      {
+        "object": "K_ML_VA",
+        "field": "ACTVT",
+        "value": "16",
+        "description": "CO Material Ledger: Valuation Area",
+        "possibleValues": "*, 02, 03, 16, 40, 45, F4",
+        "valueDescriptions": "16 (Execute)",
+        "relevantTransactionCodes": "CKME (Activation of Planned Prices)"
+      },
+      {
+        "object": "K_TP_VALU",
+        "field": "ACTVT",
+        "value": "02",
+        "description": "Transfer Price Valuations",
+        "possibleValues": "*, 02, 03, 10, 16",
+        "valueDescriptions": "02 (Change)",
+        "relevantTransactionCodes": "FB03 (Display Document), KKAK (Actual Results Analysis: Sales Ordrs), KKAKH (Actual Results Analysis: Sales Ordrs), KKBC_HOE_H (Analyze Summarization Object), KKBC_KUN (Analyze Sales Order)"
+      }
+    ],
+    "transactionCodes": [
+      {
+        "tcode": "CKME",
+        "description": "Activation of Planned Prices"
+      },
+      {
+        "tcode": "FB01",
+        "description": "Post Document"
+      },
+      {
+        "tcode": "FB03",
+        "description": "Display Document"
+      },
+      {
+        "tcode": "FCOM_IO_SETTLMT_RULE",
+        "description": "Display Settlement Rule"
+      },
+      {
+        "tcode": "FD03",
+        "description": "Display Customer (Accounting)"
+      },
+      {
+        "tcode": "FDKUSER",
+        "description": "Internet: User Action Assignment"
+      },
+      {
+        "tcode": "FIAR_OVERDUE_TOPLIST",
+        "description": "Due Date Grid for Customers"
+      },
+      {
+        "tcode": "FSE2",
+        "description": "Change Financial Statement Version"
+      },
+      {
+        "tcode": "IDCNAR",
+        "description": "A/R Aging Report (China)"
+      },
+      {
+        "tcode": "KKAA",
+        "description": "Sales Document Line Items Res.Anal."
+      },
+      {
+        "tcode": "KKAK",
+        "description": "Actual Results Analysis: Sales Ordrs"
+      },
+      {
+        "tcode": "KKAKH",
+        "description": "Actual Results Analysis: Sales Ordrs"
+      },
+      {
+        "tcode": "KKBC_HOE_H",
+        "description": "Analyze Summarization Object"
+      },
+      {
+        "tcode": "KKBC_KUN",
+        "description": "Analyze Sales Order"
+      },
+      {
+        "tcode": "KKR0",
+        "description": "CO Summarization: Hierarchy Maintena"
+      },
+      {
+        "tcode": "MCV6",
+        "description": "Call Up Indiv. Customer Prices List"
+      },
+      {
+        "tcode": "SDV",
+        "description": "Document Viewer"
+      },
+      {
+        "tcode": "SHD0",
+        "description": "Transaction and Screen Variants"
+      },
+      {
+        "tcode": "S_ALR_87012182",
+        "description": "Display Changes to Customers"
+      },
+      {
+        "tcode": "V.25",
+        "description": "Release Customer-Expected Price"
+      },
+      {
+        "tcode": "VA01",
+        "description": "Create Sales Orders"
+      },
+      {
+        "tcode": "VA02",
+        "description": "Change Sales Orders"
+      },
+      {
+        "tcode": "VA03",
+        "description": "Display Sales Orders"
+      },
+      {
+        "tcode": "VA05",
+        "description": "List of Sales Orders"
+      },
+      {
+        "tcode": "VA88H",
+        "description": "Actual Settlement: Sales Orders"
+      },
+      {
+        "tcode": "VF01",
+        "description": "Create Billing Documents"
+      },
+      {
+        "tcode": "VF02",
+        "description": "Change Billing Documents"
+      },
+      {
+        "tcode": "VF03",
+        "description": "Display Billing Documents"
+      },
+      {
+        "tcode": "VF04",
+        "description": "Maintain Billing Due List"
+      },
+      {
+        "tcode": "VF11",
+        "description": "Cancel Billing Document"
+      },
+      {
+        "tcode": "VF21",
+        "description": "Create Invoice List"
+      },
+      {
+        "tcode": "VF22",
+        "description": "Change Invoice Lists"
+      },
+      {
+        "tcode": "VF23",
+        "description": "Display Invoice Lists"
+      },
+      {
+        "tcode": "VFX3",
+        "description": "List Blocked Billing Documents"
+      },
+      {
+        "tcode": "VK11",
+        "description": "Create Condition"
+      },
+      {
+        "tcode": "VK12",
+        "description": "Change Condition"
+      },
+      {
+        "tcode": "VK13",
+        "description": "Display Condition"
+      },
+      {
+        "tcode": "VL03N",
+        "description": "Display Outbound Delivery"
+      },
+      {
+        "tcode": "V_NLN",
+        "description": "Creation of Price Lists"
+      },
+      {
+        "tcode": "ZAR_AGING",
+        "description": "A/R Aging Report (Projects)"
+      },
+      {
+        "tcode": "ZPRDATECHANGE",
+        "description": "Change of sales order pricing date"
+      },
+      {
+        "tcode": "ZSALESREP",
+        "description": "Sales report period end closing"
+      },
+      {
+        "tcode": "ZTECO",
+        "description": "Set TECO Status"
+      }
+    ],
+    "fioriApps": []
+  }
+]
+
+Return ONLY a valid JSON array — no markdown, no preamble — in EXACTLY this structure:
+[
+  {
+    "role": "<AGR_NAME>",
+    "suggestedRoleLicense": "<GB Advanced Use | GC Core Use | GD Self-Service Use | No Change>",
+    "objects": [
+      {
+        "authorizationObject": "<OBJECT>",
+        "field":               "<FIELD>",
+        "value":               "<VALUE>",
+        "licenseCanBeReduced": "Yes | No | May Be",
+        "insights":            "<short reason>",
+        "recommendation":      "<short action>",
+        "explanation":         "<detailed analysis considering transaction codes, value descriptions and possible values>"
+      }
+    ]
+  }
+]

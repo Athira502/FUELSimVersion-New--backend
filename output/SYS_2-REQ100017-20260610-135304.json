@@ -1,0 +1,13 @@
+{
+    "Z:FI:FDBD:MD": [
+        {
+            "authorizationObject": "K_PCAR_REP",
+            "field": "ACTVT",
+            "value": "01, 02",
+            "licenseCanBeReduced": "Yes",
+            "insights": "EC-PCA reporting with only create/change activities aligns with core finance operations",
+            "recommendation": "Maintain current values - compatible with Core Use license",
+            "explanation": "The K_PCAR_REP object controls access to Profit Center Accounting reports. With only activities 01 (Create) and 02 (Change), this represents standard finance master data maintenance work. No display-only (03) or delete (06) activities are present, and no advanced analytical activities (27, 28, 29, 76) are included. This limited scope of activities for PCA reporting is consistent with Core Use licensing for finance master data roles."
+        }
+    ]
+}

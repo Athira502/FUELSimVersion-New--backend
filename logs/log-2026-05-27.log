@@ -1,0 +1,1184 @@
+2026-05-27 12:26:38 - app_logger - INFO - get_results_by_request_id:392 - Fetching AI results for req_id='REQ100002'.
+2026-05-27 12:26:38 - app_logger - INFO - get_results_by_request_id:402 - Found 5 AI result row(s) for req_id='REQ100002'.
+2026-05-27 12:26:43 - app_logger - INFO - get_fue_dashboard:1128 - [Stage 6] Fetching FUE Dashboard for SYS_2
+2026-05-27 12:26:43 - app_logger - INFO - get_user_role_summary_tablename:96 - Generated user-role summary license table name for system 'SYS_2'
+2026-05-27 12:26:43 - app_logger - INFO - create_user_lic_summary_model:577 - Model for table 'Z_FUE_SYS_2_USER_LICENSE_SUMMARY' not in cache. Creating a new dynamic model.
+2026-05-27 12:26:43 - app_logger - INFO - create_user_lic_summary_model:586 - Successfully created dynamic model for table 'Z_FUE_SYS_2_USER_LICENSE_SUMMARY'
+2026-05-27 12:26:43 - app_logger - INFO - get_role_lice_data_summary_tablename:86 - Generated role license summary info table name for system 'SYS_2'
+2026-05-27 12:26:43 - app_logger - INFO - create_role_lic_summary_model:533 - Model for table 'Z_FUE_SYS_2_ROLE_LICENSE_SUMMARY' not in cache. Creating a new dynamic model.
+2026-05-27 12:26:43 - app_logger - INFO - create_role_lic_summary_model:542 - Successfully created dynamic model for table 'Z_FUE_SYS_2_ROLE_LICENSE_SUMMARY'
+2026-05-27 12:26:48 - app_logger - INFO - get_all_requests:362 - Request received — list all optimisation requests.
+2026-05-27 12:26:48 - app_logger - INFO - get_all_requests:365 - Returning 3 request(s).
+2026-05-27 12:26:50 - fue_calculation_logger - INFO - get_role_details:36 - Fetching role details for system: 'SYS_2'
+2026-05-27 12:26:50 - app_logger - INFO - get_role_lice_data_summary_tablename:86 - Generated role license summary info table name for system 'SYS_2'
+2026-05-27 12:26:50 - app_logger - INFO - get_agr_users_tablename:34 - Generated user role mapping agr_users table name for system 'SYS_2'
+2026-05-27 12:26:51 - fue_calculation_logger - INFO - get_role_details:77 - Successfully fetched 2681 roles for system 'SYS_2'.
+2026-05-27 12:26:51 - app_logger - INFO - get_license_types_endpoint:498 - License-types requested for system='SYS_2'.
+2026-05-27 12:26:51 - app_logger - INFO - get_role_lice_data_summary_tablename:86 - Generated role license summary info table name for system 'SYS_2'
+2026-05-27 12:26:51 - app_logger - INFO - create_role_lic_summary_model:531 - Model for table 'Z_FUE_SYS_2_ROLE_LICENSE_SUMMARY' found in cache. Returning cached model.
+2026-05-27 12:26:51 - app_logger - INFO - get_license_types_endpoint:503 - Returning 4 license type(s) for system='SYS_2'.
+2026-05-27 12:27:03 - app_logger - INFO - get_all_requests:362 - Request received — list all optimisation requests.
+2026-05-27 12:27:03 - app_logger - INFO - get_all_requests:365 - Returning 3 request(s).
+2026-05-27 12:27:18 - app_logger - INFO - get_fue_dashboard:1128 - [Stage 6] Fetching FUE Dashboard for SYS_2
+2026-05-27 12:27:18 - app_logger - INFO - get_user_role_summary_tablename:96 - Generated user-role summary license table name for system 'SYS_2'
+2026-05-27 12:27:18 - app_logger - INFO - create_user_lic_summary_model:575 - Model for table 'Z_FUE_SYS_2_USER_LICENSE_SUMMARY' found in cache. Returning cached model.
+2026-05-27 12:27:18 - app_logger - INFO - get_role_lice_data_summary_tablename:86 - Generated role license summary info table name for system 'SYS_2'
+2026-05-27 12:27:18 - app_logger - INFO - create_role_lic_summary_model:531 - Model for table 'Z_FUE_SYS_2_ROLE_LICENSE_SUMMARY' found in cache. Returning cached model.
+2026-05-27 12:27:34 - app_logger - INFO - get_all_requests:362 - Request received — list all optimisation requests.
+2026-05-27 12:27:34 - app_logger - INFO - get_all_requests:365 - Returning 3 request(s).
+2026-05-27 12:27:37 - fue_calculation_logger - INFO - get_role_details:36 - Fetching role details for system: 'SYS_2'
+2026-05-27 12:27:37 - app_logger - INFO - get_role_lice_data_summary_tablename:86 - Generated role license summary info table name for system 'SYS_2'
+2026-05-27 12:27:37 - app_logger - INFO - get_agr_users_tablename:34 - Generated user role mapping agr_users table name for system 'SYS_2'
+2026-05-27 12:27:37 - fue_calculation_logger - INFO - get_role_details:77 - Successfully fetched 2681 roles for system 'SYS_2'.
+2026-05-27 12:27:37 - app_logger - INFO - get_license_types_endpoint:498 - License-types requested for system='SYS_2'.
+2026-05-27 12:27:37 - app_logger - INFO - get_role_lice_data_summary_tablename:86 - Generated role license summary info table name for system 'SYS_2'
+2026-05-27 12:27:37 - app_logger - INFO - create_role_lic_summary_model:531 - Model for table 'Z_FUE_SYS_2_ROLE_LICENSE_SUMMARY' found in cache. Returning cached model.
+2026-05-27 12:27:37 - app_logger - INFO - get_license_types_endpoint:503 - Returning 4 license type(s) for system='SYS_2'.
+2026-05-27 12:27:47 - app_logger - INFO - optimize_license_endpoint:319 - Optimisation request received — system='SYS_2', target_license='GB Advanced Use', roles=['Z:MDM:FDBD:MASTERDATA:CHANGE']
+2026-05-27 12:27:47 - app_logger - INFO - create_optimization_request_immediately:943 - Creating optimisation request for system='SYS_2'.
+2026-05-27 12:27:47 - app_logger - INFO - create_optimization_request_immediately:966 - Request record 'REQ100003' committed.
+2026-05-27 12:27:47 - app_logger - INFO - optimize_license_endpoint:329 - Request 'REQ100003' created — queuing background task.
+2026-05-27 12:27:47 - app_logger - INFO - process_optimization_in_background:985 - [REQ100003] Background optimisation started.
+2026-05-27 12:27:47 - app_logger - INFO - run_optimization_processing:1022 - [REQ100003] run_optimization_processing() — system=SYS_2, target_license=GB Advanced Use, roles=['Z:MDM:FDBD:MASTERDATA:CHANGE']
+2026-05-27 12:27:47 - app_logger - INFO - get_role_lice_data_tablename:81 - Generated role object license info table name for system 'SYS_2'
+2026-05-27 12:27:47 - app_logger - INFO - create_role_lic_model:512 - Model for table 'Z_FUE_SYS_2_ROLE_OBJ_LICENSE_INFO' not in cache. Creating a new dynamic model.
+2026-05-27 12:27:47 - app_logger - INFO - create_role_lic_model:521 - Successfully created dynamic model for table 'Z_FUE_SYS_2_ROLE_OBJ_LICENSE_INFO'
+2026-05-27 12:27:47 - app_logger - INFO - get_role_lice_data_summary_tablename:86 - Generated role license summary info table name for system 'SYS_2'
+2026-05-27 12:27:47 - app_logger - INFO - create_role_lic_summary_model:531 - Model for table 'Z_FUE_SYS_2_ROLE_LICENSE_SUMMARY' found in cache. Returning cached model.
+2026-05-27 12:27:47 - app_logger - INFO - get_agr_1251_tablename:29 - Generated role auth table agr_1251_name for system 'SYS_2'
+2026-05-27 12:27:47 - app_logger - INFO - create_AGR1251_model:335 - Model for table 'Z_FUE_SYS_2_ROLE_AUTH_INFO' not in cache. Creating a new dynamic model.
+2026-05-27 12:27:47 - app_logger - INFO - create_AGR1251_model:342 - Successfully created dynamic model for table 'Z_FUE_SYS_2_ROLE_AUTH_INFO'
+2026-05-27 12:27:47 - app_logger - INFO - get_agr_users_tablename:34 - Generated user role mapping agr_users table name for system 'SYS_2'
+2026-05-27 12:27:47 - app_logger - INFO - create_AGRUSERS_model:352 - Model for table 'Z_FUE_SYS_2_USER_ROLE_MAPPING' not in cache. Creating a new dynamic model.
+2026-05-27 12:27:47 - app_logger - INFO - create_AGRUSERS_model:359 - Successfully created dynamic model for table 'Z_FUE_SYS_2_USER_ROLE_MAPPING'
+2026-05-27 12:27:47 - app_logger - INFO - get_agr_define_tablename:39 - Generated parent child role mapping table name for system 'SYS_2'
+2026-05-27 12:27:47 - app_logger - INFO - create_AGRDEFINE_model:370 - Model for table 'Z_FUE_SYS_2_PARENT_CHILD_ROLE_MAPPING' not in cache. Creating a new dynamic model.
+2026-05-27 12:27:47 - app_logger - INFO - create_AGRDEFINE_model:377 - Successfully created dynamic model for table 'Z_FUE_SYS_2_PARENT_CHILD_ROLE_MAPPING'
+2026-05-27 12:27:47 - app_logger - INFO - create_opt_sim_result_model:112 - Creating OptSimResult model for 'Z_FUE_SYS_2_OPT_SIM_RESULT'.
+2026-05-27 12:27:47 - app_logger - INFO - get_flpca_data_tablename:60 - Generated flpca table name for system 'SYS_2'
+2026-05-27 12:27:47 - app_logger - INFO - create_FLPCA_model:456 - Model for table 'Z_FUE_SYS_2_FIORI DATA' not in cache. Creating a new dynamic model.
+2026-05-27 12:27:47 - app_logger - INFO - create_FLPCA_model:463 - Successfully created dynamic model for table 'Z_FUE_SYS_2_FIORI DATA'
+2026-05-27 12:27:47 - app_logger - INFO - get_all_requests:362 - Request received — list all optimisation requests.
+2026-05-27 12:27:47 - app_logger - INFO - run_optimization_processing:1070 - [REQ100003] RoleLic rows fetched: 8
+2026-05-27 12:27:47 - app_logger - INFO - run_optimization_processing:1081 - [REQ100003] Distinct roles to analyse: ['Z:MDM:FDBD:MASTERDATA:CHANGE']
+2026-05-27 12:27:47 - app_logger - INFO - run_optimization_processing:1108 - [REQ100003] Role 'Z:MDM:FDBD:MASTERDATA:CHANGE' has 54 tcodes
+2026-05-27 12:27:47 - app_logger - INFO - get_agr_1251_tablename:29 - Generated role auth table agr_1251_name for system 'SYS_2'
+2026-05-27 12:27:47 - app_logger - INFO - create_AGR1251_model:333 - Model for table 'Z_FUE_SYS_2_ROLE_AUTH_INFO' found in cache. Returning cached model.
+2026-05-27 12:27:47 - app_logger - INFO - get_usobxC_data_tablename:70 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 12:27:47 - app_logger - INFO - create_USOBXC_model:473 - Model for table 'Z_FUE_SYS_2_USOBX_C DATA' not in cache. Creating a new dynamic model.
+2026-05-27 12:27:47 - app_logger - INFO - create_USOBXC_model:480 - Successfully created dynamic model for table 'Z_FUE_SYS_2_USOBX_C DATA'
+2026-05-27 12:27:47 - app_logger - INFO - get_obj_text_data_tablename:76 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 12:27:47 - app_logger - INFO - create_TOBJL_model:491 - Model for table 'Z_FUE_SYS_2_OBJ_TEXT DATA' not in cache. Creating a new dynamic model.
+2026-05-27 12:27:47 - app_logger - INFO - create_TOBJL_model:498 - Successfully created dynamic model for table 'Z_FUE_SYS_2_OBJ_TEXT DATA'
+2026-05-27 12:27:47 - app_logger - INFO - get_role_lice_data_tablename:81 - Generated role object license info table name for system 'SYS_2'
+2026-05-27 12:27:47 - app_logger - INFO - create_role_lic_model:510 - Model for table 'Z_FUE_SYS_2_ROLE_OBJ_LICENSE_INFO' found in cache. Returning cached model.
+2026-05-27 12:27:47 - app_logger - INFO - get_all_requests:365 - Returning 4 request(s).
+2026-05-27 12:27:47 - app_logger - INFO - get_obj_text_data_tablename:76 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 12:27:47 - app_logger - INFO - create_TOBJL_model:489 - Model for table 'Z_FUE_SYS_2_OBJ_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 12:27:47 - app_logger - INFO - get_role_lice_data_tablename:81 - Generated role object license info table name for system 'SYS_2'
+2026-05-27 12:27:47 - app_logger - INFO - create_role_lic_model:510 - Model for table 'Z_FUE_SYS_2_ROLE_OBJ_LICENSE_INFO' found in cache. Returning cached model.
+2026-05-27 12:27:48 - app_logger - INFO - get_obj_text_data_tablename:76 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 12:27:48 - app_logger - INFO - create_TOBJL_model:489 - Model for table 'Z_FUE_SYS_2_OBJ_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 12:27:48 - app_logger - INFO - get_role_lice_data_tablename:81 - Generated role object license info table name for system 'SYS_2'
+2026-05-27 12:27:48 - app_logger - INFO - create_role_lic_model:510 - Model for table 'Z_FUE_SYS_2_ROLE_OBJ_LICENSE_INFO' found in cache. Returning cached model.
+2026-05-27 12:27:48 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 12:27:48 - app_logger - INFO - create_TSTCT_model:438 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' not in cache. Creating a new dynamic model.
+2026-05-27 12:27:48 - app_logger - INFO - create_TSTCT_model:445 - Successfully created dynamic model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA'
+2026-05-27 12:27:48 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 12:27:48 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 12:27:48 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 12:27:48 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 12:27:48 - app_logger - INFO - get_obj_text_data_tablename:76 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 12:27:48 - app_logger - INFO - create_TOBJL_model:489 - Model for table 'Z_FUE_SYS_2_OBJ_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 12:27:48 - app_logger - INFO - get_role_lice_data_tablename:81 - Generated role object license info table name for system 'SYS_2'
+2026-05-27 12:27:48 - app_logger - INFO - create_role_lic_model:510 - Model for table 'Z_FUE_SYS_2_ROLE_OBJ_LICENSE_INFO' found in cache. Returning cached model.
+2026-05-27 12:27:48 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 12:27:48 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 12:27:48 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 12:27:48 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 12:27:48 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 12:27:48 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 12:27:48 - app_logger - INFO - get_obj_text_data_tablename:76 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 12:27:48 - app_logger - INFO - create_TOBJL_model:489 - Model for table 'Z_FUE_SYS_2_OBJ_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 12:27:48 - app_logger - INFO - get_role_lice_data_tablename:81 - Generated role object license info table name for system 'SYS_2'
+2026-05-27 12:27:48 - app_logger - INFO - create_role_lic_model:510 - Model for table 'Z_FUE_SYS_2_ROLE_OBJ_LICENSE_INFO' found in cache. Returning cached model.
+2026-05-27 12:27:49 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 12:27:49 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 12:27:49 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 12:27:49 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 12:27:49 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 12:27:49 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 12:27:49 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 12:27:49 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 12:27:49 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 12:27:49 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 12:27:49 - app_logger - INFO - get_obj_text_data_tablename:76 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 12:27:49 - app_logger - INFO - create_TOBJL_model:489 - Model for table 'Z_FUE_SYS_2_OBJ_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 12:27:49 - app_logger - INFO - get_role_lice_data_tablename:81 - Generated role object license info table name for system 'SYS_2'
+2026-05-27 12:27:49 - app_logger - INFO - create_role_lic_model:510 - Model for table 'Z_FUE_SYS_2_ROLE_OBJ_LICENSE_INFO' found in cache. Returning cached model.
+2026-05-27 12:27:49 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 12:27:49 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 12:27:49 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 12:27:49 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 12:27:49 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 12:27:49 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 12:27:49 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 12:27:49 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 12:27:49 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 12:27:49 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 12:27:49 - app_logger - INFO - get_obj_text_data_tablename:76 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 12:27:49 - app_logger - INFO - create_TOBJL_model:489 - Model for table 'Z_FUE_SYS_2_OBJ_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 12:27:49 - app_logger - INFO - get_role_lice_data_tablename:81 - Generated role object license info table name for system 'SYS_2'
+2026-05-27 12:27:49 - app_logger - INFO - create_role_lic_model:510 - Model for table 'Z_FUE_SYS_2_ROLE_OBJ_LICENSE_INFO' found in cache. Returning cached model.
+2026-05-27 12:27:49 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 12:27:49 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 12:27:50 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 12:27:50 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 12:27:50 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 12:27:50 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 12:27:50 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 12:27:50 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 12:27:50 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 12:27:50 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 12:27:50 - app_logger - INFO - get_obj_text_data_tablename:76 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 12:27:50 - app_logger - INFO - create_TOBJL_model:489 - Model for table 'Z_FUE_SYS_2_OBJ_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 12:27:50 - app_logger - INFO - get_role_lice_data_tablename:81 - Generated role object license info table name for system 'SYS_2'
+2026-05-27 12:27:50 - app_logger - INFO - create_role_lic_model:510 - Model for table 'Z_FUE_SYS_2_ROLE_OBJ_LICENSE_INFO' found in cache. Returning cached model.
+2026-05-27 12:27:50 - app_logger - INFO - get_all_requests:362 - Request received — list all optimisation requests.
+2026-05-27 12:27:50 - app_logger - INFO - get_all_requests:365 - Returning 4 request(s).
+2026-05-27 12:27:50 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 12:27:50 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 12:27:50 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 12:27:50 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 12:27:50 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 12:27:50 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 12:27:50 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 12:27:50 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 12:27:50 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 12:27:50 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 12:27:50 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 12:27:50 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 12:27:50 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 12:27:50 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 12:27:50 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 12:27:50 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 12:27:50 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 12:27:50 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 12:27:50 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 12:27:50 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 12:27:50 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 12:27:50 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 12:27:50 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 12:27:50 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 12:27:50 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 12:27:50 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 12:27:50 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 12:27:50 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 12:27:50 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 12:27:50 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 12:27:50 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 12:27:50 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 12:27:50 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 12:27:50 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 12:27:50 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 12:27:50 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 12:27:50 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 12:27:50 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 12:27:50 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 12:27:50 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 12:27:50 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 12:27:50 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 12:27:50 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 12:27:50 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 12:27:50 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 12:27:50 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 12:27:50 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 12:27:50 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 12:27:50 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 12:27:50 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 12:27:50 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 12:27:50 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 12:27:50 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 12:27:50 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 12:27:50 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 12:27:50 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 12:27:50 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 12:27:50 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 12:27:50 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 12:27:50 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 12:27:50 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 12:27:50 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 12:27:50 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 12:27:50 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 12:27:50 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 12:27:50 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 12:27:50 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 12:27:50 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 12:27:50 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 12:27:50 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 12:27:50 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 12:27:50 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 12:27:50 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 12:27:50 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 12:27:50 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 12:27:50 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 12:27:50 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 12:27:50 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 12:27:50 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 12:27:50 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 12:27:50 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 12:27:50 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 12:27:50 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 12:27:50 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 12:27:50 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 12:27:50 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 12:27:50 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 12:27:50 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 12:27:50 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 12:27:50 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 12:27:50 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 12:27:50 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 12:27:50 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 12:27:50 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 12:27:50 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 12:27:50 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 12:27:50 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 12:27:50 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 12:27:50 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 12:27:50 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 12:27:50 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 12:27:50 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 12:27:50 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 12:27:50 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 12:27:50 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 12:27:50 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 12:27:50 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 12:27:50 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 12:27:50 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 12:27:50 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 12:27:50 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 12:27:50 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 12:27:50 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 12:27:50 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 12:27:50 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 12:27:50 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 12:27:50 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 12:27:50 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 12:27:50 - app_logger - INFO - run_optimization_processing:1146 - [REQ100003] Roles packaged for AI: 1
+2026-05-27 12:27:50 - app_logger - INFO - run_optimization_processing:1195 - [REQ100003] Sending prompt to AI (length=9884).
+2026-05-27 12:27:50 - app_logger - INFO - _write_prompt_debug_file:1297 - [REQ100003] Full prompt written to: output/prompts/SYS_2-REQ100003-20260527-122750-prompt.txt
+2026-05-27 12:27:50 - app_logger - INFO - call_ai_api:153 - Initiating AI call with prompt (first 100 chars): 'You are an SAP FUE licence optimisation expert.
+System: SYS_2
+SAP Info: S4 HANA OnPremise 1909 Initi...'
+2026-05-27 12:27:50 - app_logger - INFO - call_ai_api:159 - Using AI Model: anthropic/claude-opus-4-20250514 (max_tokens=4096, temperature=0.7)
+2026-05-27 12:28:14 - app_logger - INFO - call_claude_api:247 - Successfully received response from Claude API. Response length: 4183
+2026-05-27 12:28:14 - app_logger - INFO - run_optimization_processing:1216 - [REQ100003] AI returned 1 role block(s).
+2026-05-27 12:28:14 - app_logger - INFO - run_optimization_processing:1245 - [REQ100003] Role 'Z:MDM:FDBD:MASTERDATA:CHANGE' → NOT reducible
+2026-05-27 12:28:14 - app_logger - INFO - run_optimization_processing:1267 - [REQ100003] LicenseOptimizationResult committed. Reducible roles: []
+2026-05-27 12:28:14 - app_logger - INFO - simulate_system_fue:1316 - [REQ100003] simulate_system_fue() — 0 reducible role(s): []
+2026-05-27 12:28:14 - app_logger - INFO - simulate_system_fue:1327 - [REQ100003] Total AGRUSERS rows: 68752
+2026-05-27 12:28:15 - app_logger - INFO - simulate_system_fue:1337 - [REQ100003] Unique users in system: 3519
+2026-05-27 12:28:15 - app_logger - INFO - simulate_system_fue:1338 - [REQ100003] Unique roles in system: 951
+2026-05-27 12:28:15 - app_logger - INFO - simulate_system_fue:1351 - [REQ100003] RoleLicSummary rows loaded: 2897
+2026-05-27 12:28:15 - app_logger - INFO - simulate_system_fue:1411 - [REQ100003] BEFORE → GB=627 GC=1520 GD=1323 NC=49 FUE=1717.75
+2026-05-27 12:28:15 - app_logger - INFO - simulate_system_fue:1414 - [REQ100003] AFTER  → GB=627 GC=1520 GD=1323 NC=49 FUE=1717.75
+2026-05-27 12:28:15 - app_logger - INFO - simulate_system_fue:1417 - [REQ100003] FUE saved=0.0, Users impacted=0
+2026-05-27 12:28:15 - app_logger - INFO - simulate_system_fue:1442 - [REQ100003] OptSimResult summary row committed.
+2026-05-27 12:28:15 - app_logger - INFO - _write_output_file:1488 - Output snapshot → output/SYS_2-REQ100003-20260527-122815.json
+2026-05-27 12:28:15 - app_logger - INFO - run_optimization_processing:1286 - [REQ100003] run_optimization_processing() complete.
+2026-05-27 12:28:15 - app_logger - INFO - process_optimization_in_background:996 - [REQ100003] Processing finished → STATUS=COMPLETED
+2026-05-27 12:28:40 - app_logger - INFO - get_all_requests:362 - Request received — list all optimisation requests.
+2026-05-27 12:28:40 - app_logger - INFO - get_all_requests:365 - Returning 4 request(s).
+2026-05-27 12:28:42 - app_logger - INFO - get_results_by_request_id:392 - Fetching AI results for req_id='REQ100003'.
+2026-05-27 12:28:42 - app_logger - INFO - get_results_by_request_id:402 - Found 8 AI result row(s) for req_id='REQ100003'.
+2026-05-27 12:31:14 - app_logger - INFO - get_results_by_request_id:392 - Fetching AI results for req_id='REQ100003'.
+2026-05-27 12:31:14 - app_logger - INFO - get_results_by_request_id:402 - Found 8 AI result row(s) for req_id='REQ100003'.
+2026-05-27 12:34:20 - app_logger - INFO - get_results_by_request_id:392 - Fetching AI results for req_id='REQ100003'.
+2026-05-27 12:34:20 - app_logger - INFO - get_results_by_request_id:402 - Found 8 AI result row(s) for req_id='REQ100003'.
+2026-05-27 12:43:09 - app_logger - INFO - get_fue_dashboard:1128 - [Stage 6] Fetching FUE Dashboard for SYS_2
+2026-05-27 12:43:09 - app_logger - INFO - get_user_role_summary_tablename:96 - Generated user-role summary license table name for system 'SYS_2'
+2026-05-27 12:43:09 - app_logger - INFO - create_user_lic_summary_model:577 - Model for table 'Z_FUE_SYS_2_USER_LICENSE_SUMMARY' not in cache. Creating a new dynamic model.
+2026-05-27 12:43:09 - app_logger - INFO - create_user_lic_summary_model:586 - Successfully created dynamic model for table 'Z_FUE_SYS_2_USER_LICENSE_SUMMARY'
+2026-05-27 12:43:09 - app_logger - INFO - get_role_lice_data_summary_tablename:86 - Generated role license summary info table name for system 'SYS_2'
+2026-05-27 12:43:09 - app_logger - INFO - create_role_lic_summary_model:533 - Model for table 'Z_FUE_SYS_2_ROLE_LICENSE_SUMMARY' not in cache. Creating a new dynamic model.
+2026-05-27 12:43:09 - app_logger - INFO - create_role_lic_summary_model:542 - Successfully created dynamic model for table 'Z_FUE_SYS_2_ROLE_LICENSE_SUMMARY'
+2026-05-27 12:43:25 - app_logger - INFO - get_results_by_request_id:392 - Fetching AI results for req_id='REQ100003'.
+2026-05-27 12:43:25 - app_logger - INFO - get_results_by_request_id:402 - Found 8 AI result row(s) for req_id='REQ100003'.
+2026-05-27 13:11:23 - app_logger - INFO - get_results_by_request_id:392 - Fetching AI results for req_id='REQ100003'.
+2026-05-27 13:11:24 - app_logger - INFO - get_results_by_request_id:402 - Found 8 AI result row(s) for req_id='REQ100003'.
+2026-05-27 13:11:24 - app_logger - INFO - get_fue_dashboard:1128 - [Stage 6] Fetching FUE Dashboard for SYS_2
+2026-05-27 13:11:24 - app_logger - INFO - get_user_role_summary_tablename:96 - Generated user-role summary license table name for system 'SYS_2'
+2026-05-27 13:11:24 - app_logger - INFO - create_user_lic_summary_model:575 - Model for table 'Z_FUE_SYS_2_USER_LICENSE_SUMMARY' found in cache. Returning cached model.
+2026-05-27 13:11:24 - app_logger - INFO - get_role_lice_data_summary_tablename:86 - Generated role license summary info table name for system 'SYS_2'
+2026-05-27 13:11:24 - app_logger - INFO - create_role_lic_summary_model:531 - Model for table 'Z_FUE_SYS_2_ROLE_LICENSE_SUMMARY' found in cache. Returning cached model.
+2026-05-27 13:27:00 - app_logger - INFO - get_fue_dashboard:1128 - [Stage 6] Fetching FUE Dashboard for SYS_2
+2026-05-27 13:27:00 - app_logger - INFO - get_user_role_summary_tablename:96 - Generated user-role summary license table name for system 'SYS_2'
+2026-05-27 13:27:00 - app_logger - INFO - create_user_lic_summary_model:575 - Model for table 'Z_FUE_SYS_2_USER_LICENSE_SUMMARY' found in cache. Returning cached model.
+2026-05-27 13:27:00 - app_logger - INFO - get_role_lice_data_summary_tablename:86 - Generated role license summary info table name for system 'SYS_2'
+2026-05-27 13:27:00 - app_logger - INFO - create_role_lic_summary_model:531 - Model for table 'Z_FUE_SYS_2_ROLE_LICENSE_SUMMARY' found in cache. Returning cached model.
+2026-05-27 14:21:57 - app_logger - INFO - get_all_requests:362 - Request received — list all optimisation requests.
+2026-05-27 14:21:57 - app_logger - INFO - get_all_requests:365 - Returning 4 request(s).
+2026-05-27 14:22:00 - app_logger - INFO - get_results_by_request_id:392 - Fetching AI results for req_id='REQ100003'.
+2026-05-27 14:22:00 - app_logger - INFO - get_results_by_request_id:402 - Found 8 AI result row(s) for req_id='REQ100003'.
+2026-05-27 14:22:08 - app_logger - INFO - get_all_requests:362 - Request received — list all optimisation requests.
+2026-05-27 14:22:08 - app_logger - INFO - get_all_requests:365 - Returning 4 request(s).
+2026-05-27 14:22:23 - app_logger - INFO - get_all_requests:362 - Request received — list all optimisation requests.
+2026-05-27 14:22:23 - app_logger - INFO - get_all_requests:365 - Returning 4 request(s).
+2026-05-27 14:22:38 - app_logger - INFO - get_all_requests:362 - Request received — list all optimisation requests.
+2026-05-27 14:22:38 - app_logger - INFO - get_all_requests:365 - Returning 4 request(s).
+2026-05-27 14:22:53 - app_logger - INFO - get_all_requests:362 - Request received — list all optimisation requests.
+2026-05-27 14:22:53 - app_logger - INFO - get_all_requests:365 - Returning 4 request(s).
+2026-05-27 14:23:08 - app_logger - INFO - get_all_requests:362 - Request received — list all optimisation requests.
+2026-05-27 14:23:08 - app_logger - INFO - get_all_requests:365 - Returning 4 request(s).
+2026-05-27 14:30:51 - app_logger - INFO - get_all_requests:362 - Request received — list all optimisation requests.
+2026-05-27 14:30:51 - app_logger - INFO - get_all_requests:365 - Returning 4 request(s).
+2026-05-27 14:33:12 - app_logger - INFO - get_results_by_request_id:392 - Fetching AI results for req_id='REQ100003'.
+2026-05-27 14:33:12 - app_logger - INFO - get_results_by_request_id:402 - Found 8 AI result row(s) for req_id='REQ100003'.
+2026-05-27 14:46:22 - app_logger - INFO - get_all_requests:362 - Request received — list all optimisation requests.
+2026-05-27 14:46:22 - app_logger - INFO - get_all_requests:365 - Returning 4 request(s).
+2026-05-27 14:46:25 - app_logger - INFO - get_all_requests:362 - Request received — list all optimisation requests.
+2026-05-27 14:46:25 - app_logger - INFO - get_all_requests:365 - Returning 4 request(s).
+2026-05-27 15:25:18 - app_logger - INFO - get_results_by_request_id:392 - Fetching AI results for req_id='REQ100003'.
+2026-05-27 15:25:18 - app_logger - INFO - get_results_by_request_id:402 - Found 8 AI result row(s) for req_id='REQ100003'.
+2026-05-27 15:43:13 - app_logger - INFO - get_all_requests:362 - Request received — list all optimisation requests.
+2026-05-27 15:43:13 - app_logger - INFO - get_all_requests:365 - Returning 4 request(s).
+2026-05-27 15:47:27 - app_logger - INFO - create_or_replace_actvt_text:446 - Purging old records from Z_ACTVT_TEXT table...
+2026-05-27 15:47:27 - app_logger - INFO - create_or_replace_actvt_text:470 - Successfully replaced Activity text data. Imported 287 records.
+2026-05-27 16:58:14 - app_logger - INFO - get_logs:62 - Received request to get logs. Filename provided: None
+2026-05-27 16:58:14 - app_logger - INFO - get_logs:159 - Returning details for 7 log files.
+2026-05-27 16:58:14 - app_logger - INFO - get_logs:62 - Received request to get logs. Filename provided: None
+2026-05-27 16:58:14 - app_logger - INFO - get_logs:159 - Returning details for 7 log files.
+2026-05-27 16:58:15 - app_logger - INFO - get_all_requests:362 - Request received — list all optimisation requests.
+2026-05-27 16:58:15 - app_logger - INFO - get_all_requests:365 - Returning 4 request(s).
+2026-05-27 16:58:19 - fue_calculation_logger - INFO - get_role_details:36 - Fetching role details for system: 'SYS_2'
+2026-05-27 16:58:19 - app_logger - INFO - get_role_lice_data_summary_tablename:86 - Generated role license summary info table name for system 'SYS_2'
+2026-05-27 16:58:19 - app_logger - INFO - get_agr_users_tablename:34 - Generated user role mapping agr_users table name for system 'SYS_2'
+2026-05-27 16:58:20 - fue_calculation_logger - INFO - get_role_details:77 - Successfully fetched 2681 roles for system 'SYS_2'.
+2026-05-27 16:58:20 - app_logger - INFO - get_license_types_endpoint:498 - License-types requested for system='SYS_2'.
+2026-05-27 16:58:20 - app_logger - INFO - get_role_lice_data_summary_tablename:86 - Generated role license summary info table name for system 'SYS_2'
+2026-05-27 16:58:20 - app_logger - INFO - create_role_lic_summary_model:533 - Model for table 'Z_FUE_SYS_2_ROLE_LICENSE_SUMMARY' not in cache. Creating a new dynamic model.
+2026-05-27 16:58:20 - app_logger - INFO - create_role_lic_summary_model:542 - Successfully created dynamic model for table 'Z_FUE_SYS_2_ROLE_LICENSE_SUMMARY'
+2026-05-27 16:58:20 - app_logger - INFO - get_license_types_endpoint:503 - Returning 4 license type(s) for system='SYS_2'.
+2026-05-27 16:58:30 - app_logger - INFO - get_all_requests:362 - Request received — list all optimisation requests.
+2026-05-27 16:58:30 - app_logger - INFO - get_all_requests:365 - Returning 4 request(s).
+2026-05-27 16:58:59 - app_logger - INFO - get_all_requests:362 - Request received — list all optimisation requests.
+2026-05-27 16:58:59 - app_logger - INFO - get_all_requests:365 - Returning 4 request(s).
+2026-05-27 16:59:01 - app_logger - INFO - get_all_requests:362 - Request received — list all optimisation requests.
+2026-05-27 16:59:01 - app_logger - INFO - get_all_requests:365 - Returning 4 request(s).
+2026-05-27 17:02:37 - app_logger - INFO - get_all_requests:362 - Request received — list all optimisation requests.
+2026-05-27 17:02:37 - app_logger - INFO - get_all_requests:365 - Returning 4 request(s).
+2026-05-27 17:03:16 - app_logger - INFO - get_all_requests:362 - Request received — list all optimisation requests.
+2026-05-27 17:03:17 - app_logger - INFO - get_all_requests:365 - Returning 4 request(s).
+2026-05-27 17:03:27 - app_logger - INFO - get_all_requests:362 - Request received — list all optimisation requests.
+2026-05-27 17:03:27 - app_logger - INFO - get_all_requests:365 - Returning 4 request(s).
+2026-05-27 17:03:30 - app_logger - INFO - get_all_requests:362 - Request received — list all optimisation requests.
+2026-05-27 17:03:30 - app_logger - INFO - get_all_requests:365 - Returning 4 request(s).
+2026-05-27 17:03:32 - fue_calculation_logger - INFO - get_role_details:36 - Fetching role details for system: 'SYS_2'
+2026-05-27 17:03:32 - app_logger - INFO - get_role_lice_data_summary_tablename:86 - Generated role license summary info table name for system 'SYS_2'
+2026-05-27 17:03:32 - app_logger - INFO - get_agr_users_tablename:34 - Generated user role mapping agr_users table name for system 'SYS_2'
+2026-05-27 17:03:32 - fue_calculation_logger - INFO - get_role_details:77 - Successfully fetched 2681 roles for system 'SYS_2'.
+2026-05-27 17:03:33 - app_logger - INFO - get_license_types_endpoint:498 - License-types requested for system='SYS_2'.
+2026-05-27 17:03:33 - app_logger - INFO - get_role_lice_data_summary_tablename:86 - Generated role license summary info table name for system 'SYS_2'
+2026-05-27 17:03:33 - app_logger - INFO - create_role_lic_summary_model:531 - Model for table 'Z_FUE_SYS_2_ROLE_LICENSE_SUMMARY' found in cache. Returning cached model.
+2026-05-27 17:03:33 - app_logger - INFO - get_license_types_endpoint:503 - Returning 4 license type(s) for system='SYS_2'.
+2026-05-27 17:03:45 - app_logger - INFO - get_all_requests:362 - Request received — list all optimisation requests.
+2026-05-27 17:03:45 - app_logger - INFO - get_all_requests:365 - Returning 4 request(s).
+2026-05-27 17:03:56 - app_logger - INFO - get_all_requests:362 - Request received — list all optimisation requests.
+2026-05-27 17:03:56 - app_logger - INFO - get_all_requests:365 - Returning 4 request(s).
+2026-05-27 17:03:59 - fue_calculation_logger - INFO - get_role_details:36 - Fetching role details for system: 'SYS_2'
+2026-05-27 17:03:59 - app_logger - INFO - get_role_lice_data_summary_tablename:86 - Generated role license summary info table name for system 'SYS_2'
+2026-05-27 17:03:59 - app_logger - INFO - get_agr_users_tablename:34 - Generated user role mapping agr_users table name for system 'SYS_2'
+2026-05-27 17:04:00 - fue_calculation_logger - INFO - get_role_details:77 - Successfully fetched 2681 roles for system 'SYS_2'.
+2026-05-27 17:04:00 - app_logger - INFO - get_license_types_endpoint:498 - License-types requested for system='SYS_2'.
+2026-05-27 17:04:00 - app_logger - INFO - get_role_lice_data_summary_tablename:86 - Generated role license summary info table name for system 'SYS_2'
+2026-05-27 17:04:00 - app_logger - INFO - create_role_lic_summary_model:531 - Model for table 'Z_FUE_SYS_2_ROLE_LICENSE_SUMMARY' found in cache. Returning cached model.
+2026-05-27 17:04:00 - app_logger - INFO - get_license_types_endpoint:503 - Returning 4 license type(s) for system='SYS_2'.
+2026-05-27 17:04:18 - app_logger - INFO - get_all_requests:362 - Request received — list all optimisation requests.
+2026-05-27 17:04:18 - app_logger - INFO - get_all_requests:365 - Returning 4 request(s).
+2026-05-27 17:11:55 - app_logger - INFO - get_all_requests:362 - Request received — list all optimisation requests.
+2026-05-27 17:11:55 - app_logger - INFO - get_all_requests:365 - Returning 4 request(s).
+2026-05-27 17:11:56 - app_logger - INFO - get_all_requests:362 - Request received — list all optimisation requests.
+2026-05-27 17:11:56 - app_logger - INFO - get_all_requests:365 - Returning 4 request(s).
+2026-05-27 17:12:03 - app_logger - INFO - get_results_by_request_id:392 - Fetching AI results for req_id='REQ100003'.
+2026-05-27 17:12:03 - app_logger - INFO - get_results_by_request_id:402 - Found 8 AI result row(s) for req_id='REQ100003'.
+2026-05-27 17:16:07 - app_logger - INFO - get_results_by_request_id:392 - Fetching AI results for req_id='REQ100003'.
+2026-05-27 17:16:07 - app_logger - INFO - get_results_by_request_id:402 - Found 8 AI result row(s) for req_id='REQ100003'.
+2026-05-27 17:20:09 - app_logger - INFO - get_results_by_request_id:392 - Fetching AI results for req_id='REQ100003'.
+2026-05-27 17:20:09 - app_logger - INFO - get_results_by_request_id:402 - Found 8 AI result row(s) for req_id='REQ100003'.
+2026-05-27 17:20:39 - app_logger - INFO - get_results_by_request_id:392 - Fetching AI results for req_id='REQ100003'.
+2026-05-27 17:20:39 - app_logger - INFO - get_results_by_request_id:402 - Found 8 AI result row(s) for req_id='REQ100003'.
+2026-05-27 17:21:24 - app_logger - INFO - get_results_by_request_id:392 - Fetching AI results for req_id='REQ100003'.
+2026-05-27 17:21:24 - app_logger - INFO - get_results_by_request_id:402 - Found 8 AI result row(s) for req_id='REQ100003'.
+2026-05-27 17:25:59 - app_logger - INFO - get_results_by_request_id:392 - Fetching AI results for req_id='REQ100003'.
+2026-05-27 17:25:59 - app_logger - INFO - get_results_by_request_id:402 - Found 8 AI result row(s) for req_id='REQ100003'.
+2026-05-27 17:27:23 - app_logger - INFO - get_results_by_request_id:392 - Fetching AI results for req_id='REQ100003'.
+2026-05-27 17:27:23 - app_logger - INFO - get_results_by_request_id:402 - Found 8 AI result row(s) for req_id='REQ100003'.
+2026-05-27 17:27:56 - app_logger - INFO - get_results_by_request_id:392 - Fetching AI results for req_id='REQ100003'.
+2026-05-27 17:27:56 - app_logger - INFO - get_results_by_request_id:402 - Found 8 AI result row(s) for req_id='REQ100003'.
+2026-05-27 17:28:09 - app_logger - INFO - get_results_by_request_id:392 - Fetching AI results for req_id='REQ100003'.
+2026-05-27 17:28:09 - app_logger - INFO - get_results_by_request_id:402 - Found 8 AI result row(s) for req_id='REQ100003'.
+2026-05-27 17:28:22 - app_logger - INFO - get_results_by_request_id:392 - Fetching AI results for req_id='REQ100003'.
+2026-05-27 17:28:22 - app_logger - INFO - get_results_by_request_id:402 - Found 8 AI result row(s) for req_id='REQ100003'.
+2026-05-27 17:29:17 - app_logger - INFO - get_results_by_request_id:392 - Fetching AI results for req_id='REQ100003'.
+2026-05-27 17:29:17 - app_logger - INFO - get_results_by_request_id:402 - Found 8 AI result row(s) for req_id='REQ100003'.
+2026-05-27 17:30:09 - app_logger - INFO - get_results_by_request_id:392 - Fetching AI results for req_id='REQ100003'.
+2026-05-27 17:30:09 - app_logger - INFO - get_results_by_request_id:402 - Found 8 AI result row(s) for req_id='REQ100003'.
+2026-05-27 17:31:23 - app_logger - INFO - get_results_by_request_id:392 - Fetching AI results for req_id='REQ100003'.
+2026-05-27 17:31:23 - app_logger - INFO - get_results_by_request_id:402 - Found 8 AI result row(s) for req_id='REQ100003'.
+2026-05-27 17:31:26 - app_logger - INFO - get_all_requests:362 - Request received — list all optimisation requests.
+2026-05-27 17:31:26 - app_logger - INFO - get_all_requests:365 - Returning 4 request(s).
+2026-05-27 17:31:29 - app_logger - INFO - get_all_requests:362 - Request received — list all optimisation requests.
+2026-05-27 17:31:29 - app_logger - INFO - get_all_requests:365 - Returning 4 request(s).
+2026-05-27 17:31:42 - app_logger - INFO - get_all_requests:362 - Request received — list all optimisation requests.
+2026-05-27 17:31:42 - app_logger - INFO - get_all_requests:365 - Returning 4 request(s).
+2026-05-27 17:31:44 - app_logger - INFO - get_license_types_endpoint:498 - License-types requested for system='SYS_2'.
+2026-05-27 17:31:44 - app_logger - INFO - get_role_lice_data_summary_tablename:86 - Generated role license summary info table name for system 'SYS_2'
+2026-05-27 17:31:44 - app_logger - INFO - create_role_lic_summary_model:531 - Model for table 'Z_FUE_SYS_2_ROLE_LICENSE_SUMMARY' found in cache. Returning cached model.
+2026-05-27 17:31:44 - app_logger - INFO - get_license_types_endpoint:503 - Returning 4 license type(s) for system='SYS_2'.
+2026-05-27 17:31:44 - fue_calculation_logger - INFO - get_role_details:36 - Fetching role details for system: 'SYS_2'
+2026-05-27 17:31:44 - app_logger - INFO - get_role_lice_data_summary_tablename:86 - Generated role license summary info table name for system 'SYS_2'
+2026-05-27 17:31:44 - app_logger - INFO - get_agr_users_tablename:34 - Generated user role mapping agr_users table name for system 'SYS_2'
+2026-05-27 17:31:45 - fue_calculation_logger - INFO - get_role_details:77 - Successfully fetched 2681 roles for system 'SYS_2'.
+2026-05-27 17:32:10 - app_logger - INFO - get_all_requests:362 - Request received — list all optimisation requests.
+2026-05-27 17:32:10 - app_logger - INFO - get_all_requests:365 - Returning 4 request(s).
+2026-05-27 17:33:27 - app_logger - INFO - get_all_requests:362 - Request received — list all optimisation requests.
+2026-05-27 17:33:27 - app_logger - INFO - get_all_requests:365 - Returning 4 request(s).
+2026-05-27 17:34:08 - app_logger - INFO - get_all_requests:362 - Request received — list all optimisation requests.
+2026-05-27 17:34:08 - app_logger - INFO - get_all_requests:365 - Returning 4 request(s).
+2026-05-27 17:34:11 - app_logger - INFO - get_all_requests:362 - Request received — list all optimisation requests.
+2026-05-27 17:34:11 - app_logger - INFO - get_all_requests:365 - Returning 4 request(s).
+2026-05-27 17:35:07 - app_logger - INFO - get_all_requests:362 - Request received — list all optimisation requests.
+2026-05-27 17:35:07 - app_logger - INFO - get_all_requests:365 - Returning 4 request(s).
+2026-05-27 17:35:10 - app_logger - INFO - get_all_requests:362 - Request received — list all optimisation requests.
+2026-05-27 17:35:10 - app_logger - INFO - get_all_requests:365 - Returning 4 request(s).
+2026-05-27 17:35:55 - app_logger - INFO - get_all_requests:362 - Request received — list all optimisation requests.
+2026-05-27 17:35:55 - app_logger - INFO - get_all_requests:365 - Returning 4 request(s).
+2026-05-27 17:35:58 - app_logger - INFO - get_all_requests:362 - Request received — list all optimisation requests.
+2026-05-27 17:35:58 - app_logger - INFO - get_all_requests:365 - Returning 4 request(s).
+2026-05-27 17:36:43 - app_logger - INFO - get_all_requests:362 - Request received — list all optimisation requests.
+2026-05-27 17:36:43 - app_logger - INFO - get_all_requests:365 - Returning 4 request(s).
+2026-05-27 17:37:49 - app_logger - INFO - get_all_requests:362 - Request received — list all optimisation requests.
+2026-05-27 17:37:49 - app_logger - INFO - get_all_requests:365 - Returning 4 request(s).
+2026-05-27 17:37:51 - app_logger - INFO - get_all_requests:362 - Request received — list all optimisation requests.
+2026-05-27 17:37:51 - app_logger - INFO - get_all_requests:365 - Returning 4 request(s).
+2026-05-27 17:37:53 - app_logger - INFO - get_sim_results_by_request_id:440 - Fetching sim results for req_id='REQ100002', system='SYS_2'.
+2026-05-27 17:37:53 - app_logger - INFO - create_opt_sim_result_model:112 - Creating OptSimResult model for 'Z_FUE_SYS_2_OPT_SIM_RESULT'.
+2026-05-27 17:37:53 - app_logger - INFO - get_results_by_request_id:392 - Fetching AI results for req_id='REQ100002'.
+2026-05-27 17:37:53 - app_logger - INFO - get_results_by_request_id:402 - Found 5 AI result row(s) for req_id='REQ100002'.
+2026-05-27 17:37:53 - app_logger - INFO - get_sim_results_by_request_id:453 - Found 1 sim result row(s) for req_id='REQ100002'.
+2026-05-27 17:53:51 - app_logger - INFO - get_results_by_request_id:392 - Fetching AI results for req_id='REQ100002'.
+2026-05-27 17:53:51 - app_logger - INFO - get_results_by_request_id:402 - Found 5 AI result row(s) for req_id='REQ100002'.
+2026-05-27 17:53:51 - app_logger - INFO - get_sim_results_by_request_id:440 - Fetching sim results for req_id='REQ100002', system='SYS_2'.
+2026-05-27 17:53:51 - app_logger - INFO - get_sim_results_by_request_id:453 - Found 1 sim result row(s) for req_id='REQ100002'.
+2026-05-27 17:53:53 - app_logger - INFO - get_sim_results_by_request_id:440 - Fetching sim results for req_id='REQ100002', system='SYS_2'.
+2026-05-27 17:53:53 - app_logger - INFO - get_results_by_request_id:392 - Fetching AI results for req_id='REQ100002'.
+2026-05-27 17:53:54 - app_logger - INFO - get_sim_results_by_request_id:453 - Found 1 sim result row(s) for req_id='REQ100002'.
+2026-05-27 17:53:54 - app_logger - INFO - get_results_by_request_id:402 - Found 5 AI result row(s) for req_id='REQ100002'.
+2026-05-27 17:54:11 - app_logger - INFO - get_sim_results_by_request_id:440 - Fetching sim results for req_id='REQ100002', system='SYS_2'.
+2026-05-27 17:54:11 - app_logger - INFO - get_results_by_request_id:392 - Fetching AI results for req_id='REQ100002'.
+2026-05-27 17:54:11 - app_logger - INFO - get_sim_results_by_request_id:453 - Found 1 sim result row(s) for req_id='REQ100002'.
+2026-05-27 17:54:11 - app_logger - INFO - get_results_by_request_id:402 - Found 5 AI result row(s) for req_id='REQ100002'.
+2026-05-27 17:54:15 - app_logger - INFO - get_all_requests:362 - Request received — list all optimisation requests.
+2026-05-27 17:54:15 - app_logger - INFO - get_all_requests:365 - Returning 4 request(s).
+2026-05-27 17:54:17 - fue_calculation_logger - INFO - get_role_details:36 - Fetching role details for system: 'SYS_2'
+2026-05-27 17:54:17 - app_logger - INFO - get_role_lice_data_summary_tablename:86 - Generated role license summary info table name for system 'SYS_2'
+2026-05-27 17:54:17 - app_logger - INFO - get_agr_users_tablename:34 - Generated user role mapping agr_users table name for system 'SYS_2'
+2026-05-27 17:54:18 - fue_calculation_logger - INFO - get_role_details:77 - Successfully fetched 2681 roles for system 'SYS_2'.
+2026-05-27 17:54:18 - app_logger - INFO - get_license_types_endpoint:498 - License-types requested for system='SYS_2'.
+2026-05-27 17:54:18 - app_logger - INFO - get_role_lice_data_summary_tablename:86 - Generated role license summary info table name for system 'SYS_2'
+2026-05-27 17:54:18 - app_logger - INFO - create_role_lic_summary_model:531 - Model for table 'Z_FUE_SYS_2_ROLE_LICENSE_SUMMARY' found in cache. Returning cached model.
+2026-05-27 17:54:18 - app_logger - INFO - get_license_types_endpoint:503 - Returning 4 license type(s) for system='SYS_2'.
+2026-05-27 17:54:30 - app_logger - INFO - get_all_requests:362 - Request received — list all optimisation requests.
+2026-05-27 17:54:30 - app_logger - INFO - get_all_requests:365 - Returning 4 request(s).
+2026-05-27 17:55:19 - app_logger - INFO - get_all_requests:362 - Request received — list all optimisation requests.
+2026-05-27 17:55:19 - app_logger - INFO - get_all_requests:365 - Returning 4 request(s).
+2026-05-27 17:55:26 - app_logger - INFO - optimize_license_endpoint:319 - Optimisation request received — system='SYS_2', target_license='GB Advanced Use', roles=['Z:FI:FDBD:COMM:ACCOUNTANT']
+2026-05-27 17:55:26 - app_logger - INFO - create_optimization_request_immediately:1204 - Creating optimisation request for system='SYS_2'.
+2026-05-27 17:55:26 - app_logger - INFO - create_optimization_request_immediately:1225 - Request record 'REQ100004' committed.
+2026-05-27 17:55:26 - app_logger - INFO - optimize_license_endpoint:329 - Request 'REQ100004' created — queuing background task.
+2026-05-27 17:55:26 - app_logger - INFO - process_optimization_in_background:1243 - [REQ100004] Background optimisation started.
+2026-05-27 17:55:26 - app_logger - INFO - run_optimization_processing:1281 - [REQ100004] run_optimization_processing() — system=SYS_2, target_license=GB Advanced Use, roles=['Z:FI:FDBD:COMM:ACCOUNTANT']
+2026-05-27 17:55:26 - app_logger - INFO - get_role_lice_data_tablename:81 - Generated role object license info table name for system 'SYS_2'
+2026-05-27 17:55:26 - app_logger - INFO - create_role_lic_model:512 - Model for table 'Z_FUE_SYS_2_ROLE_OBJ_LICENSE_INFO' not in cache. Creating a new dynamic model.
+2026-05-27 17:55:26 - app_logger - INFO - create_role_lic_model:521 - Successfully created dynamic model for table 'Z_FUE_SYS_2_ROLE_OBJ_LICENSE_INFO'
+2026-05-27 17:55:26 - app_logger - INFO - get_role_lice_data_summary_tablename:86 - Generated role license summary info table name for system 'SYS_2'
+2026-05-27 17:55:26 - app_logger - INFO - create_role_lic_summary_model:531 - Model for table 'Z_FUE_SYS_2_ROLE_LICENSE_SUMMARY' found in cache. Returning cached model.
+2026-05-27 17:55:26 - app_logger - INFO - get_agr_1251_tablename:29 - Generated role auth table agr_1251_name for system 'SYS_2'
+2026-05-27 17:55:26 - app_logger - INFO - create_AGR1251_model:335 - Model for table 'Z_FUE_SYS_2_ROLE_AUTH_INFO' not in cache. Creating a new dynamic model.
+2026-05-27 17:55:26 - app_logger - INFO - get_all_requests:362 - Request received — list all optimisation requests.
+2026-05-27 17:55:26 - app_logger - INFO - create_AGR1251_model:342 - Successfully created dynamic model for table 'Z_FUE_SYS_2_ROLE_AUTH_INFO'
+2026-05-27 17:55:26 - app_logger - INFO - get_agr_users_tablename:34 - Generated user role mapping agr_users table name for system 'SYS_2'
+2026-05-27 17:55:26 - app_logger - INFO - create_AGRUSERS_model:352 - Model for table 'Z_FUE_SYS_2_USER_ROLE_MAPPING' not in cache. Creating a new dynamic model.
+2026-05-27 17:55:26 - app_logger - INFO - create_AGRUSERS_model:359 - Successfully created dynamic model for table 'Z_FUE_SYS_2_USER_ROLE_MAPPING'
+2026-05-27 17:55:26 - app_logger - INFO - get_all_requests:365 - Returning 5 request(s).
+2026-05-27 17:55:26 - app_logger - INFO - get_agr_define_tablename:39 - Generated parent child role mapping table name for system 'SYS_2'
+2026-05-27 17:55:26 - app_logger - INFO - create_AGRDEFINE_model:370 - Model for table 'Z_FUE_SYS_2_PARENT_CHILD_ROLE_MAPPING' not in cache. Creating a new dynamic model.
+2026-05-27 17:55:26 - app_logger - INFO - create_AGRDEFINE_model:377 - Successfully created dynamic model for table 'Z_FUE_SYS_2_PARENT_CHILD_ROLE_MAPPING'
+2026-05-27 17:55:26 - app_logger - INFO - get_flpca_data_tablename:60 - Generated flpca table name for system 'SYS_2'
+2026-05-27 17:55:26 - app_logger - INFO - create_FLPCA_model:456 - Model for table 'Z_FUE_SYS_2_FIORI DATA' not in cache. Creating a new dynamic model.
+2026-05-27 17:55:26 - app_logger - INFO - create_FLPCA_model:463 - Successfully created dynamic model for table 'Z_FUE_SYS_2_FIORI DATA'
+2026-05-27 17:55:26 - app_logger - INFO - run_optimization_processing:1329 - [REQ100004] RoleLic rows fetched: 6
+2026-05-27 17:55:26 - app_logger - INFO - run_optimization_processing:1340 - [REQ100004] Distinct roles to analyse: ['Z:FI:FDBD:COMM:ACCOUNTANT']
+2026-05-27 17:55:26 - app_logger - INFO - run_optimization_processing:1367 - [REQ100004] Role 'Z:FI:FDBD:COMM:ACCOUNTANT' has 43 tcodes
+2026-05-27 17:55:26 - app_logger - INFO - get_agr_1251_tablename:29 - Generated role auth table agr_1251_name for system 'SYS_2'
+2026-05-27 17:55:26 - app_logger - INFO - create_AGR1251_model:333 - Model for table 'Z_FUE_SYS_2_ROLE_AUTH_INFO' found in cache. Returning cached model.
+2026-05-27 17:55:26 - app_logger - INFO - get_usobxC_data_tablename:70 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 17:55:26 - app_logger - INFO - create_USOBXC_model:473 - Model for table 'Z_FUE_SYS_2_USOBX_C DATA' not in cache. Creating a new dynamic model.
+2026-05-27 17:55:26 - app_logger - INFO - create_USOBXC_model:480 - Successfully created dynamic model for table 'Z_FUE_SYS_2_USOBX_C DATA'
+2026-05-27 17:55:26 - app_logger - INFO - get_obj_text_data_tablename:76 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 17:55:26 - app_logger - INFO - create_TOBJL_model:491 - Model for table 'Z_FUE_SYS_2_OBJ_TEXT DATA' not in cache. Creating a new dynamic model.
+2026-05-27 17:55:26 - app_logger - INFO - create_TOBJL_model:498 - Successfully created dynamic model for table 'Z_FUE_SYS_2_OBJ_TEXT DATA'
+2026-05-27 17:55:26 - app_logger - INFO - get_role_lice_data_tablename:81 - Generated role object license info table name for system 'SYS_2'
+2026-05-27 17:55:26 - app_logger - INFO - create_role_lic_model:510 - Model for table 'Z_FUE_SYS_2_ROLE_OBJ_LICENSE_INFO' found in cache. Returning cached model.
+2026-05-27 17:55:27 - app_logger - INFO - get_obj_text_data_tablename:76 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 17:55:27 - app_logger - INFO - create_TOBJL_model:489 - Model for table 'Z_FUE_SYS_2_OBJ_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 17:55:27 - app_logger - INFO - get_role_lice_data_tablename:81 - Generated role object license info table name for system 'SYS_2'
+2026-05-27 17:55:27 - app_logger - INFO - create_role_lic_model:510 - Model for table 'Z_FUE_SYS_2_ROLE_OBJ_LICENSE_INFO' found in cache. Returning cached model.
+2026-05-27 17:55:27 - app_logger - INFO - get_obj_text_data_tablename:76 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 17:55:27 - app_logger - INFO - create_TOBJL_model:489 - Model for table 'Z_FUE_SYS_2_OBJ_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 17:55:27 - app_logger - INFO - get_role_lice_data_tablename:81 - Generated role object license info table name for system 'SYS_2'
+2026-05-27 17:55:27 - app_logger - INFO - create_role_lic_model:510 - Model for table 'Z_FUE_SYS_2_ROLE_OBJ_LICENSE_INFO' found in cache. Returning cached model.
+2026-05-27 17:55:27 - app_logger - INFO - get_obj_text_data_tablename:76 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 17:55:27 - app_logger - INFO - create_TOBJL_model:489 - Model for table 'Z_FUE_SYS_2_OBJ_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 17:55:27 - app_logger - INFO - get_role_lice_data_tablename:81 - Generated role object license info table name for system 'SYS_2'
+2026-05-27 17:55:27 - app_logger - INFO - create_role_lic_model:510 - Model for table 'Z_FUE_SYS_2_ROLE_OBJ_LICENSE_INFO' found in cache. Returning cached model.
+2026-05-27 17:55:27 - app_logger - INFO - get_obj_text_data_tablename:76 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 17:55:27 - app_logger - INFO - create_TOBJL_model:489 - Model for table 'Z_FUE_SYS_2_OBJ_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 17:55:27 - app_logger - INFO - get_role_lice_data_tablename:81 - Generated role object license info table name for system 'SYS_2'
+2026-05-27 17:55:27 - app_logger - INFO - create_role_lic_model:510 - Model for table 'Z_FUE_SYS_2_ROLE_OBJ_LICENSE_INFO' found in cache. Returning cached model.
+2026-05-27 17:55:27 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 17:55:27 - app_logger - INFO - create_TSTCT_model:438 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' not in cache. Creating a new dynamic model.
+2026-05-27 17:55:27 - app_logger - INFO - create_TSTCT_model:445 - Successfully created dynamic model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA'
+2026-05-27 17:55:27 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 17:55:27 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 17:55:27 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 17:55:27 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 17:55:28 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 17:55:28 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 17:55:28 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 17:55:28 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 17:55:28 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 17:55:28 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 17:55:28 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 17:55:28 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 17:55:28 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 17:55:28 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 17:55:28 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 17:55:28 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 17:55:28 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 17:55:28 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 17:55:28 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 17:55:28 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 17:55:28 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 17:55:28 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 17:55:28 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 17:55:28 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 17:55:28 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 17:55:28 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 17:55:28 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 17:55:28 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 17:55:28 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 17:55:28 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 17:55:28 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 17:55:28 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 17:55:28 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 17:55:28 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 17:55:28 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 17:55:28 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 17:55:28 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 17:55:28 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 17:55:28 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 17:55:28 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 17:55:28 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 17:55:28 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 17:55:28 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 17:55:28 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 17:55:28 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 17:55:28 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 17:55:28 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 17:55:28 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 17:55:28 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 17:55:28 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 17:55:28 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 17:55:28 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 17:55:28 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 17:55:28 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 17:55:28 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 17:55:28 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 17:55:28 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 17:55:28 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 17:55:28 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 17:55:28 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 17:55:28 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 17:55:28 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 17:55:28 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 17:55:28 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 17:55:28 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 17:55:28 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 17:55:28 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 17:55:28 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 17:55:28 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 17:55:28 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 17:55:28 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 17:55:28 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 17:55:28 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 17:55:28 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 17:55:28 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 17:55:28 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 17:55:28 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 17:55:28 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 17:55:28 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 17:55:28 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 17:55:28 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 17:55:28 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 17:55:28 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 17:55:28 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 17:55:28 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 17:55:28 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 17:55:28 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 17:55:28 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 17:55:28 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 17:55:28 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 17:55:28 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 17:55:28 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 17:55:28 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 17:55:28 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 17:55:28 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 17:55:28 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 17:55:28 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 17:55:28 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 17:55:28 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 17:55:28 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 17:55:28 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 17:55:28 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 17:55:28 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 17:55:28 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 17:55:28 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 17:55:28 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 17:55:28 - app_logger - INFO - run_optimization_processing:1405 - [REQ100004] Roles packaged for AI: 1
+2026-05-27 17:55:28 - app_logger - INFO - run_optimization_processing:1447 - [REQ100004] Sending prompt to AI (length=7536).
+2026-05-27 17:55:28 - app_logger - INFO - _write_prompt_debug_file:1192 - [REQ100004] Full prompt written to: output/prompts/SYS_2-REQ100004-20260527-175528-prompt.txt
+2026-05-27 17:55:28 - app_logger - INFO - call_ai_api:153 - Initiating AI call with prompt (first 100 chars): 'You are an SAP FUE licence optimisation expert.
+
+The 1 role(s) below are currently classified as "GB...'
+2026-05-27 17:55:28 - app_logger - INFO - call_ai_api:159 - Using AI Model: anthropic/claude-opus-4-20250514 (max_tokens=4096, temperature=0.7)
+2026-05-27 17:55:29 - app_logger - INFO - get_all_requests:362 - Request received — list all optimisation requests.
+2026-05-27 17:55:29 - app_logger - INFO - get_all_requests:365 - Returning 5 request(s).
+2026-05-27 17:55:34 - app_logger - INFO - get_all_requests:362 - Request received — list all optimisation requests.
+2026-05-27 17:55:34 - app_logger - INFO - get_all_requests:365 - Returning 5 request(s).
+2026-05-27 17:55:48 - app_logger - INFO - get_all_requests:362 - Request received — list all optimisation requests.
+2026-05-27 17:55:48 - app_logger - INFO - get_all_requests:365 - Returning 5 request(s).
+2026-05-27 17:55:59 - app_logger - INFO - call_claude_api:247 - Successfully received response from Claude API. Response length: 3174
+2026-05-27 17:55:59 - app_logger - INFO - run_optimization_processing:1469 - [REQ100004] AI returned 1 role block(s).
+2026-05-27 17:55:59 - app_logger - INFO - run_optimization_processing:1497 - [REQ100004] Role 'Z:FI:FDBD:COMM:ACCOUNTANT' → NOT reducible
+2026-05-27 17:55:59 - app_logger - INFO - run_optimization_processing:1518 - [REQ100004] LicenseOptimizationResult committed. Reducible roles: []
+2026-05-27 17:55:59 - app_logger - INFO - simulate_system_fue:1551 - [REQ100004] simulate_system_fue() — 0 reducible role(s): []
+2026-05-27 17:55:59 - app_logger - INFO - simulate_system_fue:1561 - [REQ100004] Total AGRUSERS rows: 68752
+2026-05-27 17:55:59 - app_logger - INFO - simulate_system_fue:1570 - [REQ100004] Unique users: 3519, unique roles: 951
+2026-05-27 17:55:59 - app_logger - INFO - simulate_system_fue:1581 - [REQ100004] RoleLicSummary rows loaded: 2897
+2026-05-27 17:55:59 - app_logger - INFO - simulate_system_fue:1621 - [REQ100004] BEFORE → GB=627 GC=1520 GD=1323 NC=49 FUE=1717.75
+2026-05-27 17:55:59 - app_logger - INFO - simulate_system_fue:1622 - [REQ100004] AFTER  → GB=627 GC=1520 GD=1323 NC=49 FUE=1717.75
+2026-05-27 17:55:59 - app_logger - INFO - simulate_system_fue:1623 - [REQ100004] FUE saved=0.0, Users impacted=0
+2026-05-27 17:55:59 - app_logger - INFO - simulate_system_fue:1645 - [REQ100004] OptSimResult summary row committed.
+2026-05-27 17:55:59 - app_logger - INFO - _write_output_file:1689 - Output snapshot → output/SYS_2-REQ100004-20260527-175559.json
+2026-05-27 17:55:59 - app_logger - INFO - run_optimization_processing:1535 - [REQ100004] run_optimization_processing() complete.
+2026-05-27 17:55:59 - app_logger - INFO - process_optimization_in_background:1254 - [REQ100004] Processing finished → STATUS=COMPLETED
+2026-05-27 17:56:06 - app_logger - INFO - get_all_requests:362 - Request received — list all optimisation requests.
+2026-05-27 17:56:06 - app_logger - INFO - get_all_requests:365 - Returning 5 request(s).
+2026-05-27 17:56:08 - app_logger - INFO - get_sim_results_by_request_id:440 - Fetching sim results for req_id='REQ100004', system='SYS_2'.
+2026-05-27 17:56:08 - app_logger - INFO - get_sim_results_by_request_id:453 - Found 1 sim result row(s) for req_id='REQ100004'.
+2026-05-27 17:56:08 - app_logger - INFO - get_results_by_request_id:392 - Fetching AI results for req_id='REQ100004'.
+2026-05-27 17:56:08 - app_logger - INFO - get_results_by_request_id:402 - Found 5 AI result row(s) for req_id='REQ100004'.
+2026-05-27 17:57:34 - app_logger - INFO - get_sim_results_by_request_id:186 - Fetching sim results for req_id='REQ100004', system='SYS_2'.
+2026-05-27 17:57:34 - app_logger - INFO - create_opt_sim_result_model:112 - Creating OptSimResult model for 'Z_FUE_SYS_2_OPT_SIM_RESULT'.
+2026-05-27 17:57:34 - app_logger - INFO - get_results_by_request_id:138 - Fetching AI results for req_id='REQ100004'.
+2026-05-27 17:57:34 - app_logger - INFO - get_sim_results_by_request_id:199 - Found 1 sim result row(s) for req_id='REQ100004'.
+2026-05-27 17:57:34 - app_logger - INFO - get_results_by_request_id:148 - Found 5 AI result row(s) for req_id='REQ100004'.
+2026-05-27 17:57:36 - app_logger - INFO - get_all_requests:108 - Request received — list all optimisation requests.
+2026-05-27 17:57:36 - app_logger - INFO - get_all_requests:111 - Returning 5 request(s).
+2026-05-27 17:57:38 - fue_calculation_logger - INFO - get_role_details:36 - Fetching role details for system: 'SYS_2'
+2026-05-27 17:57:38 - app_logger - INFO - get_role_lice_data_summary_tablename:86 - Generated role license summary info table name for system 'SYS_2'
+2026-05-27 17:57:38 - app_logger - INFO - get_agr_users_tablename:34 - Generated user role mapping agr_users table name for system 'SYS_2'
+2026-05-27 17:57:39 - fue_calculation_logger - INFO - get_role_details:77 - Successfully fetched 2681 roles for system 'SYS_2'.
+2026-05-27 17:57:39 - app_logger - INFO - get_license_types_endpoint:244 - License-types requested for system='SYS_2'.
+2026-05-27 17:57:39 - app_logger - INFO - get_role_lice_data_summary_tablename:86 - Generated role license summary info table name for system 'SYS_2'
+2026-05-27 17:57:39 - app_logger - INFO - create_role_lic_summary_model:533 - Model for table 'Z_FUE_SYS_2_ROLE_LICENSE_SUMMARY' not in cache. Creating a new dynamic model.
+2026-05-27 17:57:39 - app_logger - INFO - create_role_lic_summary_model:542 - Successfully created dynamic model for table 'Z_FUE_SYS_2_ROLE_LICENSE_SUMMARY'
+2026-05-27 17:57:39 - app_logger - INFO - get_license_types_endpoint:249 - Returning 4 license type(s) for system='SYS_2'.
+2026-05-27 17:58:09 - app_logger - INFO - get_all_requests:108 - Request received — list all optimisation requests.
+2026-05-27 17:58:09 - app_logger - INFO - get_all_requests:111 - Returning 5 request(s).
+2026-05-27 17:58:16 - app_logger - INFO - optimize_license_endpoint:65 - Optimisation request received — system='SYS_2', target_license='GB Advanced Use', roles=['Z:MM:FDBD:SOURCE:SU']
+2026-05-27 17:58:16 - app_logger - INFO - create_optimization_request_immediately:343 - Creating optimisation request for system='SYS_2'.
+2026-05-27 17:58:17 - app_logger - INFO - create_optimization_request_immediately:364 - Request record 'REQ100005' committed.
+2026-05-27 17:58:17 - app_logger - INFO - optimize_license_endpoint:75 - Request 'REQ100005' created — queuing background task.
+2026-05-27 17:58:17 - app_logger - INFO - process_optimization_in_background:382 - [REQ100005] Background optimisation started.
+2026-05-27 17:58:17 - app_logger - INFO - run_optimization_processing:420 - [REQ100005] run_optimization_processing() — system=SYS_2, target_license=GB Advanced Use, roles=['Z:MM:FDBD:SOURCE:SU']
+2026-05-27 17:58:17 - app_logger - INFO - get_role_lice_data_tablename:81 - Generated role object license info table name for system 'SYS_2'
+2026-05-27 17:58:17 - app_logger - INFO - create_role_lic_model:512 - Model for table 'Z_FUE_SYS_2_ROLE_OBJ_LICENSE_INFO' not in cache. Creating a new dynamic model.
+2026-05-27 17:58:17 - app_logger - INFO - create_role_lic_model:521 - Successfully created dynamic model for table 'Z_FUE_SYS_2_ROLE_OBJ_LICENSE_INFO'
+2026-05-27 17:58:17 - app_logger - INFO - get_role_lice_data_summary_tablename:86 - Generated role license summary info table name for system 'SYS_2'
+2026-05-27 17:58:17 - app_logger - INFO - create_role_lic_summary_model:531 - Model for table 'Z_FUE_SYS_2_ROLE_LICENSE_SUMMARY' found in cache. Returning cached model.
+2026-05-27 17:58:17 - app_logger - INFO - get_agr_1251_tablename:29 - Generated role auth table agr_1251_name for system 'SYS_2'
+2026-05-27 17:58:17 - app_logger - INFO - create_AGR1251_model:335 - Model for table 'Z_FUE_SYS_2_ROLE_AUTH_INFO' not in cache. Creating a new dynamic model.
+2026-05-27 17:58:17 - app_logger - INFO - create_AGR1251_model:342 - Successfully created dynamic model for table 'Z_FUE_SYS_2_ROLE_AUTH_INFO'
+2026-05-27 17:58:17 - app_logger - INFO - get_agr_users_tablename:34 - Generated user role mapping agr_users table name for system 'SYS_2'
+2026-05-27 17:58:17 - app_logger - INFO - create_AGRUSERS_model:352 - Model for table 'Z_FUE_SYS_2_USER_ROLE_MAPPING' not in cache. Creating a new dynamic model.
+2026-05-27 17:58:17 - app_logger - INFO - create_AGRUSERS_model:359 - Successfully created dynamic model for table 'Z_FUE_SYS_2_USER_ROLE_MAPPING'
+2026-05-27 17:58:17 - app_logger - INFO - get_agr_define_tablename:39 - Generated parent child role mapping table name for system 'SYS_2'
+2026-05-27 17:58:17 - app_logger - INFO - create_AGRDEFINE_model:370 - Model for table 'Z_FUE_SYS_2_PARENT_CHILD_ROLE_MAPPING' not in cache. Creating a new dynamic model.
+2026-05-27 17:58:17 - app_logger - INFO - get_all_requests:108 - Request received — list all optimisation requests.
+2026-05-27 17:58:17 - app_logger - INFO - create_AGRDEFINE_model:377 - Successfully created dynamic model for table 'Z_FUE_SYS_2_PARENT_CHILD_ROLE_MAPPING'
+2026-05-27 17:58:17 - app_logger - INFO - get_all_requests:111 - Returning 6 request(s).
+2026-05-27 17:58:17 - app_logger - INFO - get_flpca_data_tablename:60 - Generated flpca table name for system 'SYS_2'
+2026-05-27 17:58:17 - app_logger - INFO - create_FLPCA_model:456 - Model for table 'Z_FUE_SYS_2_FIORI DATA' not in cache. Creating a new dynamic model.
+2026-05-27 17:58:17 - app_logger - INFO - create_FLPCA_model:463 - Successfully created dynamic model for table 'Z_FUE_SYS_2_FIORI DATA'
+2026-05-27 17:58:17 - app_logger - INFO - run_optimization_processing:468 - [REQ100005] RoleLic rows fetched: 6
+2026-05-27 17:58:17 - app_logger - INFO - run_optimization_processing:479 - [REQ100005] Distinct roles to analyse: ['Z:MM:FDBD:SOURCE:SU']
+2026-05-27 17:58:17 - app_logger - INFO - run_optimization_processing:506 - [REQ100005] Role 'Z:MM:FDBD:SOURCE:SU' has 4 tcodes
+2026-05-27 17:58:17 - app_logger - INFO - get_agr_1251_tablename:29 - Generated role auth table agr_1251_name for system 'SYS_2'
+2026-05-27 17:58:17 - app_logger - INFO - create_AGR1251_model:333 - Model for table 'Z_FUE_SYS_2_ROLE_AUTH_INFO' found in cache. Returning cached model.
+2026-05-27 17:58:17 - app_logger - INFO - get_usobxC_data_tablename:70 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 17:58:17 - app_logger - INFO - create_USOBXC_model:473 - Model for table 'Z_FUE_SYS_2_USOBX_C DATA' not in cache. Creating a new dynamic model.
+2026-05-27 17:58:17 - app_logger - INFO - create_USOBXC_model:480 - Successfully created dynamic model for table 'Z_FUE_SYS_2_USOBX_C DATA'
+2026-05-27 17:58:17 - app_logger - INFO - get_obj_text_data_tablename:76 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 17:58:17 - app_logger - INFO - create_TOBJL_model:491 - Model for table 'Z_FUE_SYS_2_OBJ_TEXT DATA' not in cache. Creating a new dynamic model.
+2026-05-27 17:58:17 - app_logger - INFO - create_TOBJL_model:498 - Successfully created dynamic model for table 'Z_FUE_SYS_2_OBJ_TEXT DATA'
+2026-05-27 17:58:17 - app_logger - INFO - get_role_lice_data_tablename:81 - Generated role object license info table name for system 'SYS_2'
+2026-05-27 17:58:17 - app_logger - INFO - create_role_lic_model:510 - Model for table 'Z_FUE_SYS_2_ROLE_OBJ_LICENSE_INFO' found in cache. Returning cached model.
+2026-05-27 17:58:17 - app_logger - INFO - get_obj_text_data_tablename:76 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 17:58:17 - app_logger - INFO - create_TOBJL_model:489 - Model for table 'Z_FUE_SYS_2_OBJ_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 17:58:17 - app_logger - INFO - get_role_lice_data_tablename:81 - Generated role object license info table name for system 'SYS_2'
+2026-05-27 17:58:17 - app_logger - INFO - create_role_lic_model:510 - Model for table 'Z_FUE_SYS_2_ROLE_OBJ_LICENSE_INFO' found in cache. Returning cached model.
+2026-05-27 17:58:17 - app_logger - INFO - get_obj_text_data_tablename:76 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 17:58:17 - app_logger - INFO - create_TOBJL_model:489 - Model for table 'Z_FUE_SYS_2_OBJ_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 17:58:17 - app_logger - INFO - get_role_lice_data_tablename:81 - Generated role object license info table name for system 'SYS_2'
+2026-05-27 17:58:17 - app_logger - INFO - create_role_lic_model:510 - Model for table 'Z_FUE_SYS_2_ROLE_OBJ_LICENSE_INFO' found in cache. Returning cached model.
+2026-05-27 17:58:17 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 17:58:17 - app_logger - INFO - create_TSTCT_model:438 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' not in cache. Creating a new dynamic model.
+2026-05-27 17:58:17 - app_logger - INFO - create_TSTCT_model:445 - Successfully created dynamic model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA'
+2026-05-27 17:58:17 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 17:58:17 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 17:58:17 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 17:58:17 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 17:58:17 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 17:58:17 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 17:58:17 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 17:58:17 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 17:58:17 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 17:58:17 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 17:58:17 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 17:58:17 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 17:58:17 - app_logger - INFO - run_optimization_processing:544 - [REQ100005] Roles packaged for AI: 1
+2026-05-27 17:58:17 - app_logger - INFO - run_optimization_processing:586 - [REQ100005] Sending prompt to AI (length=3138).
+2026-05-27 17:58:17 - app_logger - INFO - _write_prompt_debug_file:331 - [REQ100005] Full prompt written to: output/prompts/SYS_2-REQ100005-20260527-175817-prompt.txt
+2026-05-27 17:58:17 - app_logger - INFO - call_ai_api:153 - Initiating AI call with prompt (first 100 chars): 'You are an SAP FUE licence optimisation expert.
+
+The 1 role(s) below are currently classified as "GB...'
+2026-05-27 17:58:17 - app_logger - INFO - call_ai_api:159 - Using AI Model: anthropic/claude-opus-4-20250514 (max_tokens=4096, temperature=0.7)
+2026-05-27 17:58:20 - app_logger - INFO - get_all_requests:108 - Request received — list all optimisation requests.
+2026-05-27 17:58:20 - app_logger - INFO - get_all_requests:111 - Returning 6 request(s).
+2026-05-27 17:58:29 - app_logger - INFO - get_all_requests:108 - Request received — list all optimisation requests.
+2026-05-27 17:58:29 - app_logger - INFO - get_all_requests:111 - Returning 6 request(s).
+2026-05-27 17:58:33 - app_logger - INFO - call_claude_api:247 - Successfully received response from Claude API. Response length: 2355
+2026-05-27 17:58:33 - app_logger - INFO - run_optimization_processing:608 - [REQ100005] AI returned 1 role block(s).
+2026-05-27 17:58:33 - app_logger - INFO - run_optimization_processing:636 - [REQ100005] Role 'Z:MM:FDBD:SOURCE:SU' → NOT reducible
+2026-05-27 17:58:33 - app_logger - INFO - run_optimization_processing:657 - [REQ100005] LicenseOptimizationResult committed. Reducible roles: []
+2026-05-27 17:58:33 - app_logger - INFO - simulate_system_fue:701 - [REQ100005] simulate_system_fue() — 0 reducible role(s): []
+2026-05-27 17:58:33 - app_logger - INFO - get_usr02_tablename:49 - Generated USER_DATA table name for system 'SYS_2'
+2026-05-27 17:58:33 - app_logger - INFO - create_USR02_model:404 - Model for table 'Z_FUE_SYS_2_USER_DATA' not in cache. Creating a new dynamic model.
+2026-05-27 17:58:33 - app_logger - INFO - create_USR02_model:411 - Successfully created dynamic model for table 'Z_FUE_SYS_2_USER_DATA'
+2026-05-27 17:58:33 - app_logger - INFO - simulate_system_fue:712 - [REQ100005] USR02 records loaded: 4073
+2026-05-27 17:58:33 - app_logger - INFO - simulate_system_fue:721 - [REQ100005] Total AGRUSERS rows: 68752
+2026-05-27 17:58:33 - app_logger - INFO - simulate_system_fue:730 - [REQ100005] Unique users: 3519, unique roles: 951
+2026-05-27 17:58:34 - app_logger - INFO - simulate_system_fue:777 - [REQ100005] Locked users downgraded to NC: 1439
+2026-05-27 17:58:34 - app_logger - INFO - simulate_system_fue:801 - [REQ100005] BEFORE → GB=396 GC=1020 GD=658 NC=1445 FUE=622
+2026-05-27 17:58:34 - app_logger - INFO - simulate_system_fue:802 - [REQ100005] AFTER  → GB=396 GC=1020 GD=658 NC=1445 FUE=622
+2026-05-27 17:58:34 - app_logger - INFO - simulate_system_fue:803 - [REQ100005] FUE saved=0, Users impacted=0
+2026-05-27 17:58:34 - app_logger - INFO - simulate_system_fue:825 - [REQ100005] OptSimResult summary row committed.
+2026-05-27 17:58:34 - app_logger - INFO - _write_output_file:979 - Output snapshot → output/SYS_2-REQ100005-20260527-175834.json
+2026-05-27 17:58:34 - app_logger - INFO - run_optimization_processing:674 - [REQ100005] run_optimization_processing() complete.
+2026-05-27 17:58:34 - app_logger - INFO - process_optimization_in_background:393 - [REQ100005] Processing finished → STATUS=COMPLETED
+2026-05-27 17:58:39 - app_logger - INFO - get_all_requests:108 - Request received — list all optimisation requests.
+2026-05-27 17:58:39 - app_logger - INFO - get_all_requests:111 - Returning 6 request(s).
+2026-05-27 17:58:40 - app_logger - INFO - get_sim_results_by_request_id:186 - Fetching sim results for req_id='REQ100005', system='SYS_2'.
+2026-05-27 17:58:40 - app_logger - INFO - get_results_by_request_id:138 - Fetching AI results for req_id='REQ100005'.
+2026-05-27 17:58:40 - app_logger - INFO - get_sim_results_by_request_id:199 - Found 1 sim result row(s) for req_id='REQ100005'.
+2026-05-27 17:58:40 - app_logger - INFO - get_results_by_request_id:148 - Found 3 AI result row(s) for req_id='REQ100005'.
+2026-05-27 17:59:02 - app_logger - INFO - get_fue_dashboard:1128 - [Stage 6] Fetching FUE Dashboard for SYS_2
+2026-05-27 17:59:02 - app_logger - INFO - get_user_role_summary_tablename:96 - Generated user-role summary license table name for system 'SYS_2'
+2026-05-27 17:59:02 - app_logger - INFO - create_user_lic_summary_model:577 - Model for table 'Z_FUE_SYS_2_USER_LICENSE_SUMMARY' not in cache. Creating a new dynamic model.
+2026-05-27 17:59:02 - app_logger - INFO - create_user_lic_summary_model:586 - Successfully created dynamic model for table 'Z_FUE_SYS_2_USER_LICENSE_SUMMARY'
+2026-05-27 17:59:02 - app_logger - INFO - get_role_lice_data_summary_tablename:86 - Generated role license summary info table name for system 'SYS_2'
+2026-05-27 17:59:02 - app_logger - INFO - create_role_lic_summary_model:531 - Model for table 'Z_FUE_SYS_2_ROLE_LICENSE_SUMMARY' found in cache. Returning cached model.
+2026-05-27 17:59:17 - ai_config_logger - INFO - get_api_key_status:282 - API key status check: [('anthropic', 'configured'), ('openai', 'configured'), ('ollama', 'configured')]
+2026-05-27 17:59:17 - ai_config_logger - INFO - get_all_models:40 - Retrieved 3 AI model configurations
+2026-05-27 17:59:17 - ai_config_logger - INFO - get_api_key_status:282 - API key status check: [('anthropic', 'configured'), ('openai', 'configured'), ('ollama', 'configured')]
+2026-05-27 17:59:17 - ai_config_logger - INFO - get_all_models:40 - Retrieved 3 AI model configurations
+2026-05-27 17:59:20 - ai_config_logger - INFO - set_active_model:204 - Set active model: ollama/llama3.2
+2026-05-27 17:59:20 - ai_config_logger - INFO - get_api_key_status:282 - API key status check: [('anthropic', 'configured'), ('openai', 'configured'), ('ollama', 'configured')]
+2026-05-27 17:59:20 - ai_config_logger - INFO - get_all_models:40 - Retrieved 3 AI model configurations
+2026-05-27 17:59:23 - app_logger - INFO - get_all_requests:108 - Request received — list all optimisation requests.
+2026-05-27 17:59:23 - app_logger - INFO - get_all_requests:111 - Returning 6 request(s).
+2026-05-27 17:59:35 - app_logger - INFO - get_all_requests:108 - Request received — list all optimisation requests.
+2026-05-27 17:59:35 - app_logger - INFO - get_all_requests:111 - Returning 6 request(s).
+2026-05-27 17:59:40 - app_logger - INFO - optimize_license_endpoint:65 - Optimisation request received — system='SYS_2', target_license='GB Advanced Use', roles=['Z:MM:FDBD:SOURCE:SU']
+2026-05-27 17:59:40 - app_logger - INFO - create_optimization_request_immediately:343 - Creating optimisation request for system='SYS_2'.
+2026-05-27 17:59:40 - app_logger - INFO - create_optimization_request_immediately:364 - Request record 'REQ100006' committed.
+2026-05-27 17:59:40 - app_logger - INFO - optimize_license_endpoint:75 - Request 'REQ100006' created — queuing background task.
+2026-05-27 17:59:40 - app_logger - INFO - process_optimization_in_background:382 - [REQ100006] Background optimisation started.
+2026-05-27 17:59:40 - app_logger - INFO - run_optimization_processing:420 - [REQ100006] run_optimization_processing() — system=SYS_2, target_license=GB Advanced Use, roles=['Z:MM:FDBD:SOURCE:SU']
+2026-05-27 17:59:40 - app_logger - INFO - get_role_lice_data_tablename:81 - Generated role object license info table name for system 'SYS_2'
+2026-05-27 17:59:40 - app_logger - INFO - create_role_lic_model:510 - Model for table 'Z_FUE_SYS_2_ROLE_OBJ_LICENSE_INFO' found in cache. Returning cached model.
+2026-05-27 17:59:40 - app_logger - INFO - get_role_lice_data_summary_tablename:86 - Generated role license summary info table name for system 'SYS_2'
+2026-05-27 17:59:40 - app_logger - INFO - create_role_lic_summary_model:531 - Model for table 'Z_FUE_SYS_2_ROLE_LICENSE_SUMMARY' found in cache. Returning cached model.
+2026-05-27 17:59:40 - app_logger - INFO - get_agr_1251_tablename:29 - Generated role auth table agr_1251_name for system 'SYS_2'
+2026-05-27 17:59:40 - app_logger - INFO - create_AGR1251_model:333 - Model for table 'Z_FUE_SYS_2_ROLE_AUTH_INFO' found in cache. Returning cached model.
+2026-05-27 17:59:40 - app_logger - INFO - get_agr_users_tablename:34 - Generated user role mapping agr_users table name for system 'SYS_2'
+2026-05-27 17:59:40 - app_logger - INFO - create_AGRUSERS_model:350 - Model for table 'Z_FUE_SYS_2_USER_ROLE_MAPPING' found in cache. Returning cached model.
+2026-05-27 17:59:40 - app_logger - INFO - get_agr_define_tablename:39 - Generated parent child role mapping table name for system 'SYS_2'
+2026-05-27 17:59:40 - app_logger - INFO - get_all_requests:108 - Request received — list all optimisation requests.
+2026-05-27 17:59:40 - app_logger - INFO - create_AGRDEFINE_model:368 - Model for table 'Z_FUE_SYS_2_PARENT_CHILD_ROLE_MAPPING' found in cache. Returning cached model.
+2026-05-27 17:59:40 - app_logger - INFO - get_all_requests:111 - Returning 7 request(s).
+2026-05-27 17:59:40 - app_logger - INFO - get_flpca_data_tablename:60 - Generated flpca table name for system 'SYS_2'
+2026-05-27 17:59:40 - app_logger - INFO - create_FLPCA_model:454 - Model for table 'Z_FUE_SYS_2_FIORI DATA' found in cache. Returning cached model.
+2026-05-27 17:59:40 - app_logger - INFO - run_optimization_processing:468 - [REQ100006] RoleLic rows fetched: 6
+2026-05-27 17:59:40 - app_logger - INFO - run_optimization_processing:479 - [REQ100006] Distinct roles to analyse: ['Z:MM:FDBD:SOURCE:SU']
+2026-05-27 17:59:40 - app_logger - INFO - run_optimization_processing:506 - [REQ100006] Role 'Z:MM:FDBD:SOURCE:SU' has 4 tcodes
+2026-05-27 17:59:40 - app_logger - INFO - get_agr_1251_tablename:29 - Generated role auth table agr_1251_name for system 'SYS_2'
+2026-05-27 17:59:40 - app_logger - INFO - create_AGR1251_model:333 - Model for table 'Z_FUE_SYS_2_ROLE_AUTH_INFO' found in cache. Returning cached model.
+2026-05-27 17:59:40 - app_logger - INFO - get_usobxC_data_tablename:70 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 17:59:40 - app_logger - INFO - create_USOBXC_model:471 - Model for table 'Z_FUE_SYS_2_USOBX_C DATA' found in cache. Returning cached model.
+2026-05-27 17:59:40 - app_logger - INFO - get_obj_text_data_tablename:76 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 17:59:40 - app_logger - INFO - create_TOBJL_model:489 - Model for table 'Z_FUE_SYS_2_OBJ_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 17:59:40 - app_logger - INFO - get_role_lice_data_tablename:81 - Generated role object license info table name for system 'SYS_2'
+2026-05-27 17:59:40 - app_logger - INFO - create_role_lic_model:510 - Model for table 'Z_FUE_SYS_2_ROLE_OBJ_LICENSE_INFO' found in cache. Returning cached model.
+2026-05-27 17:59:40 - app_logger - INFO - get_obj_text_data_tablename:76 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 17:59:40 - app_logger - INFO - create_TOBJL_model:489 - Model for table 'Z_FUE_SYS_2_OBJ_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 17:59:40 - app_logger - INFO - get_role_lice_data_tablename:81 - Generated role object license info table name for system 'SYS_2'
+2026-05-27 17:59:40 - app_logger - INFO - create_role_lic_model:510 - Model for table 'Z_FUE_SYS_2_ROLE_OBJ_LICENSE_INFO' found in cache. Returning cached model.
+2026-05-27 17:59:40 - app_logger - INFO - get_obj_text_data_tablename:76 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 17:59:40 - app_logger - INFO - create_TOBJL_model:489 - Model for table 'Z_FUE_SYS_2_OBJ_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 17:59:40 - app_logger - INFO - get_role_lice_data_tablename:81 - Generated role object license info table name for system 'SYS_2'
+2026-05-27 17:59:40 - app_logger - INFO - create_role_lic_model:510 - Model for table 'Z_FUE_SYS_2_ROLE_OBJ_LICENSE_INFO' found in cache. Returning cached model.
+2026-05-27 17:59:40 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 17:59:40 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 17:59:40 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 17:59:40 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 17:59:40 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 17:59:40 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 17:59:40 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 17:59:40 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 17:59:40 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 17:59:40 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 17:59:40 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 17:59:40 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 17:59:40 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 17:59:40 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 17:59:41 - app_logger - INFO - run_optimization_processing:544 - [REQ100006] Roles packaged for AI: 1
+2026-05-27 17:59:41 - app_logger - INFO - run_optimization_processing:586 - [REQ100006] Sending prompt to AI (length=3138).
+2026-05-27 17:59:41 - app_logger - INFO - _write_prompt_debug_file:331 - [REQ100006] Full prompt written to: output/prompts/SYS_2-REQ100006-20260527-175941-prompt.txt
+2026-05-27 17:59:41 - app_logger - INFO - call_ai_api:153 - Initiating AI call with prompt (first 100 chars): 'You are an SAP FUE licence optimisation expert.
+
+The 1 role(s) below are currently classified as "GB...'
+2026-05-27 17:59:41 - app_logger - INFO - call_ai_api:159 - Using AI Model: ollama/llama3.2 (max_tokens=4096, temperature=0.7)
+2026-05-27 17:59:41 - app_logger - INFO - process_optimization_in_background:393 - [REQ100006] Processing finished → STATUS=FAILED
+2026-05-27 17:59:43 - app_logger - INFO - get_all_requests:108 - Request received — list all optimisation requests.
+2026-05-27 17:59:43 - app_logger - INFO - get_all_requests:111 - Returning 7 request(s).
+2026-05-27 17:59:53 - app_logger - INFO - get_all_requests:108 - Request received — list all optimisation requests.
+2026-05-27 17:59:53 - app_logger - INFO - get_all_requests:111 - Returning 7 request(s).
+2026-05-27 18:01:28 - app_logger - INFO - get_all_requests:108 - Request received — list all optimisation requests.
+2026-05-27 18:01:28 - app_logger - INFO - get_all_requests:111 - Returning 7 request(s).
+2026-05-27 18:01:31 - app_logger - INFO - optimize_license_endpoint:65 - Optimisation request received — system='SYS_2', target_license='GB Advanced Use', roles=['Z:MM:FDBD:SOURCE:SU']
+2026-05-27 18:01:31 - app_logger - INFO - create_optimization_request_immediately:343 - Creating optimisation request for system='SYS_2'.
+2026-05-27 18:01:31 - app_logger - INFO - create_optimization_request_immediately:364 - Request record 'REQ100007' committed.
+2026-05-27 18:01:31 - app_logger - INFO - optimize_license_endpoint:75 - Request 'REQ100007' created — queuing background task.
+2026-05-27 18:01:31 - app_logger - INFO - process_optimization_in_background:382 - [REQ100007] Background optimisation started.
+2026-05-27 18:01:31 - app_logger - INFO - run_optimization_processing:420 - [REQ100007] run_optimization_processing() — system=SYS_2, target_license=GB Advanced Use, roles=['Z:MM:FDBD:SOURCE:SU']
+2026-05-27 18:01:31 - app_logger - INFO - get_role_lice_data_tablename:81 - Generated role object license info table name for system 'SYS_2'
+2026-05-27 18:01:31 - app_logger - INFO - create_role_lic_model:510 - Model for table 'Z_FUE_SYS_2_ROLE_OBJ_LICENSE_INFO' found in cache. Returning cached model.
+2026-05-27 18:01:31 - app_logger - INFO - get_role_lice_data_summary_tablename:86 - Generated role license summary info table name for system 'SYS_2'
+2026-05-27 18:01:31 - app_logger - INFO - create_role_lic_summary_model:531 - Model for table 'Z_FUE_SYS_2_ROLE_LICENSE_SUMMARY' found in cache. Returning cached model.
+2026-05-27 18:01:31 - app_logger - INFO - get_agr_1251_tablename:29 - Generated role auth table agr_1251_name for system 'SYS_2'
+2026-05-27 18:01:31 - app_logger - INFO - create_AGR1251_model:333 - Model for table 'Z_FUE_SYS_2_ROLE_AUTH_INFO' found in cache. Returning cached model.
+2026-05-27 18:01:31 - app_logger - INFO - get_agr_users_tablename:34 - Generated user role mapping agr_users table name for system 'SYS_2'
+2026-05-27 18:01:31 - app_logger - INFO - create_AGRUSERS_model:350 - Model for table 'Z_FUE_SYS_2_USER_ROLE_MAPPING' found in cache. Returning cached model.
+2026-05-27 18:01:31 - app_logger - INFO - get_agr_define_tablename:39 - Generated parent child role mapping table name for system 'SYS_2'
+2026-05-27 18:01:31 - app_logger - INFO - create_AGRDEFINE_model:368 - Model for table 'Z_FUE_SYS_2_PARENT_CHILD_ROLE_MAPPING' found in cache. Returning cached model.
+2026-05-27 18:01:31 - app_logger - INFO - get_all_requests:108 - Request received — list all optimisation requests.
+2026-05-27 18:01:31 - app_logger - INFO - get_all_requests:111 - Returning 8 request(s).
+2026-05-27 18:01:31 - app_logger - INFO - get_flpca_data_tablename:60 - Generated flpca table name for system 'SYS_2'
+2026-05-27 18:01:31 - app_logger - INFO - create_FLPCA_model:454 - Model for table 'Z_FUE_SYS_2_FIORI DATA' found in cache. Returning cached model.
+2026-05-27 18:01:31 - app_logger - INFO - run_optimization_processing:468 - [REQ100007] RoleLic rows fetched: 6
+2026-05-27 18:01:31 - app_logger - INFO - run_optimization_processing:479 - [REQ100007] Distinct roles to analyse: ['Z:MM:FDBD:SOURCE:SU']
+2026-05-27 18:01:31 - app_logger - INFO - run_optimization_processing:506 - [REQ100007] Role 'Z:MM:FDBD:SOURCE:SU' has 4 tcodes
+2026-05-27 18:01:31 - app_logger - INFO - get_agr_1251_tablename:29 - Generated role auth table agr_1251_name for system 'SYS_2'
+2026-05-27 18:01:31 - app_logger - INFO - create_AGR1251_model:333 - Model for table 'Z_FUE_SYS_2_ROLE_AUTH_INFO' found in cache. Returning cached model.
+2026-05-27 18:01:31 - app_logger - INFO - get_usobxC_data_tablename:70 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 18:01:31 - app_logger - INFO - create_USOBXC_model:471 - Model for table 'Z_FUE_SYS_2_USOBX_C DATA' found in cache. Returning cached model.
+2026-05-27 18:01:31 - app_logger - INFO - get_obj_text_data_tablename:76 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 18:01:31 - app_logger - INFO - create_TOBJL_model:489 - Model for table 'Z_FUE_SYS_2_OBJ_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 18:01:31 - app_logger - INFO - get_role_lice_data_tablename:81 - Generated role object license info table name for system 'SYS_2'
+2026-05-27 18:01:31 - app_logger - INFO - create_role_lic_model:510 - Model for table 'Z_FUE_SYS_2_ROLE_OBJ_LICENSE_INFO' found in cache. Returning cached model.
+2026-05-27 18:01:31 - app_logger - INFO - get_obj_text_data_tablename:76 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 18:01:31 - app_logger - INFO - create_TOBJL_model:489 - Model for table 'Z_FUE_SYS_2_OBJ_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 18:01:31 - app_logger - INFO - get_role_lice_data_tablename:81 - Generated role object license info table name for system 'SYS_2'
+2026-05-27 18:01:31 - app_logger - INFO - create_role_lic_model:510 - Model for table 'Z_FUE_SYS_2_ROLE_OBJ_LICENSE_INFO' found in cache. Returning cached model.
+2026-05-27 18:01:31 - app_logger - INFO - get_obj_text_data_tablename:76 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 18:01:31 - app_logger - INFO - create_TOBJL_model:489 - Model for table 'Z_FUE_SYS_2_OBJ_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 18:01:31 - app_logger - INFO - get_role_lice_data_tablename:81 - Generated role object license info table name for system 'SYS_2'
+2026-05-27 18:01:31 - app_logger - INFO - create_role_lic_model:510 - Model for table 'Z_FUE_SYS_2_ROLE_OBJ_LICENSE_INFO' found in cache. Returning cached model.
+2026-05-27 18:01:31 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 18:01:31 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 18:01:31 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 18:01:31 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 18:01:31 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 18:01:31 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 18:01:31 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 18:01:31 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 18:01:31 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 18:01:31 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 18:01:31 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 18:01:31 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 18:01:31 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 18:01:31 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 18:01:31 - app_logger - INFO - run_optimization_processing:544 - [REQ100007] Roles packaged for AI: 1
+2026-05-27 18:01:31 - app_logger - INFO - run_optimization_processing:586 - [REQ100007] Sending prompt to AI (length=3138).
+2026-05-27 18:01:31 - app_logger - INFO - _write_prompt_debug_file:331 - [REQ100007] Full prompt written to: output/prompts/SYS_2-REQ100007-20260527-180131-prompt.txt
+2026-05-27 18:01:32 - app_logger - INFO - call_ai_api:153 - Initiating AI call with prompt (first 100 chars): 'You are an SAP FUE licence optimisation expert.
+
+The 1 role(s) below are currently classified as "GB...'
+2026-05-27 18:01:32 - app_logger - INFO - call_ai_api:159 - Using AI Model: ollama/llama3.2 (max_tokens=4096, temperature=0.7)
+2026-05-27 18:01:32 - app_logger - INFO - process_optimization_in_background:393 - [REQ100007] Processing finished → STATUS=FAILED
+2026-05-27 18:01:34 - app_logger - INFO - get_all_requests:108 - Request received — list all optimisation requests.
+2026-05-27 18:01:34 - app_logger - INFO - get_all_requests:111 - Returning 8 request(s).
+2026-05-27 18:01:47 - app_logger - INFO - get_all_requests:108 - Request received — list all optimisation requests.
+2026-05-27 18:01:47 - app_logger - INFO - get_all_requests:111 - Returning 8 request(s).
+2026-05-27 18:05:43 - app_logger - INFO - get_all_requests:108 - Request received — list all optimisation requests.
+2026-05-27 18:05:43 - app_logger - INFO - get_all_requests:111 - Returning 8 request(s).
+2026-05-27 18:05:43 - app_logger - INFO - get_license_types_endpoint:244 - License-types requested for system='SYS_2'.
+2026-05-27 18:05:43 - app_logger - INFO - get_role_lice_data_summary_tablename:86 - Generated role license summary info table name for system 'SYS_2'
+2026-05-27 18:05:43 - app_logger - INFO - create_role_lic_summary_model:533 - Model for table 'Z_FUE_SYS_2_ROLE_LICENSE_SUMMARY' not in cache. Creating a new dynamic model.
+2026-05-27 18:05:43 - app_logger - INFO - create_role_lic_summary_model:542 - Successfully created dynamic model for table 'Z_FUE_SYS_2_ROLE_LICENSE_SUMMARY'
+2026-05-27 18:05:43 - app_logger - INFO - get_license_types_endpoint:249 - Returning 4 license type(s) for system='SYS_2'.
+2026-05-27 18:05:43 - fue_calculation_logger - INFO - get_role_details:36 - Fetching role details for system: 'SYS_2'
+2026-05-27 18:05:43 - app_logger - INFO - get_role_lice_data_summary_tablename:86 - Generated role license summary info table name for system 'SYS_2'
+2026-05-27 18:05:43 - app_logger - INFO - get_agr_users_tablename:34 - Generated user role mapping agr_users table name for system 'SYS_2'
+2026-05-27 18:05:43 - fue_calculation_logger - INFO - get_role_details:77 - Successfully fetched 2681 roles for system 'SYS_2'.
+2026-05-27 18:05:46 - app_logger - INFO - optimize_license_endpoint:65 - Optimisation request received — system='SYS_2', target_license='GB Advanced Use', roles=['Z:MM:FDBD:SOURCE:SU']
+2026-05-27 18:05:46 - app_logger - INFO - create_optimization_request_immediately:343 - Creating optimisation request for system='SYS_2'.
+2026-05-27 18:05:46 - app_logger - INFO - create_optimization_request_immediately:364 - Request record 'REQ100008' committed.
+2026-05-27 18:05:46 - app_logger - INFO - optimize_license_endpoint:75 - Request 'REQ100008' created — queuing background task.
+2026-05-27 18:05:46 - app_logger - INFO - process_optimization_in_background:382 - [REQ100008] Background optimisation started.
+2026-05-27 18:05:46 - app_logger - INFO - run_optimization_processing:420 - [REQ100008] run_optimization_processing() — system=SYS_2, target_license=GB Advanced Use, roles=['Z:MM:FDBD:SOURCE:SU']
+2026-05-27 18:05:46 - app_logger - INFO - get_role_lice_data_tablename:81 - Generated role object license info table name for system 'SYS_2'
+2026-05-27 18:05:46 - app_logger - INFO - create_role_lic_model:512 - Model for table 'Z_FUE_SYS_2_ROLE_OBJ_LICENSE_INFO' not in cache. Creating a new dynamic model.
+2026-05-27 18:05:46 - app_logger - INFO - create_role_lic_model:521 - Successfully created dynamic model for table 'Z_FUE_SYS_2_ROLE_OBJ_LICENSE_INFO'
+2026-05-27 18:05:46 - app_logger - INFO - get_role_lice_data_summary_tablename:86 - Generated role license summary info table name for system 'SYS_2'
+2026-05-27 18:05:46 - app_logger - INFO - create_role_lic_summary_model:531 - Model for table 'Z_FUE_SYS_2_ROLE_LICENSE_SUMMARY' found in cache. Returning cached model.
+2026-05-27 18:05:46 - app_logger - INFO - get_agr_1251_tablename:29 - Generated role auth table agr_1251_name for system 'SYS_2'
+2026-05-27 18:05:46 - app_logger - INFO - get_all_requests:108 - Request received — list all optimisation requests.
+2026-05-27 18:05:46 - app_logger - INFO - create_AGR1251_model:335 - Model for table 'Z_FUE_SYS_2_ROLE_AUTH_INFO' not in cache. Creating a new dynamic model.
+2026-05-27 18:05:46 - app_logger - INFO - create_AGR1251_model:342 - Successfully created dynamic model for table 'Z_FUE_SYS_2_ROLE_AUTH_INFO'
+2026-05-27 18:05:46 - app_logger - INFO - get_agr_users_tablename:34 - Generated user role mapping agr_users table name for system 'SYS_2'
+2026-05-27 18:05:46 - app_logger - INFO - create_AGRUSERS_model:352 - Model for table 'Z_FUE_SYS_2_USER_ROLE_MAPPING' not in cache. Creating a new dynamic model.
+2026-05-27 18:05:46 - app_logger - INFO - create_AGRUSERS_model:359 - Successfully created dynamic model for table 'Z_FUE_SYS_2_USER_ROLE_MAPPING'
+2026-05-27 18:05:46 - app_logger - INFO - get_all_requests:111 - Returning 9 request(s).
+2026-05-27 18:05:46 - app_logger - INFO - get_agr_define_tablename:39 - Generated parent child role mapping table name for system 'SYS_2'
+2026-05-27 18:05:46 - app_logger - INFO - create_AGRDEFINE_model:370 - Model for table 'Z_FUE_SYS_2_PARENT_CHILD_ROLE_MAPPING' not in cache. Creating a new dynamic model.
+2026-05-27 18:05:46 - app_logger - INFO - create_AGRDEFINE_model:377 - Successfully created dynamic model for table 'Z_FUE_SYS_2_PARENT_CHILD_ROLE_MAPPING'
+2026-05-27 18:05:46 - app_logger - INFO - create_opt_sim_result_model:112 - Creating OptSimResult model for 'Z_FUE_SYS_2_OPT_SIM_RESULT'.
+2026-05-27 18:05:46 - app_logger - INFO - get_flpca_data_tablename:60 - Generated flpca table name for system 'SYS_2'
+2026-05-27 18:05:46 - app_logger - INFO - create_FLPCA_model:456 - Model for table 'Z_FUE_SYS_2_FIORI DATA' not in cache. Creating a new dynamic model.
+2026-05-27 18:05:46 - app_logger - INFO - create_FLPCA_model:463 - Successfully created dynamic model for table 'Z_FUE_SYS_2_FIORI DATA'
+2026-05-27 18:05:46 - app_logger - INFO - run_optimization_processing:468 - [REQ100008] RoleLic rows fetched: 6
+2026-05-27 18:05:46 - app_logger - INFO - run_optimization_processing:479 - [REQ100008] Distinct roles to analyse: ['Z:MM:FDBD:SOURCE:SU']
+2026-05-27 18:05:46 - app_logger - INFO - run_optimization_processing:506 - [REQ100008] Role 'Z:MM:FDBD:SOURCE:SU' has 4 tcodes
+2026-05-27 18:05:46 - app_logger - INFO - get_agr_1251_tablename:29 - Generated role auth table agr_1251_name for system 'SYS_2'
+2026-05-27 18:05:46 - app_logger - INFO - create_AGR1251_model:333 - Model for table 'Z_FUE_SYS_2_ROLE_AUTH_INFO' found in cache. Returning cached model.
+2026-05-27 18:05:46 - app_logger - INFO - get_usobxC_data_tablename:70 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 18:05:46 - app_logger - INFO - create_USOBXC_model:473 - Model for table 'Z_FUE_SYS_2_USOBX_C DATA' not in cache. Creating a new dynamic model.
+2026-05-27 18:05:46 - app_logger - INFO - create_USOBXC_model:480 - Successfully created dynamic model for table 'Z_FUE_SYS_2_USOBX_C DATA'
+2026-05-27 18:05:46 - app_logger - INFO - get_obj_text_data_tablename:76 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 18:05:46 - app_logger - INFO - create_TOBJL_model:491 - Model for table 'Z_FUE_SYS_2_OBJ_TEXT DATA' not in cache. Creating a new dynamic model.
+2026-05-27 18:05:46 - app_logger - INFO - create_TOBJL_model:498 - Successfully created dynamic model for table 'Z_FUE_SYS_2_OBJ_TEXT DATA'
+2026-05-27 18:05:46 - app_logger - INFO - get_role_lice_data_tablename:81 - Generated role object license info table name for system 'SYS_2'
+2026-05-27 18:05:46 - app_logger - INFO - create_role_lic_model:510 - Model for table 'Z_FUE_SYS_2_ROLE_OBJ_LICENSE_INFO' found in cache. Returning cached model.
+2026-05-27 18:05:46 - app_logger - INFO - get_obj_text_data_tablename:76 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 18:05:46 - app_logger - INFO - create_TOBJL_model:489 - Model for table 'Z_FUE_SYS_2_OBJ_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 18:05:46 - app_logger - INFO - get_role_lice_data_tablename:81 - Generated role object license info table name for system 'SYS_2'
+2026-05-27 18:05:46 - app_logger - INFO - create_role_lic_model:510 - Model for table 'Z_FUE_SYS_2_ROLE_OBJ_LICENSE_INFO' found in cache. Returning cached model.
+2026-05-27 18:05:46 - app_logger - INFO - get_obj_text_data_tablename:76 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 18:05:46 - app_logger - INFO - create_TOBJL_model:489 - Model for table 'Z_FUE_SYS_2_OBJ_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 18:05:46 - app_logger - INFO - get_role_lice_data_tablename:81 - Generated role object license info table name for system 'SYS_2'
+2026-05-27 18:05:46 - app_logger - INFO - create_role_lic_model:510 - Model for table 'Z_FUE_SYS_2_ROLE_OBJ_LICENSE_INFO' found in cache. Returning cached model.
+2026-05-27 18:05:47 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 18:05:47 - app_logger - INFO - create_TSTCT_model:438 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' not in cache. Creating a new dynamic model.
+2026-05-27 18:05:47 - app_logger - INFO - create_TSTCT_model:445 - Successfully created dynamic model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA'
+2026-05-27 18:05:47 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 18:05:47 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 18:05:47 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 18:05:47 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 18:05:47 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 18:05:47 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 18:05:47 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 18:05:47 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 18:05:47 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 18:05:47 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 18:05:47 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-05-27 18:05:47 - app_logger - INFO - create_TSTCT_model:436 - Model for table 'Z_FUE_SYS_2_TCODE_TEXT DATA' found in cache. Returning cached model.
+2026-05-27 18:05:47 - app_logger - INFO - run_optimization_processing:544 - [REQ100008] Roles packaged for AI: 1
+2026-05-27 18:05:47 - app_logger - INFO - run_optimization_processing:586 - [REQ100008] Sending prompt to AI (length=3138).
+2026-05-27 18:05:47 - app_logger - INFO - _write_prompt_debug_file:331 - [REQ100008] Full prompt written to: output/prompts/SYS_2-REQ100008-20260527-180547-prompt.txt
+2026-05-27 18:05:47 - app_logger - INFO - call_ai_api:47 - Initiating AI call with prompt (first 100 chars): 'You are an SAP FUE licence optimisation expert.
+
+The 1 role(s) below are currently classified as "GB...'
+2026-05-27 18:05:47 - app_logger - INFO - call_ai_api:53 - Using AI Model: ollama/llama3.2 (max_tokens=4096, temperature=0.7)
+2026-05-27 18:05:49 - app_logger - INFO - get_all_requests:108 - Request received — list all optimisation requests.
+2026-05-27 18:05:49 - app_logger - INFO - get_all_requests:111 - Returning 9 request(s).
+2026-05-27 18:06:01 - app_logger - INFO - get_all_requests:108 - Request received — list all optimisation requests.
+2026-05-27 18:06:01 - app_logger - INFO - get_all_requests:111 - Returning 9 request(s).
+2026-05-27 18:06:06 - app_logger - INFO - get_all_requests:108 - Request received — list all optimisation requests.
+2026-05-27 18:06:06 - app_logger - INFO - get_all_requests:111 - Returning 9 request(s).
+2026-05-27 18:06:13 - app_logger - INFO - get_all_requests:108 - Request received — list all optimisation requests.
+2026-05-27 18:06:13 - app_logger - INFO - get_all_requests:111 - Returning 9 request(s).
+2026-05-27 18:06:14 - app_logger - INFO - get_all_requests:108 - Request received — list all optimisation requests.
+2026-05-27 18:06:14 - app_logger - INFO - get_all_requests:111 - Returning 9 request(s).
+2026-05-27 18:06:16 - app_logger - INFO - get_all_requests:108 - Request received — list all optimisation requests.
+2026-05-27 18:06:16 - app_logger - INFO - get_all_requests:111 - Returning 9 request(s).
+2026-05-27 18:06:16 - app_logger - INFO - get_all_requests:108 - Request received — list all optimisation requests.
+2026-05-27 18:06:16 - app_logger - INFO - get_all_requests:111 - Returning 9 request(s).
+2026-05-27 18:06:16 - app_logger - INFO - get_all_requests:108 - Request received — list all optimisation requests.
+2026-05-27 18:06:16 - app_logger - INFO - get_all_requests:111 - Returning 9 request(s).
+2026-05-27 18:06:16 - app_logger - INFO - get_all_requests:108 - Request received — list all optimisation requests.
+2026-05-27 18:06:16 - app_logger - INFO - get_all_requests:111 - Returning 9 request(s).
+2026-05-27 18:06:16 - app_logger - INFO - get_all_requests:108 - Request received — list all optimisation requests.
+2026-05-27 18:06:16 - app_logger - INFO - get_all_requests:111 - Returning 9 request(s).
+2026-05-27 18:06:30 - app_logger - INFO - get_sim_results_by_request_id:186 - Fetching sim results for req_id='REQ100005', system='SYS_2'.
+2026-05-27 18:06:30 - app_logger - INFO - get_results_by_request_id:138 - Fetching AI results for req_id='REQ100005'.
+2026-05-27 18:06:30 - app_logger - INFO - get_sim_results_by_request_id:199 - Found 1 sim result row(s) for req_id='REQ100005'.
+2026-05-27 18:06:30 - app_logger - INFO - get_results_by_request_id:148 - Found 3 AI result row(s) for req_id='REQ100005'.
+2026-05-27 18:07:24 - app_logger - INFO - call_ollama_api:233 - Successfully received response from local Ollama. Length: 1707
+2026-05-27 18:07:24 - app_logger - INFO - run_optimization_processing:608 - [REQ100008] AI returned 1 role block(s).
+2026-05-27 18:07:24 - app_logger - INFO - run_optimization_processing:634 - [REQ100008] Role 'Z:MM:FDBD:SOURCE:SU' → REDUCIBLE → 'GC Core Use'
+2026-05-27 18:07:24 - app_logger - INFO - run_optimization_processing:657 - [REQ100008] LicenseOptimizationResult committed. Reducible roles: ['Z:MM:FDBD:SOURCE:SU']
+2026-05-27 18:07:24 - app_logger - INFO - simulate_system_fue:701 - [REQ100008] simulate_system_fue() — 1 reducible role(s): ['Z:MM:FDBD:SOURCE:SU']
+2026-05-27 18:07:24 - app_logger - INFO - get_usr02_tablename:49 - Generated USER_DATA table name for system 'SYS_2'
+2026-05-27 18:07:24 - app_logger - INFO - create_USR02_model:404 - Model for table 'Z_FUE_SYS_2_USER_DATA' not in cache. Creating a new dynamic model.
+2026-05-27 18:07:24 - app_logger - INFO - create_USR02_model:411 - Successfully created dynamic model for table 'Z_FUE_SYS_2_USER_DATA'
+2026-05-27 18:07:24 - app_logger - INFO - simulate_system_fue:712 - [REQ100008] USR02 records loaded: 4073
+2026-05-27 18:07:24 - app_logger - INFO - simulate_system_fue:721 - [REQ100008] Total AGRUSERS rows: 68752
+2026-05-27 18:07:25 - app_logger - INFO - simulate_system_fue:730 - [REQ100008] Unique users: 3519, unique roles: 951
+2026-05-27 18:07:25 - app_logger - INFO - simulate_system_fue:747 - [REQ100008] License override: 'Z:MM:FDBD:SOURCE:SU' GB Advanced Use → GC Core Use
+2026-05-27 18:07:25 - app_logger - INFO - simulate_system_fue:777 - [REQ100008] Locked users downgraded to NC: 1439
+2026-05-27 18:07:25 - app_logger - INFO - simulate_system_fue:801 - [REQ100008] BEFORE → GB=396 GC=1020 GD=658 NC=1445 FUE=622
+2026-05-27 18:07:25 - app_logger - INFO - simulate_system_fue:802 - [REQ100008] AFTER  → GB=396 GC=1020 GD=658 NC=1445 FUE=622
+2026-05-27 18:07:25 - app_logger - INFO - simulate_system_fue:803 - [REQ100008] FUE saved=0, Users impacted=0
+2026-05-27 18:07:25 - app_logger - INFO - simulate_system_fue:825 - [REQ100008] OptSimResult summary row committed.
+2026-05-27 18:07:25 - app_logger - INFO - _write_output_file:979 - Output snapshot → output/SYS_2-REQ100008-20260527-180725.json
+2026-05-27 18:07:25 - app_logger - INFO - run_optimization_processing:674 - [REQ100008] run_optimization_processing() complete.
+2026-05-27 18:07:25 - app_logger - INFO - process_optimization_in_background:393 - [REQ100008] Processing finished → STATUS=COMPLETED
+2026-05-27 18:09:05 - app_logger - INFO - get_sim_results_by_request_id:186 - Fetching sim results for req_id='REQ100005', system='SYS_2'.
+2026-05-27 18:09:05 - app_logger - INFO - get_results_by_request_id:138 - Fetching AI results for req_id='REQ100005'.
+2026-05-27 18:09:05 - app_logger - INFO - get_sim_results_by_request_id:199 - Found 1 sim result row(s) for req_id='REQ100005'.
+2026-05-27 18:09:05 - app_logger - INFO - get_results_by_request_id:148 - Found 3 AI result row(s) for req_id='REQ100005'.
+2026-05-28 18:03:34 - app_logger - INFO - get_sim_results_by_request_id:186 - Fetching sim results for req_id='REQ100005', system='SYS_2'.
+2026-05-28 18:03:34 - app_logger - INFO - get_sim_results_by_request_id:199 - Found 1 sim result row(s) for req_id='REQ100005'.
+2026-05-28 18:03:34 - app_logger - INFO - get_results_by_request_id:138 - Fetching AI results for req_id='REQ100005'.
+2026-05-28 18:03:34 - app_logger - INFO - get_results_by_request_id:148 - Found 3 AI result row(s) for req_id='REQ100005'.
+2026-05-28 18:03:56 - app_logger - INFO - get_all_requests:108 - Request received — list all optimisation requests.
+2026-05-28 18:03:56 - app_logger - INFO - get_all_requests:111 - Returning 9 request(s).
+2026-05-28 18:03:56 - fue_calculation_logger - INFO - get_role_details:36 - Fetching role details for system: 'SYS_2'
+2026-05-28 18:03:56 - app_logger - INFO - get_role_lice_data_summary_tablename:86 - Generated role license summary info table name for system 'SYS_2'
+2026-05-28 18:03:56 - app_logger - INFO - get_agr_users_tablename:34 - Generated user role mapping agr_users table name for system 'SYS_2'
+2026-05-28 18:03:58 - fue_calculation_logger - INFO - get_role_details:77 - Successfully fetched 2681 roles for system 'SYS_2'.
+2026-05-28 18:03:58 - app_logger - INFO - get_results_by_request_id:138 - Fetching AI results for req_id='REQ100005'.
+2026-05-28 18:03:58 - app_logger - INFO - get_sim_results_by_request_id:186 - Fetching sim results for req_id='REQ100005', system='SYS_2'.
+2026-05-28 18:03:58 - app_logger - INFO - get_results_by_request_id:148 - Found 3 AI result row(s) for req_id='REQ100005'.
+2026-05-28 18:03:58 - app_logger - INFO - get_license_types_endpoint:244 - License-types requested for system='SYS_2'.
+2026-05-28 18:03:58 - app_logger - INFO - get_sim_results_by_request_id:199 - Found 1 sim result row(s) for req_id='REQ100005'.
+2026-05-28 18:03:58 - app_logger - INFO - get_role_lice_data_summary_tablename:86 - Generated role license summary info table name for system 'SYS_2'
+2026-05-28 18:03:58 - app_logger - INFO - create_role_lic_summary_model:531 - Model for table 'Z_FUE_SYS_2_ROLE_LICENSE_SUMMARY' found in cache. Returning cached model.
+2026-05-28 18:03:58 - app_logger - INFO - get_license_types_endpoint:249 - Returning 4 license type(s) for system='SYS_2'.
+2026-05-28 18:04:32 - app_logger - INFO - get_sim_results_by_request_id:186 - Fetching sim results for req_id='REQ100005', system='SYS_2'.
+2026-05-28 18:04:32 - app_logger - INFO - get_results_by_request_id:138 - Fetching AI results for req_id='REQ100005'.
+2026-05-28 18:04:32 - app_logger - INFO - get_sim_results_by_request_id:199 - Found 1 sim result row(s) for req_id='REQ100005'.
+2026-05-28 18:04:32 - app_logger - INFO - get_results_by_request_id:148 - Found 3 AI result row(s) for req_id='REQ100005'.
+2026-05-28 18:05:00 - app_logger - INFO - get_all_requests:108 - Request received — list all optimisation requests.
+2026-05-28 18:05:00 - app_logger - INFO - get_all_requests:111 - Returning 9 request(s).
+2026-05-28 18:05:04 - app_logger - INFO - get_sim_results_by_request_id:186 - Fetching sim results for req_id='REQ100005', system='SYS_2'.
+2026-05-28 18:05:04 - app_logger - INFO - get_results_by_request_id:138 - Fetching AI results for req_id='REQ100005'.
+2026-05-28 18:05:04 - app_logger - INFO - get_sim_results_by_request_id:199 - Found 1 sim result row(s) for req_id='REQ100005'.
+2026-05-28 18:05:04 - app_logger - INFO - get_results_by_request_id:148 - Found 3 AI result row(s) for req_id='REQ100005'.
+2026-05-29 15:04:11 - app_logger - INFO - get_all_requests:108 - Request received — list all optimisation requests.
+2026-05-29 15:04:11 - app_logger - INFO - get_all_requests:111 - Returning 9 request(s).
+2026-05-29 15:04:11 - app_logger - INFO - get_results_by_request_id:138 - Fetching AI results for req_id='REQ100005'.
+2026-05-29 15:04:11 - app_logger - INFO - get_sim_results_by_request_id:186 - Fetching sim results for req_id='REQ100005', system='SYS_2'.
+2026-05-29 15:04:11 - app_logger - INFO - get_sim_results_by_request_id:199 - Found 1 sim result row(s) for req_id='REQ100005'.
+2026-05-29 15:04:11 - app_logger - INFO - get_results_by_request_id:148 - Found 3 AI result row(s) for req_id='REQ100005'.
+2026-05-29 15:04:12 - app_logger - INFO - get_sim_results_by_request_id:186 - Fetching sim results for req_id='REQ100005', system='SYS_2'.
+2026-05-29 15:04:12 - app_logger - INFO - get_results_by_request_id:138 - Fetching AI results for req_id='REQ100005'.
+2026-05-29 15:04:12 - app_logger - INFO - get_sim_results_by_request_id:199 - Found 1 sim result row(s) for req_id='REQ100005'.
+2026-05-29 15:04:12 - app_logger - INFO - get_results_by_request_id:148 - Found 3 AI result row(s) for req_id='REQ100005'.
+2026-05-29 15:04:13 - app_logger - INFO - get_all_requests:108 - Request received — list all optimisation requests.
+2026-05-29 15:04:13 - app_logger - INFO - get_all_requests:111 - Returning 9 request(s).
+2026-05-29 15:04:14 - app_logger - INFO - get_results_by_request_id:138 - Fetching AI results for req_id='REQ100005'.
+2026-05-29 15:04:14 - app_logger - INFO - get_sim_results_by_request_id:186 - Fetching sim results for req_id='REQ100005', system='SYS_2'.
+2026-05-29 15:04:14 - app_logger - INFO - get_results_by_request_id:148 - Found 3 AI result row(s) for req_id='REQ100005'.
+2026-05-29 15:04:14 - app_logger - INFO - get_sim_results_by_request_id:199 - Found 1 sim result row(s) for req_id='REQ100005'.
+2026-05-29 15:04:16 - app_logger - INFO - get_fue_dashboard:1128 - [Stage 6] Fetching FUE Dashboard for SYS_2
+2026-05-29 15:04:16 - app_logger - INFO - get_user_role_summary_tablename:96 - Generated user-role summary license table name for system 'SYS_2'
+2026-05-29 15:04:16 - app_logger - INFO - create_user_lic_summary_model:577 - Model for table 'Z_FUE_SYS_2_USER_LICENSE_SUMMARY' not in cache. Creating a new dynamic model.
+2026-05-29 15:04:16 - app_logger - INFO - create_user_lic_summary_model:586 - Successfully created dynamic model for table 'Z_FUE_SYS_2_USER_LICENSE_SUMMARY'
+2026-05-29 15:04:16 - app_logger - INFO - get_role_lice_data_summary_tablename:86 - Generated role license summary info table name for system 'SYS_2'
+2026-05-29 15:04:16 - app_logger - INFO - create_role_lic_summary_model:531 - Model for table 'Z_FUE_SYS_2_ROLE_LICENSE_SUMMARY' found in cache. Returning cached model.
+2026-05-29 15:26:00 - app_logger - INFO - get_fue_dashboard:1128 - [Stage 6] Fetching FUE Dashboard for SYS_2
+2026-05-29 15:26:00 - app_logger - INFO - get_user_role_summary_tablename:96 - Generated user-role summary license table name for system 'SYS_2'
+2026-05-29 15:26:00 - app_logger - INFO - create_user_lic_summary_model:575 - Model for table 'Z_FUE_SYS_2_USER_LICENSE_SUMMARY' found in cache. Returning cached model.
+2026-05-29 15:26:00 - app_logger - INFO - get_role_lice_data_summary_tablename:86 - Generated role license summary info table name for system 'SYS_2'
+2026-05-29 15:26:00 - app_logger - INFO - create_role_lic_summary_model:531 - Model for table 'Z_FUE_SYS_2_ROLE_LICENSE_SUMMARY' found in cache. Returning cached model.
+2026-05-29 15:29:06 - app_logger - INFO - get_fue_dashboard:1128 - [Stage 6] Fetching FUE Dashboard for SYS_2
+2026-05-29 15:29:06 - app_logger - INFO - get_user_role_summary_tablename:96 - Generated user-role summary license table name for system 'SYS_2'
+2026-05-29 15:29:06 - app_logger - INFO - create_user_lic_summary_model:575 - Model for table 'Z_FUE_SYS_2_USER_LICENSE_SUMMARY' found in cache. Returning cached model.
+2026-05-29 15:29:06 - app_logger - INFO - get_role_lice_data_summary_tablename:86 - Generated role license summary info table name for system 'SYS_2'
+2026-05-29 15:29:06 - app_logger - INFO - create_role_lic_summary_model:531 - Model for table 'Z_FUE_SYS_2_ROLE_LICENSE_SUMMARY' found in cache. Returning cached model.
+2026-05-29 15:48:20 - app_logger - INFO - get_fue_dashboard:1128 - [Stage 6] Fetching FUE Dashboard for SYS_2
+2026-05-29 15:48:20 - app_logger - INFO - get_user_role_summary_tablename:96 - Generated user-role summary license table name for system 'SYS_2'
+2026-05-29 15:48:20 - app_logger - INFO - create_user_lic_summary_model:575 - Model for table 'Z_FUE_SYS_2_USER_LICENSE_SUMMARY' found in cache. Returning cached model.
+2026-05-29 15:48:20 - app_logger - INFO - get_role_lice_data_summary_tablename:86 - Generated role license summary info table name for system 'SYS_2'
+2026-05-29 15:48:20 - app_logger - INFO - create_role_lic_summary_model:531 - Model for table 'Z_FUE_SYS_2_ROLE_LICENSE_SUMMARY' found in cache. Returning cached model.
+2026-05-29 17:09:10 - app_logger - INFO - get_fue_dashboard:1128 - [Stage 6] Fetching FUE Dashboard for SYS_2
+2026-05-29 17:09:10 - app_logger - INFO - get_user_role_summary_tablename:96 - Generated user-role summary license table name for system 'SYS_2'
+2026-05-29 17:09:10 - app_logger - INFO - create_user_lic_summary_model:575 - Model for table 'Z_FUE_SYS_2_USER_LICENSE_SUMMARY' found in cache. Returning cached model.
+2026-05-29 17:09:10 - app_logger - INFO - get_role_lice_data_summary_tablename:86 - Generated role license summary info table name for system 'SYS_2'
+2026-05-29 17:09:10 - app_logger - INFO - create_role_lic_summary_model:531 - Model for table 'Z_FUE_SYS_2_ROLE_LICENSE_SUMMARY' found in cache. Returning cached model.
+2026-05-29 17:09:18 - app_logger - INFO - get_all_requests:108 - Request received — list all optimisation requests.
+2026-05-29 17:09:18 - app_logger - INFO - get_all_requests:111 - Returning 9 request(s).
+2026-05-29 17:09:19 - app_logger - INFO - get_all_requests:108 - Request received — list all optimisation requests.
+2026-05-29 17:09:19 - app_logger - INFO - get_all_requests:111 - Returning 9 request(s).
+2026-05-29 17:21:05 - app_logger - INFO - get_all_requests:108 - Request received — list all optimisation requests.
+2026-05-29 17:21:05 - app_logger - INFO - get_all_requests:111 - Returning 9 request(s).
+2026-05-29 17:22:31 - app_logger - INFO - get_all_requests:108 - Request received — list all optimisation requests.
+2026-05-29 17:22:32 - app_logger - INFO - get_all_requests:111 - Returning 9 request(s).
+2026-05-29 18:31:23 - app_logger - INFO - get_fue_dashboard:1128 - [Stage 6] Fetching FUE Dashboard for SYS_2
+2026-05-29 18:31:23 - app_logger - INFO - get_user_role_summary_tablename:96 - Generated user-role summary license table name for system 'SYS_2'
+2026-05-29 18:31:23 - app_logger - INFO - create_user_lic_summary_model:575 - Model for table 'Z_FUE_SYS_2_USER_LICENSE_SUMMARY' found in cache. Returning cached model.
+2026-05-29 18:31:23 - app_logger - INFO - get_role_lice_data_summary_tablename:86 - Generated role license summary info table name for system 'SYS_2'
+2026-05-29 18:31:23 - app_logger - INFO - create_role_lic_summary_model:531 - Model for table 'Z_FUE_SYS_2_ROLE_LICENSE_SUMMARY' found in cache. Returning cached model.
+2026-05-29 18:40:27 - app_logger - INFO - get_all_requests:108 - Request received — list all optimisation requests.
+2026-05-29 18:40:27 - app_logger - INFO - get_all_requests:111 - Returning 9 request(s).
+2026-05-29 18:40:30 - app_logger - INFO - get_all_requests:108 - Request received — list all optimisation requests.
+2026-05-29 18:40:30 - app_logger - INFO - get_all_requests:111 - Returning 9 request(s).
+2026-05-29 19:24:22 - app_logger - INFO - get_fue_dashboard:1128 - [Stage 6] Fetching FUE Dashboard for SYS_2
+2026-05-29 19:24:22 - app_logger - INFO - get_user_role_summary_tablename:96 - Generated user-role summary license table name for system 'SYS_2'
+2026-05-29 19:24:22 - app_logger - INFO - create_user_lic_summary_model:575 - Model for table 'Z_FUE_SYS_2_USER_LICENSE_SUMMARY' found in cache. Returning cached model.
+2026-05-29 19:24:22 - app_logger - INFO - get_role_lice_data_summary_tablename:86 - Generated role license summary info table name for system 'SYS_2'
+2026-05-29 19:24:22 - app_logger - INFO - create_role_lic_summary_model:531 - Model for table 'Z_FUE_SYS_2_ROLE_LICENSE_SUMMARY' found in cache. Returning cached model.
+2026-05-29 19:27:00 - app_logger - INFO - get_fue_dashboard:1128 - [Stage 6] Fetching FUE Dashboard for SYS_2
+2026-05-29 19:27:00 - app_logger - INFO - get_user_role_summary_tablename:96 - Generated user-role summary license table name for system 'SYS_2'
+2026-05-29 19:27:00 - app_logger - INFO - create_user_lic_summary_model:575 - Model for table 'Z_FUE_SYS_2_USER_LICENSE_SUMMARY' found in cache. Returning cached model.
+2026-05-29 19:27:00 - app_logger - INFO - get_role_lice_data_summary_tablename:86 - Generated role license summary info table name for system 'SYS_2'
+2026-05-29 19:27:00 - app_logger - INFO - create_role_lic_summary_model:531 - Model for table 'Z_FUE_SYS_2_ROLE_LICENSE_SUMMARY' found in cache. Returning cached model.
+2026-05-29 19:30:25 - ai_config_logger - INFO - get_api_key_status:282 - API key status check: [('anthropic', 'configured'), ('openai', 'configured'), ('ollama', 'configured')]
+2026-05-29 19:30:25 - ai_config_logger - INFO - get_all_models:40 - Retrieved 3 AI model configurations
+2026-05-29 19:30:25 - ai_config_logger - INFO - get_api_key_status:282 - API key status check: [('anthropic', 'configured'), ('openai', 'configured'), ('ollama', 'configured')]
+2026-05-29 19:30:25 - ai_config_logger - INFO - get_all_models:40 - Retrieved 3 AI model configurations

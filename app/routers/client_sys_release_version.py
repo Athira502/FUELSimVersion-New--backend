@@ -16,7 +16,8 @@ from starlette import status
 
 from app.core.logger import setup_logger, get_daily_log_filename
 from app.models.database import get_db, engine, Base
-from app.models.client_sys_release_version import clientSysReleaseData, ensure_ruleset_table_exists, ruleSet
+from app.models.client_sys_release_version import clientSysReleaseData, ensure_ruleset_table_exists, ruleSet, \
+    ensure_actvt_text_table_exists, actvtText
 from app.schema.SystemSchema import SystemCreate, SystemUpdate, SystemResponse, RuleSetSchema
 from app.models.dynamic_models import (
     get_user_role_data_tablename,
@@ -280,6 +281,10 @@ async def create_or_replace_ruleset(
         )
 
 
+
+
+
+
 @router.delete("/rulesets")
 async def delete_all_rulesets(db: Session = Depends(get_db)):
     """Deletes all records from the Z_FUE_RULESET table."""
@@ -394,3 +399,87 @@ async def truncate_table(system_name: str, table_name: str, db: Session = Depend
         logger.error(f"Error deleting table {table_name}: {e}")
         db.rollback()
         raise HTTPException(status_code=500, detail="Failed to delete table")
+
+
+@router.post("/load-actvt_text", status_code=status.HTTP_201_CREATED)
+async def create_or_replace_actvt_text(
+        file: UploadFile = File(...),
+        db: Session = Depends(get_db)
+):
+    """
+    Deletes all existing data in the Z_FUE_RULESET table
+    and uploads the newly shared data from an .xlsx file.
+    """
+    # 1. Ensure the DB table physically exists
+    ensure_actvt_text_table_exists()
+
+    # 2. Check file extension
+    if not file.filename.endswith('.csv'):
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST,
+            detail="Invalid file format. Please upload a valid CSV file."
+        )
+
+    try:
+        # 3. Read CSV content into memory
+        contents = await file.read()
+        csv_buffer = io.BytesIO(contents)
+
+        # 4. Parse CSV
+        df = pd.read_csv(csv_buffer, dtype=str)
+
+        # Clean up columns
+        df.columns = [str(col).strip().lower() for col in df.columns]
+
+        # 5. Validate required columns
+        required_columns = {"activity", "text"}
+
+        if not required_columns.issubset(set(df.columns)):
+            missing = required_columns - set(df.columns)
+
+            raise HTTPException(
+                status_code=status.HTTP_400_BAD_REQUEST,
+                detail=f"CSV file is missing required columns: {', '.join(missing)}"
+            )
+
+        # 6. CRITICAL STEP: Clear out old ruleset rows completely
+        logger.info("Purging old records from Z_ACTVT_TEXT table...")
+        db.query(actvtText).delete()
+
+        # 7. Map rows into your database SQLAlchemy model instances
+        new_records = []
+        for _, row in df.iterrows():
+
+            entry = actvtText(
+                ACTIVITY=str(row["activity"]).strip(),
+                TEXT=str(row["text"]).strip()
+            )
+            new_records.append(entry)
+
+        if not new_records:
+            db.rollback()
+            raise HTTPException(
+                status_code=status.HTTP_400_BAD_REQUEST,
+                detail="The uploaded Excel sheet contains no valid data rows."
+            )
+
+        # 8. Bulk insert fresh records and commit transaction safely
+        db.bulk_save_objects(new_records)
+        db.commit()
+
+        logger.info(f"Successfully replaced Activity text data. Imported {len(new_records)} records.")
+        return {
+            "status": "success",
+            "message": f"Successfully cleared old configuration rules and imported {len(new_records)} Activity text data."
+        }
+
+    except HTTPException as http_err:
+        db.rollback()
+        raise http_err
+    except Exception as e:
+        db.rollback()
+        logger.error(f"Failed to process Activity text data upload: {str(e)}")
+        raise HTTPException(
+            status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+            detail=f"An error occurred while processing the Excel data: {str(e)}"
+        )

@@ -1,0 +1,72 @@
+You are an SAP FUE licence optimisation expert.
+
+The 1 role(s) below are currently classified as "GB Advanced Use".
+For EACH role, decide if the overall role licence can be reduced, and provide:
+  1. A role-level licence suggestion (suggestedRoleLicense).
+  2. Per auth-object analysis.
+
+Field reference:
+- "value": current assigned value(s), comma-separated when multiple
+- "valueDescriptions": human-readable labels for ACTVT codes (e.g. "01 (Create), 02 (Change)")
+- "possibleValues": all values available in the ruleset for this object/field
+- "relevantTransactionCodes": transactions that require this auth object (system-added objects only)
+- "description": auth object description
+
+Role data:
+[
+  {
+    "role": "ZM_ETO_M_FI",
+    "roleDescription": "ETO: Role for Finance access",
+    "currentLicense": "GB Advanced Use",
+    "authorizationObjects": [
+      {
+        "object": "F_BKPF_BLA",
+        "field": "ACTVT",
+        "value": "06, 10, 22, 43, 85",
+        "description": "Accounting Document: Authorization for Document Types",
+        "possibleValues": "*, 01, 02, 03, 04, 06, 08, 10, 22, 43, 77, 85, F4",
+        "valueDescriptions": "06 (Delete), 10 (Post), 22 (Enter, Include, Assign), 43 (Release), 85 (Reverse)",
+        "relevantTransactionCodes": ""
+      },
+      {
+        "object": "K_CBPR_SET",
+        "field": "ACTVT",
+        "value": "02",
+        "description": "CO-ABC: Business Process Groups",
+        "possibleValues": "*, 02, 03, F4",
+        "valueDescriptions": "02 (Change)",
+        "relevantTransactionCodes": ""
+      },
+      {
+        "object": "K_TP_VALU",
+        "field": "ACTVT",
+        "value": "02, 10",
+        "description": "Transfer Price Valuations",
+        "possibleValues": "*, 02, 03, 10, 16",
+        "valueDescriptions": "02 (Change), 10 (Post)",
+        "relevantTransactionCodes": ""
+      }
+    ],
+    "transactionCodes": [],
+    "fioriApps": []
+  }
+]
+
+Return ONLY a valid JSON array — no markdown, no preamble — in EXACTLY this structure:
+[
+  {
+    "role": "<AGR_NAME>",
+    "suggestedRoleLicense": "<GB Advanced Use | GC Core Use | GD Self-Service Use | No Change>",
+    "objects": [
+      {
+        "authorizationObject": "<OBJECT>",
+        "field":               "<FIELD>",
+        "value":               "<VALUE>",
+        "licenseCanBeReduced": "Yes | No | May Be",
+        "insights":            "<short reason>",
+        "recommendation":      "<short action>",
+        "explanation":         "<detailed analysis considering transaction codes, value descriptions and possible values>"
+      }
+    ]
+  }
+]

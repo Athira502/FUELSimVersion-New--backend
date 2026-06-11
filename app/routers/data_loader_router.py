@@ -603,61 +603,6 @@ async def get_latest_logs(db: Session = Depends(get_db)):
         raise HTTPException(status_code=500, detail="Internal server error")
 
 
-#
-# @router.post("/create-role-obj-lic-simulation-table")
-# async def create_role_obj_lic_simulation_table_endpoint(
-#         client_name: str = Query(..., min_length=1),
-#         system_name: str= Query(..., min_length=1),
-#         system_release_info: str= Query(..., min_length=1),
-#         db: Session = Depends(get_db)
-# ):
-#     logger.info(
-#         f"Received request to create_role_obj_lic_simulation_table for client: '{client_name}', system: '{system_name}', release: '{system_release_info}'")
-#     logger.debug(
-#         f"Received request to create_role_obj_lic_simulation_table for client: '{client_name}', system: '{system_name}', release: '{system_release_info}'")
-#     print(f"Creating simulation table for client: {client_name}, system: {system_name}")
-#
-#     await ensure_client_system_info(db, client_name, system_name, system_release_info)
-#
-#     log_entry = logData(
-#         FILENAME="role_obj_lic_simulation_table_creation",
-#         CLIENT_NAME=client_name,
-#         SYSTEM_NAME=system_name,
-#         SYSTEM_RELEASE_INFO=system_release_info,
-#         STATUS="In Progress"
-#     )
-#     db.add(log_entry)
-#     db.commit()
-#     log_id = log_entry.id
-#
-#     try:
-#         from app.service.data_loader_service import create_and_populate_role_obj_lic_sim_table
-#
-#         result = await create_and_populate_role_obj_lic_sim_table(
-#             db=db,
-#             client_name=client_name,
-#             system_name=system_name
-#         )
-#         logger.info(f"created and populated role_obj_lic_sim_table")
-#
-#         db.query(logData).filter(logData.id == log_id).update(
-#             {"STATUS": "Success"}
-#         )
-#         db.commit()
-#
-#         return result
-#
-#     except Exception as e:
-#         db.query(logData).filter(logData.id == log_id).update(
-#             {"STATUS": "Failed", "LOG_DATA": str(e)}
-#         )
-#         db.commit()
-#
-#         raise HTTPException(
-#             status_code=500,
-#             detail=f"Error creating simulation table: {str(e)}"
-#         )
-#
 
 # ─────────────────────────────────────────────────────────────────────────────
 # License priority map — lower number = more restrictive = higher FUE cost
@@ -1032,8 +977,56 @@ async def compute_userlicsummary(system_name: str, db: Session = Depends(get_db)
 
         db.commit()
         count = db.query(UserLicSummaryModel).count()
-        logger.info(f"[Stage 5] Done — {count} rows written to UserLicSummary")
+        try:
+            FUE_FACTORS = {
+                'GB Advanced Use': 1.0,
+                'GC Core Use': 0.2,
+                'GD Self-Service Use': 0.0333,
+            }
+            from collections import Counter
+            lic_counts = Counter()
+            for row in db.query(UserLicSummaryModel).all():
+                lic_counts[row.CLASSIFY_LIC or 'Not Classified'] += 1
+
+            gb = lic_counts.get('GB Advanced Use', 0)
+            gc = lic_counts.get('GC Core Use', 0)
+            gd = lic_counts.get('GD Self-Service Use', 0)
+            nc = lic_counts.get('Not Classified', 0)
+
+            gb_fue = math.ceil(gb * FUE_FACTORS['GB Advanced Use'])
+            gc_fue = math.ceil(gc * FUE_FACTORS['GC Core Use'])
+            gd_fue = math.ceil(gd * FUE_FACTORS['GD Self-Service Use'])
+            total_fue = gb_fue + gc_fue + gd_fue
+
+            year_month = datetime.now().strftime('%Y-%m')
+
+            # Create table if needed
+            FUEHistory.__table__.create(bind=db.get_bind(), checkfirst=True)
+
+            history_row = FUEHistory(
+                SYSTEM_NAME=system_name,
+                SNAPSHOT_DATE=datetime.now(),
+                YEAR_MONTH=year_month,
+                GB_USERS=gb,
+                GC_USERS=gc,
+                GD_USERS=gd,
+                NC_USERS=nc,
+                TOTAL_USERS=gb + gc + gd + nc,
+                GB_FUE=gb_fue,
+                GC_FUE=gc_fue,
+                GD_FUE=gd_fue,
+                TOTAL_FUE=total_fue,
+            )
+            db.add(history_row)
+            db.commit()
+            logger.info(f"[Stage 5] FUE history snapshot saved: {year_month} → total_fue={total_fue}")
+        except Exception as e:
+            logger.error(f"[Stage 5] Failed to save FUE history: {e}", exc_info=True)
+            # Don't fail the main compute for this
+
         return {"status": "success", "rows_written": count}
+        # logger.info(f"[Stage 5] Done — {count} rows written to UserLicSummary")
+        # return {"status": "success", "rows_written": count}
 
     except Exception as e:
         db.rollback()
@@ -1217,3 +1210,47 @@ async def get_fue_dashboard(system_name: str, db: Session = Depends(get_db)):
     except Exception as e:
         logger.error(f"[Stage 6] Error: {e}", exc_info=True)
         raise HTTPException(status_code=500, detail=str(e))
+
+
+from app.models.fue_history import FUEHistory
+from sqlalchemy import func as sqla_func
+
+@router.get("/fue/{system_name}/history")
+async def get_fue_history(system_name: str, db: Session = Depends(get_db)):
+    """Returns monthly averaged FUE for last 12 months for trend chart."""
+    try:
+        FUEHistory.__table__.create(bind=db.get_bind(), checkfirst=True)
+
+        # Average per YEAR_MONTH in case multiple snapshots exist in same month
+        rows = (
+            db.query(
+                FUEHistory.YEAR_MONTH,
+                sqla_func.avg(FUEHistory.GB_FUE).label("gb_fue"),
+                sqla_func.avg(FUEHistory.GC_FUE).label("gc_fue"),
+                sqla_func.avg(FUEHistory.GD_FUE).label("gd_fue"),
+                sqla_func.avg(FUEHistory.TOTAL_FUE).label("total_fue"),
+            )
+            .filter(FUEHistory.SYSTEM_NAME == system_name)
+            .group_by(FUEHistory.YEAR_MONTH)
+            .order_by(FUEHistory.YEAR_MONTH.desc())
+            .limit(12)
+            .all()
+        )
+
+        # Return in ascending order for chart
+        result = [
+            {
+                "month":     row.YEAR_MONTH,
+                "gb_fue":    round(row.gb_fue or 0),
+                "gc_fue":    round(row.gc_fue or 0),
+                "gd_fue":    round(row.gd_fue or 0),
+                "total_fue": round(row.total_fue or 0),
+            }
+            for row in reversed(rows)
+        ]
+        return {"system_name": system_name, "history": result}
+
+    except Exception as e:
+        logger.error(f"FUE history fetch error: {e}", exc_info=True)
+        raise HTTPException(status_code=500, detail=str(e))
+

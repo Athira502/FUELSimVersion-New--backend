@@ -362,21 +362,23 @@ async def verify_api_key(provider: str):
 
 # ==================== HELPER FUNCTIONS ====================
 
+
 def check_api_key_exists(provider: str) -> bool:
-    """Check if API key exists in environment for given provider"""
+    # Ollama is local — no API key needed
+    if provider.lower() == "ollama":
+        return True
+
     env_vars = {
         "anthropic": "ANTHROPIC_API_KEY",
         "openai": "OPENAI_API_KEY",
-        "ollama": "OLLAMA_API_KEY"
-
     }
-
     env_var_name = env_vars.get(provider.lower())
     if not env_var_name:
         return False
-
     api_key = os.getenv(env_var_name)
     return bool(api_key and api_key.strip())
+
+
 
 
 def get_active_ai_config(db: Session) -> AIModelConfig:

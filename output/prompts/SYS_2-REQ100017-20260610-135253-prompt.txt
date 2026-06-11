@@ -1,0 +1,54 @@
+You are an SAP FUE licence optimisation expert.
+
+The 1 role(s) below are currently classified as "GB Advanced Use".
+For EACH role, decide if the overall role licence can be reduced, and provide:
+  1. A role-level licence suggestion (suggestedRoleLicense).
+  2. Per auth-object analysis.
+
+Field reference:
+- "value": current assigned value(s), comma-separated when multiple
+- "valueDescriptions": human-readable labels for ACTVT codes (e.g. "01 (Create), 02 (Change)")
+- "possibleValues": all values available in the ruleset for this object/field
+- "relevantTransactionCodes": transactions that require this auth object (system-added objects only)
+- "description": auth object description
+
+Role data:
+[
+  {
+    "role": "Z:FI:FDBD:MD",
+    "roleDescription": "FTM Finance Master Data : FDBD",
+    "currentLicense": "GB Advanced Use",
+    "authorizationObjects": [
+      {
+        "object": "K_PCAR_REP",
+        "field": "ACTVT",
+        "value": "01, 02",
+        "description": "EC-PCA: Summary and Line Item Reports",
+        "possibleValues": "*, 01, 02, 03, 06, 27, 28, 29, 76, F4",
+        "valueDescriptions": "01 (Add or Create), 02 (Change)",
+        "relevantTransactionCodes": ""
+      }
+    ],
+    "transactionCodes": [],
+    "fioriApps": []
+  }
+]
+
+Return ONLY a valid JSON array — no markdown, no preamble — in EXACTLY this structure:
+[
+  {
+    "role": "<AGR_NAME>",
+    "suggestedRoleLicense": "<GB Advanced Use | GC Core Use | GD Self-Service Use | No Change>",
+    "objects": [
+      {
+        "authorizationObject": "<OBJECT>",
+        "field":               "<FIELD>",
+        "value":               "<VALUE>",
+        "licenseCanBeReduced": "Yes | No | May Be",
+        "insights":            "<short reason>",
+        "recommendation":      "<short action>",
+        "explanation":         "<detailed analysis considering transaction codes, value descriptions and possible values>"
+      }
+    ]
+  }
+]

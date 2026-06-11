@@ -1,0 +1,76 @@
+{
+    "Z:MDM:FDBD:MASTERDATA:CHANGE": [
+        {
+            "authorizationObject": "ITM_CLS_NC",
+            "field": "ACTVT",
+            "value": "02",
+            "licenseCanBeReduced": "No",
+            "insights": "Trade classification content requires professional license",
+            "recommendation": "Keep as-is for trade classification management",
+            "explanation": "ITM_CLS_NC controls trade classification numbering scheme content. Value 02 (change) is a professional activity that requires GB Advanced Use license for managing international trade classifications"
+        },
+        {
+            "authorizationObject": "ITM_CLS_NS",
+            "field": "ACTVT",
+            "value": "02",
+            "licenseCanBeReduced": "No",
+            "insights": "Trade classification scheme requires professional license",
+            "recommendation": "Keep as-is for trade classification management",
+            "explanation": "ITM_CLS_NS controls trade classification numbering schemes. Value 02 (change) is a professional activity that requires GB Advanced Use license for managing trade classification systems"
+        },
+        {
+            "authorizationObject": "M_EINF_EKG",
+            "field": "ACTVT",
+            "value": "01",
+            "licenseCanBeReduced": "No",
+            "insights": "Creating purchasing info records requires professional license",
+            "recommendation": "Keep as-is for procurement master data",
+            "explanation": "M_EINF_EKG with value 01 (create) allows creation of purchasing info records via ME11. This is core procurement master data management requiring GB Advanced Use license"
+        },
+        {
+            "authorizationObject": "M_EINF_EKG",
+            "field": "ACTVT",
+            "value": "06",
+            "licenseCanBeReduced": "No",
+            "insights": "Deleting purchasing info records requires professional license",
+            "recommendation": "Keep as-is for procurement master data",
+            "explanation": "M_EINF_EKG with value 06 (delete) allows deletion of purchasing info records via ME15. This is critical procurement master data management requiring GB Advanced Use license"
+        },
+        {
+            "authorizationObject": "M_EINF_EKO",
+            "field": "ACTVT",
+            "value": "01",
+            "licenseCanBeReduced": "No",
+            "insights": "Creating purchasing org data requires professional license",
+            "recommendation": "Keep as-is for procurement master data",
+            "explanation": "M_EINF_EKO with value 01 (create) controls purchasing organization data in info records and is used by ME11, CS01, QP01. This is professional procurement and engineering activity"
+        },
+        {
+            "authorizationObject": "M_EINF_EKO",
+            "field": "ACTVT",
+            "value": "06",
+            "licenseCanBeReduced": "No",
+            "insights": "Deleting purchasing org data requires professional license",
+            "recommendation": "Keep as-is for procurement master data",
+            "explanation": "M_EINF_EKO with value 06 (delete) allows deletion of purchasing organization data via ME15. This is critical procurement master data management requiring GB Advanced Use license"
+        },
+        {
+            "authorizationObject": "M_EINF_WRK",
+            "field": "ACTVT",
+            "value": "01",
+            "licenseCanBeReduced": "No",
+            "insights": "Creating plant-level info records requires professional license",
+            "recommendation": "Keep as-is for procurement master data",
+            "explanation": "M_EINF_WRK with value 01 (create) controls plant data in purchasing info records and is used by ME11, CS01, QP01. This is professional procurement and engineering activity"
+        },
+        {
+            "authorizationObject": "M_EINF_WRK",
+            "field": "ACTVT",
+            "value": "06",
+            "licenseCanBeReduced": "No",
+            "insights": "Deleting plant-level info records requires professional license",
+            "recommendation": "Keep as-is for procurement master data",
+            "explanation": "M_EINF_WRK with value 06 (delete) allows deletion of plant data in purchasing info records via ME15. This is critical procurement master data management requiring GB Advanced Use license"
+        }
+    ]
+}

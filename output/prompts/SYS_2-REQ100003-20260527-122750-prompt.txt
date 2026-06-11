@@ -1,0 +1,333 @@
+You are an SAP FUE licence optimisation expert.
+System: SYS_2
+SAP Info: S4 HANA OnPremise 1909 Initial Support Pack
+
+The 1 role(s) below are currently classified as "GB Advanced Use".
+For EACH role, decide if the overall role licence can be reduced, and provide:
+  1. A role-level licence suggestion (suggestedRoleLicense).
+  2. Per auth-object analysis.
+
+Role data:
+[
+  {
+    "role": "Z:MDM:FDBD:MASTERDATA:CHANGE",
+    "roleDescription": "MDM MasterData - Change",
+    "currentLicense": "GB Advanced Use",
+    "authorizationObjects": [
+      {
+        "object": "ITM_CLS_NC",
+        "field": "ACTVT",
+        "value": "02",
+        "description": "Trade Classification: Auth. for Numbering Scheme Content",
+        "possibleValues": "*, 02, 03, F4",
+        "relevantTransactionCodes": ""
+      },
+      {
+        "object": "ITM_CLS_NS",
+        "field": "ACTVT",
+        "value": "02",
+        "description": "Trade Classification: Authorization for Numbering Scheme",
+        "possibleValues": "*, 02, 03, F4",
+        "relevantTransactionCodes": ""
+      },
+      {
+        "object": "M_EINF_EKG",
+        "field": "ACTVT",
+        "value": "01",
+        "description": "Purchasing Group in Purchasing Info Record",
+        "possibleValues": "*, 01, 02, 03, 06, 08, F4",
+        "relevantTransactionCodes": "ME11 (Create Purchasing Info Record), ME12 (Change Purchasing Info Record), ME15 (Mark Purch. Info Rec. for Deletion)"
+      },
+      {
+        "object": "M_EINF_EKG",
+        "field": "ACTVT",
+        "value": "06",
+        "description": "Purchasing Group in Purchasing Info Record",
+        "possibleValues": "*, 01, 02, 03, 06, 08, F4",
+        "relevantTransactionCodes": "ME11 (Create Purchasing Info Record), ME12 (Change Purchasing Info Record), ME15 (Mark Purch. Info Rec. for Deletion)"
+      },
+      {
+        "object": "M_EINF_EKO",
+        "field": "ACTVT",
+        "value": "01",
+        "description": "Purchasing Organization in Purchasing Info Record",
+        "possibleValues": "*, 01, 02, 03, 06, 08, F4",
+        "relevantTransactionCodes": "CS01 (Create Material BoM), ME11 (Create Purchasing Info Record), ME12 (Change Purchasing Info Record), ME15 (Mark Purch. Info Rec. for Deletion), QP01 (Create Inspection Plan)"
+      },
+      {
+        "object": "M_EINF_EKO",
+        "field": "ACTVT",
+        "value": "06",
+        "description": "Purchasing Organization in Purchasing Info Record",
+        "possibleValues": "*, 01, 02, 03, 06, 08, F4",
+        "relevantTransactionCodes": "CS01 (Create Material BoM), ME11 (Create Purchasing Info Record), ME12 (Change Purchasing Info Record), ME15 (Mark Purch. Info Rec. for Deletion), QP01 (Create Inspection Plan)"
+      },
+      {
+        "object": "M_EINF_WRK",
+        "field": "ACTVT",
+        "value": "01",
+        "description": "Plant in Purchasing Info Record",
+        "possibleValues": "*, 01, 02, 03, 06, 08, F4",
+        "relevantTransactionCodes": "CS01 (Create Material BoM), ME11 (Create Purchasing Info Record), ME12 (Change Purchasing Info Record), ME15 (Mark Purch. Info Rec. for Deletion), QP01 (Create Inspection Plan)"
+      },
+      {
+        "object": "M_EINF_WRK",
+        "field": "ACTVT",
+        "value": "06",
+        "description": "Plant in Purchasing Info Record",
+        "possibleValues": "*, 01, 02, 03, 06, 08, F4",
+        "relevantTransactionCodes": "CS01 (Create Material BoM), ME11 (Create Purchasing Info Record), ME12 (Change Purchasing Info Record), ME15 (Mark Purch. Info Rec. for Deletion), QP01 (Create Inspection Plan)"
+      }
+    ],
+    "transactionCodes": [
+      {
+        "tcode": "/SAPAPO/MAT1",
+        "description": "Product"
+      },
+      {
+        "tcode": "/SCWM/BINMAT",
+        "description": "Maintain Fixed Storage Bins"
+      },
+      {
+        "tcode": "/SCWM/MAT1",
+        "description": "Whse Product"
+      },
+      {
+        "tcode": "/SCWM/MON",
+        "description": "Warehouse Management Monitor"
+      },
+      {
+        "tcode": "/SCWM/PSASTAGE",
+        "description": "Assign Bin to PSA/Product/Entitled"
+      },
+      {
+        "tcode": "C201",
+        "description": "Create Master Recipe"
+      },
+      {
+        "tcode": "C202",
+        "description": "Change Master Recipe"
+      },
+      {
+        "tcode": "C223",
+        "description": "Maintain Production Versions"
+      },
+      {
+        "tcode": "CA86",
+        "description": "Master recipe: replace resources"
+      },
+      {
+        "tcode": "CC01",
+        "description": "Create Change Master"
+      },
+      {
+        "tcode": "CC02",
+        "description": "Change Change Master"
+      },
+      {
+        "tcode": "CC07",
+        "description": "Engineering Change Mgmt information"
+      },
+      {
+        "tcode": "CL24N",
+        "description": "Class Assignments"
+      },
+      {
+        "tcode": "COB1",
+        "description": "Create Search Strat. for Production"
+      },
+      {
+        "tcode": "COB2",
+        "description": "Manage Search Strat. for Production"
+      },
+      {
+        "tcode": "CRC1",
+        "description": "Create Resource"
+      },
+      {
+        "tcode": "CRC2",
+        "description": "Change Resource"
+      },
+      {
+        "tcode": "CS01",
+        "description": "Create Material BoM"
+      },
+      {
+        "tcode": "CS02",
+        "description": "Change Material BoM"
+      },
+      {
+        "tcode": "CS80",
+        "description": "Change Documents for Material BoM"
+      },
+      {
+        "tcode": "CT04",
+        "description": "Characteristics"
+      },
+      {
+        "tcode": "CU41",
+        "description": "Create Configuration Profile"
+      },
+      {
+        "tcode": "CU42",
+        "description": "Change Configuration Profile"
+      },
+      {
+        "tcode": "DVR1",
+        "description": "Create Derivation Record (Receiver)"
+      },
+      {
+        "tcode": "DVR2",
+        "description": "Change Derivation Record (Receiver)"
+      },
+      {
+        "tcode": "DVS1",
+        "description": "Create Derivation Record (Sender)"
+      },
+      {
+        "tcode": "DVS2",
+        "description": "Change Derivation Record (Sender)"
+      },
+      {
+        "tcode": "LPK1",
+        "description": "Create Control Cycle for WM"
+      },
+      {
+        "tcode": "LPK2",
+        "description": "Change Control Cycle for WM"
+      },
+      {
+        "tcode": "MDPH",
+        "description": "Planning Profile"
+      },
+      {
+        "tcode": "ME01",
+        "description": "Maintain Source List"
+      },
+      {
+        "tcode": "ME11",
+        "description": "Create Purchasing Info Record"
+      },
+      {
+        "tcode": "ME12",
+        "description": "Change Purchasing Info Record"
+      },
+      {
+        "tcode": "ME15",
+        "description": "Mark Purch. Info Rec. for Deletion"
+      },
+      {
+        "tcode": "MM01",
+        "description": "Create Material &"
+      },
+      {
+        "tcode": "MM02",
+        "description": "Change Material &"
+      },
+      {
+        "tcode": "MM06",
+        "description": "Flag Material for Deletion"
+      },
+      {
+        "tcode": "MM11",
+        "description": "Schedule Creation of Material &"
+      },
+      {
+        "tcode": "MM12",
+        "description": "Schedule Changing of Material &"
+      },
+      {
+        "tcode": "MM13",
+        "description": "Activate Planned Changes"
+      },
+      {
+        "tcode": "MM16",
+        "description": "Schedule Material for Deletion"
+      },
+      {
+        "tcode": "MM17",
+        "description": "Mass Maintenance: Indus. Matl Master"
+      },
+      {
+        "tcode": "MMAM",
+        "description": "Change Material Type"
+      },
+      {
+        "tcode": "MMSC",
+        "description": "Enter Storage Locations Collectively"
+      },
+      {
+        "tcode": "MMSC_MASS",
+        "description": "Maintain Storage Locations Coll."
+      },
+      {
+        "tcode": "PK05",
+        "description": "PP Maintain Supply Area (Kanban)"
+      },
+      {
+        "tcode": "QA08",
+        "description": "Collective Processing of Insp. Setup"
+      },
+      {
+        "tcode": "QP01",
+        "description": "Create Inspection Plan"
+      },
+      {
+        "tcode": "SM35",
+        "description": "Batch Input Monitoring"
+      },
+      {
+        "tcode": "VD51",
+        "description": "Maintain Customer Material"
+      },
+      {
+        "tcode": "VD52",
+        "description": "Maintain Cust-Mat.Info w/Select.Scrn"
+      },
+      {
+        "tcode": "ZQP02",
+        "description": "Change Inspection Plan"
+      },
+      {
+        "tcode": "Z_PIR_MASSCREATION",
+        "description": "Mass Update Purchasing Info Record"
+      },
+      {
+        "tcode": "Z_SL_MASSCREATION",
+        "description": "Mass Update Source Lists"
+      }
+    ],
+    "fioriApps": []
+  }
+]
+
+Each authorization object includes:
+- object: Authorization object name
+- field: Authorization field name
+- value: Current value
+- description: Object description
+- possibleValues: Available values from the ruleset for this object/field combination
+- relevantTransactionCodes: Transaction codes that use this authorization object (only for system-added objects)
+
+Each transaction code includes:
+- tcode: Transaction code
+- description: Transaction description
+
+Return ONLY a valid JSON array — no markdown, no preamble — in EXACTLY this structure:
+[
+  {
+    "role": "<AGR_NAME>",
+    "suggestedRoleLicense": "<GB Advanced Use | GC Core Use | GD Self-Service Use | No Change>",
+    "objects": [
+      {
+        "authorizationObject": "<OBJECT>",
+        "field":               "<FIELD>",
+        "value":               "<VALUE>",
+        "licenseCanBeReduced": "Yes | No | May Be",
+        "insights":            "<short reason>",
+        "recommendation":      "<short action>",
+        "explanation":         "<detailed analysis considering transaction codes and possible values>"
+      }
+    ]
+  }
+]

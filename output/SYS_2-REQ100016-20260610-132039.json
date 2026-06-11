@@ -1,0 +1,13 @@
+{
+    "Z:FI:FDBD:MD": [
+        {
+            "authorizationObject": "K_PCAR_REP",
+            "field": "ACTVT",
+            "value": "01, 02",
+            "licenseCanBeReduced": "Yes",
+            "insights": "Only Create/Change activities for EC-PCA reporting, typical finance master data maintenance",
+            "recommendation": "Maintain current values - appropriate for Core Use",
+            "explanation": "This authorization object K_PCAR_REP controls access to EC-PCA (Enterprise Controlling - Profit Center Accounting) summary and line item reports. The assigned values 01 (Create) and 02 (Change) are standard maintenance activities for financial master data. Since this role is specifically for Finance Master Data maintenance (as indicated by the role description 'FTM Finance Master Data : FDBD'), these activities align with Core Use licensing. The role has no transaction codes or Fiori apps assigned, and the single authorization object is for basic financial data maintenance, not advanced analytics or strategic functions."
+        }
+    ]
+}

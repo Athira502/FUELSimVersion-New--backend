@@ -1,0 +1,31 @@
+{
+    "ZM_ETO_M_FI": [
+        {
+            "authorizationObject": "F_BKPF_BLA",
+            "field": "ACTVT",
+            "value": "06, 10, 22, 43, 85",
+            "licenseCanBeReduced": "No",
+            "insights": "Critical financial posting and modification capabilities",
+            "recommendation": "Maintain current values for financial document processing",
+            "explanation": "This authorization enables core financial document operations including posting (10), deletion (06), assignment (22), release (43), and reversal (85). These are essential transactional activities that directly impact financial records and require Advanced Use licensing. Removing any of these would significantly impair finance team functionality."
+        },
+        {
+            "authorizationObject": "K_CBPR_SET",
+            "field": "ACTVT",
+            "value": "02",
+            "licenseCanBeReduced": "May Be",
+            "insights": "Only change access to CO-ABC business process groups",
+            "recommendation": "Consider if change access is necessary or if display (03) would suffice",
+            "explanation": "Currently has change (02) authorization for Activity-Based Costing business process groups. If users only need to view these settings rather than modify them, this could be reduced to display (03) only. However, this alone would not change the overall license type due to other advanced authorizations in the role."
+        },
+        {
+            "authorizationObject": "K_TP_VALU",
+            "field": "ACTVT",
+            "value": "02, 10",
+            "licenseCanBeReduced": "No",
+            "insights": "Transfer pricing change and posting capabilities required",
+            "recommendation": "Maintain current values for transfer pricing operations",
+            "explanation": "Provides change (02) and post (10) access to transfer price valuations, which are transactional activities essential for intercompany pricing management. These posting capabilities are characteristic of Advanced Use licensing and likely required for the finance team's operational duties."
+        }
+    ]
+}

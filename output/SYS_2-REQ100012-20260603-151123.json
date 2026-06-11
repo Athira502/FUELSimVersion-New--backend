@@ -1,0 +1,31 @@
+{
+    "ZM_DTS_M_EWM_MGR": [
+        {
+            "authorizationObject": "M_EINF_EKG",
+            "field": "ACTVT",
+            "value": "01, 06",
+            "licenseCanBeReduced": "Yes",
+            "insights": "Create and Delete for purchasing info records by purchasing group is operational work",
+            "recommendation": "Keep current values - these are core procurement activities",
+            "explanation": "Managing purchasing info records (creating and deleting) is a standard operational task in procurement. The values 01 (Create) and 06 (Delete) for purchasing group control are typical for users who maintain vendor master data and pricing information, which is core procurement functionality rather than advanced use."
+        },
+        {
+            "authorizationObject": "M_EINF_EKO",
+            "field": "ACTVT",
+            "value": "01, 06",
+            "licenseCanBeReduced": "Yes",
+            "insights": "Create and Delete for purchasing info records by purchasing organization is routine work",
+            "recommendation": "Keep current values - standard procurement maintenance",
+            "explanation": "This authorization allows creating and deleting purchasing info records at the purchasing organization level. This is fundamental procurement master data maintenance work. The combination of Create (01) and Delete (06) indicates a user who manages vendor-material relationships, which is core functionality in SAP MM."
+        },
+        {
+            "authorizationObject": "M_EINF_WRK",
+            "field": "ACTVT",
+            "value": "01, 06",
+            "licenseCanBeReduced": "Yes",
+            "insights": "Create and Delete for purchasing info records by plant is standard operational activity",
+            "recommendation": "Keep current values - essential for plant-level procurement",
+            "explanation": "This object controls purchasing info record maintenance at the plant level. Creating and deleting info records for specific plants is a routine task for procurement professionals managing vendor relationships and pricing conditions. This is core procurement functionality, not advanced use."
+        }
+    ]
+}

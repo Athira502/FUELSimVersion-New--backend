@@ -1,0 +1,13 @@
+{
+    "Z:FI:FDBD:MD": [
+        {
+            "authorizationObject": "K_PCAR_REP",
+            "field": "ACTVT",
+            "value": "01, 02",
+            "licenseCanBeReduced": "Yes",
+            "insights": "Only Create/Change activities for PCA reporting, no Display access",
+            "recommendation": "Add activity 03 (Display) to enable read-only reporting capabilities",
+            "explanation": "This authorization object controls EC-PCA Summary and Line Item Reports. Currently limited to Create (01) and Change (02) activities only, without Display (03) access. This suggests the role is focused on report maintenance rather than report execution. Since no transaction codes are assigned and this is purely for PCA report management, this qualifies as Core Use functionality. The absence of Display authorization is unusual for a reporting object - typically users need to view reports they create/maintain."
+        }
+    ]
+}

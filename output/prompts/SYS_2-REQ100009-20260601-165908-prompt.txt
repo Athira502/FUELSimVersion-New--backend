@@ -1,0 +1,242 @@
+You are an SAP FUE licence optimisation expert.
+
+The 2 role(s) below are currently classified as "GB Advanced Use".
+For EACH role, decide if the overall role licence can be reduced, and provide:
+  1. A role-level licence suggestion (suggestedRoleLicense).
+  2. Per auth-object analysis.
+
+Field reference:
+- "value": current assigned value(s), comma-separated when multiple
+- "valueDescriptions": human-readable labels for ACTVT codes (e.g. "01 (Create), 02 (Change)")
+- "possibleValues": all values available in the ruleset for this object/field
+- "relevantTransactionCodes": transactions that require this auth object (system-added objects only)
+- "description": auth object description
+
+Role data:
+[
+  {
+    "role": "ZD_ETO_M_FI_1210",
+    "roleDescription": "ETO: Role for Finance access for 1210",
+    "currentLicense": "GB Advanced Use",
+    "authorizationObjects": [
+      {
+        "object": "F_BKPF_BLA",
+        "field": "ACTVT",
+        "value": "06, 10, 22, 43, 85",
+        "description": "Accounting Document: Authorization for Document Types",
+        "possibleValues": "*, 01, 02, 03, 04, 06, 08, 10, 22, 43, 77, 85, F4",
+        "valueDescriptions": "06 (Delete), 10 (Post), 22 (Enter, Include, Assign), 43 (Release), 85 (Reverse)",
+        "relevantTransactionCodes": ""
+      },
+      {
+        "object": "K_CBPR_SET",
+        "field": "ACTVT",
+        "value": "02",
+        "description": "CO-ABC: Business Process Groups",
+        "possibleValues": "*, 02, 03, F4",
+        "valueDescriptions": "02 (Change)",
+        "relevantTransactionCodes": ""
+      },
+      {
+        "object": "K_TP_VALU",
+        "field": "ACTVT",
+        "value": "02, 10",
+        "description": "Transfer Price Valuations",
+        "possibleValues": "*, 02, 03, 10, 16",
+        "valueDescriptions": "02 (Change), 10 (Post)",
+        "relevantTransactionCodes": ""
+      }
+    ],
+    "transactionCodes": [],
+    "fioriApps": []
+  },
+  {
+    "role": "ZD_FTM_M_FI_MGR_1400",
+    "roleDescription": "FTM: Role for FTM Finance Manager for 1400",
+    "currentLicense": "GB Advanced Use",
+    "authorizationObjects": [
+      {
+        "object": "A_CFG_CMP",
+        "field": "ACTVT",
+        "value": "01, 02, 05, 06",
+        "description": "Asset Accounting Company Code",
+        "possibleValues": "*, 01, 02, 03, 05, 06, 08",
+        "valueDescriptions": "01 (Add or Create), 02 (Change), 05 (Lock), 06 (Delete)",
+        "relevantTransactionCodes": ""
+      },
+      {
+        "object": "FQM_FLOW",
+        "field": "ACTVT",
+        "value": "02",
+        "description": "Financial Quantity Management",
+        "possibleValues": "*, 01, 02, 03, 25",
+        "valueDescriptions": "02 (Change)",
+        "relevantTransactionCodes": ""
+      },
+      {
+        "object": "F_BKPF_BEK",
+        "field": "ACTVT",
+        "value": "06",
+        "description": "Accounting Document: Account Authorization for Vendors",
+        "possibleValues": "*, 01, 02, 03, 06, 77, F4",
+        "valueDescriptions": "06 (Delete)",
+        "relevantTransactionCodes": ""
+      },
+      {
+        "object": "F_BKPF_BES",
+        "field": "ACTVT",
+        "value": "06",
+        "description": "Accounting Document: Account Authorization for G/L Accounts",
+        "possibleValues": "*, 01, 02, 03, 06, 77, F4",
+        "valueDescriptions": "06 (Delete)",
+        "relevantTransactionCodes": ""
+      },
+      {
+        "object": "F_BKPF_BLA",
+        "field": "ACTVT",
+        "value": "06, 10, 22, 43, 85",
+        "description": "Accounting Document: Authorization for Document Types",
+        "possibleValues": "*, 01, 02, 03, 04, 06, 08, 10, 22, 43, 77, 85, F4",
+        "valueDescriptions": "06 (Delete), 10 (Post), 22 (Enter, Include, Assign), 43 (Release), 85 (Reverse)",
+        "relevantTransactionCodes": ""
+      },
+      {
+        "object": "F_BKPF_KOA",
+        "field": "ACTVT",
+        "value": "*, 43, 85",
+        "description": "Accounting Document: Authorization for Account Types",
+        "possibleValues": "*, 01, 02, 03, 06, 43, 77, 85, F4",
+        "valueDescriptions": "*, 43 (Release), 85 (Reverse)",
+        "relevantTransactionCodes": ""
+      },
+      {
+        "object": "F_CUREXRAT",
+        "field": "ACTVT",
+        "value": "01, 02, 06",
+        "description": "Authorization to Maintain Exchange Rates",
+        "possibleValues": "*, 01, 02, 03, 06, F4",
+        "valueDescriptions": "01 (Add or Create), 02 (Change), 06 (Delete)",
+        "relevantTransactionCodes": ""
+      },
+      {
+        "object": "F_FAGL_BRG",
+        "field": "ACTVT",
+        "value": "02",
+        "description": "Authorization object for MPP AuthGroup Maintenance",
+        "possibleValues": "*, 02, 03",
+        "valueDescriptions": "02 (Change)",
+        "relevantTransactionCodes": ""
+      },
+      {
+        "object": "F_FAGL_MPV",
+        "field": "ACTVT",
+        "value": "02",
+        "description": "Authorization object for Manage Posting Period Variants",
+        "possibleValues": "*, 02, 03",
+        "valueDescriptions": "02 (Change)",
+        "relevantTransactionCodes": ""
+      },
+      {
+        "object": "F_FAGL_OPV",
+        "field": "ACTVT",
+        "value": "02",
+        "description": "Authorization object for Posting Period Var T001B Maintain",
+        "possibleValues": "*, 02, 03",
+        "valueDescriptions": "02 (Change)",
+        "relevantTransactionCodes": ""
+      },
+      {
+        "object": "F_FDSB_BUK",
+        "field": "ACTVT",
+        "value": "01, 02",
+        "description": "Cash Position: Company Code Summary Records",
+        "possibleValues": "*, 01, 02, 03, 06, 16",
+        "valueDescriptions": "01 (Add or Create), 02 (Change)",
+        "relevantTransactionCodes": ""
+      },
+      {
+        "object": "F_FDSR_BUK",
+        "field": "ACTVT",
+        "value": "01, 02",
+        "description": "Liquidity Forecast: Company Code Summary Records",
+        "possibleValues": "*, 01, 02, 03, 16",
+        "valueDescriptions": "01 (Add or Create), 02 (Change)",
+        "relevantTransactionCodes": ""
+      },
+      {
+        "object": "F_GRIRRCN",
+        "field": "ACTVT",
+        "value": "34",
+        "description": "GR/IR Account Reconciliation",
+        "possibleValues": "*, 03, 34",
+        "valueDescriptions": "34 (Write)",
+        "relevantTransactionCodes": ""
+      },
+      {
+        "object": "F_T011",
+        "field": "ACTVT",
+        "value": "01, 02",
+        "description": "Financial Statements: General Maintenance Authorization",
+        "possibleValues": "*, 01, 02, 03, 67, F4",
+        "valueDescriptions": "01 (Add or Create), 02 (Change)",
+        "relevantTransactionCodes": ""
+      },
+      {
+        "object": "ITM_CLS_NS",
+        "field": "ACTVT",
+        "value": "02",
+        "description": "Trade Classification: Authorization for Numbering Scheme",
+        "possibleValues": "*, 02, 03, F4",
+        "valueDescriptions": "02 (Change)"
+      },
+      {
+        "object": "K_TP_VALU",
+        "field": "ACTVT",
+        "value": "02, 10",
+        "description": "Transfer Price Valuations",
+        "possibleValues": "*, 02, 03, 10, 16",
+        "valueDescriptions": "02 (Change), 10 (Post)",
+        "relevantTransactionCodes": ""
+      },
+      {
+        "object": "M_MMSEVAL",
+        "field": "ACTVT",
+        "value": "02",
+        "description": "Adjust Supplier Evaluation Score",
+        "possibleValues": "*, 02, 03",
+        "valueDescriptions": "02 (Change)",
+        "relevantTransactionCodes": ""
+      },
+      {
+        "object": "S_WFFLXDEF",
+        "field": "ACTVT",
+        "value": "01, 02, 06, 60, 61, 63, 67",
+        "description": "Workflow: Flexible Workflow Definition",
+        "possibleValues": "*, 01, 02, 03, 06, 60, 61, 63, 67, ST, W9, WA, WB",
+        "valueDescriptions": "01 (Add or Create), 02 (Change), 06 (Delete), 60 (Import), 61 (Export), 63 (Activate), 67 (Translate)",
+        "relevantTransactionCodes": ""
+      }
+    ],
+    "transactionCodes": [],
+    "fioriApps": []
+  }
+]
+
+Return ONLY a valid JSON array — no markdown, no preamble — in EXACTLY this structure:
+[
+  {
+    "role": "<AGR_NAME>",
+    "suggestedRoleLicense": "<GB Advanced Use | GC Core Use | GD Self-Service Use | No Change>",
+    "objects": [
+      {
+        "authorizationObject": "<OBJECT>",
+        "field":               "<FIELD>",
+        "value":               "<VALUE>",
+        "licenseCanBeReduced": "Yes | No | May Be",
+        "insights":            "<short reason>",
+        "recommendation":      "<short action>",
+        "explanation":         "<detailed analysis considering transaction codes, value descriptions and possible values>"
+      }
+    ]
+  }
+]

@@ -1,0 +1,31 @@
+{
+    "Z:MM:FDBD:SOURCE:SU": [
+        {
+            "authorizationObject": "M_EINF_EKG",
+            "field": "ACTVT",
+            "value": "01, 06",
+            "licenseCanBeReduced": "No",
+            "insights": "Create and Delete are advanced activities for purchasing info records",
+            "recommendation": "Keep current values for super user functionality",
+            "explanation": "This authorization allows creating (01) and deleting (06) purchasing info records by purchasing group. These are critical master data maintenance activities that go beyond basic display/reporting. The MEMASSIN transaction for mass changes requires these activities to function properly. For a super user role managing source lists and info records, these permissions are essential."
+        },
+        {
+            "authorizationObject": "M_EINF_EKO",
+            "field": "ACTVT",
+            "value": "01, 06",
+            "licenseCanBeReduced": "No",
+            "insights": "Create and Delete at purchasing organization level requires advanced license",
+            "recommendation": "Maintain current authorization levels",
+            "explanation": "Similar to M_EINF_EKG, this provides create and delete capabilities but at the purchasing organization level. These activities are fundamental for maintaining purchasing info records across different purchasing organizations. The combination with custom transactions Z_PIR_MASSCREATION and Z_PIR_PRICES indicates this role performs critical master data management that cannot be downgraded."
+        },
+        {
+            "authorizationObject": "M_EINF_WRK",
+            "field": "ACTVT",
+            "value": "01, 06",
+            "licenseCanBeReduced": "No",
+            "insights": "Plant-level create/delete operations are advanced functions",
+            "recommendation": "Retain existing permissions for complete functionality",
+            "explanation": "This authorization enables create and delete operations at the plant level for purchasing info records. Combined with the other objects, this provides comprehensive control over purchasing info records across all organizational levels (purchasing group, organization, and plant). The custom Z_SL_MASSCREATION transaction for source list updates further confirms this is an advanced administrative role requiring GB Advanced Use license."
+        }
+    ]
+}

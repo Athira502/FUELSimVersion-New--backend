@@ -1,0 +1,99 @@
+You are an SAP FUE licence optimisation expert.
+
+The 1 role(s) below are currently classified as "GB Advanced Use".
+For EACH role, decide if the overall role licence can be reduced, and provide:
+  1. A role-level licence suggestion (suggestedRoleLicense).
+  2. Per auth-object analysis.
+
+Field reference:
+- "value": current assigned value(s), comma-separated when multiple
+- "valueDescriptions": human-readable labels for ACTVT codes (e.g. "01 (Create), 02 (Change)")
+- "possibleValues": all values available in the ruleset for this object/field
+- "relevantTransactionCodes": transactions that require this auth object (system-added objects only)
+- "description": auth object description
+
+Role data:
+[
+  {
+    "role": "Z:FI:FDBD:CASH:CONTROLLER",
+    "roleDescription": "FI Cash Controller",
+    "currentLicense": "GB Advanced Use",
+    "authorizationObjects": [
+      {
+        "object": "F_AVIK_BUK",
+        "field": "ACTVT",
+        "value": "01, 02, 06",
+        "description": "Payment Advice: Authorization for Company Codes",
+        "possibleValues": "*, 01, 02, 03, 06, F4",
+        "valueDescriptions": "01 (Add or Create), 02 (Change), 06 (Delete)",
+        "relevantTransactionCodes": ""
+      },
+      {
+        "object": "F_BKPF_BEK",
+        "field": "ACTVT",
+        "value": "06",
+        "description": "Accounting Document: Account Authorization for Vendors",
+        "possibleValues": "*, 01, 02, 03, 06, 77, F4",
+        "valueDescriptions": "06 (Delete)",
+        "relevantTransactionCodes": ""
+      },
+      {
+        "object": "F_BKPF_BLA",
+        "field": "ACTVT",
+        "value": "10, 85",
+        "description": "Accounting Document: Authorization for Document Types",
+        "possibleValues": "*, 01, 02, 03, 04, 06, 08, 10, 22, 43, 77, 85, F4",
+        "valueDescriptions": "10 (Post), 85 (Reverse)",
+        "relevantTransactionCodes": ""
+      },
+      {
+        "object": "F_FEBB_BUK",
+        "field": "ACTVT",
+        "value": "01, 02",
+        "description": "Company Code Bank Statement",
+        "possibleValues": "*, 01, 02, 03, F4",
+        "valueDescriptions": "01 (Add or Create), 02 (Change)",
+        "relevantTransactionCodes": ""
+      },
+      {
+        "object": "F_FEBC_BUK",
+        "field": "ACTVT",
+        "value": "02",
+        "description": "Company Code Check Deposit/Lockbox",
+        "possibleValues": "*, 01, 02, 03, F4",
+        "valueDescriptions": "02 (Change)",
+        "relevantTransactionCodes": ""
+      },
+      {
+        "object": "F_RP_BUKRS",
+        "field": "ACTVT",
+        "value": "02",
+        "description": "Reprocessing BS Autom. Rules: Authorization for Company Code",
+        "possibleValues": "*, 02, 03",
+        "valueDescriptions": "02 (Change)",
+        "relevantTransactionCodes": ""
+      }
+    ],
+    "transactionCodes": [],
+    "fioriApps": []
+  }
+]
+
+Return ONLY a valid JSON array — no markdown, no preamble — in EXACTLY this structure:
+[
+  {
+    "role": "<AGR_NAME>",
+    "suggestedRoleLicense": "<GB Advanced Use | GC Core Use | GD Self-Service Use | No Change>",
+    "objects": [
+      {
+        "authorizationObject": "<OBJECT>",
+        "field":               "<FIELD>",
+        "value":               "<VALUE>",
+        "licenseCanBeReduced": "Yes | No | May Be",
+        "insights":            "<short reason>",
+        "recommendation":      "<short action>",
+        "explanation":         "<detailed analysis considering transaction codes, value descriptions and possible values>"
+      }
+    ]
+  }
+]

@@ -1,0 +1,58 @@
+{
+    "Z:FI:FDBD:CASH:CONTROLLER": [
+        {
+            "authorizationObject": "F_AVIK_BUK",
+            "field": "ACTVT",
+            "value": "01, 02, 06",
+            "licenseCanBeReduced": "No",
+            "insights": "Payment advice management with create/change/delete access",
+            "recommendation": "Keep current values for cash controller function",
+            "explanation": "Payment advice authorization includes create (01), change (02), and delete (06) activities. These are standard operational activities for a cash controller managing payment advices and do not constitute advanced functionality."
+        },
+        {
+            "authorizationObject": "F_BKPF_BEK",
+            "field": "ACTVT",
+            "value": "06",
+            "licenseCanBeReduced": "Yes",
+            "insights": "Only delete access for vendor documents",
+            "recommendation": "Consider removing if not required",
+            "explanation": "This object only grants delete (06) access to vendor accounting documents. While deletion is a sensitive activity, having only delete without create/change/display suggests incomplete authorization. This limited scope doesn't require advanced licensing."
+        },
+        {
+            "authorizationObject": "F_BKPF_BLA",
+            "field": "ACTVT",
+            "value": "10, 85",
+            "licenseCanBeReduced": "No",
+            "insights": "Document posting and reversal capabilities",
+            "recommendation": "Keep for cash controller posting needs",
+            "explanation": "Grants posting (10) and reversal (85) rights for accounting documents. These are core financial activities essential for a cash controller role, representing standard transactional processing rather than advanced functionality."
+        },
+        {
+            "authorizationObject": "F_FEBB_BUK",
+            "field": "ACTVT",
+            "value": "01, 02",
+            "licenseCanBeReduced": "No",
+            "insights": "Bank statement creation and modification",
+            "recommendation": "Maintain for bank statement processing",
+            "explanation": "Provides create (01) and change (02) access to company code bank statements. This is fundamental cash management functionality required for processing bank statements, which is a core activity for cash controllers."
+        },
+        {
+            "authorizationObject": "F_FEBC_BUK",
+            "field": "ACTVT",
+            "value": "02",
+            "licenseCanBeReduced": "Yes",
+            "insights": "Limited to change access for check deposits",
+            "recommendation": "Review if change-only access is sufficient",
+            "explanation": "Only grants change (02) access to check deposits/lockbox without create or display rights. This limited authorization suggests routine processing rather than advanced functionality."
+        },
+        {
+            "authorizationObject": "F_RP_BUKRS",
+            "field": "ACTVT",
+            "value": "02",
+            "licenseCanBeReduced": "No",
+            "insights": "Bank statement automation rule maintenance",
+            "recommendation": "Keep for automated processing setup",
+            "explanation": "Allows change (02) access to reprocessing bank statement automation rules. While this involves automation setup, it's standard cash management functionality for maintaining bank statement processing rules, not requiring advanced licensing."
+        }
+    ]
+}

@@ -1,0 +1,915 @@
+2026-06-03 15:07:46 - app_logger - INFO - get_fue_dashboard:1121 - [Stage 6] Fetching FUE Dashboard for SYS_2
+2026-06-03 15:07:46 - app_logger - INFO - get_user_role_summary_tablename:96 - Generated user-role summary license table name for system 'SYS_2'
+2026-06-03 15:07:46 - app_logger - INFO - create_user_lic_summary_model:577 - Model for table 'Z_FUE_SYS_2_USER_LICENSE_SUMMARY' not in cache. Creating a new dynamic model.
+2026-06-03 15:07:46 - app_logger - INFO - create_user_lic_summary_model:586 - Successfully created dynamic model for table 'Z_FUE_SYS_2_USER_LICENSE_SUMMARY'
+2026-06-03 15:07:46 - app_logger - INFO - get_role_lice_data_summary_tablename:86 - Generated role license summary info table name for system 'SYS_2'
+2026-06-03 15:07:46 - app_logger - INFO - create_role_lic_summary_model:533 - Model for table 'Z_FUE_SYS_2_ROLE_LICENSE_SUMMARY' not in cache. Creating a new dynamic model.
+2026-06-03 15:07:46 - app_logger - INFO - create_role_lic_summary_model:542 - Successfully created dynamic model for table 'Z_FUE_SYS_2_ROLE_LICENSE_SUMMARY'
+2026-06-03 15:08:16 - app_logger - INFO - get_agr_1251_tablename:29 - Generated role auth table agr_1251_name for system 'SYS_2'
+2026-06-03 15:08:16 - app_logger - INFO - get_agr_users_tablename:34 - Generated user role mapping agr_users table name for system 'SYS_2'
+2026-06-03 15:08:16 - app_logger - INFO - get_agr_define_tablename:39 - Generated parent child role mapping table name for system 'SYS_2'
+2026-06-03 15:08:16 - app_logger - INFO - get_agr_agrs_tablename:44 - Generated Composite roles data table name for system 'SYS_2'
+2026-06-03 15:08:16 - app_logger - INFO - get_usr02_tablename:49 - Generated USER_DATA table name for system 'SYS_2'
+2026-06-03 15:08:16 - app_logger - INFO - get_transaction_usage_data_tablename:54 - Generated transaction_usage_data table name for system 'SYS_2'
+2026-06-03 15:08:16 - app_logger - INFO - get_tcode_data_tablename:65 - Generated tcode text data name for system 'SYS_2'
+2026-06-03 15:08:16 - app_logger - INFO - get_flpca_data_tablename:60 - Generated flpca table name for system 'SYS_2'
+2026-06-03 15:08:16 - app_logger - INFO - get_usobxC_data_tablename:70 - Generated tcode text data name for system 'SYS_2'
+2026-06-03 15:08:16 - app_logger - INFO - get_obj_text_data_tablename:76 - Generated tcode text data name for system 'SYS_2'
+2026-06-03 15:08:16 - app_logger - INFO - get_tables_for_client_system:340 - Successfully fetched tables ['Z_FUE_CLIENT_SYS_INFO', 'Z_FUE_SYS_2_COMPOSITE_ROLE_DATA', 'Z_FUE_SYS_2_TRANSACTION_USAGE', 'Z_FUE_SYS_2_USER_DATA', 'Z_FUE_SYS_2_ROLE_LIC_SIM', 'Z_FUE_SYS_2_TCODE_TEXT DATA', 'Z_FUE_LOG_FILE', 'Z_FUE_SYS_2_SIMULATION_RESULT', 'Z_FUE_RULESET', 'Z_FUE_SYS_2_ROLE_LICENSE_SUMMARY', 'Z_FUE_SYS_2_FIORI DATA', 'Z_FUE_FDP100_ROLE_LICENSE_SUMMARY', 'Z_FUE_SYS_2_USER_ROLE_MAPPING', 'Z_FUE_SYS_2_ROLE_OBJ_LICENSE_INFO', 'Z_FUE_SYS_2_PARENT_CHILD_ROLE_MAPPING', 'Z_FUE_FDP100_USER_ROLE_MAPPING', 'Z_FUE_AI_MODEL_CONFIG', 'Z_FUE_SYS_2_USOBX_C DATA', 'Z_FUE_SYS_2_ROLE_AUTH_INFO', 'Z_FUE_SYS_2_OBJ_TEXT DATA', 'Z_FUE_OPT_REQUESTS', 'Z_FUE_OPT_RESULTS', 'Z_FUE_SYS_2_OPT_SIM_RESULT', 'Z_ACTVT_TEXT', 'Z_FUE_SYS_2_USER_ROLE_LICENSE_INFO', 'Z_FUE_SYS_2_USER_LICENSE_SUMMARY', 'Z_FUE_HISTORY'] for  and system: SYS_2.
+2026-06-03 15:08:41 - app_logger - INFO - download_table_data:346 - download_table_data called with: system_name=SYS_2, table_name=Z_FUE_SYS_2_ROLE_AUTH_INFO
+2026-06-03 15:08:41 - app_logger - INFO - download_table_data:355 - Executing query: SELECT * FROM public."Z_FUE_SYS_2_ROLE_AUTH_INFO"
+2026-06-03 15:08:46 - app_logger - INFO - download_table_data:376 - Returning StreamingResponse
+2026-06-03 15:08:47 - app_logger - INFO - get_fue_dashboard:1121 - [Stage 6] Fetching FUE Dashboard for SYS_2
+2026-06-03 15:08:47 - app_logger - INFO - get_user_role_summary_tablename:96 - Generated user-role summary license table name for system 'SYS_2'
+2026-06-03 15:08:47 - app_logger - INFO - create_user_lic_summary_model:575 - Model for table 'Z_FUE_SYS_2_USER_LICENSE_SUMMARY' found in cache. Returning cached model.
+2026-06-03 15:08:47 - app_logger - INFO - get_role_lice_data_summary_tablename:86 - Generated role license summary info table name for system 'SYS_2'
+2026-06-03 15:08:47 - app_logger - INFO - create_role_lic_summary_model:531 - Model for table 'Z_FUE_SYS_2_ROLE_LICENSE_SUMMARY' found in cache. Returning cached model.
+2026-06-03 15:09:45 - app_logger - INFO - get_fue_dashboard:1121 - [Stage 6] Fetching FUE Dashboard for FDP100
+2026-06-03 15:09:45 - app_logger - INFO - get_user_role_summary_tablename:96 - Generated user-role summary license table name for system 'FDP100'
+2026-06-03 15:09:45 - app_logger - INFO - create_user_lic_summary_model:577 - Model for table 'Z_FUE_FDP100_USER_LICENSE_SUMMARY' not in cache. Creating a new dynamic model.
+2026-06-03 15:09:45 - app_logger - INFO - create_user_lic_summary_model:586 - Successfully created dynamic model for table 'Z_FUE_FDP100_USER_LICENSE_SUMMARY'
+2026-06-03 15:09:45 - app_logger - INFO - get_role_lice_data_summary_tablename:86 - Generated role license summary info table name for system 'FDP100'
+2026-06-03 15:09:45 - app_logger - INFO - create_role_lic_summary_model:533 - Model for table 'Z_FUE_FDP100_ROLE_LICENSE_SUMMARY' not in cache. Creating a new dynamic model.
+2026-06-03 15:09:45 - app_logger - INFO - create_role_lic_summary_model:542 - Successfully created dynamic model for table 'Z_FUE_FDP100_ROLE_LICENSE_SUMMARY'
+2026-06-03 15:09:48 - app_logger - INFO - get_fue_dashboard:1121 - [Stage 6] Fetching FUE Dashboard for SYS_2
+2026-06-03 15:09:48 - app_logger - INFO - get_user_role_summary_tablename:96 - Generated user-role summary license table name for system 'SYS_2'
+2026-06-03 15:09:48 - app_logger - INFO - create_user_lic_summary_model:575 - Model for table 'Z_FUE_SYS_2_USER_LICENSE_SUMMARY' found in cache. Returning cached model.
+2026-06-03 15:09:48 - app_logger - INFO - get_role_lice_data_summary_tablename:86 - Generated role license summary info table name for system 'SYS_2'
+2026-06-03 15:09:48 - app_logger - INFO - create_role_lic_summary_model:531 - Model for table 'Z_FUE_SYS_2_ROLE_LICENSE_SUMMARY' found in cache. Returning cached model.
+2026-06-03 15:10:04 - app_logger - INFO - get_all_requests:108 - Request received — list all optimisation requests.
+2026-06-03 15:10:04 - app_logger - INFO - get_all_requests:111 - Returning 12 request(s).
+2026-06-03 15:10:07 - fue_calculation_logger - INFO - get_role_details:36 - Fetching role details for system: 'SYS_2'
+2026-06-03 15:10:07 - app_logger - INFO - get_role_lice_data_summary_tablename:86 - Generated role license summary info table name for system 'SYS_2'
+2026-06-03 15:10:07 - app_logger - INFO - get_agr_users_tablename:34 - Generated user role mapping agr_users table name for system 'SYS_2'
+2026-06-03 15:10:07 - fue_calculation_logger - INFO - get_role_details:77 - Successfully fetched 2681 roles for system 'SYS_2'.
+2026-06-03 15:10:07 - app_logger - INFO - get_license_types_endpoint:244 - License-types requested for system='SYS_2'.
+2026-06-03 15:10:07 - app_logger - INFO - get_role_lice_data_summary_tablename:86 - Generated role license summary info table name for system 'SYS_2'
+2026-06-03 15:10:07 - app_logger - INFO - create_role_lic_summary_model:531 - Model for table 'Z_FUE_SYS_2_ROLE_LICENSE_SUMMARY' found in cache. Returning cached model.
+2026-06-03 15:10:07 - app_logger - INFO - get_license_types_endpoint:249 - Returning 4 license type(s) for system='SYS_2'.
+2026-06-03 15:10:19 - app_logger - INFO - get_all_requests:108 - Request received — list all optimisation requests.
+2026-06-03 15:10:19 - app_logger - INFO - get_all_requests:111 - Returning 12 request(s).
+2026-06-03 15:10:34 - app_logger - INFO - get_all_requests:108 - Request received — list all optimisation requests.
+2026-06-03 15:10:34 - app_logger - INFO - get_all_requests:111 - Returning 12 request(s).
+2026-06-03 15:10:49 - app_logger - INFO - get_all_requests:108 - Request received — list all optimisation requests.
+2026-06-03 15:10:49 - app_logger - INFO - get_all_requests:111 - Returning 12 request(s).
+2026-06-03 15:11:04 - app_logger - INFO - get_all_requests:108 - Request received — list all optimisation requests.
+2026-06-03 15:11:04 - app_logger - INFO - get_all_requests:111 - Returning 12 request(s).
+2026-06-03 15:11:05 - app_logger - INFO - optimize_license_endpoint:65 - Optimisation request received — system='SYS_2', target_license='GB Advanced Use', roles=['ZM_DTS_M_EWM_MGR']
+2026-06-03 15:11:05 - app_logger - INFO - create_optimization_request_immediately:343 - Creating optimisation request for system='SYS_2'.
+2026-06-03 15:11:06 - app_logger - INFO - create_optimization_request_immediately:364 - Request record 'REQ100012' committed.
+2026-06-03 15:11:06 - app_logger - INFO - optimize_license_endpoint:75 - Request 'REQ100012' created — queuing background task.
+2026-06-03 15:11:06 - app_logger - INFO - process_optimization_in_background:382 - [REQ100012] Background optimisation started.
+2026-06-03 15:11:06 - app_logger - INFO - run_optimization_processing:420 - [REQ100012] run_optimization_processing() — system=SYS_2, target_license=GB Advanced Use, roles=['ZM_DTS_M_EWM_MGR']
+2026-06-03 15:11:06 - app_logger - INFO - get_role_lice_data_tablename:81 - Generated role object license info table name for system 'SYS_2'
+2026-06-03 15:11:06 - app_logger - INFO - create_role_lic_model:512 - Model for table 'Z_FUE_SYS_2_ROLE_OBJ_LICENSE_INFO' not in cache. Creating a new dynamic model.
+2026-06-03 15:11:06 - app_logger - INFO - create_role_lic_model:521 - Successfully created dynamic model for table 'Z_FUE_SYS_2_ROLE_OBJ_LICENSE_INFO'
+2026-06-03 15:11:06 - app_logger - INFO - get_role_lice_data_summary_tablename:86 - Generated role license summary info table name for system 'SYS_2'
+2026-06-03 15:11:06 - app_logger - INFO - create_role_lic_summary_model:531 - Model for table 'Z_FUE_SYS_2_ROLE_LICENSE_SUMMARY' found in cache. Returning cached model.
+2026-06-03 15:11:06 - app_logger - INFO - get_agr_1251_tablename:29 - Generated role auth table agr_1251_name for system 'SYS_2'
+2026-06-03 15:11:06 - app_logger - INFO - create_AGR1251_model:335 - Model for table 'Z_FUE_SYS_2_ROLE_AUTH_INFO' not in cache. Creating a new dynamic model.
+2026-06-03 15:11:06 - app_logger - INFO - create_AGR1251_model:342 - Successfully created dynamic model for table 'Z_FUE_SYS_2_ROLE_AUTH_INFO'
+2026-06-03 15:11:06 - app_logger - INFO - get_agr_users_tablename:34 - Generated user role mapping agr_users table name for system 'SYS_2'
+2026-06-03 15:11:06 - app_logger - INFO - get_all_requests:108 - Request received — list all optimisation requests.
+2026-06-03 15:11:06 - app_logger - INFO - create_AGRUSERS_model:352 - Model for table 'Z_FUE_SYS_2_USER_ROLE_MAPPING' not in cache. Creating a new dynamic model.
+2026-06-03 15:11:06 - app_logger - INFO - create_AGRUSERS_model:359 - Successfully created dynamic model for table 'Z_FUE_SYS_2_USER_ROLE_MAPPING'
+2026-06-03 15:11:06 - app_logger - INFO - get_agr_define_tablename:39 - Generated parent child role mapping table name for system 'SYS_2'
+2026-06-03 15:11:06 - app_logger - INFO - create_AGRDEFINE_model:370 - Model for table 'Z_FUE_SYS_2_PARENT_CHILD_ROLE_MAPPING' not in cache. Creating a new dynamic model.
+2026-06-03 15:11:06 - app_logger - INFO - create_AGRDEFINE_model:377 - Successfully created dynamic model for table 'Z_FUE_SYS_2_PARENT_CHILD_ROLE_MAPPING'
+2026-06-03 15:11:06 - app_logger - INFO - get_all_requests:111 - Returning 13 request(s).
+2026-06-03 15:11:06 - app_logger - INFO - create_opt_sim_result_model:112 - Creating OptSimResult model for 'Z_FUE_SYS_2_OPT_SIM_RESULT'.
+2026-06-03 15:11:06 - app_logger - INFO - get_flpca_data_tablename:60 - Generated flpca table name for system 'SYS_2'
+2026-06-03 15:11:06 - app_logger - INFO - create_FLPCA_model:456 - Model for table 'Z_FUE_SYS_2_FIORI DATA' not in cache. Creating a new dynamic model.
+2026-06-03 15:11:06 - app_logger - INFO - create_FLPCA_model:463 - Successfully created dynamic model for table 'Z_FUE_SYS_2_FIORI DATA'
+2026-06-03 15:11:06 - app_logger - INFO - run_optimization_processing:468 - [REQ100012] RoleLic rows fetched: 6
+2026-06-03 15:11:06 - app_logger - INFO - run_optimization_processing:479 - [REQ100012] Distinct roles to analyse: ['ZM_DTS_M_EWM_MGR']
+2026-06-03 15:11:06 - app_logger - INFO - run_optimization_processing:506 - [REQ100012] Role 'ZM_DTS_M_EWM_MGR' has 0 tcodes
+2026-06-03 15:11:06 - app_logger - INFO - get_agr_1251_tablename:29 - Generated role auth table agr_1251_name for system 'SYS_2'
+2026-06-03 15:11:06 - app_logger - INFO - create_AGR1251_model:333 - Model for table 'Z_FUE_SYS_2_ROLE_AUTH_INFO' found in cache. Returning cached model.
+2026-06-03 15:11:06 - app_logger - INFO - get_usobxC_data_tablename:70 - Generated tcode text data name for system 'SYS_2'
+2026-06-03 15:11:06 - app_logger - INFO - create_USOBXC_model:473 - Model for table 'Z_FUE_SYS_2_USOBX_C DATA' not in cache. Creating a new dynamic model.
+2026-06-03 15:11:06 - app_logger - INFO - create_USOBXC_model:480 - Successfully created dynamic model for table 'Z_FUE_SYS_2_USOBX_C DATA'
+2026-06-03 15:11:06 - app_logger - INFO - get_obj_text_data_tablename:76 - Generated tcode text data name for system 'SYS_2'
+2026-06-03 15:11:06 - app_logger - INFO - create_TOBJL_model:491 - Model for table 'Z_FUE_SYS_2_OBJ_TEXT DATA' not in cache. Creating a new dynamic model.
+2026-06-03 15:11:06 - app_logger - INFO - create_TOBJL_model:498 - Successfully created dynamic model for table 'Z_FUE_SYS_2_OBJ_TEXT DATA'
+2026-06-03 15:11:06 - app_logger - INFO - get_role_lice_data_tablename:81 - Generated role object license info table name for system 'SYS_2'
+2026-06-03 15:11:06 - app_logger - INFO - create_role_lic_model:510 - Model for table 'Z_FUE_SYS_2_ROLE_OBJ_LICENSE_INFO' found in cache. Returning cached model.
+2026-06-03 15:11:06 - app_logger - INFO - get_obj_text_data_tablename:76 - Generated tcode text data name for system 'SYS_2'
+2026-06-03 15:11:06 - app_logger - INFO - create_TOBJL_model:489 - Model for table 'Z_FUE_SYS_2_OBJ_TEXT DATA' found in cache. Returning cached model.
+2026-06-03 15:11:06 - app_logger - INFO - get_role_lice_data_tablename:81 - Generated role object license info table name for system 'SYS_2'
+2026-06-03 15:11:06 - app_logger - INFO - create_role_lic_model:510 - Model for table 'Z_FUE_SYS_2_ROLE_OBJ_LICENSE_INFO' found in cache. Returning cached model.
+2026-06-03 15:11:06 - app_logger - INFO - get_obj_text_data_tablename:76 - Generated tcode text data name for system 'SYS_2'
+2026-06-03 15:11:06 - app_logger - INFO - create_TOBJL_model:489 - Model for table 'Z_FUE_SYS_2_OBJ_TEXT DATA' found in cache. Returning cached model.
+2026-06-03 15:11:06 - app_logger - INFO - get_role_lice_data_tablename:81 - Generated role object license info table name for system 'SYS_2'
+2026-06-03 15:11:06 - app_logger - INFO - create_role_lic_model:510 - Model for table 'Z_FUE_SYS_2_ROLE_OBJ_LICENSE_INFO' found in cache. Returning cached model.
+2026-06-03 15:11:07 - app_logger - INFO - run_optimization_processing:544 - [REQ100012] Roles packaged for AI: 1
+2026-06-03 15:11:07 - app_logger - INFO - run_optimization_processing:586 - [REQ100012] Sending prompt to AI (length=2566).
+2026-06-03 15:11:07 - app_logger - INFO - _write_prompt_debug_file:331 - [REQ100012] Full prompt written to: output/prompts/SYS_2-REQ100012-20260603-151107-prompt.txt
+2026-06-03 15:11:07 - app_logger - INFO - call_ai_api:47 - Initiating AI call with prompt (first 100 chars): 'You are an SAP FUE licence optimisation expert.
+
+The 1 role(s) below are currently classified as "GB...'
+2026-06-03 15:11:07 - app_logger - INFO - call_ai_api:53 - Using AI Model: anthropic/claude-opus-4-20250514 (max_tokens=4096, temperature=0.7)
+2026-06-03 15:11:09 - app_logger - INFO - get_all_requests:108 - Request received — list all optimisation requests.
+2026-06-03 15:11:09 - app_logger - INFO - get_all_requests:111 - Returning 13 request(s).
+2026-06-03 15:11:14 - app_logger - INFO - get_sim_results_by_request_id:186 - Fetching sim results for req_id='REQ100011', system='SYS_2'.
+2026-06-03 15:11:14 - app_logger - INFO - get_results_by_request_id:138 - Fetching AI results for req_id='REQ100011'.
+2026-06-03 15:11:14 - app_logger - INFO - get_sim_results_by_request_id:199 - Found 1 sim result row(s) for req_id='REQ100011'.
+2026-06-03 15:11:14 - app_logger - INFO - get_results_by_request_id:148 - Found 3 AI result row(s) for req_id='REQ100011'.
+2026-06-03 15:11:22 - app_logger - INFO - call_claude_api:141 - Successfully received response from Claude API. Response length: 2162
+2026-06-03 15:11:22 - app_logger - INFO - run_optimization_processing:608 - [REQ100012] AI returned 1 role block(s).
+2026-06-03 15:11:22 - app_logger - INFO - run_optimization_processing:634 - [REQ100012] Role 'ZM_DTS_M_EWM_MGR' → REDUCIBLE → 'GC Core Use'
+2026-06-03 15:11:22 - app_logger - INFO - run_optimization_processing:657 - [REQ100012] LicenseOptimizationResult committed. Reducible roles: ['ZM_DTS_M_EWM_MGR']
+2026-06-03 15:11:22 - app_logger - INFO - simulate_system_fue:701 - [REQ100012] simulate_system_fue() — 1 reducible role(s): ['ZM_DTS_M_EWM_MGR']
+2026-06-03 15:11:22 - app_logger - INFO - get_usr02_tablename:49 - Generated USER_DATA table name for system 'SYS_2'
+2026-06-03 15:11:22 - app_logger - INFO - create_USR02_model:404 - Model for table 'Z_FUE_SYS_2_USER_DATA' not in cache. Creating a new dynamic model.
+2026-06-03 15:11:22 - app_logger - INFO - create_USR02_model:411 - Successfully created dynamic model for table 'Z_FUE_SYS_2_USER_DATA'
+2026-06-03 15:11:22 - app_logger - INFO - simulate_system_fue:712 - [REQ100012] USR02 records loaded: 4073
+2026-06-03 15:11:23 - app_logger - INFO - simulate_system_fue:721 - [REQ100012] Total AGRUSERS rows: 68634
+2026-06-03 15:11:23 - app_logger - INFO - simulate_system_fue:730 - [REQ100012] Unique users: 3499, unique roles: 938
+2026-06-03 15:11:23 - app_logger - INFO - simulate_system_fue:747 - [REQ100012] License override: 'ZM_DTS_M_EWM_MGR' GB Advanced Use → GC Core Use
+2026-06-03 15:11:23 - app_logger - INFO - simulate_system_fue:777 - [REQ100012] Locked users downgraded to NC: 1439
+2026-06-03 15:11:23 - app_logger - INFO - simulate_system_fue:801 - [REQ100012] BEFORE → GB=388 GC=1018 GD=654 NC=1439 FUE=614
+2026-06-03 15:11:23 - app_logger - INFO - simulate_system_fue:802 - [REQ100012] AFTER  → GB=388 GC=1018 GD=654 NC=1439 FUE=614
+2026-06-03 15:11:23 - app_logger - INFO - simulate_system_fue:803 - [REQ100012] FUE saved=0, Users impacted=0
+2026-06-03 15:11:23 - app_logger - INFO - simulate_system_fue:825 - [REQ100012] OptSimResult summary row committed.
+2026-06-03 15:11:23 - app_logger - INFO - _write_output_file:979 - Output snapshot → output/SYS_2-REQ100012-20260603-151123.json
+2026-06-03 15:11:23 - app_logger - INFO - run_optimization_processing:674 - [REQ100012] run_optimization_processing() complete.
+2026-06-03 15:11:23 - app_logger - INFO - process_optimization_in_background:393 - [REQ100012] Processing finished → STATUS=COMPLETED
+2026-06-03 15:11:52 - app_logger - INFO - get_all_requests:108 - Request received — list all optimisation requests.
+2026-06-03 15:11:52 - app_logger - INFO - get_all_requests:111 - Returning 13 request(s).
+2026-06-03 15:11:54 - app_logger - INFO - get_sim_results_by_request_id:186 - Fetching sim results for req_id='REQ100012', system='SYS_2'.
+2026-06-03 15:11:54 - app_logger - INFO - get_results_by_request_id:138 - Fetching AI results for req_id='REQ100012'.
+2026-06-03 15:11:54 - app_logger - INFO - get_sim_results_by_request_id:199 - Found 1 sim result row(s) for req_id='REQ100012'.
+2026-06-03 15:11:54 - app_logger - INFO - get_results_by_request_id:148 - Found 3 AI result row(s) for req_id='REQ100012'.
+2026-06-03 15:14:06 - app_logger - INFO - get_all_requests:108 - Request received — list all optimisation requests.
+2026-06-03 15:14:06 - app_logger - INFO - get_all_requests:111 - Returning 13 request(s).
+2026-06-03 15:14:10 - app_logger - INFO - get_sim_results_by_request_id:186 - Fetching sim results for req_id='REQ100009', system='SYS_2'.
+2026-06-03 15:14:10 - app_logger - INFO - get_results_by_request_id:138 - Fetching AI results for req_id='REQ100009'.
+2026-06-03 15:14:10 - app_logger - INFO - get_sim_results_by_request_id:199 - Found 1 sim result row(s) for req_id='REQ100009'.
+2026-06-03 15:14:10 - app_logger - INFO - get_results_by_request_id:148 - Found 1 AI result row(s) for req_id='REQ100009'.
+2026-06-03 15:14:13 - app_logger - INFO - get_all_requests:108 - Request received — list all optimisation requests.
+2026-06-03 15:14:13 - app_logger - INFO - get_all_requests:111 - Returning 13 request(s).
+2026-06-03 15:14:28 - app_logger - INFO - get_all_requests:108 - Request received — list all optimisation requests.
+2026-06-03 15:14:28 - app_logger - INFO - get_all_requests:111 - Returning 13 request(s).
+2026-06-03 15:14:43 - app_logger - INFO - get_all_requests:108 - Request received — list all optimisation requests.
+2026-06-03 15:14:43 - app_logger - INFO - get_all_requests:111 - Returning 13 request(s).
+2026-06-03 15:14:58 - app_logger - INFO - get_all_requests:108 - Request received — list all optimisation requests.
+2026-06-03 15:14:58 - app_logger - INFO - get_all_requests:111 - Returning 13 request(s).
+2026-06-03 15:15:14 - app_logger - INFO - get_all_requests:108 - Request received — list all optimisation requests.
+2026-06-03 15:15:14 - app_logger - INFO - get_all_requests:111 - Returning 13 request(s).
+2026-06-03 15:15:26 - app_logger - INFO - get_fue_dashboard:1121 - [Stage 6] Fetching FUE Dashboard for SYS_2
+2026-06-03 15:15:26 - app_logger - INFO - get_user_role_summary_tablename:96 - Generated user-role summary license table name for system 'SYS_2'
+2026-06-03 15:15:26 - app_logger - INFO - create_user_lic_summary_model:575 - Model for table 'Z_FUE_SYS_2_USER_LICENSE_SUMMARY' found in cache. Returning cached model.
+2026-06-03 15:15:26 - app_logger - INFO - get_role_lice_data_summary_tablename:86 - Generated role license summary info table name for system 'SYS_2'
+2026-06-03 15:15:26 - app_logger - INFO - create_role_lic_summary_model:531 - Model for table 'Z_FUE_SYS_2_ROLE_LICENSE_SUMMARY' found in cache. Returning cached model.
+2026-06-03 15:15:26 - fue_calculation_logger - INFO - get_role_details:36 - Fetching role details for system: 'SYS_2'
+2026-06-03 15:15:26 - app_logger - INFO - get_role_lice_data_summary_tablename:86 - Generated role license summary info table name for system 'SYS_2'
+2026-06-03 15:15:26 - app_logger - INFO - get_agr_users_tablename:34 - Generated user role mapping agr_users table name for system 'SYS_2'
+2026-06-03 15:15:27 - fue_calculation_logger - INFO - get_role_details:77 - Successfully fetched 2681 roles for system 'SYS_2'.
+2026-06-03 15:15:46 - app_logger - INFO - get_fue_dashboard:1121 - [Stage 6] Fetching FUE Dashboard for SYS_2
+2026-06-03 15:15:46 - app_logger - INFO - get_user_role_summary_tablename:96 - Generated user-role summary license table name for system 'SYS_2'
+2026-06-03 15:15:46 - app_logger - INFO - create_user_lic_summary_model:575 - Model for table 'Z_FUE_SYS_2_USER_LICENSE_SUMMARY' found in cache. Returning cached model.
+2026-06-03 15:15:46 - app_logger - INFO - get_role_lice_data_summary_tablename:86 - Generated role license summary info table name for system 'SYS_2'
+2026-06-03 15:15:46 - app_logger - INFO - create_role_lic_summary_model:531 - Model for table 'Z_FUE_SYS_2_ROLE_LICENSE_SUMMARY' found in cache. Returning cached model.
+2026-06-03 15:15:47 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:15:47 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:15:47 - app_logger - INFO - create_simulation_result_model:618 - Creating new dynamic SimulationResult model for table 'Z_FUE_SYS_2_SIMULATION_RESULT'
+2026-06-03 15:15:47 - app_logger - INFO - create_simulation_result_model:627 - Successfully created dynamic SimulationResult model for table 'Z_FUE_SYS_2_SIMULATION_RESULT'
+2026-06-03 15:15:56 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:15:56 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:15:56 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:15:56 - app_logger - INFO - get_fue_dashboard:1121 - [Stage 6] Fetching FUE Dashboard for SYS_2
+2026-06-03 15:15:56 - app_logger - INFO - get_user_role_summary_tablename:96 - Generated user-role summary license table name for system 'SYS_2'
+2026-06-03 15:15:56 - app_logger - INFO - create_user_lic_summary_model:575 - Model for table 'Z_FUE_SYS_2_USER_LICENSE_SUMMARY' found in cache. Returning cached model.
+2026-06-03 15:15:56 - app_logger - INFO - get_role_lice_data_summary_tablename:86 - Generated role license summary info table name for system 'SYS_2'
+2026-06-03 15:15:56 - app_logger - INFO - create_role_lic_summary_model:531 - Model for table 'Z_FUE_SYS_2_ROLE_LICENSE_SUMMARY' found in cache. Returning cached model.
+2026-06-03 15:15:57 - app_logger - INFO - get_fue_dashboard:1121 - [Stage 6] Fetching FUE Dashboard for SYS_2
+2026-06-03 15:15:57 - app_logger - INFO - get_user_role_summary_tablename:96 - Generated user-role summary license table name for system 'SYS_2'
+2026-06-03 15:15:57 - app_logger - INFO - create_user_lic_summary_model:575 - Model for table 'Z_FUE_SYS_2_USER_LICENSE_SUMMARY' found in cache. Returning cached model.
+2026-06-03 15:15:57 - app_logger - INFO - get_role_lice_data_summary_tablename:86 - Generated role license summary info table name for system 'SYS_2'
+2026-06-03 15:15:57 - app_logger - INFO - create_role_lic_summary_model:531 - Model for table 'Z_FUE_SYS_2_ROLE_LICENSE_SUMMARY' found in cache. Returning cached model.
+2026-06-03 15:15:57 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:15:57 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:15:57 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:16:24 - app_logger - INFO - get_fue_dashboard:1121 - [Stage 6] Fetching FUE Dashboard for SYS_2
+2026-06-03 15:16:24 - app_logger - INFO - get_user_role_summary_tablename:96 - Generated user-role summary license table name for system 'SYS_2'
+2026-06-03 15:16:24 - app_logger - INFO - create_user_lic_summary_model:575 - Model for table 'Z_FUE_SYS_2_USER_LICENSE_SUMMARY' found in cache. Returning cached model.
+2026-06-03 15:16:24 - app_logger - INFO - get_role_lice_data_summary_tablename:86 - Generated role license summary info table name for system 'SYS_2'
+2026-06-03 15:16:24 - app_logger - INFO - create_role_lic_summary_model:531 - Model for table 'Z_FUE_SYS_2_ROLE_LICENSE_SUMMARY' found in cache. Returning cached model.
+2026-06-03 15:16:25 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:16:25 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:16:25 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:16:40 - app_logger - INFO - get_simulation_role_details:60 - Fetching simulation role details for system 'SYS_2'
+2026-06-03 15:16:40 - app_logger - INFO - get_role_lice_data_summary_tablename:86 - Generated role license summary info table name for system 'SYS_2'
+2026-06-03 15:16:40 - app_logger - INFO - create_role_lic_summary_model:531 - Model for table 'Z_FUE_SYS_2_ROLE_LICENSE_SUMMARY' found in cache. Returning cached model.
+2026-06-03 15:16:40 - app_logger - INFO - get_agr_users_tablename:34 - Generated user role mapping agr_users table name for system 'SYS_2'
+2026-06-03 15:16:40 - app_logger - INFO - create_AGRUSERS_model:350 - Model for table 'Z_FUE_SYS_2_USER_ROLE_MAPPING' found in cache. Returning cached model.
+2026-06-03 15:16:59 - app_logger - INFO - get_specific_role_simulation_details:145 - Fetching simulation details for role 'ZM_DTS_M_EWM_MTRL_HNDLR' in system 'SYS_2'
+2026-06-03 15:16:59 - app_logger - INFO - get_role_lic_sim_tablename:102 - Generated role_lic_sim table name for system 'SYS_2'
+2026-06-03 15:16:59 - app_logger - INFO - create_role_lic_sim_model:597 - Creating new dynamic RoleLicSim model for table 'Z_FUE_SYS_2_ROLE_LIC_SIM'
+2026-06-03 15:16:59 - app_logger - INFO - create_role_lic_sim_model:606 - Successfully created dynamic RoleLicSim model for table 'Z_FUE_SYS_2_ROLE_LIC_SIM'
+2026-06-03 15:17:16 - app_logger - INFO - get_auth_field_license_data:329 - Fetching auth field license data for object='Q_CTRLCHRT', field='ACTVT', system='SYS_2'
+2026-06-03 15:17:16 - app_logger - INFO - get_auth_field_license_data:357 - Found 4 license options for object='Q_CTRLCHRT', field='ACTVT'
+2026-06-03 15:17:16 - app_logger - INFO - get_auth_field_license_data:329 - Fetching auth field license data for object='Q_CTRLCHRT', field='ACTVT', system='SYS_2'
+2026-06-03 15:17:16 - app_logger - INFO - get_auth_field_license_data:357 - Found 4 license options for object='Q_CTRLCHRT', field='ACTVT'
+2026-06-03 15:17:42 - app_logger - INFO - apply_simulation_changes:275 - Applying 2 simulation changes for system 'SYS_2'
+2026-06-03 15:17:42 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:17:42 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:17:42 - app_logger - INFO - apply_simulation_changes:305 - Created 2 initial result records for simulation 'SIM000186AC'
+2026-06-03 15:17:42 - app_logger - INFO - process_simulation_sync:338 - Starting background simulation processing for 'SIM000186AC'
+2026-06-03 15:17:42 - app_logger - INFO - process_simulation_background:366 - Processing simulation 'SIM000186AC' for system 'SYS_2'
+2026-06-03 15:17:42 - app_logger - INFO - get_role_lic_sim_tablename:102 - Generated role_lic_sim table name for system 'SYS_2'
+2026-06-03 15:17:42 - app_logger - INFO - create_role_lic_sim_model:594 - Model for table 'Z_FUE_SYS_2_ROLE_LIC_SIM' found in cache.
+2026-06-03 15:17:42 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:17:42 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:17:42 - app_logger - INFO - process_simulation_background:450 - Applied all changes to simulation table for 'SIM000186AC'
+2026-06-03 15:17:42 - app_logger - INFO - calculate_simulation_fue:568 - === STARTING FUE CALCULATION for SYS_2 ===
+2026-06-03 15:17:42 - app_logger - INFO - get_role_lic_sim_tablename:102 - Generated role_lic_sim table name for system 'SYS_2'
+2026-06-03 15:17:42 - app_logger - INFO - create_role_lic_sim_model:594 - Model for table 'Z_FUE_SYS_2_ROLE_LIC_SIM' found in cache.
+2026-06-03 15:17:42 - app_logger - INFO - get_agr_users_tablename:34 - Generated user role mapping agr_users table name for system 'SYS_2'
+2026-06-03 15:17:42 - app_logger - INFO - create_AGRUSERS_model:350 - Model for table 'Z_FUE_SYS_2_USER_ROLE_MAPPING' found in cache. Returning cached model.
+2026-06-03 15:17:42 - app_logger - INFO - get_usr02_tablename:49 - Generated USER_DATA table name for system 'SYS_2'
+2026-06-03 15:17:42 - app_logger - INFO - create_USR02_model:402 - Model for table 'Z_FUE_SYS_2_USER_DATA' found in cache. Returning cached model.
+2026-06-03 15:17:42 - app_logger - INFO - calculate_simulation_fue:579 - STEP 1: Getting most restrictive license per role...
+2026-06-03 15:17:42 - app_logger - INFO - get_fue_dashboard:1121 - [Stage 6] Fetching FUE Dashboard for SYS_2
+2026-06-03 15:17:42 - app_logger - INFO - get_user_role_summary_tablename:96 - Generated user-role summary license table name for system 'SYS_2'
+2026-06-03 15:17:42 - app_logger - INFO - create_user_lic_summary_model:575 - Model for table 'Z_FUE_SYS_2_USER_LICENSE_SUMMARY' found in cache. Returning cached model.
+2026-06-03 15:17:42 - app_logger - INFO - get_role_lice_data_summary_tablename:86 - Generated role license summary info table name for system 'SYS_2'
+2026-06-03 15:17:42 - app_logger - INFO - create_role_lic_summary_model:531 - Model for table 'Z_FUE_SYS_2_ROLE_LICENSE_SUMMARY' found in cache. Returning cached model.
+2026-06-03 15:17:43 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:17:43 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:17:43 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:17:45 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:17:45 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:17:45 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:17:45 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:17:46 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:17:46 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:17:48 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:17:48 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:17:48 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:17:48 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:17:48 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:17:48 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:17:52 - ai_config_logger - INFO - get_api_key_status:282 - API key status check: [('anthropic', 'configured'), ('openai', 'configured'), ('ollama', 'configured')]
+2026-06-03 15:17:52 - app_logger - INFO - calculate_simulation_fue:588 - Active simulation records: 493378
+2026-06-03 15:17:52 - ai_config_logger - INFO - get_all_models:40 - Retrieved 3 AI model configurations
+2026-06-03 15:17:53 - ai_config_logger - INFO - get_api_key_status:282 - API key status check: [('anthropic', 'configured'), ('openai', 'configured'), ('ollama', 'configured')]
+2026-06-03 15:17:53 - app_logger - INFO - calculate_simulation_fue:596 - Unique roles in simulation: 2897
+2026-06-03 15:17:53 - ai_config_logger - INFO - get_all_models:40 - Retrieved 3 AI model configurations
+2026-06-03 15:17:53 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:17:53 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:17:53 - app_logger - INFO - calculate_simulation_fue:609 - Role license distribution: {'GC Core Use': 714, 'GD Self-Service Use': 1154, 'GB Advanced Use': 813, 'Not Classified': 216}
+2026-06-03 15:17:53 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:17:53 - app_logger - INFO - calculate_simulation_fue:612 - STEP 2: Mapping roles to users...
+2026-06-03 15:17:54 - app_logger - INFO - calculate_simulation_fue:615 - Total user-role mappings: 68634
+2026-06-03 15:17:54 - app_logger - INFO - calculate_simulation_fue:629 - Total users with licenses: 3499
+2026-06-03 15:17:54 - app_logger - INFO - calculate_simulation_fue:632 - STEP 3: Checking for locked users...
+2026-06-03 15:17:55 - app_logger - INFO - calculate_simulation_fue:635 - USR02 records loaded: 4073
+2026-06-03 15:17:55 - app_logger - INFO - calculate_simulation_fue:638 - STEP 4: Calculating final user licenses with locked override...
+2026-06-03 15:17:55 - app_logger - INFO - calculate_simulation_fue:659 - Locked users downgraded to NC: 1439
+2026-06-03 15:17:55 - app_logger - INFO - calculate_simulation_fue:660 - User license counts (after locked override): {'Not Classified': 1439, 'GC Core Use': 1018, 'GB Advanced Use': 387, 'GD Self-Service Use': 655}
+2026-06-03 15:17:55 - app_logger - INFO - calculate_simulation_fue:668 - Final counts: GB=387, GC=1018, GD=655, NC=1439
+2026-06-03 15:17:55 - app_logger - INFO - calculate_simulation_fue:676 - === FINAL FUE ===
+2026-06-03 15:17:55 - app_logger - INFO - calculate_simulation_fue:677 - GB: 387 USERS × 1.0 = 387 FUE
+2026-06-03 15:17:55 - app_logger - INFO - calculate_simulation_fue:678 - GC: 1018 USERS × 0.2 = 204 FUE
+2026-06-03 15:17:55 - app_logger - INFO - calculate_simulation_fue:679 - GD: 655 USERS × 0.0333 = 22 FUE
+2026-06-03 15:17:55 - app_logger - INFO - calculate_simulation_fue:680 - TOTAL: 613 FUE
+2026-06-03 15:17:55 - app_logger - INFO - calculate_simulation_fue:681 - LOCKED: 1439 users downgraded to NC
+2026-06-03 15:17:56 - app_logger - INFO - process_simulation_background:490 - Simulation 'SIM000186AC' completed successfully
+2026-06-03 15:17:58 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:17:58 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:17:58 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:18:03 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:18:03 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:18:03 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:18:08 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:18:08 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:18:08 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:18:13 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:18:13 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:18:13 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:18:18 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:18:18 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:18:18 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:18:23 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:18:23 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:18:23 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:18:28 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:18:28 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:18:28 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:18:33 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:18:33 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:18:33 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:18:38 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:18:38 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:18:38 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:18:43 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:18:43 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:18:43 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:18:48 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:18:48 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:18:48 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:18:53 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:18:53 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:18:53 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:18:58 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:18:58 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:18:58 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:19:03 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:19:03 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:19:03 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:19:08 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:19:08 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:19:08 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:19:13 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:19:13 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:19:13 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:19:18 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:19:18 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:19:18 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:19:23 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:19:23 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:19:23 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:19:28 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:19:28 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:19:28 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:19:33 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:19:33 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:19:33 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:19:38 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:19:38 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:19:38 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:19:43 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:19:43 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:19:43 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:19:48 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:19:48 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:19:48 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:19:53 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:19:53 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:19:53 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:19:58 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:19:58 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:19:58 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:20:03 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:20:03 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:20:03 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:20:08 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:20:08 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:20:08 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:20:13 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:20:13 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:20:13 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:20:18 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:20:18 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:20:18 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:20:23 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:20:23 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:20:23 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:20:28 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:20:28 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:20:28 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:20:33 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:20:33 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:20:33 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:20:38 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:20:38 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:20:38 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:20:43 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:20:43 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:20:43 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:20:48 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:20:48 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:20:48 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:20:53 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:20:53 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:20:53 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:20:58 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:20:58 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:20:58 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:21:03 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:21:03 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:21:03 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:21:08 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:21:08 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:21:08 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:21:13 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:21:13 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:21:13 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:21:18 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:21:18 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:21:18 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:21:23 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:21:23 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:21:23 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:21:28 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:21:28 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:21:28 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:21:33 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:21:33 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:21:33 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:21:38 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:21:38 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:21:38 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:21:41 - app_logger - INFO - get_all_requests:108 - Request received — list all optimisation requests.
+2026-06-03 15:21:41 - app_logger - INFO - get_all_requests:111 - Returning 13 request(s).
+2026-06-03 15:21:43 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:21:43 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:21:43 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:21:48 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:21:48 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:21:48 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:21:53 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:21:53 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:21:53 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:21:56 - app_logger - INFO - get_all_requests:108 - Request received — list all optimisation requests.
+2026-06-03 15:21:56 - app_logger - INFO - get_all_requests:111 - Returning 13 request(s).
+2026-06-03 15:21:58 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:21:58 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:21:58 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:22:03 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:22:03 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:22:03 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:22:08 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:22:08 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:22:08 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:22:11 - app_logger - INFO - get_all_requests:108 - Request received — list all optimisation requests.
+2026-06-03 15:22:11 - app_logger - INFO - get_all_requests:111 - Returning 13 request(s).
+2026-06-03 15:22:13 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:22:13 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:22:13 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:22:18 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:22:18 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:22:18 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:22:23 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:22:23 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:22:23 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:22:26 - app_logger - INFO - get_all_requests:108 - Request received — list all optimisation requests.
+2026-06-03 15:22:26 - app_logger - INFO - get_all_requests:111 - Returning 13 request(s).
+2026-06-03 15:22:28 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:22:28 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:22:28 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:22:33 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:22:33 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:22:33 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:22:38 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:22:38 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:22:38 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:22:41 - app_logger - INFO - get_all_requests:108 - Request received — list all optimisation requests.
+2026-06-03 15:22:41 - app_logger - INFO - get_all_requests:111 - Returning 13 request(s).
+2026-06-03 15:22:43 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:22:43 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:22:43 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:22:48 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:22:48 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:22:48 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:22:53 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:22:53 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:22:53 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:22:56 - app_logger - INFO - get_all_requests:108 - Request received — list all optimisation requests.
+2026-06-03 15:22:56 - app_logger - INFO - get_all_requests:111 - Returning 13 request(s).
+2026-06-03 15:22:58 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:22:58 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:22:58 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:23:03 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:23:03 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:23:03 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:23:08 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:23:08 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:23:08 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:23:12 - app_logger - INFO - get_all_requests:108 - Request received — list all optimisation requests.
+2026-06-03 15:23:12 - app_logger - INFO - get_all_requests:111 - Returning 13 request(s).
+2026-06-03 15:23:13 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:23:13 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:23:13 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:23:18 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:23:18 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:23:18 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:23:23 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:23:23 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:23:23 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:23:27 - app_logger - INFO - get_all_requests:108 - Request received — list all optimisation requests.
+2026-06-03 15:23:27 - app_logger - INFO - get_all_requests:111 - Returning 13 request(s).
+2026-06-03 15:23:28 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:23:28 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:23:28 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:23:33 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:23:33 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:23:33 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:23:38 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:23:38 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:23:38 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:23:42 - app_logger - INFO - get_all_requests:108 - Request received — list all optimisation requests.
+2026-06-03 15:23:42 - app_logger - INFO - get_all_requests:111 - Returning 13 request(s).
+2026-06-03 15:23:43 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:23:43 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:23:43 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:23:48 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:23:48 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:23:48 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:23:53 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:23:53 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:23:53 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:23:57 - app_logger - INFO - get_all_requests:108 - Request received — list all optimisation requests.
+2026-06-03 15:23:57 - app_logger - INFO - get_all_requests:111 - Returning 13 request(s).
+2026-06-03 15:23:58 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:23:58 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:23:58 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:24:03 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:24:03 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:24:03 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:24:08 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:24:08 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:24:08 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:24:12 - app_logger - INFO - get_all_requests:108 - Request received — list all optimisation requests.
+2026-06-03 15:24:12 - app_logger - INFO - get_all_requests:111 - Returning 13 request(s).
+2026-06-03 15:24:13 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:24:13 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:24:13 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:24:18 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:24:18 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:24:18 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:24:23 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:24:23 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:24:23 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:24:27 - app_logger - INFO - get_all_requests:108 - Request received — list all optimisation requests.
+2026-06-03 15:24:27 - app_logger - INFO - get_all_requests:111 - Returning 13 request(s).
+2026-06-03 15:24:28 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:24:28 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:24:28 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:24:33 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:24:33 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:24:33 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:24:38 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:24:38 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:24:38 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:24:42 - app_logger - INFO - get_all_requests:108 - Request received — list all optimisation requests.
+2026-06-03 15:24:42 - app_logger - INFO - get_all_requests:111 - Returning 13 request(s).
+2026-06-03 15:24:43 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:24:43 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:24:43 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:24:48 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:24:48 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:24:48 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:24:53 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:24:53 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:24:53 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:24:57 - app_logger - INFO - get_all_requests:108 - Request received — list all optimisation requests.
+2026-06-03 15:24:57 - app_logger - INFO - get_all_requests:111 - Returning 13 request(s).
+2026-06-03 15:24:58 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:24:58 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:24:58 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:25:03 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:25:03 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:25:03 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:25:08 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:25:08 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:25:08 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:25:12 - app_logger - INFO - get_all_requests:108 - Request received — list all optimisation requests.
+2026-06-03 15:25:12 - app_logger - INFO - get_all_requests:111 - Returning 13 request(s).
+2026-06-03 15:25:13 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:25:13 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:25:13 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:25:18 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:25:18 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:25:18 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:25:23 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:25:23 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:25:23 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:25:28 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:25:28 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:25:28 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:25:33 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:25:33 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:25:33 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:25:38 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:25:38 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:25:38 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:25:43 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:25:43 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:25:43 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:25:48 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:25:48 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:25:48 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:25:53 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:25:53 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:25:53 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:25:58 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:25:58 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:25:58 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:26:03 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:26:03 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:26:03 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:26:08 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:26:08 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:26:08 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:26:13 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:26:13 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:26:13 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:26:18 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:26:18 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:26:18 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:26:57 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:26:57 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:26:57 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:27:56 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:27:56 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:27:56 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:28:57 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:28:57 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:28:57 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:29:56 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:29:56 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:29:56 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:30:57 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:30:57 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:30:57 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:31:56 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:31:56 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:31:56 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:32:57 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:32:57 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:32:57 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:33:56 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:33:56 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:33:56 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:34:57 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:34:57 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:34:57 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:35:56 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:35:56 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:35:56 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:36:06 - app_logger - INFO - get_all_requests:108 - Request received — list all optimisation requests.
+2026-06-03 15:36:06 - app_logger - INFO - get_all_requests:111 - Returning 13 request(s).
+2026-06-03 15:36:06 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:36:06 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:36:06 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:36:08 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:36:08 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:36:08 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:36:13 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:36:13 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:36:13 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:36:18 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:36:18 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:36:18 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:36:21 - app_logger - INFO - get_all_requests:108 - Request received — list all optimisation requests.
+2026-06-03 15:36:21 - app_logger - INFO - get_all_requests:111 - Returning 13 request(s).
+2026-06-03 15:36:23 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:36:23 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:36:23 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:36:28 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:36:28 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:36:28 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:36:33 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:36:33 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:36:33 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:36:36 - app_logger - INFO - get_all_requests:108 - Request received — list all optimisation requests.
+2026-06-03 15:36:36 - app_logger - INFO - get_all_requests:111 - Returning 13 request(s).
+2026-06-03 15:36:38 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:36:38 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:36:38 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:36:43 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:36:43 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:36:43 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:36:48 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:36:48 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:36:48 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:36:51 - app_logger - INFO - get_all_requests:108 - Request received — list all optimisation requests.
+2026-06-03 15:36:51 - app_logger - INFO - get_all_requests:111 - Returning 13 request(s).
+2026-06-03 15:36:53 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:36:53 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:36:53 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:36:58 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:36:58 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:36:58 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:37:03 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:37:03 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:37:03 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:37:06 - app_logger - INFO - get_all_requests:108 - Request received — list all optimisation requests.
+2026-06-03 15:37:06 - app_logger - INFO - get_all_requests:111 - Returning 13 request(s).
+2026-06-03 15:37:08 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:37:08 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:37:08 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:37:13 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:37:13 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:37:13 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:37:18 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:37:18 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:37:18 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:37:21 - app_logger - INFO - get_all_requests:108 - Request received — list all optimisation requests.
+2026-06-03 15:37:21 - app_logger - INFO - get_all_requests:111 - Returning 13 request(s).
+2026-06-03 15:37:23 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:37:23 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:37:23 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:37:28 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:37:28 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:37:28 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:37:33 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:37:33 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:37:33 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:37:36 - app_logger - INFO - get_all_requests:108 - Request received — list all optimisation requests.
+2026-06-03 15:37:36 - app_logger - INFO - get_all_requests:111 - Returning 13 request(s).
+2026-06-03 15:37:38 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:37:38 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:37:38 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:37:43 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:37:43 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:37:43 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:37:48 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:37:48 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:37:48 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:37:51 - app_logger - INFO - get_all_requests:108 - Request received — list all optimisation requests.
+2026-06-03 15:37:51 - app_logger - INFO - get_all_requests:111 - Returning 13 request(s).
+2026-06-03 15:37:53 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:37:53 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:37:53 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:37:58 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:37:58 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:37:58 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:38:03 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:38:03 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:38:03 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:38:06 - app_logger - INFO - get_all_requests:108 - Request received — list all optimisation requests.
+2026-06-03 15:38:06 - app_logger - INFO - get_all_requests:111 - Returning 13 request(s).
+2026-06-03 15:38:08 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:38:08 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:38:08 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:38:13 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:38:13 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:38:13 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:38:18 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:38:18 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:38:18 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:38:21 - app_logger - INFO - get_all_requests:108 - Request received — list all optimisation requests.
+2026-06-03 15:38:21 - app_logger - INFO - get_all_requests:111 - Returning 13 request(s).
+2026-06-03 15:38:23 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:38:23 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:38:23 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:38:28 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:38:28 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:38:28 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:38:33 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:38:33 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:38:33 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:38:36 - app_logger - INFO - get_all_requests:108 - Request received — list all optimisation requests.
+2026-06-03 15:38:36 - app_logger - INFO - get_all_requests:111 - Returning 13 request(s).
+2026-06-03 15:38:38 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:38:38 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:38:38 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:38:43 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:38:43 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:38:43 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:38:48 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:38:48 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:38:48 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:38:51 - app_logger - INFO - get_all_requests:108 - Request received — list all optimisation requests.
+2026-06-03 15:38:51 - app_logger - INFO - get_all_requests:111 - Returning 13 request(s).
+2026-06-03 15:38:53 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:38:53 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:38:53 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:38:58 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:38:58 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:38:58 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:39:03 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:39:03 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:39:03 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:39:06 - app_logger - INFO - get_all_requests:108 - Request received — list all optimisation requests.
+2026-06-03 15:39:06 - app_logger - INFO - get_all_requests:111 - Returning 13 request(s).
+2026-06-03 15:39:08 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:39:08 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:39:08 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:39:13 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:39:13 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:39:13 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:39:18 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:39:18 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:39:18 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:39:21 - app_logger - INFO - get_all_requests:108 - Request received — list all optimisation requests.
+2026-06-03 15:39:21 - app_logger - INFO - get_all_requests:111 - Returning 13 request(s).
+2026-06-03 15:39:23 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:39:23 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:39:23 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:39:28 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:39:28 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:39:28 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:39:33 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:39:33 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:39:33 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:39:36 - app_logger - INFO - get_all_requests:108 - Request received — list all optimisation requests.
+2026-06-03 15:39:36 - app_logger - INFO - get_all_requests:111 - Returning 13 request(s).
+2026-06-03 15:39:38 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:39:38 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:39:38 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:39:43 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:39:43 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:39:43 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:39:48 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:39:48 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:39:48 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:39:51 - app_logger - INFO - get_all_requests:108 - Request received — list all optimisation requests.
+2026-06-03 15:39:51 - app_logger - INFO - get_all_requests:111 - Returning 13 request(s).
+2026-06-03 15:39:53 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:39:53 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:39:53 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:39:58 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:39:58 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:39:58 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:40:03 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:40:03 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:40:03 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:40:06 - app_logger - INFO - get_all_requests:108 - Request received — list all optimisation requests.
+2026-06-03 15:40:06 - app_logger - INFO - get_all_requests:111 - Returning 13 request(s).
+2026-06-03 15:40:08 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:40:08 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:40:08 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:40:13 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:40:13 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:40:13 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:40:18 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:40:18 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:40:18 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:40:21 - app_logger - INFO - get_all_requests:108 - Request received — list all optimisation requests.
+2026-06-03 15:40:21 - app_logger - INFO - get_all_requests:111 - Returning 13 request(s).
+2026-06-03 15:40:23 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:40:23 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:40:23 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:40:28 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:40:28 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:40:28 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:40:33 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:40:33 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:40:33 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:40:36 - app_logger - INFO - get_all_requests:108 - Request received — list all optimisation requests.
+2026-06-03 15:40:36 - app_logger - INFO - get_all_requests:111 - Returning 13 request(s).
+2026-06-03 15:40:38 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:40:38 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:40:38 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:40:43 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:40:43 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:40:43 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:40:48 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:40:48 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:40:48 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:40:51 - app_logger - INFO - get_all_requests:108 - Request received — list all optimisation requests.
+2026-06-03 15:40:51 - app_logger - INFO - get_all_requests:111 - Returning 13 request(s).
+2026-06-03 15:40:53 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:40:53 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:40:53 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:40:58 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:40:58 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:40:58 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:41:03 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:41:03 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:41:03 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:41:06 - app_logger - INFO - get_all_requests:108 - Request received — list all optimisation requests.
+2026-06-03 15:41:06 - app_logger - INFO - get_all_requests:111 - Returning 13 request(s).
+2026-06-03 15:41:08 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:41:08 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:41:08 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:41:13 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:41:13 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:41:13 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:41:18 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:41:18 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:41:18 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:41:24 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:41:24 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:41:24 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:41:28 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:41:28 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:41:28 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:41:33 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:41:33 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:41:33 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:42:07 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:42:07 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:42:07 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:42:08 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:42:08 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:42:08 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:42:24 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:42:24 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:42:24 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:42:24 - app_logger - INFO - get_all_requests:108 - Request received — list all optimisation requests.
+2026-06-03 15:42:24 - app_logger - INFO - get_all_requests:111 - Returning 13 request(s).
+2026-06-03 15:42:28 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:42:28 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:42:28 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:42:33 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:42:33 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:42:33 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:42:39 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:42:39 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:42:39 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:42:43 - app_logger - INFO - get_simulation_results:753 - Fetching simulation results for system 'SYS_2'
+2026-06-03 15:42:43 - app_logger - INFO - get_simulation_result_tablename:108 - Generated simulation_result table name for system 'SYS_2'
+2026-06-03 15:42:43 - app_logger - INFO - create_simulation_result_model:615 - Model for table 'Z_FUE_SYS_2_SIMULATION_RESULT' found in cache.
+2026-06-03 15:42:46 - app_logger - INFO - get_all_requests:108 - Request received — list all optimisation requests.
+2026-06-03 15:42:46 - app_logger - INFO - get_all_requests:111 - Returning 13 request(s).
+2026-06-03 15:51:15 - app_logger - INFO - get_all_requests:108 - Request received — list all optimisation requests.
+2026-06-03 15:51:15 - app_logger - INFO - get_all_requests:111 - Returning 13 request(s).
+2026-06-03 17:46:09 - app_logger - INFO - get_all_requests:108 - Request received — list all optimisation requests.
+2026-06-03 17:46:09 - app_logger - INFO - get_all_requests:111 - Returning 13 request(s).
+2026-06-03 17:46:11 - app_logger - INFO - get_all_requests:108 - Request received — list all optimisation requests.
+2026-06-03 17:46:11 - app_logger - INFO - get_all_requests:111 - Returning 13 request(s).

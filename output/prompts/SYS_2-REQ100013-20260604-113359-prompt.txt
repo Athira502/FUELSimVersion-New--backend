@@ -1,0 +1,717 @@
+You are an SAP FUE licence optimisation expert.
+
+The 2 role(s) below are currently classified as "GB Advanced Use".
+For EACH role, decide if the overall role licence can be reduced, and provide:
+  1. A role-level licence suggestion (suggestedRoleLicense).
+  2. Per auth-object analysis.
+
+Field reference:
+- "value": current assigned value(s), comma-separated when multiple
+- "valueDescriptions": human-readable labels for ACTVT codes (e.g. "01 (Create), 02 (Change)")
+- "possibleValues": all values available in the ruleset for this object/field
+- "relevantTransactionCodes": transactions that require this auth object (system-added objects only)
+- "description": auth object description
+
+Role data:
+[
+  {
+    "role": "Z:FDBD:FIORI:ALL",
+    "roleDescription": "Fiori All",
+    "currentLicense": "GB Advanced Use",
+    "authorizationObjects": [
+      {
+        "object": "/ECRS/RPHD",
+        "field": "ACTVT",
+        "value": "01, 02, 06, 43, 74, DL",
+        "description": "Intrastat Declaration for Company Code",
+        "possibleValues": "*, 01, 02, 03, 06, 43, 74, DL",
+        "valueDescriptions": "01 (Add or Create), 02 (Change), 06 (Delete), 43 (Release), 74 (Revoke approval), DL (Download)",
+        "relevantTransactionCodes": ""
+      },
+      {
+        "object": "/SRMSMC/BO",
+        "field": "ACTVT",
+        "value": "06",
+        "description": "Business Object Authorization in SLC",
+        "possibleValues": "*, 01, 02, 03, 04, 05, 06, 08, 24, 37, 43, F4",
+        "valueDescriptions": "06 (Delete)",
+        "relevantTransactionCodes": ""
+      },
+      {
+        "object": "A_CFG_CMP",
+        "field": "ACTVT",
+        "value": "02",
+        "description": "Asset Accounting Company Code",
+        "possibleValues": "*, 01, 02, 03, 05, 06, 08",
+        "valueDescriptions": "02 (Change)",
+        "relevantTransactionCodes": ""
+      },
+      {
+        "object": "C_SITNDEF",
+        "field": "ACTVT",
+        "value": "*",
+        "description": "Situation Definition",
+        "possibleValues": "*, 01, 02, 03, 06, F4",
+        "relevantTransactionCodes": ""
+      },
+      {
+        "object": "FOT_B2A_V",
+        "field": "ACTVT",
+        "value": "01, 02, 06, A9",
+        "description": "Admin. Report Electronic Data Transmission to Authorities",
+        "possibleValues": "*, 01, 02, 03, 06, 16, A9",
+        "valueDescriptions": "01 (Add or Create), 02 (Change), 06 (Delete), A9 (Send)",
+        "relevantTransactionCodes": ""
+      },
+      {
+        "object": "FQM_FLOW",
+        "field": "ACTVT",
+        "value": "02",
+        "description": "Financial Quantity Management",
+        "possibleValues": "*, 01, 02, 03, 25",
+        "valueDescriptions": "02 (Change)",
+        "relevantTransactionCodes": ""
+      },
+      {
+        "object": "F_AVIK_AVA",
+        "field": "ACTVT",
+        "value": "02",
+        "description": "Payment Advice: Authorization for Advice Types",
+        "possibleValues": "*, 01, 02, 03, 06",
+        "valueDescriptions": "02 (Change)",
+        "relevantTransactionCodes": ""
+      },
+      {
+        "object": "F_AVIK_BUK",
+        "field": "ACTVT",
+        "value": "01, 02, 06",
+        "description": "Payment Advice: Authorization for Company Codes",
+        "possibleValues": "*, 01, 02, 03, 06, F4",
+        "valueDescriptions": "01 (Add or Create), 02 (Change), 06 (Delete)",
+        "relevantTransactionCodes": ""
+      },
+      {
+        "object": "F_BKPF_BEK",
+        "field": "ACTVT",
+        "value": "06",
+        "description": "Accounting Document: Account Authorization for Vendors",
+        "possibleValues": "*, 01, 02, 03, 06, 77, F4",
+        "valueDescriptions": "06 (Delete)",
+        "relevantTransactionCodes": ""
+      },
+      {
+        "object": "F_BKPF_BES",
+        "field": "ACTVT",
+        "value": "06",
+        "description": "Accounting Document: Account Authorization for G/L Accounts",
+        "possibleValues": "*, 01, 02, 03, 06, 77, F4",
+        "valueDescriptions": "06 (Delete)",
+        "relevantTransactionCodes": ""
+      },
+      {
+        "object": "F_BKPF_BLA",
+        "field": "ACTVT",
+        "value": "06, 10, 22, 43, 85",
+        "description": "Accounting Document: Authorization for Document Types",
+        "possibleValues": "*, 01, 02, 03, 04, 06, 08, 10, 22, 43, 77, 85, F4",
+        "valueDescriptions": "06 (Delete), 10 (Post), 22 (Enter, Include, Assign), 43 (Release), 85 (Reverse)",
+        "relevantTransactionCodes": ""
+      },
+      {
+        "object": "F_BKPF_BUK",
+        "field": "ACTVT",
+        "value": "22, 43, C4",
+        "description": "Accounting Document: Authorization for Company Codes",
+        "possibleValues": "*, 01, 02, 03, 06, 07, 08, 10, 22, 43, 77, C4, F4",
+        "valueDescriptions": "22 (Enter, Include, Assign), 43 (Release), C4 (Close Out)",
+        "relevantTransactionCodes": ""
+      },
+      {
+        "object": "F_BKPF_KOA",
+        "field": "ACTVT",
+        "value": "43, 85",
+        "description": "Accounting Document: Authorization for Account Types",
+        "possibleValues": "*, 01, 02, 03, 06, 43, 77, 85, F4",
+        "valueDescriptions": "43 (Release), 85 (Reverse)",
+        "relevantTransactionCodes": ""
+      },
+      {
+        "object": "F_CUREXRAT",
+        "field": "ACTVT",
+        "value": "01, 02, 06",
+        "description": "Authorization to Maintain Exchange Rates",
+        "possibleValues": "*, 01, 02, 03, 06, F4",
+        "valueDescriptions": "01 (Add or Create), 02 (Change), 06 (Delete)",
+        "relevantTransactionCodes": ""
+      },
+      {
+        "object": "F_FAGL_BRG",
+        "field": "ACTVT",
+        "value": "02",
+        "description": "Authorization object for MPP AuthGroup Maintenance",
+        "possibleValues": "*, 02, 03",
+        "valueDescriptions": "02 (Change)",
+        "relevantTransactionCodes": ""
+      },
+      {
+        "object": "F_FAGL_OPV",
+        "field": "ACTVT",
+        "value": "02",
+        "description": "Authorization object for Posting Period Var T001B Maintain",
+        "possibleValues": "*, 02, 03",
+        "valueDescriptions": "02 (Change)",
+        "relevantTransactionCodes": ""
+      },
+      {
+        "object": "F_FDSB_BUK",
+        "field": "ACTVT",
+        "value": "01, 02",
+        "description": "Cash Position: Company Code Summary Records",
+        "possibleValues": "*, 01, 02, 03, 06, 16",
+        "valueDescriptions": "01 (Add or Create), 02 (Change)",
+        "relevantTransactionCodes": ""
+      },
+      {
+        "object": "F_FDSR_BUK",
+        "field": "ACTVT",
+        "value": "01, 02",
+        "description": "Liquidity Forecast: Company Code Summary Records",
+        "possibleValues": "*, 01, 02, 03, 16",
+        "valueDescriptions": "01 (Add or Create), 02 (Change)",
+        "relevantTransactionCodes": ""
+      },
+      {
+        "object": "F_FEBB_BUK",
+        "field": "ACTVT",
+        "value": "01, 02",
+        "description": "Company Code Bank Statement",
+        "possibleValues": "*, 01, 02, 03, F4",
+        "valueDescriptions": "01 (Add or Create), 02 (Change)",
+        "relevantTransactionCodes": ""
+      },
+      {
+        "object": "F_FEBC_BUK",
+        "field": "ACTVT",
+        "value": "02",
+        "description": "Company Code Check Deposit/Lockbox",
+        "possibleValues": "*, 01, 02, 03, F4",
+        "valueDescriptions": "02 (Change)",
+        "relevantTransactionCodes": ""
+      },
+      {
+        "object": "F_MANDATE",
+        "field": "ACTVT",
+        "value": "01, 02, 06",
+        "description": "Authorization to Process a SEPA Mandate in FI",
+        "possibleValues": "*, 01, 02, 03, 06, F4",
+        "valueDescriptions": "01 (Add or Create), 02 (Change), 06 (Delete)",
+        "relevantTransactionCodes": ""
+      },
+      {
+        "object": "F_PMIA_BUK",
+        "field": "ACTVT",
+        "value": "06, DL",
+        "description": "FI: Payment Medium handling for Company Code",
+        "possibleValues": "*, 06, DL",
+        "valueDescriptions": "06 (Delete), DL (Download)",
+        "relevantTransactionCodes": ""
+      },
+      {
+        "object": "F_REGU_PAY",
+        "field": "ACTVT",
+        "value": "02",
+        "description": "Automatic Payments for Company Code and Payment Type",
+        "possibleValues": "*, 02, 03",
+        "valueDescriptions": "02 (Change)",
+        "relevantTransactionCodes": ""
+      },
+      {
+        "object": "F_RP_BUKRS",
+        "field": "ACTVT",
+        "value": "02",
+        "description": "Reprocessing BS Autom. Rules: Authorization for Company Code",
+        "possibleValues": "*, 02, 03",
+        "valueDescriptions": "02 (Change)",
+        "relevantTransactionCodes": ""
+      },
+      {
+        "object": "F_T011",
+        "field": "ACTVT",
+        "value": "01, 02",
+        "description": "Financial Statements: General Maintenance Authorization",
+        "possibleValues": "*, 01, 02, 03, 67, F4",
+        "valueDescriptions": "01 (Add or Create), 02 (Change)",
+        "relevantTransactionCodes": ""
+      },
+      {
+        "object": "ITM_CLS_NC",
+        "field": "ACTVT",
+        "value": "02",
+        "description": "Trade Classification: Auth. for Numbering Scheme Content",
+        "possibleValues": "*, 02, 03, F4",
+        "valueDescriptions": "02 (Change)",
+        "relevantTransactionCodes": ""
+      },
+      {
+        "object": "ITM_CLS_NS",
+        "field": "ACTVT",
+        "value": "02",
+        "description": "Trade Classification: Authorization for Numbering Scheme",
+        "possibleValues": "*, 02, 03, F4",
+        "valueDescriptions": "02 (Change)",
+        "relevantTransactionCodes": ""
+      },
+      {
+        "object": "J_3RF_REGI",
+        "field": "ACTVT",
+        "value": "23",
+        "description": "Invoice Registration Journal Maintenance",
+        "possibleValues": "*, 03, 23",
+        "valueDescriptions": "23 (Maintain)",
+        "relevantTransactionCodes": ""
+      },
+      {
+        "object": "K_ALLORUN2",
+        "field": "ACTVT",
+        "value": "16",
+        "description": "Universal Allocation - Allocation Run",
+        "possibleValues": "02, 03, 16, 48, 85, F4",
+        "valueDescriptions": "16 (Execute)",
+        "relevantTransactionCodes": ""
+      },
+      {
+        "object": "K_CSKA_SET",
+        "field": "ACTVT",
+        "value": "02",
+        "description": "CO-CCA: Cost Element Groups",
+        "possibleValues": "*, 02, 03, 06",
+        "valueDescriptions": "02 (Change)",
+        "relevantTransactionCodes": ""
+      },
+      {
+        "object": "K_CSLA",
+        "field": "ACTVT",
+        "value": "01, 02, 06",
+        "description": "CO-CCA: Activity Types Master",
+        "possibleValues": "*, 01, 02, 03, 06, 08, F4",
+        "valueDescriptions": "01 (Add or Create), 02 (Change), 06 (Delete)",
+        "relevantTransactionCodes": ""
+      },
+      {
+        "object": "K_FVMK",
+        "field": "ACTVT",
+        "value": "43, 44, 45",
+        "description": "CO-PC: Release/Marking - Product Costing",
+        "possibleValues": "*, 43, 44, 45",
+        "valueDescriptions": "43 (Release), 44 (Flag), 45 (Allow)",
+        "relevantTransactionCodes": ""
+      },
+      {
+        "object": "K_KA03",
+        "field": "ACTVT",
+        "value": "*",
+        "description": "CO-CCA: Statistical Key Figures",
+        "possibleValues": "*, 02, 03, F4",
+        "relevantTransactionCodes": ""
+      },
+      {
+        "object": "K_KEKO",
+        "field": "ACTVT",
+        "value": "06",
+        "description": "CO-PC: Product Costing",
+        "possibleValues": "*, 03, 06, 16, 39, F4",
+        "valueDescriptions": "06 (Delete)",
+        "relevantTransactionCodes": ""
+      },
+      {
+        "object": "K_MLPR_VA",
+        "field": "ACTVT",
+        "value": "16, 44",
+        "description": "CO Material Price Change: Valuation Area",
+        "possibleValues": "*, 03, 16, 44",
+        "valueDescriptions": "16 (Execute), 44 (Flag)",
+        "relevantTransactionCodes": ""
+      },
+      {
+        "object": "K_ML_VA",
+        "field": "ACTVT",
+        "value": "16",
+        "description": "CO Material Ledger: Valuation Area",
+        "possibleValues": "*, 02, 03, 16, 40, 45, F4",
+        "valueDescriptions": "16 (Execute)",
+        "relevantTransactionCodes": ""
+      },
+      {
+        "object": "K_TP_VALU",
+        "field": "ACTVT",
+        "value": "02",
+        "description": "Transfer Price Valuations",
+        "possibleValues": "*, 02, 03, 10, 16",
+        "valueDescriptions": "02 (Change)",
+        "relevantTransactionCodes": ""
+      },
+      {
+        "object": "M_CTLG_PRP",
+        "field": "ACTVT",
+        "value": "07",
+        "description": "Catalog Item Proposals Authorizations",
+        "possibleValues": "*, 03, 07",
+        "valueDescriptions": "07 (Activate, generate)",
+        "relevantTransactionCodes": ""
+      },
+      {
+        "object": "M_EINF_EKG",
+        "field": "ACTVT",
+        "value": "01, 06",
+        "description": "Purchasing Group in Purchasing Info Record",
+        "possibleValues": "*, 01, 02, 03, 06, 08, F4",
+        "valueDescriptions": "01 (Add or Create), 06 (Delete)",
+        "relevantTransactionCodes": ""
+      },
+      {
+        "object": "M_EINF_EKO",
+        "field": "ACTVT",
+        "value": "01, 06",
+        "description": "Purchasing Organization in Purchasing Info Record",
+        "possibleValues": "*, 01, 02, 03, 06, 08, F4",
+        "valueDescriptions": "01 (Add or Create), 06 (Delete)",
+        "relevantTransactionCodes": ""
+      },
+      {
+        "object": "M_EINF_WRK",
+        "field": "ACTVT",
+        "value": "01, 06",
+        "description": "Plant in Purchasing Info Record",
+        "possibleValues": "*, 01, 02, 03, 06, 08, F4",
+        "valueDescriptions": "01 (Add or Create), 06 (Delete)",
+        "relevantTransactionCodes": ""
+      },
+      {
+        "object": "M_INTG_XTR",
+        "field": "ACTVT",
+        "value": "16",
+        "description": "Extraction for Outbound Processing",
+        "possibleValues": "*, 16",
+        "valueDescriptions": "16 (Execute)",
+        "relevantTransactionCodes": ""
+      },
+      {
+        "object": "M_MMSEVAL",
+        "field": "ACTVT",
+        "value": "02",
+        "description": "Adjust Supplier Evaluation Score",
+        "possibleValues": "*, 02, 03",
+        "valueDescriptions": "02 (Change)",
+        "relevantTransactionCodes": ""
+      },
+      {
+        "object": "M_QUOT_WRK",
+        "field": "ACTVT",
+        "value": "02, 06",
+        "description": "Plant (Quotas)",
+        "possibleValues": "*, 02, 03, 06, 08, F4",
+        "valueDescriptions": "02 (Change), 06 (Delete)",
+        "relevantTransactionCodes": ""
+      },
+      {
+        "object": "M_RECH_WRK",
+        "field": "ACTVT",
+        "value": "01",
+        "description": "Invoices: Plant",
+        "possibleValues": "*, 01, 02, 03, 04, 77, F4",
+        "valueDescriptions": "01 (Add or Create)",
+        "relevantTransactionCodes": ""
+      },
+      {
+        "object": "S_ATO_SET",
+        "field": "ACTVT",
+        "value": "02, 78",
+        "description": "Extensibility Settings (ATO)",
+        "possibleValues": "*, 02, 03, 78",
+        "valueDescriptions": "02 (Change), 78 (Assign)",
+        "relevantTransactionCodes": ""
+      },
+      {
+        "object": "S_EIT",
+        "field": "ACTVT",
+        "value": "02",
+        "description": "Extensibility Templates",
+        "possibleValues": "*, 02, 03",
+        "valueDescriptions": "02 (Change)",
+        "relevantTransactionCodes": ""
+      },
+      {
+        "object": "S_IRM_OG",
+        "field": "ACTVT",
+        "value": "02",
+        "description": "Information Retention Manager: Object Group",
+        "possibleValues": "*, 02, 03",
+        "valueDescriptions": "02 (Change)",
+        "relevantTransactionCodes": ""
+      },
+      {
+        "object": "S_IRM_RG",
+        "field": "ACTVT",
+        "value": "02",
+        "description": "Information Retention Manager: Rule Group",
+        "possibleValues": "*, 02, 03",
+        "valueDescriptions": "02 (Change)",
+        "relevantTransactionCodes": ""
+      },
+      {
+        "object": "S_ODQ_MON",
+        "field": "ACTVT",
+        "value": "02",
+        "description": "Operational Delta Queue Monitoring",
+        "possibleValues": "*, 02, 03, 28",
+        "valueDescriptions": "02 (Change)",
+        "relevantTransactionCodes": ""
+      },
+      {
+        "object": "S_Q_ADM",
+        "field": "ACTVT",
+        "value": "02, 16",
+        "description": "ABAP Test Cockpit Administration",
+        "possibleValues": "*, 02, 03, 16, 43, 59",
+        "valueDescriptions": "02 (Change), 16 (Execute)",
+        "relevantTransactionCodes": ""
+      },
+      {
+        "object": "S_Q_GOVERN",
+        "field": "ACTVT",
+        "value": "02",
+        "description": "ABAP Test Cockpit Quality Assurance",
+        "possibleValues": "*, 01, 02, 03, 06, 31, 59",
+        "valueDescriptions": "02 (Change)",
+        "relevantTransactionCodes": ""
+      },
+      {
+        "object": "S_TRANSPRT",
+        "field": "ACTVT",
+        "value": "02",
+        "description": "Transport Organizer",
+        "possibleValues": "*, 01, 02, 03, 04, 05, 06, 23, 43, 50, 60, 61, 65, 75, 78, 87, 90",
+        "valueDescriptions": "02 (Change)",
+        "relevantTransactionCodes": ""
+      },
+      {
+        "object": "S_YCM_APS",
+        "field": "ACTVT",
+        "value": "*",
+        "description": "Custom Code Migration",
+        "possibleValues": "*, 01, 02, 03, 06, 16, 39",
+        "relevantTransactionCodes": ""
+      }
+    ],
+    "transactionCodes": [],
+    "fioriApps": []
+  },
+  {
+    "role": "Z:FI:1300:ACCOUNTING:MANAGER",
+    "roleDescription": "FI Accounting Manager",
+    "currentLicense": "GB Advanced Use",
+    "authorizationObjects": [
+      {
+        "object": "/ECRS/RPHD",
+        "field": "ACTVT",
+        "value": "01, 02, 06, 43, 74, DL",
+        "description": "Intrastat Declaration for Company Code",
+        "possibleValues": "*, 01, 02, 03, 06, 43, 74, DL",
+        "valueDescriptions": "01 (Add or Create), 02 (Change), 06 (Delete), 43 (Release), 74 (Revoke approval), DL (Download)",
+        "relevantTransactionCodes": ""
+      },
+      {
+        "object": "A_CFG_CMP",
+        "field": "ACTVT",
+        "value": "01, 02, 05, 06",
+        "description": "Asset Accounting Company Code",
+        "possibleValues": "*, 01, 02, 03, 05, 06, 08",
+        "valueDescriptions": "01 (Add or Create), 02 (Change), 05 (Lock), 06 (Delete)",
+        "relevantTransactionCodes": ""
+      },
+      {
+        "object": "FOT_B2A_V",
+        "field": "ACTVT",
+        "value": "01, 02, 06, A9",
+        "description": "Admin. Report Electronic Data Transmission to Authorities",
+        "possibleValues": "*, 01, 02, 03, 06, 16, A9",
+        "valueDescriptions": "01 (Add or Create), 02 (Change), 06 (Delete), A9 (Send)",
+        "relevantTransactionCodes": ""
+      },
+      {
+        "object": "FQM_FLOW",
+        "field": "ACTVT",
+        "value": "02",
+        "description": "Financial Quantity Management",
+        "possibleValues": "*, 01, 02, 03, 25",
+        "valueDescriptions": "02 (Change)",
+        "relevantTransactionCodes": ""
+      },
+      {
+        "object": "F_BKPF_BEK",
+        "field": "ACTVT",
+        "value": "06",
+        "description": "Accounting Document: Account Authorization for Vendors",
+        "possibleValues": "*, 01, 02, 03, 06, 77, F4",
+        "valueDescriptions": "06 (Delete)",
+        "relevantTransactionCodes": ""
+      },
+      {
+        "object": "F_BKPF_BES",
+        "field": "ACTVT",
+        "value": "06",
+        "description": "Accounting Document: Account Authorization for G/L Accounts",
+        "possibleValues": "*, 01, 02, 03, 06, 77, F4",
+        "valueDescriptions": "06 (Delete)",
+        "relevantTransactionCodes": ""
+      },
+      {
+        "object": "F_BKPF_BLA",
+        "field": "ACTVT",
+        "value": "06, 10, 22, 43, 85",
+        "description": "Accounting Document: Authorization for Document Types",
+        "possibleValues": "*, 01, 02, 03, 04, 06, 08, 10, 22, 43, 77, 85, F4",
+        "valueDescriptions": "06 (Delete), 10 (Post), 22 (Enter, Include, Assign), 43 (Release), 85 (Reverse)",
+        "relevantTransactionCodes": ""
+      },
+      {
+        "object": "F_BKPF_KOA",
+        "field": "ACTVT",
+        "value": "*, 43, 85",
+        "description": "Accounting Document: Authorization for Account Types",
+        "possibleValues": "*, 01, 02, 03, 06, 43, 77, 85, F4",
+        "valueDescriptions": "*, 43 (Release), 85 (Reverse)",
+        "relevantTransactionCodes": ""
+      },
+      {
+        "object": "F_FAGL_BRG",
+        "field": "ACTVT",
+        "value": "02",
+        "description": "Authorization object for MPP AuthGroup Maintenance",
+        "possibleValues": "*, 02, 03",
+        "valueDescriptions": "02 (Change)",
+        "relevantTransactionCodes": ""
+      },
+      {
+        "object": "F_FAGL_MPV",
+        "field": "ACTVT",
+        "value": "02",
+        "description": "Authorization object for Manage Posting Period Variants",
+        "possibleValues": "*, 02, 03",
+        "valueDescriptions": "02 (Change)",
+        "relevantTransactionCodes": ""
+      },
+      {
+        "object": "F_FAGL_OPV",
+        "field": "ACTVT",
+        "value": "02",
+        "description": "Authorization object for Posting Period Var T001B Maintain",
+        "possibleValues": "*, 02, 03",
+        "valueDescriptions": "02 (Change)",
+        "relevantTransactionCodes": ""
+      },
+      {
+        "object": "F_FDSB_BUK",
+        "field": "ACTVT",
+        "value": "01, 02",
+        "description": "Cash Position: Company Code Summary Records",
+        "possibleValues": "*, 01, 02, 03, 06, 16",
+        "valueDescriptions": "01 (Add or Create), 02 (Change)",
+        "relevantTransactionCodes": ""
+      },
+      {
+        "object": "F_FDSR_BUK",
+        "field": "ACTVT",
+        "value": "01, 02",
+        "description": "Liquidity Forecast: Company Code Summary Records",
+        "possibleValues": "*, 01, 02, 03, 16",
+        "valueDescriptions": "01 (Add or Create), 02 (Change)",
+        "relevantTransactionCodes": ""
+      },
+      {
+        "object": "F_GRIRRCN",
+        "field": "ACTVT",
+        "value": "34",
+        "description": "GR/IR Account Reconciliation",
+        "possibleValues": "*, 03, 34",
+        "valueDescriptions": "34 (Write)",
+        "relevantTransactionCodes": ""
+      },
+      {
+        "object": "F_MANDATE",
+        "field": "ACTVT",
+        "value": "01, 02, 06",
+        "description": "Authorization to Process a SEPA Mandate in FI",
+        "possibleValues": "*, 01, 02, 03, 06, F4",
+        "valueDescriptions": "01 (Add or Create), 02 (Change), 06 (Delete)",
+        "relevantTransactionCodes": ""
+      },
+      {
+        "object": "F_T011",
+        "field": "ACTVT",
+        "value": "01, 02",
+        "description": "Financial Statements: General Maintenance Authorization",
+        "possibleValues": "*, 01, 02, 03, 67, F4",
+        "valueDescriptions": "01 (Add or Create), 02 (Change)",
+        "relevantTransactionCodes": ""
+      },
+      {
+        "object": "ITM_CLS_NC",
+        "field": "ACTVT",
+        "value": "02",
+        "description": "Trade Classification: Auth. for Numbering Scheme Content",
+        "possibleValues": "*, 02, 03, F4",
+        "valueDescriptions": "02 (Change)",
+        "relevantTransactionCodes": ""
+      },
+      {
+        "object": "ITM_CLS_NS",
+        "field": "ACTVT",
+        "value": "02",
+        "description": "Trade Classification: Authorization for Numbering Scheme",
+        "possibleValues": "*, 02, 03, F4",
+        "valueDescriptions": "02 (Change)",
+        "relevantTransactionCodes": ""
+      },
+      {
+        "object": "K_TP_VALU",
+        "field": "ACTVT",
+        "value": "10",
+        "description": "Transfer Price Valuations",
+        "possibleValues": "*, 02, 03, 10, 16",
+        "valueDescriptions": "10 (Post)",
+        "relevantTransactionCodes": ""
+      },
+      {
+        "object": "S_WFFLXDEF",
+        "field": "ACTVT",
+        "value": "01, 02, 06, 60, 61, 63, 67",
+        "description": "Workflow: Flexible Workflow Definition",
+        "possibleValues": "*, 01, 02, 03, 06, 60, 61, 63, 67, ST, W9, WA, WB",
+        "valueDescriptions": "01 (Add or Create), 02 (Change), 06 (Delete), 60 (Import), 61 (Export), 63 (Activate), 67 (Translate)",
+        "relevantTransactionCodes": ""
+      }
+    ],
+    "transactionCodes": [],
+    "fioriApps": []
+  }
+]
+
+Return ONLY a valid JSON array — no markdown, no preamble — in EXACTLY this structure:
+[
+  {
+    "role": "<AGR_NAME>",
+    "suggestedRoleLicense": "<GB Advanced Use | GC Core Use | GD Self-Service Use | No Change>",
+    "objects": [
+      {
+        "authorizationObject": "<OBJECT>",
+        "field":               "<FIELD>",
+        "value":               "<VALUE>",
+        "licenseCanBeReduced": "Yes | No | May Be",
+        "insights":            "<short reason>",
+        "recommendation":      "<short action>",
+        "explanation":         "<detailed analysis considering transaction codes, value descriptions and possible values>"
+      }
+    ]
+  }
+]

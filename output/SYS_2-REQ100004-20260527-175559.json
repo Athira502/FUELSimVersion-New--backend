@@ -1,0 +1,49 @@
+{
+    "Z:FI:FDBD:COMM:ACCOUNTANT": [
+        {
+            "authorizationObject": "F_MANDATE",
+            "field": "ACTVT",
+            "value": "01, 02",
+            "licenseCanBeReduced": "No",
+            "insights": "Create/change SEPA mandates requires advanced financial processing",
+            "recommendation": "Keep current values for commercial accountant duties",
+            "explanation": "SEPA mandate creation (01) and modification (02) are core financial activities for a commercial accountant. These activities involve direct financial document creation and modification through FB01 posting. Removing these would prevent essential accounting functions."
+        },
+        {
+            "authorizationObject": "K_FVMK",
+            "field": "ACTVT",
+            "value": "43",
+            "licenseCanBeReduced": "No",
+            "insights": "Release function for product costing is critical financial activity",
+            "recommendation": "Maintain release authorization for price activation",
+            "explanation": "The release activity (43) for product costing is essential for CKME transaction (Activation of Planned Prices). This is a key financial process that directly impacts material valuation and cost accounting. Cannot be reduced without impacting core accounting responsibilities."
+        },
+        {
+            "authorizationObject": "K_MLPR_VA",
+            "field": "ACTVT",
+            "value": "16",
+            "licenseCanBeReduced": "No",
+            "insights": "Execute permission required for material price changes",
+            "recommendation": "Keep execute rights for price activation workflow",
+            "explanation": "Execute permission (16) is necessary for CKME transaction to activate planned prices in material ledger. This is a critical function for commercial accountants managing product costs and cannot be reduced to display-only access."
+        },
+        {
+            "authorizationObject": "K_ML_VA",
+            "field": "ACTVT",
+            "value": "16",
+            "licenseCanBeReduced": "May Be",
+            "insights": "Execute permission for material ledger could potentially be restricted",
+            "recommendation": "Review if display-only (03) access would suffice",
+            "explanation": "While execute (16) is currently assigned for material ledger operations via CKME, consider if the accountant truly needs execution rights or if display (03) would be sufficient. Other values like 02, 40, 45 are available but 03 might meet reporting needs if price activation is handled by others."
+        },
+        {
+            "authorizationObject": "K_TP_VALU",
+            "field": "ACTVT",
+            "value": "02",
+            "licenseCanBeReduced": "May Be",
+            "insights": "Change permission for transfer pricing might be reducible",
+            "recommendation": "Consider limiting to display (03) if changes not required",
+            "explanation": "Currently has change (02) access to transfer price valuations. If the accountant only needs to view transfer pricing data for analysis (KKAK, KKBC transactions), display access (03) might suffice. However, if they need to maintain transfer pricing data, change access must remain."
+        }
+    ]
+}

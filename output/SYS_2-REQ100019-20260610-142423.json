@@ -1,0 +1,13 @@
+{
+    "Z:FI:FDBD:MD": [
+        {
+            "authorizationObject": "K_PCAR_REP",
+            "field": "ACTVT",
+            "value": "01, 02",
+            "licenseCanBeReduced": "Yes",
+            "insights": "EC-PCA reporting with only create/change activities typically supports core financial processes",
+            "recommendation": "Reduce to GC Core Use as these activities align with standard financial master data maintenance",
+            "explanation": "The K_PCAR_REP object controls access to EC-PCA (Enterprise Controlling - Profit Center Accounting) reports. With only activities 01 (Create) and 02 (Change), this role appears to be limited to basic report maintenance functions. Since there are no transaction codes or Fiori apps assigned, and the role description indicates it's for Finance Master Data maintenance, these limited activities on PCA reports support core financial operations rather than advanced analytical or strategic functions. The absence of display (03), delete (06), or other advanced activities further supports classification as Core Use."
+        }
+    ]
+}

@@ -1,0 +1,159 @@
+{
+    "Z:FI:FDBD:CASH:CONTROLLER": [
+        {
+            "authorizationObject": "F_AVIK_BUK",
+            "field": "ACTVT",
+            "value": "01, 02, 06",
+            "licenseCanBeReduced": "Yes",
+            "insights": "Payment advice management is operational activity",
+            "recommendation": "Keep as-is for core cash operations",
+            "explanation": "Payment advice creation, modification and deletion are standard operational activities in cash management. These activities don't constitute advanced financial analysis or strategic decision-making."
+        },
+        {
+            "authorizationObject": "F_BKPF_BEK",
+            "field": "ACTVT",
+            "value": "06",
+            "licenseCanBeReduced": "Yes",
+            "insights": "Vendor document deletion is maintenance activity",
+            "recommendation": "Keep delete access for error corrections",
+            "explanation": "Delete-only access for vendor documents is typically used for correcting posting errors or maintaining data quality. This is an operational maintenance task rather than advanced functionality."
+        },
+        {
+            "authorizationObject": "F_BKPF_BLA",
+            "field": "ACTVT",
+            "value": "10, 85",
+            "licenseCanBeReduced": "Yes",
+            "insights": "Document posting and reversal are core accounting functions",
+            "recommendation": "Maintain for daily cash operations",
+            "explanation": "Posting (10) and reversing (85) accounting documents are fundamental accounting operations required for daily cash management activities. These are core transactional activities, not advanced analytical functions."
+        },
+        {
+            "authorizationObject": "F_FEBB_BUK",
+            "field": "ACTVT",
+            "value": "01, 02",
+            "licenseCanBeReduced": "Yes",
+            "insights": "Bank statement processing is routine cash management",
+            "recommendation": "Keep for bank reconciliation activities",
+            "explanation": "Creating and changing bank statement entries is a standard operational task in cash management. This is core functionality for daily bank reconciliation and cash position management."
+        },
+        {
+            "authorizationObject": "F_FEBC_BUK",
+            "field": "ACTVT",
+            "value": "02",
+            "licenseCanBeReduced": "Yes",
+            "insights": "Check deposit/lockbox changes are operational tasks",
+            "recommendation": "Maintain for payment processing",
+            "explanation": "Modifying check deposit and lockbox entries is part of routine payment processing operations. This is standard cash management functionality, not advanced analysis."
+        },
+        {
+            "authorizationObject": "F_RP_BUKRS",
+            "field": "ACTVT",
+            "value": "02",
+            "licenseCanBeReduced": "Yes",
+            "insights": "Bank statement rule maintenance is operational",
+            "recommendation": "Keep for automated reconciliation support",
+            "explanation": "Changing bank statement automation rules supports efficient daily operations. While it involves some configuration, it's fundamentally an operational support activity rather than advanced functionality."
+        }
+    ],
+    "Z:FI:FDBD:CASH:MANAGER": [
+        {
+            "authorizationObject": "F_AVIK_BUK",
+            "field": "ACTVT",
+            "value": "01, 02, 06",
+            "licenseCanBeReduced": "Yes",
+            "insights": "Payment advice full lifecycle management",
+            "recommendation": "Appropriate for cash management role",
+            "explanation": "Full payment advice management (create, change, delete) is standard for a cash manager role. These are operational activities supporting daily cash management processes."
+        },
+        {
+            "authorizationObject": "F_BKPF_BEK",
+            "field": "ACTVT",
+            "value": "06",
+            "licenseCanBeReduced": "Yes",
+            "insights": "Vendor document deletion for corrections",
+            "recommendation": "Keep for error management",
+            "explanation": "Delete access for vendor documents allows correction of posting errors. This is an operational maintenance activity typical for cash management roles."
+        },
+        {
+            "authorizationObject": "F_BKPF_BES",
+            "field": "ACTVT",
+            "value": "06",
+            "licenseCanBeReduced": "Yes",
+            "insights": "G/L account document deletion capability",
+            "recommendation": "Maintain for G/L corrections",
+            "explanation": "Deleting G/L account documents is used for correcting posting errors in cash-related accounts. This is operational maintenance rather than advanced functionality."
+        },
+        {
+            "authorizationObject": "F_BKPF_BLA",
+            "field": "ACTVT",
+            "value": "06, 10, 85",
+            "licenseCanBeReduced": "Yes",
+            "insights": "Full document lifecycle management",
+            "recommendation": "Keep for comprehensive cash operations",
+            "explanation": "Delete, post, and reverse capabilities provide full document management for cash operations. These are core accounting functions required for daily cash management activities."
+        },
+        {
+            "authorizationObject": "F_BKPF_BUK",
+            "field": "ACTVT",
+            "value": "22",
+            "licenseCanBeReduced": "Yes",
+            "insights": "Company code assignment for documents",
+            "recommendation": "Standard for multi-company operations",
+            "explanation": "Entering/assigning company codes (22) is a basic requirement for processing transactions across multiple entities. This is standard functionality, not advanced use."
+        },
+        {
+            "authorizationObject": "F_FEBB_BUK",
+            "field": "ACTVT",
+            "value": "01, 02",
+            "licenseCanBeReduced": "Yes",
+            "insights": "Bank statement processing capabilities",
+            "recommendation": "Essential for cash management",
+            "explanation": "Creating and changing bank statements is core functionality for daily cash reconciliation and position management. This is operational work, not advanced analysis."
+        },
+        {
+            "authorizationObject": "F_FEBC_BUK",
+            "field": "ACTVT",
+            "value": "02",
+            "licenseCanBeReduced": "Yes",
+            "insights": "Check/lockbox processing maintenance",
+            "recommendation": "Keep for payment processing",
+            "explanation": "Changing check deposit and lockbox data is routine payment processing work. This supports daily cash operations rather than advanced functionality."
+        },
+        {
+            "authorizationObject": "F_PMIA_BUK",
+            "field": "ACTVT",
+            "value": "06, DL",
+            "licenseCanBeReduced": "Yes",
+            "insights": "Payment file management capabilities",
+            "recommendation": "Standard for payment processing",
+            "explanation": "Deleting and downloading payment files are standard activities in payment processing workflows. These support operational payment execution, not advanced analysis."
+        },
+        {
+            "authorizationObject": "F_REGU_PAY",
+            "field": "ACTVT",
+            "value": "02",
+            "licenseCanBeReduced": "Yes",
+            "insights": "Automatic payment configuration",
+            "recommendation": "Keep for payment automation",
+            "explanation": "Changing automatic payment settings is operational configuration to support efficient payment processing. This is standard functionality for cash management roles."
+        },
+        {
+            "authorizationObject": "F_RP_BUKRS",
+            "field": "ACTVT",
+            "value": "02",
+            "licenseCanBeReduced": "Yes",
+            "insights": "Bank statement automation rules",
+            "recommendation": "Maintain for reconciliation efficiency",
+            "explanation": "Modifying bank statement automation rules improves operational efficiency in daily reconciliation. This is operational support rather than advanced functionality."
+        },
+        {
+            "authorizationObject": "K_TP_VALU",
+            "field": "ACTVT",
+            "value": "02",
+            "licenseCanBeReduced": "May Be",
+            "insights": "Transfer pricing valuations modification",
+            "recommendation": "Review actual usage and business need",
+            "explanation": "Transfer price valuations could be considered more advanced depending on usage context. If used for simple intercompany cash transfers, it's operational. If used for complex pricing analysis, it may warrant advanced license."
+        }
+    ]
+}

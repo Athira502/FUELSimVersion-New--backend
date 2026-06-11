@@ -17,6 +17,13 @@ class ruleSet(Base):
     AUTHVALUE           = Column(String, nullable=False)
 
 
+class actvtText(Base):
+    __tablename__= "Z_ACTVT_TEXT"
+    id = Column(Integer, primary_key=True, index=True, autoincrement=True)
+    ACTIVITY = Column(String, nullable=False)
+    TEXT= Column(String, nullable=False)
+
+
 
 def ensure_table_exists():
     inspector = sqla_inspect(engine)
@@ -34,6 +41,16 @@ def ensure_ruleset_table_exists():
     if not inspector.has_table(table_name):
         print(f"Table '{table_name}' not found. Creating...")
         ruleSet.__table__.create(bind=engine)
+        print(f"Table '{table_name}' created.")
+    else:
+        print(f"Table '{table_name}' already exists.")
+
+def ensure_actvt_text_table_exists():
+    inspector = sqla_inspect(engine)
+    table_name = actvtText.__tablename__
+    if not inspector.has_table(table_name):
+        print(f"Table '{table_name}' not found. Creating...")
+        actvtText.__table__.create(bind=engine)
         print(f"Table '{table_name}' created.")
     else:
         print(f"Table '{table_name}' already exists.")

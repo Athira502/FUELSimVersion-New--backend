@@ -1,0 +1,13 @@
+{
+    "<AGR_NAME>": [
+        {
+            "authorizationObject": "<OBJECT>",
+            "field": "<FIELD>",
+            "value": "<VALUE>",
+            "licenseCanBeReduced": "Yes | No | May Be",
+            "insights": "<short reason>",
+            "recommendation": "<short action>",
+            "explanation": "<detailed analysis considering transaction codes, value descriptions and possible values>"
+        }
+    ]
+}

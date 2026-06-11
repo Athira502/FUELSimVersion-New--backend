@@ -1,0 +1,31 @@
+{
+    "Z:MM:FDBD:SOURCE:SU": [
+        {
+            "authorizationObject": "M_EINF_EKG",
+            "field": "ACTVT",
+            "value": "01, 06",
+            "licenseCanBeReduced": "Yes",
+            "insights": "Both 'Add or Create' and 'Delete' are allowed in the transaction code MEMASSIN.",
+            "recommendation": "Reduce license for this authorization object to GC Core Use to allow only 'Create' and 'Change'.",
+            "explanation": "For 'Delete', consider alternative transactions like Z_PIR_MASSCREATION or Z_SL_MASSCREATION, which do not require 'Delete'."
+        },
+        {
+            "authorizationObject": "M_EINF_EKO",
+            "field": "ACTVT",
+            "value": "01, 06",
+            "licenseCanBeReduced": "Yes",
+            "insights": "Both 'Add or Create' and 'Delete' are allowed in the transaction code MEMASSIN.",
+            "recommendation": "Reduce license for this authorization object to GC Core Use to allow only 'Create' and 'Change'.",
+            "explanation": "For 'Delete', consider alternative transactions like Z_PIR_MASSCREATION or Z_SL_MASSCREATION, which do not require 'Delete'."
+        },
+        {
+            "authorizationObject": "M_EINF_WRK",
+            "field": "ACTVT",
+            "value": "01, 06",
+            "licenseCanBeReduced": "Yes",
+            "insights": "Both 'Add or Create' and 'Delete' are allowed in the transaction code MEMASSIN.",
+            "recommendation": "Reduce license for this authorization object to GC Core Use to allow only 'Create' and 'Change'.",
+            "explanation": "For 'Delete', consider alternative transactions like Z_PIR_MASSCREATION or Z_SL_MASSCREATION, which do not require 'Delete'."
+        }
+    ]
+}

@@ -64,72 +64,127 @@ FUE_FACTORS = {
 # Initialization: Create and populate simulation table
 # ════════════════════════════════════════════════════════════════════════════
 
+# @router.post("/{system_name}/initialize")
+# async def initialize_simulation_table(
+#         system_name: str,
+#         db: Session = Depends(get_db)
+# ):
+#     """
+#     Create simulation table and populate it with current RoleLic data.
+#     Call this before running any simulations.
+#     """
+#     logger.info(f"Initializing simulation table for system '{system_name}'")
+#
+#     try:
+#         # Get models
+#         RoleLicModel = create_role_lic_model(system_name)
+#         RoleLicSimModel = create_role_lic_sim_model(system_name)
+#
+#         # Ensure tables exist
+#         ensure_table_exists(db.bind, RoleLicModel)
+#         ensure_table_exists(db.bind, RoleLicSimModel)
+#
+#         # Clear existing simulation data
+#         deleted_count = db.query(RoleLicSimModel).delete()
+#         logger.info(f"Cleared {deleted_count} existing simulation records")
+#
+#         # Copy all RoleLic data to simulation table
+#         source_records = db.query(RoleLicModel).all()
+#
+#         if not source_records:
+#             raise HTTPException(
+#                 status_code=404,
+#                 detail=f"No RoleLic data found for system '{system_name}'. Run Stage 2 computation first."
+#             )
+#
+#         sim_records = []
+#         for record in source_records:
+#             sim_record = RoleLicSimModel(
+#                 AGR_NAME=record.AGR_NAME,
+#                 OBJECT=record.OBJECT,
+#                 FIELD=record.FIELD,
+#                 LOW=record.LOW,
+#                 HIGH=record.HIGH,
+#                 ORIGINAL_CLASSIFY_LIC=record.CLASSIFY_LIC,
+#                 ORIGINAL_MATCH_TYPE=record.MATCH_TYPE,
+#                 OPERATION=None,  # No changes yet
+#                 NEW_LOW=record.LOW,  # Start with original values
+#                 NEW_HIGH=record.HIGH,
+#                 SIM_CLASSIFY_LIC=record.CLASSIFY_LIC,  # Start with original license
+#                 SIM_MATCH_TYPE=record.MATCH_TYPE
+#             )
+#             sim_records.append(sim_record)
+#
+#         db.bulk_save_objects(sim_records)
+#         db.commit()
+#
+#         logger.info(f"Initialized simulation table with {len(sim_records)} records")
+#
+#         return {
+#             "status": "success",
+#             "message": f"Simulation table initialized with {len(sim_records)} records",
+#             "records_copied": len(sim_records)
+#         }
+#
+#     except Exception as e:
+#         db.rollback()
+#         logger.error(f"Error initializing simulation table: {e}", exc_info=True)
+#         raise HTTPException(status_code=500, detail=str(e))
+
+
 @router.post("/{system_name}/initialize")
-async def initialize_simulation_table(
-        system_name: str,
-        db: Session = Depends(get_db)
-):
-    """
-    Create simulation table and populate it with current RoleLic data.
-    Call this before running any simulations.
-    """
-    logger.info(f"Initializing simulation table for system '{system_name}'")
+async def initialize_simulation_table(system_name: str, db: Session = Depends(get_db)):
+    RoleLicModel = create_role_lic_model(system_name)  # Stage 2
+    RoleLicSummaryModel = create_role_lic_summary_model(system_name)  # Stage 3
+    RoleLicSimModel = create_role_lic_sim_model(system_name)
 
-    try:
-        # Get models
-        RoleLicModel = create_role_lic_model(system_name)
-        RoleLicSimModel = create_role_lic_sim_model(system_name)
+    ensure_table_exists(db.bind, RoleLicModel)
+    ensure_table_exists(db.bind, RoleLicSimModel)
 
-        # Ensure tables exist
-        ensure_table_exists(db.bind, RoleLicModel)
-        ensure_table_exists(db.bind, RoleLicSimModel)
+    deleted_count = db.query(RoleLicSimModel).delete()
 
-        # Clear existing simulation data
-        deleted_count = db.query(RoleLicSimModel).delete()
-        logger.info(f"Cleared {deleted_count} existing simulation records")
+    source_records = db.query(RoleLicModel).all()
 
-        # Copy all RoleLic data to simulation table
-        source_records = db.query(RoleLicModel).all()
+    # Get Stage 3 summary to cross-check role-level license
+    summary_records = {r.AGR_NAME: r for r in db.query(RoleLicSummaryModel).all()}
 
-        if not source_records:
-            raise HTTPException(
-                status_code=404,
-                detail=f"No RoleLic data found for system '{system_name}'. Run Stage 2 computation first."
-            )
+    sim_records = []
+    for record in source_records:
+        # Use Stage 3 role-level license as the sim baseline
+        # This matches what the dashboard uses
+        role_summary = summary_records.get(record.AGR_NAME)
 
-        sim_records = []
-        for record in source_records:
-            sim_record = RoleLicSimModel(
-                AGR_NAME=record.AGR_NAME,
-                OBJECT=record.OBJECT,
-                FIELD=record.FIELD,
-                LOW=record.LOW,
-                HIGH=record.HIGH,
-                ORIGINAL_CLASSIFY_LIC=record.CLASSIFY_LIC,
-                ORIGINAL_MATCH_TYPE=record.MATCH_TYPE,
-                OPERATION=None,  # No changes yet
-                NEW_LOW=record.LOW,  # Start with original values
-                NEW_HIGH=record.HIGH,
-                SIM_CLASSIFY_LIC=record.CLASSIFY_LIC,  # Start with original license
-                SIM_MATCH_TYPE=record.MATCH_TYPE
-            )
-            sim_records.append(sim_record)
+        # Only include roles that exist in Stage 3 summary
+        # (excludes roles with no valid license classification)
+        if not role_summary:
+            continue
 
-        db.bulk_save_objects(sim_records)
-        db.commit()
+        sim_record = RoleLicSimModel(
+            AGR_NAME=record.AGR_NAME,
+            OBJECT=record.OBJECT,
+            FIELD=record.FIELD,
+            LOW=record.LOW,
+            HIGH=record.HIGH,
+            ORIGINAL_CLASSIFY_LIC=record.CLASSIFY_LIC,
+            ORIGINAL_MATCH_TYPE=record.MATCH_TYPE,
+            OPERATION=None,
+            NEW_LOW=record.LOW,
+            NEW_HIGH=record.HIGH,
+            SIM_CLASSIFY_LIC=record.CLASSIFY_LIC,
+            SIM_MATCH_TYPE=record.MATCH_TYPE
+        )
+        sim_records.append(sim_record)
 
-        logger.info(f"Initialized simulation table with {len(sim_records)} records")
+    db.bulk_save_objects(sim_records)
+    db.commit()
 
-        return {
-            "status": "success",
-            "message": f"Simulation table initialized with {len(sim_records)} records",
-            "records_copied": len(sim_records)
-        }
+    return {
+        "status": "success",
+        "records_copied": len(sim_records),
+        "roles_excluded": len(source_records) - len(sim_records)
+    }
 
-    except Exception as e:
-        db.rollback()
-        logger.error(f"Error initializing simulation table: {e}", exc_info=True)
-        raise HTTPException(status_code=500, detail=str(e))
+
 
 
 # ════════════════════════════════════════════════════════════════════════════
@@ -560,141 +615,270 @@ def evaluate_match(authvalue: str, low: str, high: str) -> str:
     return None
 
 
+# async def calculate_simulation_fue(system_name: str, db: Session) -> Dict[str, Any]:
+#     """
+#     Calculate FUE based on simulation table.
+#     MUST match Stage 5 logic including locked user handling!
+#     """
+#     logger.info(f"=== STARTING FUE CALCULATION for {system_name} ===")
+#
+#     try:
+#         from sqlalchemy import or_
+#         from collections import defaultdict
+#
+#         RoleLicSimModel = create_role_lic_sim_model(system_name)
+#         AGRUsersModel = create_AGRUSERS_model(system_name)
+#         USR02Model = create_USR02_model(system_name)  # ← Need this!
+#
+#         # STEP 1: Get most restrictive license PER ROLE
+#         logger.info("STEP 1: Getting most restrictive license per role...")
+#
+#         sim_records = db.query(RoleLicSimModel).filter(
+#             or_(
+#                 RoleLicSimModel.OPERATION.is_(None),
+#                 RoleLicSimModel.OPERATION != 'Remove'
+#             )
+#         ).all()
+#
+#         logger.info(f"Active simulation records: {len(sim_records)}")
+#
+#         # Group by role and get most restrictive license per role
+#         role_licenses = defaultdict(list)
+#         for rec in sim_records:
+#             if rec.SIM_CLASSIFY_LIC:
+#                 role_licenses[rec.AGR_NAME].append(rec.SIM_CLASSIFY_LIC)
+#
+#         logger.info(f"Unique roles in simulation: {len(role_licenses)}")
+#
+#         # Get most restrictive license per role
+#         role_final_licenses = {}
+#         for role, licenses in role_licenses.items():
+#             role_final_licenses[role] = min(
+#                 licenses,
+#                 key=lambda x: LICENSE_PRIORITY.get(x, 999)
+#             )
+#
+#         role_lic_dist = defaultdict(int)
+#         for lic in role_final_licenses.values():
+#             role_lic_dist[lic] += 1
+#         logger.info(f"Role license distribution: {dict(role_lic_dist)}")
+#
+#         # STEP 2: Map roles to USERS
+#         logger.info("STEP 2: Mapping roles to users...")
+#
+#         user_role_mappings = db.query(AGRUsersModel).all()
+#         logger.info(f"Total user-role mappings: {len(user_role_mappings)}")
+#
+#         if not user_role_mappings:
+#             raise Exception("No user-role mappings found")
+#
+#         # Build user license groups
+#         user_licenses = defaultdict(list)
+#         for mapping in user_role_mappings:
+#             role_license = role_final_licenses.get(
+#                 mapping.AGR_NAME,
+#                 'Not Classified'
+#             )
+#             user_licenses[mapping.UNAME].append(role_license)
+#
+#         logger.info(f"Total users with licenses: {len(user_licenses)}")
+#
+#         # STEP 3: Build USR02 lookup for locked users
+#         logger.info("STEP 3: Checking for locked users...")
+#
+#         usr02_map = {row.BNAME: row for row in db.query(USR02Model).all()}
+#         logger.info(f"USR02 records loaded: {len(usr02_map)}")
+#
+#         # STEP 4: Get most restrictive license PER USER + apply locked override
+#         logger.info("STEP 4: Calculating final user licenses with locked override...")
+#
+#         license_counts = defaultdict(int)
+#         locked_count = 0
+#
+#         for user, licenses in user_licenses.items():
+#             # Get most restrictive license for this user
+#             final_lic = min(licenses, key=lambda x: LICENSE_PRIORITY.get(x, 999))
+#
+#             # Apply locked user override (matches Stage 5 logic!)
+#             usr = usr02_map.get(user)
+#             if usr:
+#                 uflag = str(usr.UFLAG).strip() if usr.UFLAG is not None else None
+#                 locked = uflag not in ('0', '128', None)
+#
+#                 if locked:
+#                     final_lic = 'Not Classified'  # Override!
+#                     locked_count += 1
+#
+#             license_counts[final_lic] += 1
+#
+#         logger.info(f"Locked users downgraded to NC: {locked_count}")
+#         logger.info(f"User license counts (after locked override): {dict(license_counts)}")
+#
+#         # STEP 5: Calculate FUE
+#         gb_count = license_counts.get('GB Advanced Use', 0)
+#         gc_count = license_counts.get('GC Core Use', 0)
+#         gd_count = license_counts.get('GD Self-Service Use', 0)
+#         nc_count = license_counts.get('Not Classified', 0)
+#
+#         logger.info(f"Final counts: GB={gb_count}, GC={gc_count}, GD={gd_count}, NC={nc_count}")
+#
+#         gb_fue = math.ceil(gb_count * FUE_FACTORS['GB Advanced Use'])
+#         gc_fue = math.ceil(gc_count * FUE_FACTORS['GC Core Use'])
+#         gd_fue = math.ceil(gd_count * FUE_FACTORS['GD Self-Service Use'])
+#
+#         total_fue = gb_fue + gc_fue + gd_fue
+#
+#         logger.info(f"=== FINAL FUE ===")
+#         logger.info(f"GB: {gb_count} USERS × 1.0 = {gb_fue} FUE")
+#         logger.info(f"GC: {gc_count} USERS × 0.2 = {gc_fue} FUE")
+#         logger.info(f"GD: {gd_count} USERS × 0.0333 = {gd_fue} FUE")
+#         logger.info(f"TOTAL: {total_fue} FUE")
+#         logger.info(f"LOCKED: {locked_count} users downgraded to NC")
+#
+#         return {
+#             'total_fue': total_fue,
+#             'gb_fue': gb_fue,
+#             'gc_fue': gc_fue,
+#             'gd_fue': gd_fue,
+#             'gb_count': gb_count,
+#             'gc_count': gc_count,
+#             'gd_count': gd_count,
+#             'nc_count': nc_count,
+#             'locked_count': locked_count
+#         }
+#
+#     except Exception as e:
+#         logger.error(f"ERROR in calculate_simulation_fue: {e}", exc_info=True)
+#         raise
+
+
 async def calculate_simulation_fue(system_name: str, db: Session) -> Dict[str, Any]:
-    """
-    Calculate FUE based on simulation table.
-    MUST match Stage 5 logic including locked user handling!
-    """
+    from sqlalchemy import or_
+    from collections import defaultdict
+    from datetime import date, datetime
+    from typing import Optional
+
     logger.info(f"=== STARTING FUE CALCULATION for {system_name} ===")
 
-    try:
-        from sqlalchemy import or_
-        from collections import defaultdict
+    # ── copy _parse_date from Stage 5 exactly ──────────────────────────────
+    def _parse_date(date_str):
+        if not date_str:
+            return None
+        s = str(date_str).strip()
+        if s in ('', '00000000', '0000-00-00', '00-00-0000'):
+            return None
+        if '9999' in s:
+            return None
+        for fmt in ('%d-%m-%Y', '%Y%m%d', '%Y-%m-%d', '%d/%m/%Y', '%m/%d/%Y'):
+            try:
+                return datetime.strptime(s, fmt).date()
+            except ValueError:
+                continue
+        return None
 
-        RoleLicSimModel = create_role_lic_sim_model(system_name)
-        AGRUsersModel = create_AGRUSERS_model(system_name)
-        USR02Model = create_USR02_model(system_name)  # ← Need this!
+    today = date.today()
 
-        # STEP 1: Get most restrictive license PER ROLE
-        logger.info("STEP 1: Getting most restrictive license per role...")
+    RoleLicSimModel = create_role_lic_sim_model(system_name)
+    AGRUsersModel = create_AGRUSERS_model(system_name)
+    USR02Model = create_USR02_model(system_name)
 
-        sim_records = db.query(RoleLicSimModel).filter(
-            or_(
-                RoleLicSimModel.OPERATION.is_(None),
-                RoleLicSimModel.OPERATION != 'Remove'
-            )
-        ).all()
+    # STEP 1: most restrictive license per role (excluding Removed rows)
+    sim_records = db.query(RoleLicSimModel).filter(
+        or_(
+            RoleLicSimModel.OPERATION.is_(None),
+            RoleLicSimModel.OPERATION != 'Remove'
+        )
+    ).all()
 
-        logger.info(f"Active simulation records: {len(sim_records)}")
+    role_licenses = defaultdict(list)
+    for rec in sim_records:
+        if rec.SIM_CLASSIFY_LIC:
+            role_licenses[rec.AGR_NAME].append(rec.SIM_CLASSIFY_LIC)
 
-        # Group by role and get most restrictive license per role
-        role_licenses = defaultdict(list)
-        for rec in sim_records:
-            if rec.SIM_CLASSIFY_LIC:
-                role_licenses[rec.AGR_NAME].append(rec.SIM_CLASSIFY_LIC)
+    role_final_licenses = {}
+    for role, licenses in role_licenses.items():
+        role_final_licenses[role] = min(
+            licenses,
+            key=lambda x: LICENSE_PRIORITY.get(x, 999)
+        )
 
-        logger.info(f"Unique roles in simulation: {len(role_licenses)}")
+    # STEP 2: map roles → users
+    user_role_mappings = db.query(AGRUsersModel).all()
+    if not user_role_mappings:
+        raise Exception("No user-role mappings found")
 
-        # Get most restrictive license per role
-        role_final_licenses = {}
-        for role, licenses in role_licenses.items():
-            role_final_licenses[role] = min(
-                licenses,
-                key=lambda x: LICENSE_PRIORITY.get(x, 999)
-            )
+    user_licenses = defaultdict(list)
+    for mapping in user_role_mappings:
+        role_license = role_final_licenses.get(mapping.AGR_NAME, 'Not Classified')
+        user_licenses[mapping.UNAME].append(role_license)
 
-        role_lic_dist = defaultdict(int)
-        for lic in role_final_licenses.values():
-            role_lic_dist[lic] += 1
-        logger.info(f"Role license distribution: {dict(role_lic_dist)}")
+    # STEP 3: USR02 lookup
+    usr02_map = {row.BNAME: row for row in db.query(USR02Model).all()}
 
-        # STEP 2: Map roles to USERS
-        logger.info("STEP 2: Mapping roles to users...")
+    # STEP 4: per-user final license — EXACT Stage 5 logic
+    license_counts = defaultdict(int)
+    locked_and_expired_count = 0
 
-        user_role_mappings = db.query(AGRUsersModel).all()
-        logger.info(f"Total user-role mappings: {len(user_role_mappings)}")
+    for uname, licenses in user_licenses.items():
+        final_lic = min(licenses, key=lambda x: LICENSE_PRIORITY.get(x, 999))
 
-        if not user_role_mappings:
-            raise Exception("No user-role mappings found")
+        usr = usr02_map.get(uname)
+        if usr:
+            # ── Locked check (Stage 5 style: integer, only 0 = active) ──
+            # uflag_raw = str(usr.UFLAG).strip() if usr.UFLAG is not None else None
+            # try:
+            #     uflag_int = int(float(uflag_raw)) if uflag_raw is not None else 0
+            # except (ValueError, TypeError):
+            #     uflag_int = 0
+            # locked = uflag_int != 0
+            #
+            # # ── Expiry check (Stage 5 style) ──
+            # gltgb_date = _parse_date(usr.GLTGB)
+            # expired = (gltgb_date is not None) and (gltgb_date < today)
+            #
+            # # ── Override: ONLY downgrade if BOTH expired AND locked ──
+            # if expired and locked:
+            #     final_lic = 'Not Classified'
+            #     locked_and_expired_count += 1
+            uflag_raw = str(usr.UFLAG).strip() if usr.UFLAG is not None else None
+            try:
+                uflag_int = int(float(uflag_raw)) if uflag_raw is not None else 0
+            except (ValueError, TypeError):
+                uflag_int = 0
+            locked = (uflag_int != 0) and (uflag_int != 128)  # ← FIX: exclude 128
 
-        # Build user license groups
-        user_licenses = defaultdict(list)
-        for mapping in user_role_mappings:
-            role_license = role_final_licenses.get(
-                mapping.AGR_NAME,
-                'Not Classified'
-            )
-            user_licenses[mapping.UNAME].append(role_license)
+            # ── Expiry check ──
+            gltgb_date = _parse_date(usr.GLTGB)
+            expired = (gltgb_date is not None) and (gltgb_date < today)
 
-        logger.info(f"Total users with licenses: {len(user_licenses)}")
+            # ── Override only when BOTH ──
+            if expired and locked:
+                final_lic = 'Not Classified'
+                locked_and_expired_count += 1
 
-        # STEP 3: Build USR02 lookup for locked users
-        logger.info("STEP 3: Checking for locked users...")
+        license_counts[final_lic] += 1
 
-        usr02_map = {row.BNAME: row for row in db.query(USR02Model).all()}
-        logger.info(f"USR02 records loaded: {len(usr02_map)}")
+    # STEP 5: FUE calculation
+    gb_count = license_counts.get('GB Advanced Use', 0)
+    gc_count = license_counts.get('GC Core Use', 0)
+    gd_count = license_counts.get('GD Self-Service Use', 0)
+    nc_count = license_counts.get('Not Classified', 0)
 
-        # STEP 4: Get most restrictive license PER USER + apply locked override
-        logger.info("STEP 4: Calculating final user licenses with locked override...")
+    gb_fue = math.ceil(gb_count * FUE_FACTORS['GB Advanced Use'])
+    gc_fue = math.ceil(gc_count * FUE_FACTORS['GC Core Use'])
+    gd_fue = math.ceil(gd_count * FUE_FACTORS['GD Self-Service Use'])
+    total_fue = gb_fue + gc_fue + gd_fue
 
-        license_counts = defaultdict(int)
-        locked_count = 0
+    logger.info(f"GB={gb_count}→{gb_fue} FUE, GC={gc_count}→{gc_fue} FUE, GD={gd_count}→{gd_fue} FUE")
+    logger.info(f"TOTAL={total_fue}, expired+locked downgraded={locked_and_expired_count}")
 
-        for user, licenses in user_licenses.items():
-            # Get most restrictive license for this user
-            final_lic = min(licenses, key=lambda x: LICENSE_PRIORITY.get(x, 999))
-
-            # Apply locked user override (matches Stage 5 logic!)
-            usr = usr02_map.get(user)
-            if usr:
-                uflag = str(usr.UFLAG).strip() if usr.UFLAG is not None else None
-                locked = uflag not in ('0', '128', None)
-
-                if locked:
-                    final_lic = 'Not Classified'  # Override!
-                    locked_count += 1
-
-            license_counts[final_lic] += 1
-
-        logger.info(f"Locked users downgraded to NC: {locked_count}")
-        logger.info(f"User license counts (after locked override): {dict(license_counts)}")
-
-        # STEP 5: Calculate FUE
-        gb_count = license_counts.get('GB Advanced Use', 0)
-        gc_count = license_counts.get('GC Core Use', 0)
-        gd_count = license_counts.get('GD Self-Service Use', 0)
-        nc_count = license_counts.get('Not Classified', 0)
-
-        logger.info(f"Final counts: GB={gb_count}, GC={gc_count}, GD={gd_count}, NC={nc_count}")
-
-        gb_fue = math.ceil(gb_count * FUE_FACTORS['GB Advanced Use'])
-        gc_fue = math.ceil(gc_count * FUE_FACTORS['GC Core Use'])
-        gd_fue = math.ceil(gd_count * FUE_FACTORS['GD Self-Service Use'])
-
-        total_fue = gb_fue + gc_fue + gd_fue
-
-        logger.info(f"=== FINAL FUE ===")
-        logger.info(f"GB: {gb_count} USERS × 1.0 = {gb_fue} FUE")
-        logger.info(f"GC: {gc_count} USERS × 0.2 = {gc_fue} FUE")
-        logger.info(f"GD: {gd_count} USERS × 0.0333 = {gd_fue} FUE")
-        logger.info(f"TOTAL: {total_fue} FUE")
-        logger.info(f"LOCKED: {locked_count} users downgraded to NC")
-
-        return {
-            'total_fue': total_fue,
-            'gb_fue': gb_fue,
-            'gc_fue': gc_fue,
-            'gd_fue': gd_fue,
-            'gb_count': gb_count,
-            'gc_count': gc_count,
-            'gd_count': gd_count,
-            'nc_count': nc_count,
-            'locked_count': locked_count
-        }
-
-    except Exception as e:
-        logger.error(f"ERROR in calculate_simulation_fue: {e}", exc_info=True)
-        raise
+    return {
+        'total_fue': total_fue,
+        'gb_fue': gb_fue, 'gc_fue': gc_fue, 'gd_fue': gd_fue,
+        'gb_count': gb_count, 'gc_count': gc_count,
+        'gd_count': gd_count, 'nc_count': nc_count,
+        'locked_count': locked_and_expired_count
+    }
 
 
 

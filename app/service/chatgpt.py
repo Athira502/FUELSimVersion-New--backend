@@ -111,7 +111,7 @@ def call_ai_api(prompt: str) -> str:
 
 def call_claude_api(
         prompt: str,
-        model: str = "claude-opus-4-20250514",
+        model: str = "claude-opus 4-7",
         max_tokens: int = 4096,
         temperature: float = 0.7
 ) -> str:

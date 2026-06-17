@@ -38,23 +38,15 @@ def ensure_ai_model_config_table_exists():
         db = SessionLocal()
         try:
             default_configs = [
+
                 AIModelConfig(
                     model_provider="anthropic",
-                    model_name="claude-sonnet-4-20250514",
-                    model_version="claude-sonnet-4-20250514",
-                    is_active=True,
-                    max_tokens=4096,
-                    temperature=0.7,
-                    description="Claude Sonnet 4 - Fast and efficient for SAP analysis"
-                ),
-                AIModelConfig(
-                    model_provider="anthropic",
-                    model_name="claude-opus-4-20250514",
-                    model_version="claude-opus-4-20250514",
+                    model_name="claude-opus-4-6",
+                    model_version="claude-opus-4-6",
                     is_active=False,
                     max_tokens=4096,
                     temperature=0.7,
-                    description="Claude Opus 4 - Most capable model"
+                    description="claude-opus-4-6, - Most capable model"
                 ),
                 AIModelConfig(
                     model_provider="openai",

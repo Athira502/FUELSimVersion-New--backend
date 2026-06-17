@@ -890,23 +890,173 @@ async def compute_userlicsummary(system_name: str, db: Session = Depends(get_db)
         db.query(UserLicSummaryModel).delete()
         db.flush()
 
+        # batch = []
+        # for BNAME, licenses in user_licenses.items():
+        #     # Most restrictive license wins (lowest LICENSE_PRIORITY step)
+        #     final_license = min(licenses, key=lambda x: LICENSE_PRIORITY.get(x, 999))
+        #
+        #     # USR02 attributes
+        #     usr = usr02_map.get(BNAME)
+        #     uflag = str(usr.UFLAG).strip() if usr and usr.UFLAG is not None else None
+        #     trdat = usr.TRDAT if usr else None
+        #     erdat = usr.ERDAT if usr else None
+        #     gltgb = usr.GLTGB if usr else None
+        #     ustyp = usr.USTYP if usr else None
+        #
+        #     # ── Dormancy ────────────────────────────────────────────────────
+        #     # Preferred: TransactionUsage DATE (not yet available)
+        #     # Fallback:  TRDAT (last logon) → ERDAT (creation date)
+        #     # _parse_date now handles DD-MM-YYYY format correctly
+        #     last_used_date = last_activity.get(BNAME)
+        #     if last_used_date is None:
+        #         last_used_date = _parse_date(trdat) or _parse_date(erdat)
+        #
+        #     dormant_days = (today - last_used_date).days if last_used_date else None
+        #     last_used_str = last_used_date.strftime('%d-%m-%Y') if last_used_date else None
+        #
+        #     flag_90 = dormant_days is not None and dormant_days >= 90
+        #     flag_180 = dormant_days is not None and dormant_days >= 180
+        #
+        #     # ── Expiry ──────────────────────────────────────────────────────
+        #     # GLTGB '31-12-9999' = never expires → _parse_date returns None → expired=False
+        #     # GLTGB '29-01-2025' = past date     → expired=True
+        #     gltgb_date = _parse_date(gltgb)
+        #     expired = (gltgb_date is not None) and (gltgb_date < today)
+        #
+        #     # ── Locked ──────────────────────────────────────────────────────
+        #     # SAP UFLAG bitmask: 0=active, 64=admin lock, 128=wrong pwd lock,
+        #     # 192=both (64+128), 32=CUA lock.
+        #     # Treat ONLY 0 as unlocked. Everything else = locked.
+        #     # try:
+        #     #     uflag_int = int(float(uflag)) if uflag is not None else 0
+        #     # except (ValueError, TypeError):
+        #     #     uflag_int = 0
+        #     # locked = uflag_int != 0  # only UFLAG=0 is truly active
+        #     #
+        #     # # ── License override ────────────────────────────────────────────
+        #     # # Algorithm: override to NC only when BOTH expired AND locked
+        #     # if expired and locked:
+        #     #     final_license = 'Not Classified'
+        #     #
+        #     # # ── Cleanup category ────────────────────────────────────────────
+        #     # if expired and locked:
+        #     #     cleanup = 'Expired & Locked'
+        #     # elif locked and not expired:
+        #     #     cleanup = 'Locked but not Expired'  # keeps real license
+        #     # elif expired and not locked:
+        #     #     cleanup = 'Expired but Not Locked'  # keeps real license
+        #     # elif flag_180:
+        #     #     cleanup = 'Dormant 180+'
+        #     # elif flag_90:
+        #     #     cleanup = 'Dormant 90+'
+        #     # else:
+        #     #     cleanup = None
+        #     #
+        #     # batch.append(UserLicSummaryModel(
+        #     #     UNAME=BNAME,
+        #     #     CLASSIFY_LIC=final_license,
+        #     #     UFLAG=uflag,
+        #     #     TRDAT=trdat,
+        #     #     ERDAT=erdat,
+        #     #     USTYP=ustyp,
+        #     #     LAST_USED=last_used_str,
+        #     #     DORMANT_DAYS=dormant_days,
+        #     #     FLAG_90=flag_90,
+        #     #     FLAG_180=flag_180,
+        #     #     LOCKED=locked,
+        #     #     CLEANUP_CATEGORY=cleanup,
+        #     # ))
+        #
+        #     try:
+        #         uflag_int = int(float(uflag)) if uflag is not None else 0
+        #     except (ValueError, TypeError):
+        #         uflag_int = 0
+        #     locked = (uflag_int != 0) and (uflag_int != 128)  # ← KEY FIX
+        #
+        #     # ── Expiry ──────────────────────────────────────────────────────
+        #     gltgb_date = _parse_date(gltgb)
+        #     expired = (gltgb_date is not None) and (gltgb_date < today)
+        #
+        #     # ── Dormancy ────────────────────────────────────────────────────
+        #     last_used_date = last_activity.get(BNAME)
+        #     if last_used_date is None:
+        #         last_used_date = _parse_date(trdat) or _parse_date(erdat)
+        #
+        #     dormant_days = (today - last_used_date).days if last_used_date else None
+        #     last_used_str = last_used_date.strftime('%d-%m-%Y') if last_used_date else None
+        #
+        #     # Per spec: ≥180 sets BOTH flags
+        #     flag_90 = dormant_days is not None and dormant_days >= 90
+        #     flag_180 = dormant_days is not None and dormant_days >= 180
+        #     # flag_90 is already True whenever flag_180 is True (180 ≥ 90), so no change needed
+        #
+        #     # ── License override (Step 8) ───────────────────────────────────
+        #     # Override to NC only when BOTH expired AND locked
+        #     if expired and locked:
+        #         final_license = 'Not Classified'
+        #
+        #     # ── Cleanup Category (Step 9) ───────────────────────────────────
+        #     if expired and locked:
+        #         cleanup = 'Expired & Locked'
+        #     elif expired and not locked:
+        #         cleanup = 'Expired but Not Locked'
+        #     elif locked and not expired:
+        #         cleanup = 'Locked but not Expired'
+        #     elif flag_90 or flag_180:  # ← was missing "Dormant" bucket
+        #         cleanup = 'Dormant'
+        #     else:
+        #         cleanup = None
+        #
+        #     batch.append(UserLicSummaryModel(
+        #         UNAME=BNAME,
+        #         CLASSIFY_LIC=final_license,
+        #         UFLAG=uflag,
+        #         TRDAT=trdat,
+        #         ERDAT=erdat,
+        #         GLTGB=gltgb,  # store for reference
+        #         USTYP=ustyp,
+        #         LAST_USED=last_used_str,
+        #         DORMANT_DAYS=dormant_days,
+        #         FLAG_90=flag_90,
+        #         FLAG_180=flag_180,
+        #         EXPIRED_FLAG=expired,  # ← add to model if not present
+        #         LOCKED_FLAG=locked,  # ← rename from LOCKED if needed
+        #         LOCKED=locked,  # keep if existing columns depend on it
+        #         CLEANUP_CATEGORY=cleanup,
+        #     ))
+        #
+        #     if len(batch) >= 500:
+        #         db.bulk_save_objects(batch)
+        #         db.flush()
+        #         batch.clear()
+
         batch = []
         for BNAME, licenses in user_licenses.items():
-            # Most restrictive license wins (lowest LICENSE_PRIORITY step)
+
+            # Step 1+2: Most restrictive license (lowest priority step)
             final_license = min(licenses, key=lambda x: LICENSE_PRIORITY.get(x, 999))
 
-            # USR02 attributes
+            # Step 3: Fetch USR02 attributes
             usr = usr02_map.get(BNAME)
             uflag = str(usr.UFLAG).strip() if usr and usr.UFLAG is not None else None
             trdat = usr.TRDAT if usr else None
             erdat = usr.ERDAT if usr else None
+            gltgv = usr.GLTGV if usr else None  # ← NOW FETCHED
             gltgb = usr.GLTGB if usr else None
             ustyp = usr.USTYP if usr else None
 
-            # ── Dormancy ────────────────────────────────────────────────────
-            # Preferred: TransactionUsage DATE (not yet available)
-            # Fallback:  TRDAT (last logon) → ERDAT (creation date)
-            # _parse_date now handles DD-MM-YYYY format correctly
+            # Step 4: Expired — GLTGB < Today AND GLTGB not blank
+            gltgb_date = _parse_date(gltgb)
+            expired = (gltgb_date is not None) and (gltgb_date < today)
+
+            # Step 5: Locked — UFLAG ≠ 0 AND UFLAG ≠ 128
+            try:
+                uflag_int = int(float(uflag)) if uflag is not None else 0
+            except (ValueError, TypeError):
+                uflag_int = 0
+            locked = (uflag_int != 0) and (uflag_int != 128)
+
+            # Step 6: Dormant days — TRDAT preferred, ERDAT fallback
             last_used_date = last_activity.get(BNAME)
             if last_used_date is None:
                 last_used_date = _parse_date(trdat) or _parse_date(erdat)
@@ -914,46 +1064,31 @@ async def compute_userlicsummary(system_name: str, db: Session = Depends(get_db)
             dormant_days = (today - last_used_date).days if last_used_date else None
             last_used_str = last_used_date.strftime('%d-%m-%Y') if last_used_date else None
 
+            # Step 7: Dormant flags
+            # ≥180 sets BOTH FLAG_180 and FLAG_90 per spec
             flag_90 = dormant_days is not None and dormant_days >= 90
             flag_180 = dormant_days is not None and dormant_days >= 180
 
-            # ── Expiry ──────────────────────────────────────────────────────
-            # GLTGB '31-12-9999' = never expires → _parse_date returns None → expired=False
-            # GLTGB '29-01-2025' = past date     → expired=True
-            gltgb_date = _parse_date(gltgb)
-            expired = (gltgb_date is not None) and (gltgb_date < today)
-
-            # ── Locked ──────────────────────────────────────────────────────
-            # SAP UFLAG bitmask: 0=active, 64=admin lock, 128=wrong pwd lock,
-            # 192=both (64+128), 32=CUA lock.
-            # Treat ONLY 0 as unlocked. Everything else = locked.
-            try:
-                uflag_int = int(float(uflag)) if uflag is not None else 0
-            except (ValueError, TypeError):
-                uflag_int = 0
-            locked = uflag_int != 0  # only UFLAG=0 is truly active
-
-            # ── License override ────────────────────────────────────────────
-            # Algorithm: override to NC only when BOTH expired AND locked
+            # Step 8: License override — only when BOTH expired AND locked
             if expired and locked:
                 final_license = 'Not Classified'
 
-            # ── Cleanup category ────────────────────────────────────────────
+            # Step 9: Cleanup category
             if expired and locked:
                 cleanup = 'Expired & Locked'
-            elif locked and not expired:
-                cleanup = 'Locked but not Expired'  # keeps real license
             elif expired and not locked:
-                cleanup = 'Expired but Not Locked'  # keeps real license
-            elif flag_180:
-                cleanup = 'Dormant 180+'
-            elif flag_90:
-                cleanup = 'Dormant 90+'
+                cleanup = 'Expired but Not Locked'
+            elif locked and not expired:
+                cleanup = 'Locked but not Expired'
+            elif flag_90 or flag_180:
+                cleanup = 'Dormant'
             else:
                 cleanup = None
 
             batch.append(UserLicSummaryModel(
                 UNAME=BNAME,
+                GLTGV=gltgv,  # ← added
+                GLTGB=gltgb,  # ← added
                 CLASSIFY_LIC=final_license,
                 UFLAG=uflag,
                 TRDAT=trdat,
@@ -963,7 +1098,8 @@ async def compute_userlicsummary(system_name: str, db: Session = Depends(get_db)
                 DORMANT_DAYS=dormant_days,
                 FLAG_90=flag_90,
                 FLAG_180=flag_180,
-                LOCKED=locked,
+                EXPIRED_FLAG=expired,  # ← added
+                LOCKED_FLAG=locked,  # ← added (rename LOCKED to LOCKED_FLAG)
                 CLEANUP_CATEGORY=cleanup,
             ))
 

@@ -267,7 +267,10 @@ class _UserLicSummary:
     DORMANT_DAYS     = Column(Integer)   # days since last activity (None if unknown)
     FLAG_90          = Column(Boolean, default=False)   # dormant >= 90 days
     FLAG_180         = Column(Boolean, default=False)   # dormant >= 180 days
-    LOCKED           = Column(Boolean, default=False)   # UFLAG not in (0, 128)
+    GLTGV = Column(String)  # ← add
+    GLTGB = Column(String)  # ← add if missing
+    EXPIRED_FLAG = Column(Boolean)  # ← add
+    LOCKED_FLAG = Column(Boolean, default=False)  # ← add (or rename existing LOCKED)
     CLEANUP_CATEGORY = Column(String)    # 'Locked' | 'Dormant 180+' | 'Dormant 90+' | None
 
 

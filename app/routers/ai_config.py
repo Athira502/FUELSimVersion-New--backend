@@ -7,6 +7,11 @@ from datetime import datetime
 from dotenv import load_dotenv  # ✅ Add this
 from pathlib import Path  # ✅ Add this
 
+from app.core.encryption import encrypt_value
+from app.schema.api_key import ApiKeySaveRequest, ApiKeyStatusResponse, ApiKeyVerifyResponse
+
+from app.models.api_key import AIApiKey
+
 # ✅ Load .env (router is in: backend-2/app/routers/ai_config.py)
 BASE_DIR = Path(__file__).resolve().parent.parent.parent
 env_path = BASE_DIR / '.env'
@@ -182,7 +187,7 @@ async def set_active_model(
             )
 
         # Check if API key exists in environment
-        api_key_exists = check_api_key_exists(target_model.model_provider)
+        api_key_exists = check_api_key_exists(target_model.model_provider, db)
 
         if not api_key_exists:
             raise HTTPException(
@@ -255,31 +260,26 @@ async def delete_model_config(
 
 # ==================== API KEY CONFIGURATION ====================
 
-@router.get("/api-keys", response_model=List[APIKeyStatusResponse])
-async def get_api_key_status():
-    """
-    Check which API keys are configured in environment variables.
-    DOES NOT return the actual keys - only their status.
-    """
+@router.get("/api-keys", response_model=List[ApiKeyStatusResponse])
+async def get_api_key_status(db: Session = Depends(get_db)):
+    """Check which API keys are stored in the database."""
     providers = {
         "anthropic": "ANTHROPIC_API_KEY",
         "openai": "OPENAI_API_KEY",
-        "ollama": "OLLAMA_API_KEY"
+        "ollama": "OLLAMA_API_KEY",
     }
 
     status_list = []
-
     for provider, env_var in providers.items():
-        api_key = os.getenv(env_var)
-
-        status_list.append(APIKeyStatusResponse(
+        row = db.query(AIApiKey).filter(AIApiKey.provider == provider).first()
+        status_list.append(ApiKeyStatusResponse(
+            id=row.id if row else 0,
             provider=provider,
             env_var_name=env_var,
-            is_configured=bool(api_key and api_key.strip()),
-            status="configured" if api_key else "missing"
+            is_configured=row is not None,
+            status="configured" if row else "missing",
+            updated_at=row.updated_at if row else None,
         ))
-
-    logger.info(f"API key status check: {[(s.provider, s.status) for s in status_list]}")
     return status_list
 
 
@@ -363,22 +363,44 @@ async def verify_api_key(provider: str):
 # ==================== HELPER FUNCTIONS ====================
 
 
-def check_api_key_exists(provider: str) -> bool:
-    # Ollama is local — no API key needed
-    if provider.lower() == "ollama":
+# def check_api_key_exists(provider: str) -> bool:
+#     # Ollama is local — no API key needed
+#     if provider.lower() == "ollama":
+#         return True
+#
+#     env_vars = {
+#         "anthropic": "ANTHROPIC_API_KEY",
+#         "openai": "OPENAI_API_KEY",
+#     }
+#     env_var_name = env_vars.get(provider.lower())
+#     if not env_var_name:
+#         return False
+#     api_key = os.getenv(env_var_name)
+#     return bool(api_key and api_key.strip())
+
+def check_api_key_exists(provider: str, db: Session) -> bool:
+    """Check whether a usable API key exists for this provider —
+    either stored encrypted in the database, or as an env var fallback."""
+    row = db.query(AIApiKey).filter(AIApiKey.provider == provider.lower()).first()
+    if row:
         return True
-
-    env_vars = {
-        "anthropic": "ANTHROPIC_API_KEY",
-        "openai": "OPENAI_API_KEY",
-    }
-    env_var_name = env_vars.get(provider.lower())
-    if not env_var_name:
-        return False
-    api_key = os.getenv(env_var_name)
-    return bool(api_key and api_key.strip())
+    env_map = {"anthropic": "ANTHROPIC_API_KEY", "openai": "OPENAI_API_KEY"}
+    return bool(os.getenv(env_map.get(provider.lower(), "")))
 
 
+from app.models.api_key import AIApiKey
+from app.core.encryption import decrypt_value
+
+def get_api_key_for_provider(provider: str, db: Session) -> str | None:
+    """Retrieve and decrypt the API key for a provider from the database.
+    Falls back to env var for backward compatibility."""
+    row = db.query(AIApiKey).filter(AIApiKey.provider == provider.lower()).first()
+    if row:
+        return decrypt_value(row.encrypted_key)
+
+    # Fallback to env (migration period)
+    env_map = {"anthropic": "ANTHROPIC_API_KEY", "openai": "OPENAI_API_KEY"}
+    return os.getenv(env_map.get(provider.lower(), ""))
 
 
 def get_active_ai_config(db: Session) -> AIModelConfig:
@@ -397,4 +419,63 @@ def get_active_ai_config(db: Session) -> AIModelConfig:
         )
 
     return active_config
+
+
+
+# ---------- NEW: Save / update an API key ----------
+
+@router.post("/api-keys", response_model=ApiKeyStatusResponse)
+async def save_api_key(
+    request: ApiKeySaveRequest,
+    db: Session = Depends(get_db),
+):
+    """Encrypt and store an API key in the database."""
+    provider = request.provider.lower()
+    env_var_map = {
+        "anthropic": "ANTHROPIC_API_KEY",
+        "openai": "OPENAI_API_KEY",
+        "ollama": "OLLAMA_API_KEY",
+    }
+    env_var_name = env_var_map.get(provider)
+    if not env_var_name:
+        raise HTTPException(status_code=400, detail=f"Unknown provider: {provider}")
+
+    encrypted = encrypt_value(request.api_key)
+
+    existing = db.query(AIApiKey).filter(AIApiKey.provider == provider).first()
+    if existing:
+        existing.encrypted_key = encrypted
+        existing.updated_at = datetime.utcnow()
+    else:
+        existing = AIApiKey(
+            provider=provider,
+            env_var_name=env_var_name,
+            encrypted_key=encrypted,
+        )
+        db.add(existing)
+
+    db.commit()
+    db.refresh(existing)
+
+    logger.info(f"API key for '{provider}' saved/updated in database")
+    return ApiKeyStatusResponse(
+        id=existing.id,
+        provider=existing.provider,
+        env_var_name=existing.env_var_name,
+        is_configured=True,
+        status="configured",
+        updated_at=existing.updated_at,
+    )
+
+
+# ---------- NEW: Delete an API key ----------
+
+@router.delete("/api-keys/{provider}", status_code=204)
+async def delete_api_key(provider: str, db: Session = Depends(get_db)):
+    row = db.query(AIApiKey).filter(AIApiKey.provider == provider.lower()).first()
+    if not row:
+        raise HTTPException(status_code=404, detail="API key not found")
+    db.delete(row)
+    db.commit()
+    return None
 

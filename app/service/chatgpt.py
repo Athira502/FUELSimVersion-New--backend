@@ -12,6 +12,7 @@ from sqlalchemy.orm import Session
 from app.core.logger import setup_logger, get_daily_log_filename
 from app.models.database import SessionLocal
 from app.models.ai_config import AIModelConfig
+from app.routers.ai_config import get_api_key_for_provider
 
 logger = setup_logger("app_logger")
 
@@ -111,9 +112,9 @@ def call_ai_api(prompt: str) -> str:
 
 def call_claude_api(
         prompt: str,
-        model: str = "claude-opus 4-7",
+        model: str = "claude-opus 4-6",
         max_tokens: int = 4096,
-        temperature: float = 0.7
+        temperature: float = 0.1
 ) -> str:
     """Call Claude API with specified configuration"""
     global anthropic_client
@@ -123,7 +124,12 @@ def call_claude_api(
     try:
         # Initialize client if needed
         if anthropic_client is None:
-            api_key = os.getenv('ANTHROPIC_API_KEY')
+            # api_key = os.getenv('ANTHROPIC_API_KEY')
+            db = SessionLocal()
+            try:
+                api_key = get_api_key_for_provider("anthropic", db)
+            finally:
+                db.close()
             if not api_key:
                 raise ValueError("ANTHROPIC_API_KEY not found in environment")
             anthropic_client = Anthropic(api_key=api_key)
@@ -155,7 +161,7 @@ def call_openai_api(
         prompt: str,
         model: str = "gpt-4o-mini",
         max_tokens: int = 4096,
-        temperature: float = 0.3
+        temperature: float = 0.1
 ) -> str:
     """Call OpenAI API with specified configuration"""
     global openai_client
@@ -165,7 +171,11 @@ def call_openai_api(
     try:
         # Initialize client if needed
         if openai_client is None:
-            api_key = os.getenv('OPENAI_API_KEY')
+            db = SessionLocal()
+            try:
+                api_key = get_api_key_for_provider("openai", db)
+            finally:
+                db.close()
             if not api_key:
                 raise ValueError("OPENAI_API_KEY not found in environment")
             openai_client = OpenAI(api_key=api_key)
@@ -200,7 +210,7 @@ def call_ollama_api(
         prompt: str,
         model: str,
         max_tokens: int = 4096,
-        temperature: float = 0.7
+        temperature: float = 0.1
 ) -> str:
     """Call local Ollama API using its native endpoints"""
     logger.debug(f"Calling local Ollama service with model={model}, max_tokens={max_tokens}, temperature={temperature}")

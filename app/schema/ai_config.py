@@ -11,20 +11,6 @@ class AIModelConfigBase(BaseModel):
     temperature: float = Field(default=0.7, ge=0, le=2)
     description: Optional[str] = None
 
-    # @validator('model_provider')
-    # def validate_provider(cls, v):
-    #     allowed = ['anthropic', 'openai', 'azure']
-    #     if v.lower() not in allowed:
-    #         raise ValueError(f"Provider must be one of: {', '.join(allowed)}")
-    #     return v.lower()
-    #
-    # @validator('temperature')
-    # def validate_temperature(cls, v):
-    #     if not 0 <= v <= 2:
-    #         raise ValueError("Temperature must be between 0 and 2")
-    #     return round(v, 2)
-
-
 class AIModelConfigCreate(AIModelConfigBase):
     """Schema for creating new AI model config"""
     pass

@@ -866,7 +866,13 @@ async def compute_userlicsummary(system_name: str, db: Session = Depends(get_db)
         TxUsageModel = create_TRANSACTIONUSAGE_model(system_name)
         UserLicSummaryModel = create_user_lic_summary_model(system_name)
 
-        today = date.today()
+
+
+
+
+
+
+
         active_connection = db.get_bind()
         USR02Model.__table__.create(bind=active_connection, checkfirst=True)
         UserRoleLicModel.__table__.create(bind=active_connection, checkfirst=True)
@@ -1065,7 +1071,7 @@ async def compute_userlicsummary(system_name: str, db: Session = Depends(get_db)
             last_used_str = last_used_date.strftime('%d-%m-%Y') if last_used_date else None
 
             # Step 7: Dormant flags
-            # ≥180 sets BOTH FLAG_180 and FLAG_90 per spec
+
             flag_90 = dormant_days is not None and dormant_days >= 90
             flag_180 = dormant_days is not None and dormant_days >= 180
 

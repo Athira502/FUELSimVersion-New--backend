@@ -115,6 +115,7 @@ async def get_all_requests(db: Session = Depends(get_db)) -> List[Dict[str, Any]
                 "system_name": r.SYSTEM_NAME,
                 "status":      r.STATUS,
                 "timestamp":   r.TIMESTAMP.isoformat() if r.TIMESTAMP else None,
+                "error_message": getattr(r, "ERROR_MESSAGE", None),
             }
             for r in requests
         ]

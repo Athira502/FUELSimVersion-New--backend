@@ -19,7 +19,7 @@ from app.service.data_loader_service import (
 )
 import math
 import logging
-from datetime import date, datetime
+from datetime import date, datetime,timedelta
 from collections import defaultdict
 from typing import Optional
 from sqlalchemy.orm import Session
@@ -866,11 +866,8 @@ async def compute_userlicsummary(system_name: str, db: Session = Depends(get_db)
         TxUsageModel = create_TRANSACTIONUSAGE_model(system_name)
         UserLicSummaryModel = create_user_lic_summary_model(system_name)
 
-
-
-
-
-
+        # today = date.today()
+        today = date.today() - timedelta(days=1)
 
 
         active_connection = db.get_bind()

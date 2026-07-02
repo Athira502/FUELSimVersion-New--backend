@@ -11,3 +11,4 @@ class RequestArray(Base):
     TIMESTAMP = Column(DateTime, default=func.now())
     SYSTEM_NAME = Column(String, nullable=False)
     STATUS = Column(String, nullable=False)
+    ERROR_MESSAGE = Column(String, nullable=True)

@@ -6,6 +6,7 @@ from sqlalchemy.orm import Session
 from sqlalchemy import text
 from app.core.logger import setup_logger
 from app.models.database import get_db
+from app.models.client_sys_release_version import actvtText
 from app.models.dynamic_models import (
     create_role_lic_model,
     create_role_lic_summary_model,
@@ -201,6 +202,10 @@ async def get_specific_role_simulation_details(
     except Exception as e:
         logger.error(f"Error fetching specific role details: {str(e)}", exc_info=True)
         raise HTTPException(status_code=500, detail=f"Error fetching role details: {str(e)}")
+
+
+
+
 
 
 # ════════════════════════════════════════════════════════════════════════════

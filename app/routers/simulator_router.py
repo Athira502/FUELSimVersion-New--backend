@@ -1,11 +1,11 @@
 import math
 import traceback
 from collections import defaultdict
-from datetime import datetime
+from datetime import datetime, timedelta
 from typing import Dict, Any, List, Tuple, Optional
 from fastapi import APIRouter, Depends, HTTPException, BackgroundTasks, Query
 from sqlalchemy.orm import Session
-from sqlalchemy import text
+from sqlalchemy import text, or_
 
 from app.core.logger import setup_logger
 from app.models.database import get_db, SessionLocal
@@ -60,76 +60,6 @@ FUE_FACTORS = {
 }
 
 
-# ════════════════════════════════════════════════════════════════════════════
-# Initialization: Create and populate simulation table
-# ════════════════════════════════════════════════════════════════════════════
-
-# @router.post("/{system_name}/initialize")
-# async def initialize_simulation_table(
-#         system_name: str,
-#         db: Session = Depends(get_db)
-# ):
-#     """
-#     Create simulation table and populate it with current RoleLic data.
-#     Call this before running any simulations.
-#     """
-#     logger.info(f"Initializing simulation table for system '{system_name}'")
-#
-#     try:
-#         # Get models
-#         RoleLicModel = create_role_lic_model(system_name)
-#         RoleLicSimModel = create_role_lic_sim_model(system_name)
-#
-#         # Ensure tables exist
-#         ensure_table_exists(db.bind, RoleLicModel)
-#         ensure_table_exists(db.bind, RoleLicSimModel)
-#
-#         # Clear existing simulation data
-#         deleted_count = db.query(RoleLicSimModel).delete()
-#         logger.info(f"Cleared {deleted_count} existing simulation records")
-#
-#         # Copy all RoleLic data to simulation table
-#         source_records = db.query(RoleLicModel).all()
-#
-#         if not source_records:
-#             raise HTTPException(
-#                 status_code=404,
-#                 detail=f"No RoleLic data found for system '{system_name}'. Run Stage 2 computation first."
-#             )
-#
-#         sim_records = []
-#         for record in source_records:
-#             sim_record = RoleLicSimModel(
-#                 AGR_NAME=record.AGR_NAME,
-#                 OBJECT=record.OBJECT,
-#                 FIELD=record.FIELD,
-#                 LOW=record.LOW,
-#                 HIGH=record.HIGH,
-#                 ORIGINAL_CLASSIFY_LIC=record.CLASSIFY_LIC,
-#                 ORIGINAL_MATCH_TYPE=record.MATCH_TYPE,
-#                 OPERATION=None,  # No changes yet
-#                 NEW_LOW=record.LOW,  # Start with original values
-#                 NEW_HIGH=record.HIGH,
-#                 SIM_CLASSIFY_LIC=record.CLASSIFY_LIC,  # Start with original license
-#                 SIM_MATCH_TYPE=record.MATCH_TYPE
-#             )
-#             sim_records.append(sim_record)
-#
-#         db.bulk_save_objects(sim_records)
-#         db.commit()
-#
-#         logger.info(f"Initialized simulation table with {len(sim_records)} records")
-#
-#         return {
-#             "status": "success",
-#             "message": f"Simulation table initialized with {len(sim_records)} records",
-#             "records_copied": len(sim_records)
-#         }
-#
-#     except Exception as e:
-#         db.rollback()
-#         logger.error(f"Error initializing simulation table: {e}", exc_info=True)
-#         raise HTTPException(status_code=500, detail=str(e))
 
 
 @router.post("/{system_name}/initialize")
@@ -331,14 +261,24 @@ async def apply_simulation_changes(
 
     try:
         SimResultModel = create_simulation_result_model(system_name)
+        RoleLicSummaryModel = create_role_lic_summary_model(system_name)
         ensure_table_exists(db.bind, SimResultModel)
 
         # Generate simulation run ID
         sim_id = get_next_simulation_id(db, SimResultModel)
         timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
+        role_names = {c.role_name for c in request.changes}
+        role_current_license = {
+            r.AGR_NAME: r.CLASSIFY_LIC
+            for r in db.query(RoleLicSummaryModel).filter(
+                RoleLicSummaryModel.AGR_NAME.in_(role_names)
+            ).all()
+        }
+
         # Create initial result records
         for change in request.changes:
+            true_current = role_current_license.get(change.role_name, 'Not Classified')
             record = SimResultModel(
                 SIMULATION_RUN_ID=sim_id,
                 TIMESTAMP=timestamp,
@@ -351,7 +291,8 @@ async def apply_simulation_changes(
                 VALUE_LOW=change.value_low,
                 VALUE_HIGH=change.value_high,
                 OPERATION=change.action,
-                PREV_LICENSE=change.original_license,
+                PREV_LICENSE=true_current,
+                # change.original_license,
                 CURRENT_LICENSE=None  # Will be updated
             )
             db.add(record)
@@ -512,16 +453,29 @@ async def process_simulation_background(
             # Get the most restrictive license for this role after simulation
             role_licenses = db.query(RoleLicSimModel).filter(
                 RoleLicSimModel.AGR_NAME == change.role_name,
-                RoleLicSimModel.OPERATION != 'Remove'
+                or_(
+                    RoleLicSimModel.OPERATION.is_(None),
+                    RoleLicSimModel.OPERATION != 'Remove'
+                )
             ).all()
-
             if role_licenses:
-                final_license = min(
-                    [r.SIM_CLASSIFY_LIC for r in role_licenses],
-                    key=lambda x: LICENSE_PRIORITY.get(x, 999)
+                valid_licenses = [r.SIM_CLASSIFY_LIC for r in role_licenses if r.SIM_CLASSIFY_LIC]
+                final_license = (
+                    min(valid_licenses, key=lambda x: LICENSE_PRIORITY.get(x, 999))
+                    if valid_licenses else 'Not Classified'
                 )
             else:
                 final_license = 'Not Classified'
+            #     RoleLicSimModel.OPERATION != 'Remove'
+            # ).all()
+
+            # if role_licenses:
+            #     final_license = min(
+            #         [r.SIM_CLASSIFY_LIC for r in role_licenses],
+            #         key=lambda x: LICENSE_PRIORITY.get(x, 999)
+            #     )
+            # else:
+            #     final_license = 'Not Classified'
 
             # Update result record
             db.query(SimResultModel).filter(
@@ -776,7 +730,8 @@ async def calculate_simulation_fue(system_name: str, db: Session) -> Dict[str, A
                 continue
         return None
 
-    today = date.today()
+    # today = date.today()
+    today = date.today() - timedelta(days=1)
 
     RoleLicSimModel = create_role_lic_sim_model(system_name)
     AGRUsersModel = create_AGRUSERS_model(system_name)
